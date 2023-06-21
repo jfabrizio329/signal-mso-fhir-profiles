@@ -1,0 +1,78 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "profile-patient",
+  "url": "http://signalbhn.org/fhir/StructureDefinition/patient",
+  "name": "PatientProfile",
+  "title": "Patient Profile",
+  "status": "draft",
+  "date": "2023-06-15T17:41:33.182674+00:00",
+  "description": "Constraints and extensions on the US Core Patient Resource",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Patient.extension:adoptionInfo",
+        "path": "Patient.extension",
+        "sliceName": "adoptionInfo",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/patient-adoptionInfo"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.address.extension",
+        "path": "Patient.address.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Patient.address.extension:noFixedAddress",
+        "path": "Patient.address.extension",
+        "sliceName": "noFixedAddress",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/no-fixed-address"
+            ]
+          }
+        ],
+        "isModifier": false
+      }
+    ]
+  }
+}

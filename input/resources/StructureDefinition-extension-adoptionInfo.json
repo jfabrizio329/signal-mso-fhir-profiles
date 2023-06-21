@@ -1,0 +1,105 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "adoptionInfo",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pa"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://hl7.org/fhir/StructureDefinition/patient-adoptionInfo",
+  "version": "4.0.1",
+  "name": "PatAdoptionInfo",
+  "title": "Patient Adoption Info",
+  "status": "draft",
+  "date": "2023-06-01T14:28:32.0465717+00:00",
+  "publisher": "HL7",
+  "description": "Code indication the adoption status of the patient.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "The adoption status of the patient",
+        "definition": "Code indication the adoption status of the patient.",
+        "max": "1"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org/fhir/StructureDefinition/patient-adoptionInfo"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "2023-03-01",
+              "code": "160496001",
+              "display": "Adopted"
+            }
+          ]
+        },
+        "binding": {
+          "strength": "required",
+          "description": "SNOMED CT",
+          "valueSet": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueDate",
+        "path": "Extension.value[x]",
+        "sliceName": "valueDate",
+        "label": "AdoptionDate",
+        "short": "Date of Adoption",
+        "definition": "Date the adoption occurred.",
+        "min": 1,
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      }
+    ]
+  }
+}

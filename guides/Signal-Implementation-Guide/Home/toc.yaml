@@ -1,0 +1,8 @@
+- name: Index
+  filename: Index.page.md
+- name: Glossary
+  filename: Glossary.page.md
+- name: Resources
+  filename: Resources
+- name: Vocabulary
+  filename: Vocabulary
