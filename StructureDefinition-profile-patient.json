@@ -1,0 +1,288 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "profile-patient",
+  "url": "http://signalbhn.org/fhir/StructureDefinition/patient",
+  "name": "PatientProfile",
+  "title": "Patient Profile",
+  "status": "draft",
+  "date": "2023-06-15T17:41:33.182674+00:00",
+  "description": "Constraints and extensions on the US Core Patient Resource",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Patient.extension:adoptionInfo",
+        "path": "Patient.extension",
+        "sliceName": "adoptionInfo",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/patient-adoptionInfo"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.identifier",
+        "path": "Patient.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.identifier:SSN",
+        "path": "Patient.identifier",
+        "sliceName": "SSN",
+        "short": "SSN Identifier for this patient",
+        "definition": "SSN identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:SSN.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:SSN.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "SB"
+      },
+      {
+        "id": "Patient.identifier:SSN.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "SSN"
+      },
+      {
+        "id": "Patient.identifier:SSN.type.text",
+        "path": "Patient.identifier.type.text",
+        "fixedString": "Social Security Number"
+      },
+      {
+        "id": "Patient.identifier:SSN.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "http://hl7.org/fhir/sid/us-ssn"
+      },
+      {
+        "id": "Patient.identifier:MedicaidID",
+        "path": "Patient.identifier",
+        "sliceName": "MedicaidID",
+        "short": "Medicaid identifier for this patient",
+        "definition": "Medicaid identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:MedicaidID.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:MedicaidID.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "MR"
+      },
+      {
+        "id": "Patient.identifier:MedicaidID.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "Medicaid ID"
+      },
+      {
+        "id": "Patient.identifier:MedicaidID.type.text",
+        "path": "Patient.identifier.type.text",
+        "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
+        "fixedString": "Patient Medicaid number"
+      },
+      {
+        "id": "Patient.identifier:MedicaidID.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "https://signalbhn.org/fhir/sid/us-medicaidid"
+      },
+      {
+        "id": "Patient.identifier:MedicareID",
+        "path": "Patient.identifier",
+        "sliceName": "MedicareID",
+        "short": "Medicare identifier for this patient",
+        "definition": "Medicare identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:MedicareID.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:MedicareID.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "MR"
+      },
+      {
+        "id": "Patient.identifier:MedicareID.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "Medicare ID"
+      },
+      {
+        "id": "Patient.identifier:MedicareID.type.text",
+        "path": "Patient.identifier.type.text",
+        "fixedString": "Patient Unique Medicare Number"
+      },
+      {
+        "id": "Patient.identifier:MedicareID.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "http://hl7.org/fhir/sid/us-mbi"
+      },
+      {
+        "id": "Patient.identifier:ProviderClientId",
+        "path": "Patient.identifier",
+        "sliceName": "ProviderClientId",
+        "short": "ProviderClient identifier for this patient",
+        "definition": "ProviderClient identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:ProviderClientId.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:ProviderClientId.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "MR"
+      },
+      {
+        "id": "Patient.identifier:ProviderClientId.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "Medical Record Number"
+      },
+      {
+        "id": "Patient.identifier:ProviderClientId.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "PROVIDER SYSTEM URL"
+      },
+      {
+        "id": "Patient.identifier:ClientId",
+        "path": "Patient.identifier",
+        "sliceName": "ClientId",
+        "short": "Client identifier for this patient",
+        "definition": "Client identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:ClientId.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:ClientId.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "MR"
+      },
+      {
+        "id": "Patient.identifier:ClientId.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "ClientId"
+      },
+      {
+        "id": "Patient.identifier:ProviderId",
+        "path": "Patient.identifier",
+        "sliceName": "ProviderId",
+        "short": "Provider identifier for this patient",
+        "definition": "Provider identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:ProviderId.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:ProviderId.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "MR"
+      },
+      {
+        "id": "Patient.identifier:ProviderId.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "ProviderID"
+      },
+      {
+        "id": "Patient.identifier:DACODSId",
+        "path": "Patient.identifier",
+        "sliceName": "DACODSId",
+        "short": "DACODS identifier for this patient",
+        "definition": "DACODS identifier for this patient.",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:DACODSId.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:DACODSId.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "MR"
+      },
+      {
+        "id": "Patient.identifier:DACODSId.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "DACODSId"
+      },
+      {
+        "id": "Patient.address.extension",
+        "path": "Patient.address.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Patient.address.extension:noFixedAddress",
+        "path": "Patient.address.extension",
+        "sliceName": "noFixedAddress",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/no-fixed-address"
+            ]
+          }
+        ],
+        "isModifier": false
+      }
+    ]
+  }
+}
