@@ -1,0 +1,22 @@
+{
+  "Timestamp": "2023-06-23T21:58:09.37798+00:00",
+  "Series": "free",
+  "Type": "Simplifier",
+  "Files": [
+    {
+      "Issues": [
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "CLAIM",
+          "Message": "This project has no canonical claims."
+        }
+      ],
+      "Tag": null,
+      "Length": 0,
+      "Hash": null,
+      "FilePath": null
+    }
+  ]
+}
