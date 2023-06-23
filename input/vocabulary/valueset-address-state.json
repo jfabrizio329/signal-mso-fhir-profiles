@@ -1,0 +1,306 @@
+{
+  "resourceType": "ValueSet",
+  "id": "us-core-usps-state",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>https://www.usps.com/</code></li></ul></div>"
+  },
+  "url": "https://signalbhn.org/fhir/ValueSet/us-core-usps-state",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.4.642.3.40"
+    }
+  ],
+  "version": "6.0.0",
+  "name": "UspsStatesTwoLetterAlphabeticCodes",
+  "title": "USPS Two Letter Alphabetic Codes",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-29",
+  "publisher": "HL7 International - Cross-Group Projects",
+  "contact": [
+    {
+      "name": "HL7 International - Cross-Group Projects",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cgp"
+        },
+        {
+          "system": "email",
+          "value": "cgp@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "This value set defines two letter USPS States alphabetic codes.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "On July 1, 1963, the Post Office Department implemented the five-digit ZIP Code, which was placed after the state name in the last line of an address. To provide room for the ZIP Code, the Department issued two-letter abbreviations for all states and territories. Publication 59, Abbreviations for Use with ZIP Code, issued by the Department in October 1963. There is no copyright restriction on this value set.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state",
+        "concept": [
+          {
+            "code": "AL",
+            "display": "Alabama"
+          },
+          {
+            "code": "AK",
+            "display": "Alaska"
+          },
+          {
+            "code": "AS",
+            "display": "American Samoa"
+          },
+          {
+            "code": "AZ",
+            "display": "Arizona"
+          },
+          {
+            "code": "AR",
+            "display": "Arkansas"
+          },
+          {
+            "code": "CA",
+            "display": "California"
+          },
+          {
+            "code": "CO",
+            "display": "Colorado"
+          },
+          {
+            "code": "CT",
+            "display": "Connecticut"
+          },
+          {
+            "code": "DE",
+            "display": "Delaware"
+          },
+          {
+            "code": "DC",
+            "display": "District of Columbia"
+          },
+          {
+            "code": "FM",
+            "display": "Federated States of Micronesia"
+          },
+          {
+            "code": "FL",
+            "display": "Florida"
+          },
+          {
+            "code": "GA",
+            "display": "Georgia"
+          },
+          {
+            "code": "GU",
+            "display": "Guam"
+          },
+          {
+            "code": "HI",
+            "display": "Hawaii"
+          },
+          {
+            "code": "ID",
+            "display": "Idaho"
+          },
+          {
+            "code": "IL",
+            "display": "Illinois"
+          },
+          {
+            "code": "IN",
+            "display": "Indiana"
+          },
+          {
+            "code": "IA",
+            "display": "Iowa"
+          },
+          {
+            "code": "KS",
+            "display": "Kansas"
+          },
+          {
+            "code": "KY",
+            "display": "Kentucky"
+          },
+          {
+            "code": "LA",
+            "display": "Louisiana"
+          },
+          {
+            "code": "ME",
+            "display": "Maine"
+          },
+          {
+            "code": "MH",
+            "display": "Marshall Islands"
+          },
+          {
+            "code": "MD",
+            "display": "Maryland"
+          },
+          {
+            "code": "MA",
+            "display": "Massachusetts"
+          },
+          {
+            "code": "MI",
+            "display": "Michigan"
+          },
+          {
+            "code": "MN",
+            "display": "Minnesota"
+          },
+          {
+            "code": "MS",
+            "display": "Mississippi"
+          },
+          {
+            "code": "MO",
+            "display": "Missouri"
+          },
+          {
+            "code": "MT",
+            "display": "Montana"
+          },
+          {
+            "code": "NE",
+            "display": "Nebraska"
+          },
+          {
+            "code": "NV",
+            "display": "Nevada"
+          },
+          {
+            "code": "NH",
+            "display": "New Hampshire"
+          },
+          {
+            "code": "NJ",
+            "display": "New Jersey"
+          },
+          {
+            "code": "NM",
+            "display": "New Mexico"
+          },
+          {
+            "code": "NY",
+            "display": "New York"
+          },
+          {
+            "code": "NC",
+            "display": "North Carolina"
+          },
+          {
+            "code": "ND",
+            "display": "North Dakota"
+          },
+          {
+            "code": "MP",
+            "display": "Northern Mariana Islands"
+          },
+          {
+            "code": "OH",
+            "display": "Ohio"
+          },
+          {
+            "code": "OK",
+            "display": "Oklahoma"
+          },
+          {
+            "code": "OR",
+            "display": "Oregon"
+          },
+          {
+            "code": "PW",
+            "display": "Palau"
+          },
+          {
+            "code": "PA",
+            "display": "Pennsylvania"
+          },
+          {
+            "code": "PR",
+            "display": "Puerto Rico"
+          },
+          {
+            "code": "RI",
+            "display": "Rhode Island"
+          },
+          {
+            "code": "SC",
+            "display": "South Carolina"
+          },
+          {
+            "code": "SD",
+            "display": "South Dakota"
+          },
+          {
+            "code": "TN",
+            "display": "Tennessee"
+          },
+          {
+            "code": "TX",
+            "display": "Texas"
+          },
+          {
+            "code": "UT",
+            "display": "Utah"
+          },
+          {
+            "code": "VT",
+            "display": "Vermont"
+          },
+          {
+            "code": "VI",
+            "display": "Virgin Islands"
+          },
+          {
+            "code": "VA",
+            "display": "Virginia"
+          },
+          {
+            "code": "WA",
+            "display": "Washington"
+          },
+          {
+            "code": "WV",
+            "display": "West Virginia"
+          },
+          {
+            "code": "WI",
+            "display": "Wisconsin"
+          },
+          {
+            "code": "WY",
+            "display": "Wyoming"
+          },
+          {
+            "code": "AE",
+            "display": "Armed Forces Europe, the Middle East, and Canada"
+          },
+          {
+            "code": "AP",
+            "display": "Armed Forces Pacific"
+          },
+          {
+            "code": "AA",
+            "display": "Armed Forces Americas (except Canada)"
+          }
+        ]
+      }
+    ]
+  }
+}
