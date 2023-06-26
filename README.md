@@ -2,6 +2,10 @@
 
 This repository is used for suggesting, reviewing, and correcting resources and files that ultimately end up in the [Signal MSO FHIR Profiles - SIMPLIFIER.NET](https://simplifier.net/Signal-MSO-FHIR-Profiles/).
 
+These profiles are based on the US Core version 6.0.0 ([hl7.fhir.us.core 6.0.0](http://hl7.org/fhir/us/core/STU6/)) which, in turn, is based on FHIR core Version R4 ([hl7.fhir.r4.core 4.0.1](https://hl7.org/fhir/R4)).
+
+See the [Signal Implementation Guide](https://simplifier.net/guide/signal-implementation-guide) for more details.
+
 Recommended tools:
 - [Forge](https://fire.ly/products/forge/) for building and modifying FHIR Profiles
 - [Visual Studio Code](https://code.visualstudio.com/) for editing ValueSets and manually checking JSON structures
