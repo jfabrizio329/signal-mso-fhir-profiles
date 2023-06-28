@@ -63,7 +63,6 @@
         "sliceName": "SSN",
         "short": "SSN Identifier for this patient",
         "definition": "SSN identifier for this patient."
-				  
       },
       {
         "id": "Patient.identifier:SSN.type.coding.system",
@@ -78,7 +77,7 @@
       {
         "id": "Patient.identifier:SSN.type.coding.display",
         "path": "Patient.identifier.type.coding.display",
-        "fixedString": "SSN"
+        "fixedString": "Social Beneficiary Identifier"
       },
       {
         "id": "Patient.identifier:SSN.type.text",
@@ -96,7 +95,6 @@
         "sliceName": "MedicaidID",
         "short": "Medicaid identifier for this patient",
         "definition": "Medicaid identifier for this patient."
-				  
       },
       {
         "id": "Patient.identifier:MedicaidID.type.coding.system",
@@ -106,17 +104,16 @@
       {
         "id": "Patient.identifier:MedicaidID.type.coding.code",
         "path": "Patient.identifier.type.coding.code",
-        "fixedCode": "MR"
+        "fixedCode": "SB"
       },
       {
         "id": "Patient.identifier:MedicaidID.type.coding.display",
         "path": "Patient.identifier.type.coding.display",
-        "fixedString": "Medicaid ID"
+        "fixedString": "Social Beneficiary Identifier"
       },
       {
         "id": "Patient.identifier:MedicaidID.type.text",
         "path": "Patient.identifier.type.text",
-																																														   
         "fixedString": "Patient Medicaid number"
       },
       {
@@ -130,7 +127,6 @@
         "sliceName": "MedicareID",
         "short": "Medicare identifier for this patient",
         "definition": "Medicare identifier for this patient."
-				  
       },
       {
         "id": "Patient.identifier:MedicareID.type.coding.system",
@@ -140,12 +136,12 @@
       {
         "id": "Patient.identifier:MedicareID.type.coding.code",
         "path": "Patient.identifier.type.coding.code",
-        "fixedCode": "MR"
+        "fixedCode": "SB"
       },
       {
         "id": "Patient.identifier:MedicareID.type.coding.display",
         "path": "Patient.identifier.type.coding.display",
-        "fixedString": "Medicare ID"
+        "fixedString": "Social Beneficiary Identifier"
       },
       {
         "id": "Patient.identifier:MedicareID.type.text",
@@ -163,7 +159,6 @@
         "sliceName": "ProviderClientId",
         "short": "ProviderClient identifier for this patient",
         "definition": "ProviderClient identifier for this patient."
-				  
       },
       {
         "id": "Patient.identifier:ProviderClientId.type.coding.system",
@@ -181,24 +176,13 @@
         "fixedString": "Medical Record Number"
       },
       {
-														   
-											
-										 
-		
-	   
         "id": "Patient.identifier:ClientId",
         "path": "Patient.identifier",
         "sliceName": "ClientId",
         "short": "Client identifier for this patient",
         "definition": "Signal's Beacon legacy identifier for client."
-				  
       },
       {
-															   
-														
-																			
-		
-	   
         "id": "Patient.identifier:ClientId.type.coding.code",
         "path": "Patient.identifier.type.coding.code",
         "fixedCode": "MR"
@@ -212,49 +196,8 @@
         "id": "Patient.identifier:ClientId.system",
         "path": "Patient.identifier.system",
         "fixedUri": "https://signalbhn.org/fhir/sid/beacon-legacy"
-														
-															  
-				  
       },
       {
-																 
-														
-																			
-		
-	   
-															   
-													  
-						 
-		
-	   
-																  
-														 
-								   
-		
-	   
-											
-									 
-								
-													  
-															
-				  
-		
-	   
-															   
-														
-																			
-		
-	   
-															 
-													  
-						 
-		
-	   
-																
-														 
-								 
-		
-	   
         "id": "Patient.address.extension",
         "path": "Patient.address.extension",
         "slicing": {
