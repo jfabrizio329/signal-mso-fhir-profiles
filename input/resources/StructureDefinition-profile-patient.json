@@ -176,11 +176,21 @@
         "fixedString": "Medical Record Number"
       },
       {
+        "id": "Patient.identifier:ProviderClientId.system",
+        "path": "Patient.identifier.system",
+        "definition": "This needs to be the URL that is specific to the Provider's domain; e.g. http://example.org"
+      },
+      {
         "id": "Patient.identifier:ClientId",
         "path": "Patient.identifier",
         "sliceName": "ClientId",
         "short": "Client identifier for this patient",
         "definition": "Signal's Beacon legacy identifier for client."
+      },
+      {
+        "id": "Patient.identifier:ClientId.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
       },
       {
         "id": "Patient.identifier:ClientId.type.coding.code",
@@ -190,7 +200,7 @@
       {
         "id": "Patient.identifier:ClientId.type.coding.display",
         "path": "Patient.identifier.type.coding.display",
-        "fixedString": "ClientId"
+        "fixedString": "Medical Record Number"
       },
       {
         "id": "Patient.identifier:ClientId.system",
