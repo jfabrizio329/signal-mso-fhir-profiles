@@ -1,0 +1,98 @@
+{
+    "resourceType" : "ValueSet",
+    "id" : "PrescribedASAMLevel",
+    "url" : "http://hl7.org/fhir/us/core/ValueSet/PrescribedASAMLevel",
+    "version" : "6.0.0",
+    "name" : "PrescribedASAMLevel",
+    "title" : "Prescribed ASAM Level",
+    "status" : "active",
+    "experimental" : false,
+    "date" : "2023-06-14",
+    "description" : "Prescribed ASAM Level details such as ASAMLevelID and ASAM Level Description description.", 
+    "jurisdiction" : [{
+      "coding" : [{
+        "system" : "urn:iso:std:iso:3166",
+        "code" : "US"
+      }]
+    }],
+    "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+   "compose" : {
+      "include" : 
+      [
+             {
+          "system": "http://terminology.hl7.org/CodeSystem/",
+          "version": "20230614",
+          "concept": [
+            {
+              "code":"0.05",
+              "display":"Early Intervention / Education"
+          },
+          {
+              "code":"I",
+              "display":"Outpatient"
+          },
+          {
+              "code":"I-D",
+              "display":"Detox without onsite monitoring"
+          },
+          {
+              "code":"II-D",
+              "display":"Detox with onsite monitoring"
+          },
+          {
+              "code":"II.1",
+              "display":"Intensive Outpatient"
+          },
+          {
+              "code":"II.5",
+              "display":"Day Treatment"
+          },
+          {
+              "code":"III.2-D",
+              "display":"Detox - Clinically managed residential"
+          },
+          {
+              "code":"III.7-D",
+              "display":"Detox - Medically monitored inpatient"
+          },
+          {
+              "code":"III.1",
+              "display":"Transitional Residential Treatment"
+          },
+          {
+              "code":"III.5",
+              "display":"Therapeutic Community"
+          },
+          {
+              "code":"III.7",
+              "display":"Intensive Residential Treatment"
+          },
+          {
+              "code":"N/A",
+              "display":"Not Applicable"
+          },
+          {
+              "code":"ORT",
+              "display":"Opioid Replacement Treatment"
+          },
+          {
+              "code":"NTR",
+              "display":"No Treatment Required"
+          },
+          {
+              "code":"AM",
+              "display":"Abstinence Monitoring"
+          },
+          {
+              "code":"EVAL",
+              "display":"Evaluation Only"
+          },
+          {
+              "code":"DUI-I",
+              "display":"DUI Level I"
+          }    
+          ]
+        }
+      ]
+    }
+  }
