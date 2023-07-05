@@ -1,0 +1,232 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Qualification",
+  "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-qualification",
+  "name": "Qualification",
+  "title": "qualifications for an Organization",
+  "status": "draft",
+  "publisher": "HL7",
+  "description": "An extension to add qualifications for an organization (e.g. accreditation) or practitionerRole (e.g. registered to prescribe controlled substances).",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/comparison-v3.html",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Organization"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NDH Qualification",
+        "definition": "An extension to add qualifications for an organization (e.g. accreditation) or practitionerRole (e.g. registered to prescribe controlled substances)."
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 3
+      },
+      {
+        "id": "Extension.extension:identifier",
+        "path": "Extension.extension",
+        "sliceName": "identifier",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:identifier.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "identifier"
+      },
+      {
+        "id": "Extension.extension:identifier.value[x]",
+        "path": "Extension.extension.value[x]",
+        "label": "identifier",
+        "min": 1,
+        "type": [
+          {
+            "code": "id"
+          },
+          {
+            "code": "url"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:code",
+        "path": "Extension.extension",
+        "sliceName": "code",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:code.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "code"
+      },
+      {
+        "id": "Extension.extension:code.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:code.value[x].coding.system",
+        "path": "Extension.extension.value[x].coding.system",
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-us-ndh/ValueSet-SpecialtyAndDegreeLicenseCertificateVS.html"
+      },
+      {
+        "id": "Extension.extension:issuer",
+        "path": "Extension.extension",
+        "sliceName": "issuer",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:issuer.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "issuer"
+      },
+      {
+        "id": "Extension.extension:issuer.value[x]",
+        "path": "Extension.extension.value[x]",
+        "definition": "Reference(NDH Base Organization Profile | NDH Exchange Organization Profile)",
+        "comment": "Reference(NDH Base Organization Profile | NDH Exchange Organization Profile)",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:Status",
+        "path": "Extension.extension",
+        "sliceName": "Status",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://build.fhir.org/ig/HL7/fhir-us-ndh/ValueSet-QualificationStatusVS.html"
+        }
+      },
+      {
+        "id": "Extension.extension:Status.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Status"
+      },
+      {
+        "id": "Extension.extension:Status.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "fixedCode": "active"
+      },
+      {
+        "id": "Extension.extension:Period",
+        "path": "Extension.extension",
+        "sliceName": "Period",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:Period.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Period"
+      },
+      {
+        "id": "Extension.extension:Period.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:Wherevalid",
+        "path": "Extension.extension",
+        "sliceName": "Wherevalid",
+        "short": "Where the qualification is valid",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:Wherevalid.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Wherevalid"
+      },
+      {
+        "id": "Extension.extension:Wherevalid.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          },
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:url",
+        "path": "Extension.extension",
+        "sliceName": "url",
+        "short": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-qualification",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:url.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "url"
+      },
+      {
+        "id": "Extension.extension:url.value[x]",
+        "path": "Extension.extension.value[x]",
+        "max": "0",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-qualification"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "definition": "Value of extension - must be one of a constrained set of the data types",
+        "max": "0"
+      }
+    ]
+  }
+}
