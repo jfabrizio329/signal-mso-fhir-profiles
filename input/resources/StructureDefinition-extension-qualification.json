@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Qualification",
-  "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-qualification",
+  "url": "http://signalbhn.org/fhir/StructureDefinition/organization-qualification",
   "name": "Qualification",
   "title": "qualifications for an Organization",
   "status": "draft",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "baseDefinition": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-qualification",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -209,8 +209,12 @@
       {
         "id": "Extension.extension:url.value[x]",
         "path": "Extension.extension.value[x]",
-        "max": "0",
+        "short": "\"http://signalbhn.org/fhir/StructureDefinition/organization-qualification\"",
+        "min": 1,
         "type": [
+          {
+            "code": "uri"
+          },
           {
             "code": "CodeableConcept"
           }
@@ -224,7 +228,6 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "definition": "Value of extension - must be one of a constrained set of the data types",
         "max": "0"
       }
     ]
