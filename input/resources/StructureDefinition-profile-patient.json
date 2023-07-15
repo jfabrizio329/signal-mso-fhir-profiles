@@ -235,6 +235,14 @@
           }
         ],
         "isModifier": false
+      },
+      {
+        "id": "Patient.address.district",
+        "path": "Patient.address.district",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/fips-county-co"
+        }
       }
     ]
   }
