@@ -1,0 +1,4 @@
+- name: Index
+  filename: Index.page.md
+- name: administration-clinical-module
+  filename: administration-clinical-module.page.md
