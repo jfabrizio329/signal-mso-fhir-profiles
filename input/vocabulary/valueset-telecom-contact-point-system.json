@@ -1,0 +1,114 @@
+{
+    "resourceType": "ValueSet",
+    "id": "contact-point-system",
+    "meta": {
+        "versionId": "94067db6-5419-4458-9cd9-ea648345a8cd",
+        "lastUpdated": "2023-05-25T15:16:44.959+00:00",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The narrative has been removed to reduce the size of the distribution of the Hl7.Fhir.Specification library</p></div>"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status",
+            "valueString": "Informative"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 0
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "fhir"
+        }
+    ],
+    "url": "http://hl7.org/fhir/ValueSet/contact-point-system",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.4.642.3.64"
+        }
+    ],
+    "version": "3.0.2",
+    "name": "ContactPointSystem",
+    "status": "draft",
+    "experimental": false,
+    "date": "2019-10-24T11:53:00+11:00",
+    "publisher": "HL7 (FHIR Project)",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                },
+                {
+                    "system": "email",
+                    "value": "fhir@lists.hl7.org"
+                }
+            ]
+        }
+    ],
+    "description": "Telecommunications form for contact point",
+    "immutable": true,
+    "compose": {
+        "include": [
+            {
+                "system": "http://hl7.org/fhir/contact-point-system"
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "urn:uuid:45bdb80a-278f-4257-a292-fd00fa2caee6",
+        "timestamp": "2023-08-02T10:23:17.0606278+00:00",
+        "total": 7,
+        "contains": [
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "phone",
+                "display": "Phone"
+            },
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "fax",
+                "display": "Fax"
+            },
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "email",
+                "display": "Email"
+            },
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "pager",
+                "display": "Pager"
+            },
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "url",
+                "display": "URL"
+            },
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "sms",
+                "display": "SMS"
+            },
+            {
+                "system": "http://hl7.org/fhir/contact-point-system",
+                "version": "4.0.1",
+                "code": "other",
+                "display": "Other"
+            }
+        ]
+    }
+}
