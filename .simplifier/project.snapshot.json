@@ -2,14 +2,14 @@
   "Timestamp": "2023-08-01T17:31:45.4812597+00:00",
   "Files": {
     "input\\vocabulary\\valueset-patient-address-type.json": {
-      "Length": 1959,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "1EFF19D2994A91B3C9C17831FE806B38"
+      "Length": 2049,
+      "LastWriteTime": "2023-08-01T20:17:49.9146304+00:00",
+      "Hash": "146E1DE4F60499481781B5BBDAE93816"
     },
     "input\\vocabulary\\valueset-patient-address-use.json": {
-      "Length": 2095,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "7B81B726B661A12087C4173029900A52"
+      "Length": 2193,
+      "LastWriteTime": "2023-08-01T20:17:49.9181412+00:00",
+      "Hash": "80498E2B1142E79DD8330E3DD7906133"
     },
     "input\\resources\\StructureDefinition-extension-adoptionInfo.json": {
       "Length": 2746,
@@ -17,29 +17,29 @@
       "Hash": "D7EF37B8D5F3BAA44421597A31FB4BB5"
     },
     "input\\vocabulary\\valueset-patient-birthsex.json": {
-      "Length": 1526,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "5925F541CFA870F0572C9942BFAC686A"
+      "Length": 1608,
+      "LastWriteTime": "2023-08-01T20:17:49.9201522+00:00",
+      "Hash": "2EA328D3F22231344870178A40D2A46F"
     },
     "input\\vocabulary\\valueset-patient-ethnicity-detailed.json": {
-      "Length": 5204,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "99DF42913498E943F46106819E62E58D"
+      "Length": 5440,
+      "LastWriteTime": "2023-08-01T20:17:49.924155+00:00",
+      "Hash": "254EE24AAAA38A2B749BA1A9A02AD564"
     },
     "input\\vocabulary\\valueset-patient-race-detailed.json": {
-      "Length": 125797,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "EE4C78DBCE696155421B79767C23EEF7"
+      "Length": 88915,
+      "LastWriteTime": "2023-08-01T20:17:49.9626043+00:00",
+      "Hash": "F93F8EE4F0C86472D6573673773131BA"
     },
     "input\\vocabulary\\valueset-address-fips-county-colorado.json": {
-      "Length": 6822,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "C0732F5872DB9E00F458BDD7C1F8AFA1"
+      "Length": 7150,
+      "LastWriteTime": "2023-08-01T20:17:49.8784219+00:00",
+      "Hash": "4CE2B8ECBC08F547A8E983C8F6709E30"
     },
     "input\\vocabulary\\valueset-patient-genderidentity.json": {
-      "Length": 1988,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "8B67B7E96D268423C01B99E7BDBE7E9F"
+      "Length": 2078,
+      "LastWriteTime": "2023-08-01T20:17:49.928854+00:00",
+      "Hash": "D0E55ECF63D8C3F75DCEE6FC707AB8E2"
     },
     "guides\\Signal-Implementation-Guide\\guide.yaml": {
       "Length": 113,
@@ -47,9 +47,9 @@
       "Hash": "42995B74D479DF0CCB4436484B5F6207"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\toc.yaml": {
-      "Length": 134,
-      "LastWriteTime": "2023-07-07T21:23:54+00:00",
-      "Hash": "43531DD5EBE28F679975417788F780B6"
+      "Length": 42,
+      "LastWriteTime": "2023-08-01T23:31:34+00:00",
+      "Hash": "10D5FFAF5706D57E8ABBD3FBD839FAEB"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Introduction.page.md": {
       "Length": 898,
@@ -57,9 +57,9 @@
       "Hash": "2EA32341877326118104A42172DA196A"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Glossary.page.md": {
-      "Length": 1115,
-      "LastWriteTime": "2023-06-21T02:54:22+00:00",
-      "Hash": "97CDEA809E3A521F8FEFC119FEC4EC17"
+      "Length": 1689,
+      "LastWriteTime": "2023-08-01T23:44:18+00:00",
+      "Hash": "ECD70631F10E4423A5BAD69F631CA27A"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Index.page.md": {
       "Length": 783,
@@ -71,10 +71,10 @@
       "LastWriteTime": "2023-08-01T22:20:16+00:00",
       "Hash": "7B3682201ED2F73276DD5B12DB4FCF94"
     },
-    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\administration-clinical-module.page.md": {
-      "Length": 1315,
-      "LastWriteTime": "2023-06-21T02:55:20+00:00",
-      "Hash": "F32A0C509387D09CCC44862ACD239A37"
+    "input\\resources\\StructureDefinition-profile-OrganizationAffiliation.json": {
+      "Length": 466,
+      "LastWriteTime": "2023-08-01T20:17:49.8075839+00:00",
+      "Hash": "E4AF1A240AAA821DA704B12F81A44762"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\administration-provider-module.page.md": {
       "Length": 292,
@@ -82,14 +82,14 @@
       "Hash": "56E8CB63D406FD3529249C8C6AB8FA95"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Index.page.md": {
-      "Length": 640,
-      "LastWriteTime": "2023-06-21T01:16:04+00:00",
-      "Hash": "9321F5F92F352BF8E3A2E1FBB5F08C90"
+      "Length": 17,
+      "LastWriteTime": "2023-08-01T23:31:32+00:00",
+      "Hash": "9A6EBF2EBC80B463829A8EBE16C9F915"
     },
     "guides\\Signal-Implementation-Guide\\Index\\toc.yaml": {
-      "Length": 170,
-      "LastWriteTime": "2023-08-01T22:19:46+00:00",
-      "Hash": "0ED912EF3832AD957B321C0C5B1F4B88"
+      "Length": 226,
+      "LastWriteTime": "2023-08-01T23:35:36+00:00",
+      "Hash": "6E4C0FE5BD64C71BF74C5BB1DC501321"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Vocabulary\\Index.page.md": {
       "Length": 171,
@@ -107,14 +107,14 @@
       "Hash": "CF73FFFC9E10E868FC7DA99ED4755FE4"
     },
     "input\\resources\\StructureDefinition-profile-location.json": {
-      "Length": 662,
-      "LastWriteTime": "2023-06-24T03:14:44+00:00",
-      "Hash": "E8D09CCDE00AD94CE95EF7C1135B0EE3"
+      "Length": 733,
+      "LastWriteTime": "2023-08-01T20:17:49.8397456+00:00",
+      "Hash": "905C677475BB98CC80EB790C2E7D1F6A"
     },
     "input\\vocabulary\\valueset-patient-ethnicity-ombcategory.json": {
-      "Length": 1746,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "6B282355B6FEEF701A999A961810789C"
+      "Length": 1824,
+      "LastWriteTime": "2023-08-01T20:17:49.9263916+00:00",
+      "Hash": "3970CE3A4C26932265F2FA16F6EEAB9E"
     },
     "input\\vocabulary\\valueset-patient-race-ombcategories.json": {
       "Length": 2212,
@@ -122,14 +122,14 @@
       "Hash": "B0B8536FD25F6B1CEA1B3CD03583788B"
     },
     "input\\resources\\StructureDefinition-profile-organization.json": {
-      "Length": 418,
-      "LastWriteTime": "2023-06-24T03:14:44+00:00",
-      "Hash": "AE1D8AC7696DF67B30FFAF993192E50A"
+      "Length": 478,
+      "LastWriteTime": "2023-08-01T20:17:49.8427286+00:00",
+      "Hash": "CCDBD5FF981CE0970D2663EBF96845B4"
     },
     "package.json": {
-      "Length": 279,
-      "LastWriteTime": "2023-07-07T21:28:28+00:00",
-      "Hash": "6716F53B4C0A25CD746E3E060E66B8C0"
+      "Length": 138,
+      "LastWriteTime": "2023-08-01T17:04:45.7055868+00:00",
+      "Hash": "6B82C1331BA2CB4C101993B084740FF4"
     },
     "input\\resources\\StructureDefinition-profile-patient.json": {
       "Length": 8341,
@@ -142,14 +142,14 @@
       "Hash": "A7B4775E09DA294B819A67CBE4193B9D"
     },
     "input\\resources\\StructureDefinition-profile-practitioner.json": {
-      "Length": 386,
-      "LastWriteTime": "2023-06-24T03:14:44+00:00",
-      "Hash": "43E5CD7F7E14841FA6DAF30A4FFCE164"
+      "Length": 445,
+      "LastWriteTime": "2023-08-01T20:17:49.844635+00:00",
+      "Hash": "578CDDBB7E23E6931D1E132464158963"
     },
     "input\\resources\\StructureDefinition-profile-PractitionerRole.json": {
-      "Length": 402,
-      "LastWriteTime": "2023-06-24T03:14:44+00:00",
-      "Hash": "B5770A62BCD6C6755A2D7C1BCC6D0D2B"
+      "Length": 461,
+      "LastWriteTime": "2023-08-01T20:17:49.8491645+00:00",
+      "Hash": "7F0F91E052C27C5E220A00D4C5335308"
     },
     "project.yaml": {
       "Length": 20,
@@ -157,9 +157,9 @@
       "Hash": "42B23FADEA2F80D9D76908D39CD8463A"
     },
     "README.md": {
-      "Length": 1866,
-      "LastWriteTime": "2023-06-26T23:07:54+00:00",
-      "Hash": "65038F290C5E257C5E6C1002D53A7CAE"
+      "Length": 1900,
+      "LastWriteTime": "2023-06-26T18:28:21.1010222+00:00",
+      "Hash": "97FD2D84052BDCDA88A924A564FE45E2"
     },
     "guides\\Signal-Implementation-Guide\\toc.yaml": {
       "Length": 34,
@@ -167,9 +167,29 @@
       "Hash": "229950C965B68C5DAF71CC4BCDF13CE5"
     },
     "input\\vocabulary\\valueset-address-state.json": {
-      "Length": 7276,
-      "LastWriteTime": "2023-06-24T01:18:34+00:00",
-      "Hash": "A4C715C065B8C3559BE09D9D8A261FBA"
+      "Length": 7604,
+      "LastWriteTime": "2023-08-01T20:17:49.8964607+00:00",
+      "Hash": "77E09C0B910079AB55A3EFEED01DD8C2"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\administration-organization-services.page.md": {
+      "Length": 69,
+      "LastWriteTime": "2023-08-01T23:42:46+00:00",
+      "Hash": "A246C479DDE42E8CF6224F762A7D3B2E"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\administration-clinical-module.page.md": {
+      "Length": 1315,
+      "LastWriteTime": "2023-06-21T02:55:20+00:00",
+      "Hash": "F32A0C509387D09CCC44862ACD239A37"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Index.page.md": {
+      "Length": 640,
+      "LastWriteTime": "2023-06-21T01:16:04+00:00",
+      "Hash": "9321F5F92F352BF8E3A2E1FBB5F08C90"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\toc.yaml": {
+      "Length": 238,
+      "LastWriteTime": "2023-08-01T23:33:18+00:00",
+      "Hash": "80266A21BF67FB467F9CA33B0FA2594C"
     }
   }
 }
