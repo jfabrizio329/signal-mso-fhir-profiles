@@ -67,38 +67,31 @@
         "contains": [
             {
                 "code": "mon",
-                "display": "Monday",
-                "definition": "Monday."
+                "display": "Monday"
             },
             {
                 "code": "tue",
-                "display": "Tuesday",
-                "definition": "Tuesday."
+                "display": "Tuesday"
             },
             {
                 "code": "wed",
-                "display": "Wednesday",
-                "definition": "Wednesday."
+                "display": "Wednesday"
             },
             {
                 "code": "thu",
-                "display": "Thursday",
-                "definition": "Thursday."
+                "display": "Thursday"
             },
             {
                 "code": "fri",
-                "display": "Friday",
-                "definition": "Friday."
+                "display": "Friday"
             },
             {
                 "code": "sat",
-                "display": "Saturday",
-                "definition": "Saturday."
+                "display": "Saturday"
             },
             {
                 "code": "sun",
-                "display": "Sunday",
-                "definition": "Sunday."
+                "display": "Sunday"
             }
         ]
     }
