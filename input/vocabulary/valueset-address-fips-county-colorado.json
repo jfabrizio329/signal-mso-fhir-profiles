@@ -10,298 +10,428 @@
   "date": "2023-06-14",
   "description": "This value set defines FIPS codes for US counties and county equivalent entities for Colorado state and codes for Out of State (OTH),Refused (ASKU),Unknown (UNK) ",
   "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US"
-        }
-      ]
-    }
+      {
+          "coding": [
+              {
+                  "system": "urn:iso:std:iso:3166",
+                  "code": "US"
+              }
+          ]
+      }
   ],
   "copyright": "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose": {
-    "include": [
-      {
-        "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
-        "version": "3.2.0",
-        "concept": [
+      "include": [
           {
-            "code": "8001",
-            "display": "Adams"
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0"
           },
           {
-            "code": "8003",
-            "display": "Alamosa"
-          },
-          {
-            "code": "8005",
-            "display": "Arapahoe"
-          },
-          {
-            "code": "8007",
-            "display": "Archuleta"
-          },
-          {
-            "code": "8009",
-            "display": "Baca"
-          },
-          {
-            "code": "8011",
-            "display": "Bent"
-          },
-          {
-            "code": "8013",
-            "display": "Boulder"
-          },
-          {
-            "code": "8014",
-            "display": "Broomfield"
-          },
-          {
-            "code": "8015",
-            "display": "Chaffee"
-          },
-          {
-            "code": "8017",
-            "display": "Cheyenne"
-          },
-          {
-            "code": "8019",
-            "display": "Clear Creek"
-          },
-          {
-            "code": "8021",
-            "display": "Conejos"
-          },
-          {
-            "code": "8023",
-            "display": "Costilla"
-          },
-          {
-            "code": "8025",
-            "display": "Crowley"
-          },
-          {
-            "code": "8027",
-            "display": "Custer"
-          },
-          {
-            "code": "8029",
-            "display": "Delta"
-          },
-          {
-            "code": "8031",
-            "display": "Denver"
-          },
-          {
-            "code": "8033",
-            "display": "Dolores"
-          },
-          {
-            "code": "8035",
-            "display": "Douglas"
-          },
-          {
-            "code": "8037",
-            "display": "Eagle"
-          },
-          {
-            "code": "8041",
-            "display": "El Paso"
-          },
-          {
-            "code": "8039",
-            "display": "Elbert"
-          },
-          {
-            "code": "8043",
-            "display": "Fremont"
-          },
-          {
-            "code": "8045",
-            "display": "Garfield"
-          },
-          {
-            "code": "8047",
-            "display": "Gilpin"
-          },
-          {
-            "code": "8049",
-            "display": "Grand"
-          },
-          {
-            "code": "8051",
-            "display": "Gunnison"
-          },
-          {
-            "code": "8053",
-            "display": "Hinsdale"
-          },
-          {
-            "code": "8055",
-            "display": "Huerfano"
-          },
-          {
-            "code": "8057",
-            "display": "Jackson"
-          },
-          {
-            "code": "8059",
-            "display": "Jefferson"
-          },
-          {
-            "code": "8061",
-            "display": "Kiowa"
-          },
-          {
-            "code": "8063",
-            "display": "Kit Carson"
-          },
-          {
-            "code": "8067",
-            "display": "La Plata"
-          },
-          {
-            "code": "8065",
-            "display": "Lake"
-          },
-          {
-            "code": "8069",
-            "display": "Larimer"
-          },
-          {
-            "code": "8071",
-            "display": "Las Animas"
-          },
-          {
-            "code": "8073",
-            "display": "Lincoln"
-          },
-          {
-            "code": "8075",
-            "display": "Logan"
-          },
-          {
-            "code": "8077",
-            "display": "Mesa"
-          },
-          {
-            "code": "8079",
-            "display": "Mineral"
-          },
-          {
-            "code": "8081",
-            "display": "Moffat"
-          },
-          {
-            "code": "8083",
-            "display": "Montezuma"
-          },
-          {
-            "code": "8085",
-            "display": "Montrose"
-          },
-          {
-            "code": "8087",
-            "display": "Morgan"
-          },
-          {
-            "code": "8089",
-            "display": "Otero"
-          },
-          {
-            "code": "8091",
-            "display": "Ouray"
-          },
-          {
-            "code": "8093",
-            "display": "Park"
-          },
-          {
-            "code": "8095",
-            "display": "Phillips"
-          },
-          {
-            "code": "8097",
-            "display": "Pitkin"
-          },
-          {
-            "code": "8099",
-            "display": "Prowers"
-          },
-          {
-            "code": "8101",
-            "display": "Pueblo"
-          },
-          {
-            "code": "8103",
-            "display": "Rio Blanco"
-          },
-          {
-            "code": "8105",
-            "display": "Rio Grande"
-          },
-          {
-            "code": "8107",
-            "display": "Routt"
-          },
-          {
-            "code": "8109",
-            "display": "Saguache"
-          },
-          {
-            "code": "8111",
-            "display": "San Juan"
-          },
-          {
-            "code": "8113",
-            "display": "San Miguel"
-          },
-          {
-            "code": "8115",
-            "display": "Sedgwick"
-          },
-          {
-            "code": "8117",
-            "display": "Summit"
-          },
-          {
-            "code": "8119",
-            "display": "Teller"
-          },
-          {
-            "code": "8121",
-            "display": "Washington"
-          },
-          {
-            "code": "8123",
-            "display": "Weld"
-          },
-          {
-            "code": "8125",
-            "display": "Yuma"
+              "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+              "version": "2.1.0"
           }
-        ]
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-        "version": "2.1.0",
-        "concept": [
+      ]
+  },
+  "expansion": {
+      "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+      "total": 66,
+      "contains": [
           {
-            "code": "ASKU",
-            "display": "asked but unknown"
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8001",
+              "display": "Adams"
           },
           {
-            "code": "OTH",
-            "display": "other"
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8003",
+              "display": "Alamosa"
           },
           {
-            "code": "UNK",
-            "display": "unknown"
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8005",
+              "display": "Arapahoe"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8007",
+              "display": "Archuleta"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8009",
+              "display": "Baca"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8011",
+              "display": "Bent"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8013",
+              "display": "Boulder"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8014",
+              "display": "Broomfield"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8015",
+              "display": "Chaffee"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8017",
+              "display": "Cheyenne"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8019",
+              "display": "Clear Creek"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8021",
+              "display": "Conejos"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8023",
+              "display": "Costilla"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8025",
+              "display": "Crowley"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8027",
+              "display": "Custer"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8029",
+              "display": "Delta"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8031",
+              "display": "Denver"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8033",
+              "display": "Dolores"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8035",
+              "display": "Douglas"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8037",
+              "display": "Eagle"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8041",
+              "display": "El Paso"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8039",
+              "display": "Elbert"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8043",
+              "display": "Fremont"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8045",
+              "display": "Garfield"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8047",
+              "display": "Gilpin"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8049",
+              "display": "Grand"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8051",
+              "display": "Gunnison"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8053",
+              "display": "Hinsdale"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8055",
+              "display": "Huerfano"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8057",
+              "display": "Jackson"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8059",
+              "display": "Jefferson"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8061",
+              "display": "Kiowa"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8063",
+              "display": "Kit Carson"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8067",
+              "display": "La Plata"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8065",
+              "display": "Lake"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8069",
+              "display": "Larimer"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8071",
+              "display": "Las Animas"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8073",
+              "display": "Lincoln"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8075",
+              "display": "Logan"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8077",
+              "display": "Mesa"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8079",
+              "display": "Mineral"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8081",
+              "display": "Moffat"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8083",
+              "display": "Montezuma"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8085",
+              "display": "Montrose"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8087",
+              "display": "Morgan"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8089",
+              "display": "Otero"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8091",
+              "display": "Ouray"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8093",
+              "display": "Park"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8095",
+              "display": "Phillips"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8097",
+              "display": "Pitkin"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8099",
+              "display": "Prowers"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8101",
+              "display": "Pueblo"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8103",
+              "display": "Rio Blanco"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8105",
+              "display": "Rio Grande"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8107",
+              "display": "Routt"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8109",
+              "display": "Saguache"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8111",
+              "display": "San Juan"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8113",
+              "display": "San Miguel"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8115",
+              "display": "Sedgwick"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8117",
+              "display": "Summit"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8119",
+              "display": "Teller"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8121",
+              "display": "Washington"
+          },
+          {
+              "system": "https://hl7.org/fhir/2018Jan/valueset-fips-county.html",
+              "version": "3.2.0",
+              "code": "8123",
+              "display": "Weld"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+              "version": "2.1.0",
+              "code": "ASKU",
+              "display": "Asked But Unknown"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+              "version": "2.1.0",
+              "code": "OTH",
+              "display": "Other"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+              "version": "2.1.0",
+              "code": "UNK",
+              "display": "Unknown"
           }
-        ]
-      }
-    ]
+      ]
   }
 }

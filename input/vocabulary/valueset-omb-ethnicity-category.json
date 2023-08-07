@@ -73,13 +73,13 @@
                 "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
                 "version": "2022-02-01",
                 "code": "ASKU",
-                "display": "asked but unknown"
+                "display": "Asked but unknown"
             },
             {
                 "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
                 "version": "2022-02-01",
                 "code": "UNK",
-                "display": "unknown"
+                "display": "Unknown"
             }
         ]
     }

@@ -70,22 +70,19 @@
                 "system": "http://hl7.org/fhir/address-type",
                 "version": "4.0.0",
                 "code": "postal",
-                "display": "Postal",
-                "definition": "Mailing addresses - PO Boxes and care-of addresses."
+                "display": "Postal"
             },
             {
                 "system": "http://hl7.org/fhir/address-type",
                 "version": "4.0.0",
                 "code": "physical",
-                "display": "Physical",
-                "definition": "A physical address that can be visited."
+                "display": "Physical"
             },
             {
                 "system": "http://hl7.org/fhir/address-type",
                 "version": "4.0.0",
                 "code": "both",
-                "display": "Postal & Physical",
-                "definition": "An address that is both physical and postal."
+                "display": "Postal & Physical"
             }
         ]
     }
