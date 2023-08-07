@@ -1,0 +1,47 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile",
+  "name": "SignalUSCoreOrganizationProfile",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Organization",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Organization.extension",
+        "path": "Organization.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Organization.extension:qualification",
+        "path": "Organization.extension",
+        "sliceName": "qualification",
+        "short": "Qualification",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://signalbhn.org/fhir/StructureDefinition/qualification"
+            ]
+          }
+        ],
+        "isModifier": false
+      }
+    ]
+  }
+}
