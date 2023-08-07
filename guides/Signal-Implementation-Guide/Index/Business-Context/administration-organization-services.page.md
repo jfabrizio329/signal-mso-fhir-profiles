@@ -15,8 +15,10 @@
 
 ### Conceptual Model
 
-![organization and services conceptual diagram](../assets/images/signal-org-2023-08-01.png "Logo Title Text 1")
+![organization and services conceptual diagram](../assets/images/signal-org-conceptual-01.png "organization and services conceptual diagram")
 
 
 ### Examples
+
+![organization example 01](../assets/images/signal-org-example-01.png "organization example 01")
 
