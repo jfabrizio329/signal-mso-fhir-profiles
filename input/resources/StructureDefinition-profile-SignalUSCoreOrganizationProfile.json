@@ -29,14 +29,29 @@
         "id": "Organization.extension:qualification",
         "path": "Organization.extension",
         "sliceName": "qualification",
-        "short": "Qualification",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://signalbhn.org/fhir/StructureDefinition/qualification"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Organization.extension:photo",
+        "path": "Organization.extension",
+        "sliceName": "photo",
+        "short": "Image or logo for the organization",
         "min": 0,
         "max": "*",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://signalbhn.org/fhir/StructureDefinition/qualification"
+              "https://signalbhn.org/fhir/StructureDefinition/SignalOrgPhotoAttachment"
             ]
           }
         ],
