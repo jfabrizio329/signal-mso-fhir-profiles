@@ -47,9 +47,9 @@
       "Hash": "42995B74D479DF0CCB4436484B5F6207"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\toc.yaml": {
-      "Length": 160,
-      "LastWriteTime": "2023-08-09T01:54:58+00:00",
-      "Hash": "6F3441831BE3FAC9C7DD0C37E0E21D83"
+      "Length": 428,
+      "LastWriteTime": "2023-08-09T03:31:24+00:00",
+      "Hash": "4BC3CF4A99CCCEED0D2CFD2247F727E7"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Introduction.page.md": {
       "Length": 898,
@@ -161,16 +161,6 @@
       "LastWriteTime": "2023-08-01T20:17:49.8964607+00:00",
       "Hash": "77E09C0B910079AB55A3EFEED01DD8C2"
     },
-    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\administration-organization-services.page.md": {
-      "Length": 69,
-      "LastWriteTime": "2023-08-01T23:42:46+00:00",
-      "Hash": "A246C479DDE42E8CF6224F762A7D3B2E"
-    },
-    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\administration-clinical-module.page.md": {
-      "Length": 1315,
-      "LastWriteTime": "2023-06-21T02:55:20+00:00",
-      "Hash": "F32A0C509387D09CCC44862ACD239A37"
-    },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Index.page.md": {
       "Length": 640,
       "LastWriteTime": "2023-06-21T01:16:04+00:00",
@@ -182,9 +172,9 @@
       "Hash": "BDA9723D2E541496198D684813B3823F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Organization-Profile.page.md": {
-      "Length": 2040,
-      "LastWriteTime": "2023-08-09T02:32:54+00:00",
-      "Hash": "B616A538941C3FF78AEA92A79699F1DC"
+      "Length": 1977,
+      "LastWriteTime": "2023-08-09T03:24:36+00:00",
+      "Hash": "02F77C4E091E185D5468DF27811298EA"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Terminology\\toc.yaml": {
       "Length": 40,
@@ -192,9 +182,9 @@
       "Hash": "96B0C18F69F941230CD7A7CF51466483"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Terminology\\Index.page.md": {
-      "Length": 1668,
-      "LastWriteTime": "2023-08-09T02:37:56+00:00",
-      "Hash": "FD3F1CC080B76E5BCF70A011D7819F98"
+      "Length": 2519,
+      "LastWriteTime": "2023-08-09T03:33:20+00:00",
+      "Hash": "5ABDA974FF12F4E4387267D7A419706F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Clinical-Categorization-Module.page.md": {
       "Length": 3037,
@@ -202,9 +192,34 @@
       "Hash": "9753F20C07DCC4D1E2B51D67027E8E9A"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Organization-Services-Module.page.md": {
-      "Length": 1199,
-      "LastWriteTime": "2023-08-09T02:32:16+00:00",
-      "Hash": "3340B9FC4DE57B3874FF2308469EAD50"
+      "Length": 1201,
+      "LastWriteTime": "2023-08-09T03:16:56+00:00",
+      "Hash": "14DA07895F18A90E8052952FB351FFCD"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--HealthcareService-Profile.page.md": {
+      "Length": 514,
+      "LastWriteTime": "2023-08-09T03:25:16+00:00",
+      "Hash": "2C89A83D318E19D8C221DE7CE5E92E59"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--OrganizationAffiliation-Profile.page.md": {
+      "Length": 624,
+      "LastWriteTime": "2023-08-09T03:24:48+00:00",
+      "Hash": "2537F4E4812C14CF34FED4FBD39ABA1E"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\assets\\images\\signal-admission-2023-08-02.png": {
+      "Length": 62386,
+      "LastWriteTime": "2023-08-08T02:17:18+00:00",
+      "Hash": "8F8562E7FE5E63DD262C407CA7419333"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\assets\\images\\signal-org-conceptual-01.png": {
+      "Length": 42006,
+      "LastWriteTime": "2023-08-08T02:17:18+00:00",
+      "Hash": "51B6EEF56DD98BE5A72D16F753D2CA36"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\assets\\images\\signal-org-example-01.png": {
+      "Length": 62708,
+      "LastWriteTime": "2023-08-08T02:17:18+00:00",
+      "Hash": "6F05DD9939EBCD5230DCDAAE992B6FB2"
     }
   }
 }

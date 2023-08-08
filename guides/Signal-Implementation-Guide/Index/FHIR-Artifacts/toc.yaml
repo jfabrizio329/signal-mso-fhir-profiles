@@ -2,3 +2,7 @@
   filename: Index.page.md
 - name: 'Structure Definition: Organization Profile'
   filename: Structure-Definition--Organization-Profile.page.md
+- name: 'Structure Definition: OrganizationAffiliation Profile'
+  filename: Structure-Definition--OrganizationAffiliation-Profile.page.md
+- name: 'Structure Definition: HealthcareService Profile'
+  filename: Structure-Definition--HealthcareService-Profile.page.md

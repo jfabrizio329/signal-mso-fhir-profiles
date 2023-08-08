@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-Canonical URL: [https://signalbhn.org/fhir/StructureDefinition/Organization](https://signalbhn.org/fhir/StructureDefinition/Organization)
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/Organization
 
 Simplifier project page: [Signal Organization](https://simplifier.net/signal-mso-fhir-profiles/organizationprofile)
 

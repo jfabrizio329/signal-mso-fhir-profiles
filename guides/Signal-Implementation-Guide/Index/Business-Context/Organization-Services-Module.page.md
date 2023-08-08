@@ -16,6 +16,8 @@ This is the administration module for Organiation Services, which defines the re
 
 ### Conceptual Model
 
+
+
 ![organization and services conceptual diagram](../assets/images/signal-org-conceptual-01.png "organization and services conceptual diagram")
 
 
