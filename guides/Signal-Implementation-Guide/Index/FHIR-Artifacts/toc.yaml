@@ -1,2 +1,4 @@
 - name: Index
   filename: Index.page.md
+- name: 'Structure Definition: Organization Profile'
+  filename: Structure-Definition--Organization-Profile.page.md

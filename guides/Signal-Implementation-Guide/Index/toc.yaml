@@ -6,5 +6,5 @@
   filename: Business-Context
 - name: FHIR Artifacts
   filename: FHIR-Artifacts
-- name: Vocabulary
-  filename: Vocabulary
+- name: Terminology
+  filename: Terminology
