@@ -16,17 +16,17 @@ Whenever possible, value sets and code systems were taken from the [US Core Term
 
 ### Value sets defined by this implementation guide
 
-|Value Set|Description|Profile(s)|
-|---|---|---|
-| [AddressType](https://www.hl7.org/fhir/valueset-address-type.html) | The type of an address (physical / postal). | [**Organization** - Organization.address.type](Structure-Definition--Organization-Profile) <br /> [**Organization** - Organization.contact.address.type](Structure-Definition--Organization-Profile) |
-| asdf | asdf | [**OrganizationAffiliation** - ](Structure-Definition--OrganizationAffiliation-Profile) <br /> |
-| asdf | asdf | [**HealthcareService** - ](Structure-Definition--HealthcareService-Profile) <br /> |
-| asdf | asdf | asdf |
-| asdf | asdf | asdf |
-| asdf | asdf | asdf |
-| asdf | asdf | asdf |
-| asdf | asdf | asdf |
-| asdf | asdf | asdf |
+|Value Set|Description|Profile(s)|Binding Strength|
+|---|---|---|---|
+| [AddressType](https://www.hl7.org/fhir/valueset-address-type.html) | The type of an address (physical / postal). | [**Organization** - Organization.address.type](Structure-Definition--Organization-Profile) <br /> [**Organization** - Organization.contact.address.type](Structure-Definition--Organization-Profile) | [Required](https://www.hl7.org/fhir/terminologies.html#required) |
+| asdf | asdf | [**OrganizationAffiliation** - ](Structure-Definition--OrganizationAffiliation-Profile) <br /> | asdf |
+| asdf | asdf | [**HealthcareService** - ](Structure-Definition--HealthcareService-Profile) <br /> | asdf |
+| asdf | asdf | asdf | asdf |
+| asdf | asdf | asdf | asdf |
+| asdf | asdf | asdf | asdf |
+| asdf | asdf | asdf | asdf |
+| asdf | asdf | asdf | asdf |
+| asdf | asdf | asdf | asdf |
 
 
 ### Other value set notes
