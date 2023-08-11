@@ -1,6 +1,7 @@
 ## {{page-title}}
 
 ### Context
+This is the administration module for Organiation Services, which defines the relationship between service organizations, provider agencies, and locations and the types of programs, services, and procedures they are able to provide.
 
 ### FHIR Focus Resource Types
 
@@ -14,6 +15,8 @@
 
 
 ### Conceptual Model
+
+
 
 ![organization and services conceptual diagram](../assets/images/signal-org-conceptual-01.png "organization and services conceptual diagram")
 

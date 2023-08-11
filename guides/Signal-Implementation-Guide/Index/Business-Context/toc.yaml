@@ -1,6 +1,6 @@
 - name: Index
   filename: Index.page.md
-- name: administration-organization-services
-  filename: administration-organization-services.page.md
-- name: administration-clinical-module
-  filename: administration-clinical-module.page.md
+- name: Organization Services Module
+  filename: Organization-Services-Module.page.md
+- name: Clinical Categorization Module
+  filename: Clinical-Categorization-Module.page.md

@@ -1,7 +1,8 @@
-
 ## {{page-title}}
 
 ### Context
+This is the administration module for clinical categorization.  It captures concepts the entire admission or case, individual services, surveys, and discharge events.
+
 For this specific implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
 
 - Admission defines a Parent (Top-level) `EpisodeOfCare` resource that will record Admission and Discharge Dates.

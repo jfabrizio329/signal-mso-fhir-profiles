@@ -1,0 +1,109 @@
+{
+    "resourceType": "ValueSet",
+    "id": "organization-type",
+    "meta": {
+        "lastUpdated": "2019-11-01T09:29:23.356+11:00",
+        "profile":  [
+            "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+        ]
+    },
+    "extension":  [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://terminology.hl7.org/CodeSystem/organization-type",
+    "identifier":  [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.4.642.4.1128"
+        }
+    ],
+    "version": "4.0.1",
+    "name": "OrganizationType",
+    "title": "Organization type",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "FHIR Project team",
+    "contact":  [
+        {
+            "telecom":  [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "This example value set defines a set of codes that can be used to indicate a type of organization.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-08-02T07:28:02.6235817+00:00",
+        "total": 12,
+        "contains": [
+            {
+                "code": "prov",
+                "display": "Healthcare Provider"
+            },
+            {
+                "code": "dept",
+                "display": "Hospital Department"
+            },
+            {
+                "code": "team",
+                "display": "Organizational team"
+            },
+            {
+                "code": "govt",
+                "display": "Government"
+            },
+            {
+                "code": "ins",
+                "display": "Insurance Company"
+            },
+            {
+                "code": "pay",
+                "display": "Payer"
+            },
+            {
+                "code": "edu",
+                "display": "Educational Institute"
+            },
+            {
+                "code": "reli",
+                "display": "Religious Institution"
+            },
+            {
+                "code": "crs",
+                "display": "Clinical Research Sponsor"
+            },
+            {
+                "code": "cg",
+                "display": "Community Group"
+            },
+            {
+                "code": "bus",
+                "display": "Non-Healthcare Business or Corporation"
+            },
+            {
+                "code": "other",
+                "display": "Other"
+            }
+        ]
+    }
+}
