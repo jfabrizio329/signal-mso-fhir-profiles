@@ -64,6 +64,13 @@ Whenever possible, value sets and code systems were taken from the [US Core Term
 | [ProcedureFollowUpCodes](http://hl7.org/fhir/ValueSet/procedure-followup) | Instructions for follow up | [**Procedure** - Procedure.followUp](Structure-Definition--Procedure-Profile) | [ Example](https://www.hl7.org/fhir/terminologies.html#required) | 
 | [ProcedureDeviceActionCodes](http://hl7.org/fhir/ValueSet/device-action) | Kind of change to device | [**Procedure** - Procedure.focalDevice.action](Structure-Definition--Procedure-Profile) | [ Preferred](https://www.hl7.org/fhir/terminologies.html#preferred) | 
 | [FHIRDeviceTypes](http://hl7.org/fhir/ValueSet/device-kind) | Coded items used during the procedure | [**Procedure** - Procedure.usedCode](Structure-Definition--Procedure-Profile) | [ Example](https://www.hl7.org/fhir/terminologies.html#required) | 
+| [LocationStatus](http://hl7.org/fhir/ValueSet/location-status) | Indicates whether the location is still in use | [**Location** - Location.status](Structure-Definition--Location-Profile) | [ Required](https://www.hl7.org/fhir/terminologies.html#required) | 
+| [BedStatus](http://terminology.hl7.org/ValueSet/v2-0116) | The operational status of the location (typically only for a bed/room) | [**Location** - Location.operationalStatus](Structure-Definition--Location-Profile) | [ Preferred](https://www.hl7.org/fhir/terminologies.html#preferred) | 
+| [LocationMode](http://hl7.org/fhir/ValueSet/location-mode) | Indicates whether a resource instance represents a specific location or a class of locations. | [**Location** - Location.mode](Structure-Definition--Location-Profile) | [ Required](https://www.hl7.org/fhir/terminologies.html#required) | 
+| [ServiceDeliveryLocationRoleType](http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType) | Type of function performed | [**Location** - Location.type](Structure-Definition--Location-Profile) | [ Extensible](https://www.hl7.org/fhir/terminologies.html#extensible) | 
+| [Colorado counties codes](https://signalbhn.org/fhir/ValueSet/fips-county-co) | Signal specific state codes | [**Location** - Location.address.state](Structure-Definition--Location-Profile) | [ Extensible](https://www.hl7.org/fhir/terminologies.html#extensible) | 
+| [LocationType](http://hl7.org/fhir/ValueSet/location-physical-type) | Type of function performed | [**Location** - Location.physicalType](Structure-Definition--Location-Profile) | [ Example](https://www.hl7.org/fhir/terminologies.html#required) | 
+ 
 
 
  
