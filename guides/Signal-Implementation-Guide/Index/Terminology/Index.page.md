@@ -19,14 +19,14 @@ Whenever possible, value sets and code systems were taken from the [US Core Term
 |Value Set|Description|Profile(s)|Binding Strength|
 |---|---|---|---|
 | [AddressType](https://www.hl7.org/fhir/valueset-address-type.html) | The type of an address (physical / postal). | [**Organization** - Organization.address.type](Structure-Definition--Organization-Profile) <br /> [**Organization** - Organization.contact.address.type](Structure-Definition--Organization-Profile) | [Required](https://www.hl7.org/fhir/terminologies.html#required) |
-| asdf | asdf | [**OrganizationAffiliation** - ](Structure-Definition--OrganizationAffiliation-Profile) <br /> | asdf |
-| asdf | asdf | [**HealthcareService** - ](Structure-Definition--HealthcareService-Profile) <br /> | asdf |
-| asdf | asdf | asdf | asdf |
-| asdf | asdf | asdf | asdf |
-| asdf | asdf | asdf | asdf |
-| asdf | asdf | asdf | asdf |
-| asdf | asdf | asdf | asdf |
-| asdf | asdf | asdf | asdf |
+| [AddressUse](http://hl7.org/fhir/ValueSet/address-use) | The use of an address | [**Organization** - Organization.address.use](Structure-Definition--Organization-Profile) <br /> [**Organization** - Organization.contact.address.use](Structure-Definition--Organization-Profile) | [Required](https://www.hl7.org/fhir/terminologies.html#required) |
+| [ContactPointSystem]() | Telecommunications form for contact point | [**Organization** - Organization.telecom.system](Structure-Definition--Organization-Profile) <br/> [**Organization** - Organization.contact.telecom.system](Structure-Definition--Organization-Profile)| [Required](https://www.hl7.org/fhir/terminologies.html#required) |
+| [ContactPointUse](http://hl7.org/fhir/ValueSet/contact-point-use) | Use of contact point | [**Organization** - Organization.telecom.use](Structure-Definition--Organization-Profile) <br/> [**Organization** - Organization.contact.telecom.use](Structure-Definition--Organization-Profile)| [Required](https://www.hl7.org/fhir/terminologies.html#required) |
+| [OrganizationType](https://hl7.org/fhir/valueset-organization-type.html) | Kind of organization | [**Organization** - Organization.type](Structure-Definition--Organization-Profile) | [ Example](https://www.hl7.org/fhir/terminologies.html#required) | 
+| [ContactEntityType](http://hl7.org/fhir/ValueSet/contactentity-type) | The type of contact | [**Organization** - Organization.contact.purpose](Structure-Definition--Organization-Profile) | [ Extensible](https://www.hl7.org/fhir/terminologies.html#extensible) | 
+| [UspsTwoLetterAlphabeticCodes](http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state) | Sub-unit of country | [**Organization** - Organization.address.state](Structure-Definition--Organization-Profile) | [ Extensible](https://www.hl7.org/fhir/terminologies.html#extensible) | 
+| [NameUse](http://hl7.org/fhir/ValueSet/name-use) | The use of a human name | [**Organization** - Organization.contact.name.use](Structure-Definition--Organization-Profile) | [ Required](https://www.hl7.org/fhir/terminologies.html#required) | 
+
 
 
 ### Other value set notes
