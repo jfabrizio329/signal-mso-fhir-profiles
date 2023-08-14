@@ -56,6 +56,14 @@
           }
         ],
         "isModifier": false
+      },
+      {
+        "id": "Organization.type",
+        "path": "Organization.type",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/organization-type"
+        }
       }
     ]
   }
