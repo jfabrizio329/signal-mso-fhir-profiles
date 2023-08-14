@@ -105,6 +105,10 @@ Whenever possible, value sets and code systems were taken from the [US Core Term
 | [CoverageClassCodes](http://hl7.org/fhir/ValueSet/coverage-class) | The policy classifications, eg. Group, Plan, Class, etc | [**Coverage** - Coverage.class.type](Structure-Definition--Coverage-Profile) | [Extensible](https://www.hl7.org/fhir/terminologies.html#extensible) | 
 | [CoverageCopayTypeCodes](http://hl7.org/fhir/ValueSet/coverage-copay-type) | Cost category | [**Coverage** - Coverage.costToBeneficiary.type](Structure-Definition--Coverage-Profile) | [Extensible](https://www.hl7.org/fhir/terminologies.html#extensible) | 
 | [CoverageFinancialExceptionCodes](http://hl7.org/fhir/ValueSet/coverage-financial-exception) | Exception category | [**Coverage** - Coverage.costToBeneficiary.exception.type](Structure-Definition--Coverage-Profile) | [Example](https://www.hl7.org/fhir/terminologies.html#example) | 
+| [AccountStatus](http://hl7.org/fhir/ValueSet/account-status) | Indicates whether the account is available to be used | [**Account** - Account.status](Structure-Definition--Account-Profile) | [Required](https://www.hl7.org/fhir/terminlogies.html#required) | 
+| [AccountTypes](http://hl7.org/fhir/ValueSet/account-type) | The type of an account | [**Account** - Account.type](Structure-Definition--Account-Profile) | [Example](https://www.hl7.org/fhir/terminologies.html#example) | 
+| [InvoiceStatus](http://hl7.org/fhir/ValueSet/invoice-status) | Codes identifying the lifecycle stage of an Invoice | [**Invoice** - Invoice.status](Structure-Definition--Invoice-Profile) | [Required](https://www.hl7.org/fhir/terminlogies.html#required) | 
+| [PriceComponentType](http://hl7.org/fhir/ValueSet/price-component-type) | Codes indicating the kind of the price component | [**Invoice** - Invoice.lineItem.priceComponent.type](Structure-Definition--Invoice-Profile) | [Required](https://www.hl7.org/fhir/terminlogies.html#required) | 
 
 
  
