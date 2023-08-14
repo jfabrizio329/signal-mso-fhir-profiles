@@ -1,0 +1,45 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "ac43b167-bce8-4348-aabf-4970c3117f73",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-08-11T13:43:14.523+00:00"
+    },
+    "text": {
+        "status": "extensions"
+    },
+    "url": "http://signalbhn.org/fhir/us/core/ValueSet/organization-type",
+    "identifier": [
+        {
+            "value": "urn:oid:2.16.840.1.113883.4.642.1.1128"
+        }
+    ],
+    "version": "6.0.0",
+    "name": "OrganizationType",
+    "title": "Organization Type",
+    "status": "active",
+    "experimental": false,
+    "date": "2019-11-01T09:29:23+11:00",
+    "description": "This example value set defines a set of codes that can be used to indicate a type of organization.",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/organization-type",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "so",
+            "display": "Service Organization"
+        },
+        {
+            "code": "sa",
+            "display": "State Agency"
+        },
+        {
+            "code": "sigprov",
+            "display": "Provider"
+        },
+        {
+            "code": "sigpay",
+            "display": "Payer"
+        }
+    ]
+}
