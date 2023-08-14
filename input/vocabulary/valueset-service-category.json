@@ -1,0 +1,220 @@
+{
+    "resourceType": "ValueSet",
+    "id": "service-category",
+    "meta": {
+        "lastUpdated": "2019-11-01T09:29:23.356+11:00",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ],
+        "versionId": "d145ab75-4506-4464-922f-1dd28f21c23d"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Service category</h2><div><p>This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"codesystem-service-category.html\"><code>http://terminology.hl7.org/CodeSystem/service-category</code></a></li></ul></div>"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://hl7.org/fhir/ValueSet/service-category",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.4.642.3.516"
+        }
+    ],
+    "version": "4.0.1",
+    "name": "ServiceCategory",
+    "title": "Service category",
+    "status": "draft",
+    "experimental": false,
+    "date": "2019-11-01T09:29:23+11:00",
+    "publisher": "FHIR Project team",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+    "immutable": true,
+    "compose": {
+        "include": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/service-category"
+            }
+        ]
+    }
+    ,
+    "expansion": {
+        "timestamp": "2023-08-07T07:33:13.4374309+00:00",
+        "contains": [
+            {
+                "code": "1",
+                "display": "Adoption"
+            },
+            {
+                "code": "2",
+                "display": "Aged Care"
+            },
+            {
+                "code": "34",
+                "display": "Allied Health"
+            },
+            {
+                "code": "3",
+                "display": "Alternative/Complementary Therapies"
+            },
+            {
+                "code": "4",
+                "display": "Child Care /Kindergarten"
+            },
+            {
+                "code": "5",
+                "display": "Child Development"
+            },
+            {
+                "code": "6",
+                "display": "Child Protection & Family Services"
+            },
+            {
+                "code": "7",
+                "display": "Community Health Care"
+            },
+            {
+                "code": "8",
+                "display": "Counselling"
+            },
+            {
+                "code": "36",
+                "display": "Crisis Line (GPAH use only)"
+            },
+            {
+                "code": "9",
+                "display": "Death Services"
+            },
+            {
+                "code": "10",
+                "display": "Dental"
+            },
+            {
+                "code": "11",
+                "display": "Disability Support"
+            },
+            {
+                "code": "12",
+                "display": "Drug/Alcohol"
+            },
+            {
+                "code": "13",
+                "display": "Education & Learning"
+            },
+            {
+                "code": "14",
+                "display": "Emergency Department"
+            },
+            {
+                "code": "15",
+                "display": "Employment"
+            },
+            {
+                "code": "16",
+                "display": "Financial & Material Aid"
+            },
+            {
+                "code": "17",
+                "display": "General Practice"
+            },
+            {
+                "code": "35",
+                "display": "Hospital"
+            },
+            {
+                "code": "18",
+                "display": "Housing/Homelessness"
+            },
+            {
+                "code": "19",
+                "display": "Interpreting"
+            },
+            {
+                "code": "20",
+                "display": "Justice"
+            },
+            {
+                "code": "21",
+                "display": "Legal"
+            },
+            {
+                "code": "22",
+                "display": "Mental Health"
+            },
+            {
+                "code": "38",
+                "display": "NDIA"
+            },
+            {
+                "code": "23",
+                "display": "Physical Activity & Recreation"
+            },
+            {
+                "code": "24",
+                "display": "Regulation"
+            },
+            {
+                "code": "25",
+                "display": "Respite/Carer Support"
+            },
+            {
+                "code": "26",
+                "display": "Specialist Clinical Pathology"
+            },
+            {
+                "code": "27",
+                "display": "Specialist Medical"
+            },
+            {
+                "code": "28",
+                "display": "Specialist Obstetrics & Gynecology"
+            },
+            {
+                "code": "29",
+                "display": "Specialist Paediatric"
+            },
+            {
+                "code": "30",
+                "display": "Specialist Radiology/Imaging"
+            },
+            {
+                "code": "31",
+                "display": "Specialist Surgical"
+            },
+            {
+                "code": "32",
+                "display": "Support Group/s"
+            },
+            {
+                "code": "37",
+                "display": "Test Message (HSD admin)"
+            },
+            {
+                "code": "33",
+                "display": "Transport"
+            }
+        ]
+    }
+}
