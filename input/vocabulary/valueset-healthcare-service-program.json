@@ -1,0 +1,79 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-program",
+    "meta": {
+        "versionId": "3",
+        "lastUpdated": "2023-08-16T10:49:17.214+00:00",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "text": {
+        "status": "generated"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://signalbhn.org/fhir/ValueSet/signal-program",
+    "version": "6.0.0-cibuild",
+    "name": "SignalProgram",
+    "title": "Signal Program",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "FHIR Project team",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "This value set defines the set of codes that could be can be used to classify signal specific programs.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "total": 5,
+        "contains": [
+            {
+                "code": "sud",
+                "display": "Substance Use Disorder (SUD)"
+            },
+            {
+                "code": "crisis",
+                "display": "Colorado Crisis Services (CCS)"
+            },
+            {
+                "code": "cymhta",
+                "display": "Children and Youth Mental Health Treatment Act (CYMHTA)"
+            },
+            {
+                "code": "assessment",
+                "display": "Assessment"
+            },
+            {
+                "code": "recovery",
+                "display": "Recovery"
+            }
+        ]
+    }
+}
