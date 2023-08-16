@@ -1,0 +1,186 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-healthcare-service-type",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-08-16T11:10:17.72+00:00"
+    },
+    "text": {
+        "status": "generated"
+    },
+    "url": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+    "version": "6.0.0",
+    "name": "SignalHealthcareServiceType",
+    "title": "Signal Healthcare Service Type",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Signal specific healthcare service types being performed or delivered",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "sud",
+            "display": "Substance Use Disorder (SUD)",
+            "concept": [
+                {
+                    "code": "asam-0.5",
+                    "display": "ASAM Level 0.5 - Early Intervention"
+                },
+                {
+                    "code": "asam-1",
+                    "display": "ASAM Level 1.0 - Outpatient Services"
+                },
+                {
+                    "code": "asam-2.1",
+                    "display": "ASAM Level 2.1 - Intensive Outpatient Services (IOP)"
+                },
+                {
+                    "code": "asam-2.5",
+                    "display": "ASAM Level 2.5 - Partial Hospitalization Services for adolescents and adults"
+                },
+                {
+                    "code": "asam-3.1",
+                    "display": "ASAM Level 3.1 - Clinically Managed Low-Intensity Residential Services"
+                },
+                {
+                    "code": "asam-3.3",
+                    "display": "ASAM Level 3.3 - Clinically Managed Population-Specific High-Intensity Residential Services"
+                },
+                {
+                    "code": "asam-3.5",
+                    "display": "ASAM Level 3.5 - Clinically Managed High-Intensity Residential Services for adults"
+                },
+                {
+                    "code": "asam-3.7",
+                    "display": "ASAM Level 3.7 - Medically Monitored High-Intensity Inpatient Services for adolescents"
+                },
+                {
+                    "code": "asam-4",
+                    "display": "ASAM Level 4 - Medically Managed Intensive Inpatient"
+                },
+                {
+                    "code": "asam-1-wm",
+                    "display": "ASAM Level 1-WM - Ambulatory Withdrawal Management Without Extended On-Site Monitoring"
+                },
+                {
+                    "code": "asam-2-wm",
+                    "display": "ASAM Level 2-WM - Ambulatory Withdrawal Management with Extended On-site Monitoring"
+                },
+                {
+                    "code": "asam-3.2-wm",
+                    "display": "ASAM Level 3.2-WM - Clinically Managed Residential Withdrawal Management"
+                },
+                {
+                    "code": "asam-3.7-wm",
+                    "display": "ASAM Level 3.7-WM - Medically Monitored Intensive Inpatient Services Withdrawal Management for adults"
+                },
+                {
+                    "code": "asam-otp",
+                    "display": "ASAM - Opioid Treatment Program (OTP)"
+                },
+                {
+                    "code": "asam-obot",
+                    "display": "ASAM - Office-Based Opioid Treatment (OBOT)"
+                },
+                {
+                    "code": "da",
+                    "display": "Differential Assessment"
+                },
+                {
+                    "code": "ips",
+                    "display": "Individual Placement Services"
+                },
+                {
+                    "code": "dui-1",
+                    "display": "DUI Level I Education"
+                },
+                {
+                    "code": "dui-2-e",
+                    "display": "DUI Level II Education-only"
+                },
+                {
+                    "code": "dui-2-te",
+                    "display": "DUI Level II Therapy and Education"
+                }
+            ]
+        },
+        {
+            "code": "crisis",
+            "display": "Crisis",
+            "concept": [
+                {
+                    "code": "mobile",
+                    "display": "Mobile"
+                },
+                {
+                    "code": "atu-csu",
+                    "display": "ATU/CSU"
+                },
+                {
+                    "code": "youth-csu",
+                    "display": "Youth CSU"
+                },
+                {
+                    "code": "walk-in",
+                    "display": "Walk-in"
+                },
+                {
+                    "code": "respite",
+                    "display": "Respite"
+                },
+                {
+                    "code": "transportation",
+                    "display": "Transportation"
+                }
+            ]
+        },
+        {
+            "code": "cymhta",
+            "display": "CYMHTA",
+            "concept": [
+                {
+                    "code": "treatment",
+                    "display": "Treatment"
+                },
+                {
+                    "code": "youth-residential",
+                    "display": "Youth residential"
+                }
+            ]
+        },
+        {
+            "code": "assessment",
+            "display": "Assessment",
+            "concept": [
+                {
+                    "code": "Medicaid",
+                    "display": "Medicaid"
+                },
+                {
+                    "code": "ffpsa",
+                    "display": "FFPSA"
+                },
+                {
+                    "code": "cymhta",
+                    "display": "CYMHTA"
+                }
+            ]
+        },
+        {
+            "code": "recovery",
+            "display": "Recovery",
+            "concept": [
+                {
+                    "code": "rss",
+                    "display": "Recovery Support Services (RSS)"
+                },
+                {
+                    "code": "rlc",
+                    "display": "Recovery Living Community (RLC)"
+                }
+            ]
+        }
+    ]
+}
