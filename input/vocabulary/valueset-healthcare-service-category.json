@@ -1,0 +1,98 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-healthcare-service-category",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-08-16T11:14:16.901+00:00",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "text": {
+        "status": "generated"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category",
+    "version": "6.0.0-cibuild",
+    "name": "SignalHealthcareServiceCategory",
+    "title": "Signal Healthcare Service Category",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Broad categories of signal specific healthcare services being performed or delivered",
+    "compose": {
+        "include": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "total": 10,
+        "contains": [
+            {
+                "code": "prevention-early-intervention",
+                "display": "Prevention/Early Intervention Services"
+            },
+            {
+                "code": "crisis",
+                "display": "Crisis Services"
+            },
+            {
+                "code": "screening",
+                "display": "Screening Services"
+            },
+            {
+                "code": "assessment",
+                "display": "Assessment Services"
+            },
+            {
+                "code": "treatment",
+                "display": "Treatment Services"
+            },
+            {
+                "code": "evaluation-management",
+                "display": "Evaluation and Management (E/M) Services"
+            },
+            {
+                "code": "residential",
+                "display": "Residential Services"
+            },
+            {
+                "code": "respite",
+                "display": "Respite Care Services"
+            },
+            {
+                "code": "recovery",
+                "display": "Peer Support/Recovery Services"
+            },
+            {
+                "code": "support",
+                "display": "Support Services"
+            }
+        ]
+    }
+}
