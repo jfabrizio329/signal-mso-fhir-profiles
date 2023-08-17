@@ -38,7 +38,11 @@
             ]
           }
         ],
-        "isModifier": false
+        "isModifier": false,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-organization-qualification"
+        }
       },
       {
         "id": "Organization.extension:photo",
@@ -61,7 +65,7 @@
         "id": "Organization.type",
         "path": "Organization.type",
         "binding": {
-          "strength": "example",
+          "strength": "required",
           "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/organization-type"
         }
       }
