@@ -1,0 +1,1579 @@
+{
+    "resourceType": "ValueSet",
+    "id": "healthcare-service-procedure-code-cpt",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-08-16T11:14:16.901+00:00",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "text": {
+        "status": "generated"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt",
+    "version": "6.0.0",
+    "name": "HealthCareServiceProcedureCodeCPT",
+    "title": "HealthCare Service Procedure Code CPT",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Concepts of Procedure Code CPT from Uniform Service coding standard Manual, Colorado BHA.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://www.aapc.com/codes/cpt-codes-range/",
+                "concept" : [
+                    {
+                        "code": "90785",
+                        "display": "Interactive complexity add-on"
+                    },
+                    {
+                        "code": "90791",
+                        "display": "Psychiatric diagnostic eval"
+                    },
+                    {
+                        "code": "90792",
+                        "display": "Psychiatric diagnostic eval with medical services"
+                    },
+                    {
+                        "code": "90832",
+                        "display": "Psychotherapy w/ patient, 30 mins"
+                    },
+                    {
+                        "code": "90833",
+                        "display": "Psychotherapy w/ patient when performed with an E/M service, 30 mins"
+                    },
+                    {
+                        "code": "90834",
+                        "display": "Psychotherapy w/ patient, 45 mins"
+                    },
+                    {
+                        "code": "90836",
+                        "display": "Psychotherapy w/ patient when performed with an E/M service, 45 mins "
+                    },
+                    {
+                        "code": "90837",
+                        "display": "Psychotherapy w/ patient, 60 mins "
+                    },
+                    {
+                        "code": "90838",
+                        "display": "Psychotherapy w/ patient when performed with an E/M service, 60 mins "
+                    },
+                    {
+                        "code": "90839",
+                        "display": "Psychotherapy for crisis, first 60 mins "
+                    },
+                    {
+                        "code": "90840",
+                        "display": "Psychotherapy for crisis add-on, each add’l 30 mins "
+                    },
+                    {
+                        "code": "90846",
+                        "display": "Family psychotherapy without the member present "
+                    },
+                    {
+                        "code": "90847",
+                        "display": "Family psychotherapy with the member present "
+                    },
+                    {
+                        "code": "90849",
+                        "display": "Multiple-family group psychotherapy "
+                    },
+                    {
+                        "code": "90853",
+                        "display": "Group psychotherapy (other than of a multi-family group) "
+                    },
+                    {
+                        "code": "90870",
+                        "display": "Electroconvulsive Therapy (ECT) "
+                    },
+                    {
+                        "code": "00104",
+                        "display": "Anesthesia for Electroconvulsive Therapy"
+                    },
+                    {
+                        "code": "90875",
+                        "display": "Individual psychophysiological therapy incorporating biofeedback with psychotherapy, 30 mins"
+                    },
+                    {
+                        "code": "90876",
+                        "display": "Individual psychophysiological therapy incorporating biofeedback with psychotherapy, 45 mins"
+                    },
+                    {
+                        "code": "90887",
+                        "display": "Interpretation or explanation of results of psychiatric, other medical examinations and procedures, or other accumulated data to family or other responsible persons, or advising them how to assist member"
+                    },
+                    {
+                        "code": "96116",
+                        "display": "Neurobehavioral Status Exam, first 60 mins"
+                    },
+                    {
+                        "code": "96121",
+                        "display": "Neurobehavioral Status Exam add-on, each add’l 60 mins"
+                    },
+                    {
+                        "code": "96130",
+                        "display": "Psychological testing evaluation by physician or other qualified health care professional, with interactive feedback to the member, family member(s) or caregiver(s), when performed, first 60 mins"
+                    },
+                    {
+                        "code": "96131",
+                        "display": "Psychological testing evaluation by physician or other qualified health care professional add-on, each add’l 60 mins"
+                    },
+                    {
+                        "code": "96132",
+                        "display": "Neuropsychological testing evaluation by physician or other qualified health care professional, with interactive feedback to the member, family member(s) or caregiver(s), when performed, first 60 mins"
+                    },
+                    {
+                        "code": "96133",
+                        "display": "Neuropsychological testing evaluation by physician or other qualified health care professional add-on, each add’l 60 mins"
+                    },
+                    {
+                        "code": "96136",
+                        "display": "Psychological or neuropsychological test administration and scoring by physician or other qualified health care professional, two or more tests, any method, first30 mins"
+                    },
+                    {
+                        "code": "96137",
+                        "display": "Psychological or neuropsychological test administration and scoring by physician or other qualified health care professional, two or more tests, any method, each add’l 30 mins"
+                    },
+                    {
+                        "code": "96138",
+                        "display": "Psychological or neuropsychological test administration and scoring by technician, two or more tests, any method, first 30 mins"
+                    },
+                    {
+                        "code": "96139",
+                        "display": "Psychological or neuropsychological test administration and scoring by technician, two or more tests, any method; each add’l 30 mins"
+                    },
+                    {
+                        "code": "96146",
+                        "display": "Psychological or neuropsychological test administration, with single automated instrument via electronic platform, with automated result only"
+                    },
+                    {
+                        "code": "96372",
+                        "display": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug) subcutaneous or intramuscular"
+                    },
+                    {
+                        "code": "97535",
+                        "display": "Self-care/home management training (e.g., activities of daily living (ADLs) and compensatory training, meal preparation, safety procedures, and instructions in use of assistive technology devices/adaptive equipment) direct one-on-one contact by provider, each 15 mins"
+                    },
+                    {
+                        "code": "97537",
+                        "display": "Community/work reintegration training (e.g., shopping, transportation, money management, avocational activities and/or work environment/modification analysis, work task analysis, use of assistive technology device/adaptive equipment), direct one-on-one contact by provider, each 15 mins"
+                    },
+                    {
+                        "code": "98966",
+                        "display": "Telephone assessment and management provided by qualified non-physician health care prof, 5-10 mins"
+                    },
+                    {
+                        "code": "98967",
+                        "display": "Telephone assessment and management provided by qualified non-physician health care prof, 11-20 mins"
+                    },
+                    {
+                        "code": "98968",
+                        "display": "Telephone assessment and management provided by qualified non-physician health care prof, 21-30 mins"
+                    },
+                    {
+                        "code": "99202",
+                        "display": "New Pt Office or Other Outpt Visit w/ Straightforward MDM, typically 15-29 mins"
+                    },
+                    {
+                        "code": "99203",
+                        "display": "New Pt Office or Other Outpt Visit w/ Low MDM, typically 30 - 44 mins"
+                    },
+                    {
+                        "code": "99204",
+                        "display": "New Pt Office or Other Outpt Visit w/ Moderate MDM, typically 45 - 59 mins"
+                    },
+                    {
+                        "code": "99205",
+                        "display": "New Pt Office or Other Outpt Visit w/ High MDM, typically 60-74 min"
+                    },
+                    {
+                        "code": "99211",
+                        "display": "Established Pt Office or Other Outpt Visit not requiring a Physician"
+                    },
+                    {
+                        "code": "99212",
+                        "display": "Established Pt Office or Other Outpt Visit w/ Straightforward MDM, typically 10- 19 mins"
+                    },
+                    {
+                        "code": "99213",
+                        "display": "Established Pt Office or Other Outpt Visit w/ Low MDM, typically 20- 29 mins"
+                    },
+                    {
+                        "code": "99214",
+                        "display": "Established Pt Office or Other Outpt Visit w/ Moderate MDM, typically 30 - 39 mins"
+                    },
+                    {
+                        "code": "99215",
+                        "display": "Established Pt Office or Other Outpt Visit w/ High MDM, typically 40 - 54 mins"
+                    },
+                    {
+                        "code": "99221",
+                        "display": "Initial hospital care with Straightforward or low level of medical decision making, per day, if using time, at least 40 minutes"
+                    },
+                    {
+                        "code": "99222",
+                        "display": "Initial hospital care with Straightforward or low level of medical decision making, per day, if using time, at least 55 minutes"
+                    },
+                    {
+                        "code": "99223",
+                        "display": "Initial hospital care with Moderate level of medical decision making, if using time, at least 75 minutes"
+                    },
+                    {
+                        "code": "99231",
+                        "display": "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes"
+                    },
+                    {
+                        "code": "99232",
+                        "display": "Subsequent hospital care with moderate level of medical decision making, if using time, at least 35 minutes"
+                    },
+                    {
+                        "code": "99233",
+                        "display": "Subsequent hospital care with moderate level of medical decision making, if using time, at least 50 minutes"
+                    },
+                    {
+                        "code": "99234",
+                        "display": "Initial hospital care with same-day admission and discharge with straightforward or low level of medical decision making, per day, if using time, at least 45 minutes"
+                    },
+                    {
+                        "code": "99235",
+                        "display": "Initial hospital care with same-day admission and discharge with moderate level of medical decision making, per day, if using time, at least 70 minutes"
+                    },
+                    {
+                        "code": "99236",
+                        "display": "Initial hospital care with same-day admission and discharge with high level of medical decision making, per day, if using time, at least 85 minutes"
+                    },
+                    {
+                        "code": "99238",
+                        "display": "Inpt Hospital Discharge, 30 mins or less"
+                    },
+                    {
+                        "code": "99239",
+                        "display": "Inpt Hospital Discharge, More than 30 mins"
+                    },
+                    {
+                        "code": "99242",
+                        "display": "Outpatient consultation with straightforward medical decision making, if using time, at least 20 minutes"
+                    },
+                    {
+                        "code": "99243",
+                        "display": "Outpatient consultation with low level of medical decision making, if using time, at least 30 minutes"
+                    },
+                    {
+                        "code": "99244",
+                        "display": "Outpatient consultation with moderate level of medical decision making, if using time, at least 40 minutes"
+                    },
+                    {
+                        "code": "99245",
+                        "display": "Outpatient consultation with high level of medical decision making, if using time, at least 55 minutes"
+                    },
+                    {
+                        "code": "99252",
+                        "display": "Hospital consultation with straightforward medical decision making, if using time, at least 35 minutes"
+                    },
+                    {
+                        "code": "99253",
+                        "display": "Hospital consultation with low level of medical decision making, if using time, at least 45 minutes"
+                    },
+                    {
+                        "code": "99254",
+                        "display": "Hospital consultation with moderate level of medical decision making, if using time, at least 45 minutes"
+                    },
+                    {
+                        "code": "99255",
+                        "display": "Hospital consultation with high level of medical decision making, if using time, at least 80 minutes"
+                    },
+                    {
+                        "code": "99281",
+                        "display": "Emergency department visit for problem that may not require health care professional"
+                    },
+                    {
+                        "code": "99282",
+                        "display": "Emergency department visit with straightforward medical decision making"
+                    },
+                    {
+                        "code": "99283",
+                        "display": "Emergency department visit with low level of medical decision making"
+                    },
+                    {
+                        "code": "99284",
+                        "display": "Emergency department visit with moderate level of medical decision making"
+                    },
+                    {
+                        "code": "99285",
+                        "display": "Emergency department visit with high level of medical decision making"
+                    },
+                    {
+                        "code": "99304",
+                        "display": "Initial nursing facility care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes"
+                    },
+                    {
+                        "code": "99305",
+                        "display": "Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes"
+                    },
+                    {
+                        "code": "99306",
+                        "display": "Initial nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes"
+                    },
+                    {
+                        "code": "99307",
+                        "display": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 10 minutes"
+                    },
+                    {
+                        "code": "99308",
+                        "display": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes"
+                    },
+                    {
+                        "code": "99309",
+                        "display": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes"
+                    },
+                    {
+                        "code": "99310",
+                        "display": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes"
+                    },
+                    {
+                        "code": "99315",
+                        "display": "Nursing Facility Discharge, 30 mins or less"
+                    },
+                    {
+                        "code": "99316",
+                        "display": "Nursing Facility Discharge, more than 30 mins"
+                    },
+                    {
+                        "code": "99341",
+                        "display": "Residence visit for new patient with straightforward medical decision making, per day, if using time, at least 15 minutes"
+                    },
+                    {
+                        "code": "99342",
+                        "display": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes"
+                    },
+                    {
+                        "code": "99344",
+                        "display": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes"
+                    },
+                    {
+                        "code": "99345",
+                        "display": "Residence visit for new patient with high level of medical decision making, per day, if using time, at least 75 minutes"
+                    },
+                    {
+                        "code": "99347",
+                        "display": "Residence visit for established patient with straightforward medical decision making, per day, if using time, at least 15 minutes"
+                    },
+                    {
+                        "code": "99348",
+                        "display": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes"
+                    },
+                    {
+                        "code": "99349",
+                        "display": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes"
+                    },
+                    {
+                        "code": "99350",
+                        "display": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes"
+                    },
+                    {
+                        "code": "99366",
+                        "display": "Medical Team Conference w/ Interdisciplinary Team and Pt and/or Family and Participation by Nonphysician Health Care Professional, 30 mins or more"
+                    },
+                    {
+                        "code": "99367",
+                        "display": "Medical Team Conference w/ Interdisciplinary Team w/out Pt and/or Family and Participation by Physician, 30 mins or more"
+                    },
+                    {
+                        "code": "99368",
+                        "display": "Medical Team Conference w/ Participation by Nonphysician Health Care Professional, 30 mins or more"
+                    },
+                    {
+                        "code": "99441",
+                        "display": "Telephone E/M service by a physician or other qualified health care professional, 5-10 mins"
+                    },
+                    {
+                        "code": "99442",
+                        "display": "Telephone E/M service by a physician or other qualified health care professional, 11-20 mins"
+                    },
+                    {
+                        "code": "99443",
+                        "display": "Telephone E/M service by a physician or other qualified health care professional, 21-30 mins"
+                    },
+                    {
+                        "code": "G0176",
+                        "display": "Activity therapy, such as music, dance, art or play therapies not for recreation, related to care and treatment of member’s disabling mental health problems per session, 45 mins or more"
+                    },
+                    {
+                        "code": "G0177",
+                        "display": "Training and educational services related to the care and treatment of member’s disabling mental health problems per session, 45 mins or more"
+                    },
+                    {
+                        "code": "H0001",
+                        "display": "Alcohol and/or Drug (AOD) Assessment"
+                    },
+                    {
+                        "code": "H0002",
+                        "display": "Behavioral Health screening to determine eligibility for admission to treatment program"
+                    },
+                    {
+                        "code": "H0004",
+                        "display": "Behavioral Health counseling and therapy, per 15 mins"
+                    },
+                    {
+                        "code": "H0005",
+                        "display": "Alcohol and/or drug services; group counseling by a clinician"
+                    },
+                    {
+                        "code": "H0006",
+                        "display": "Alcohol and/or drug services; case management"
+                    },
+                    {
+                        "code": "H0010",
+                        "display": "Clinically managed residential withdrawal management: ASAM level 3.2WM, per diem"
+                    },
+                    {
+                        "code": "H0011",
+                        "display": "Clinically managed residential withdrawal management: ASAM level 3.7WM, per diem"
+                    },
+                    {
+                        "code": "H0015",
+                        "display": "Alcohol and/or drug services; intensive outpatient program"
+                    },
+                    {
+                        "code": "H0017",
+                        "display": "Behavioral Health; residential (hospital residential treatment program), without room and board, per diem"
+                    },
+                    {
+                        "code": "H0018",
+                        "display": "Behavioral Health; short-term residential (non-hospital residential treatment program), without room and board, per diem"
+                    },
+                    {
+                        "code": "H0019",
+                        "display": "Behavioral Health; long-term residential (non-medical, non-acute care in a residential treatment program where stay is typically longer than 30 days), without room and board, per diem"
+                    },
+                    {
+                        "code": "H0020",
+                        "display": "Alcohol and/or drug services; Methadone administration and/or service (provision of the drug by a licensed program)"
+                    },
+                    {
+                        "code": "H0023",
+                        "display": "Behavioral Health outreach service (planned approach to reach a population) /Drop-In Center"
+                    },
+                    {
+                        "code": "H0025",
+                        "display": "Behavioral Health prevention education service"
+                    },
+                    {
+                        "code": "H0031",
+                        "display": "Mental health assessment by non-physician"
+                    },
+                    {
+                        "code": "H0032",
+                        "display": "Mental health service plan development by non-physician"
+                    },
+                    {
+                        "code": "H0033",
+                        "display": "Oral medication administration, direct observation"
+                    },
+                    {
+                        "code": "H0034",
+                        "display": "Medication training and support, per 15 mins"
+                    },
+                    {
+                        "code": "H0035",
+                        "display": "Mental health partial hospitalization, less than 24 hours"
+                    },
+                    {
+                        "code": "H0036",
+                        "display": "Community psychiatric supportive treatment, per 15 mins"
+                    },
+                    {
+                        "code": "H0037",
+                        "display": "Community psychiatric supportive treatment, per diem"
+                    },
+                    {
+                        "code": "H0038",
+                        "display": "Self-help/peer services, per 15 mins"
+                    },
+                    {
+                        "code": "H0039",
+                        "display": "Assertive community treatment, per 15 mins"
+                    },
+                    {
+                        "code": "H0040",
+                        "display": "Assertive community treatment program, per diem"
+                    },
+                    {
+                        "code": "H0043",
+                        "display": "Supported housing, per diem"
+                    },
+                    {
+                        "code": "H0044",
+                        "display": "Supported housing, per month"
+                    },
+                    {
+                        "code": "H0045",
+                        "display": "Respite care services, not in the home, per diem"
+                    },
+                    {
+                        "code": "H2000",
+                        "display": "Comprehensive multidisciplinary evaluation"
+                    },
+                    {
+                        "code": "H2001",
+                        "display": "Rehabilitation program, per ½ day"
+                    },
+                    {
+                        "code": "H2011",
+                        "display": "Crisis intervention service, per 15 mins"
+                    },
+                    {
+                        "code": "H2012",
+                        "display": "Behavioral Health day treatment, per hour"
+                    },
+                    {
+                        "code": "H2014",
+                        "display": "Skills training and development, per 15 mins"
+                    },
+                    {
+                        "code": "H2015",
+                        "display": "Comprehensive community support services, per 15 mins"
+                    },
+                    {
+                        "code": "H2016",
+                        "display": "Comprehensive community support services, per diem"
+                    },
+                    {
+                        "code": "H2017",
+                        "display": "Psychosocial rehabilitation services, per 15 mins"
+                    },
+                    {
+                        "code": "H2018",
+                        "display": "Psychosocial rehabilitation services, per diem"
+                    },
+                    {
+                        "code": "H2021",
+                        "display": "Community-based wrap-around services, per 15 mins"
+                    },
+                    {
+                        "code": "H2022",
+                        "display": "Community-based wrap-around services, per diem"
+                    },
+                    {
+                        "code": "H2023",
+                        "display": "Supported employment, per 15 mins"
+                    },
+                    {
+                        "code": "H2024",
+                        "display": "Supported employment, per diem"
+                    },
+                    {
+                        "code": "H2025",
+                        "display": "Ongoing support to maintain employment, per 15 mins"
+                    },
+                    {
+                        "code": "H2026",
+                        "display": "Ongoing support to maintain employment, per diem"
+                    },
+                    {
+                        "code": "H2027",
+                        "display": "Psychoeducational service, per 15 mins"
+                    },
+                    {
+                        "code": "H2030",
+                        "display": "Mental health Clubhouse services, per 15 mins"
+                    },
+                    {
+                        "code": "H2031",
+                        "display": "Mental health Clubhouse services, per diem"
+                    },
+                    {
+                        "code": "H2032",
+                        "display": "Activity therapy, per 15 mins"
+                    },
+                    {
+                        "code": "H2033",
+                        "display": "Multisystemic therapy for juveniles, per 15 mins"
+                    },
+                    {
+                        "code": "H2036",
+                        "display": "Alcohol and/or other drug treatment program, per diem"
+                    },
+                    {
+                        "code": "S5150",
+                        "display": "Unskilled respite care, not hospice; per 15 mins"
+                    },
+                    {
+                        "code": "S5151",
+                        "display": "Unskilled respite care, not hospice; per diem"
+                    },
+                    {
+                        "code": "S9445",
+                        "display": "Member education, not otherwise classified, non-physician provider, individual"
+                    },
+                    {
+                        "code": "S9453",
+                        "display": "Smoking cessation classes, non-physician provider, per session"
+                    },
+                    {
+                        "code": "S9454",
+                        "display": "Stress management classes, non-physician provider, per session"
+                    },
+                    {
+                        "code": "S9480",
+                        "display": "Intensive outpatient psychiatric (IOP) services, per diem"
+                    },
+                    {
+                        "code": "S9485",
+                        "display": "Crisis intervention mental health services, per diem"
+                    },
+                    {
+                        "code": "T1005",
+                        "display": "Respite care services, 15 mins"
+                    },
+                    {
+                        "code": "T1017",
+                        "display": "Targeted Case management, each 15 mins"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90785",
+                "display": "Interactive complexity add-on"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90791",
+                "display": "Psychiatric diagnostic eval"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90792",
+                "display": "Psychiatric diagnostic eval with medical services"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90832",
+                "display": "Psychotherapy w/ patient, 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90833",
+                "display": "Psychotherapy w/ patient when performed with an E/M service, 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90834",
+                "display": "Psychotherapy w/ patient, 45 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90836",
+                "display": "Psychotherapy w/ patient when performed with an E/M service, 45 mins "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90837",
+                "display": "Psychotherapy w/ patient, 60 mins "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90838",
+                "display": "Psychotherapy w/ patient when performed with an E/M service, 60 mins "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90839",
+                "display": "Psychotherapy for crisis, first 60 mins "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90840",
+                "display": "Psychotherapy for crisis add-on, each add’l 30 mins "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90846",
+                "display": "Family psychotherapy without the member present "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90847",
+                "display": "Family psychotherapy with the member present "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90849",
+                "display": "Multiple-family group psychotherapy "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90853",
+                "display": "Group psychotherapy (other than of a multi-family group) "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90870",
+                "display": "Electroconvulsive Therapy (ECT) "
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "00104",
+                "display": "Anesthesia for Electroconvulsive Therapy"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90875",
+                "display": "Individual psychophysiological therapy incorporating biofeedback with psychotherapy, 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90876",
+                "display": "Individual psychophysiological therapy incorporating biofeedback with psychotherapy, 45 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "90887",
+                "display": "Interpretation or explanation of results of psychiatric, other medical examinations and procedures, or other accumulated data to family or other responsible persons, or advising them how to assist member"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96116",
+                "display": "Neurobehavioral Status Exam, first 60 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96121",
+                "display": "Neurobehavioral Status Exam add-on, each add’l 60 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96130",
+                "display": "Psychological testing evaluation by physician or other qualified health care professional, with interactive feedback to the member, family member(s) or caregiver(s), when performed, first 60 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96131",
+                "display": "Psychological testing evaluation by physician or other qualified health care professional add-on, each add’l 60 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96132",
+                "display": "Neuropsychological testing evaluation by physician or other qualified health care professional, with interactive feedback to the member, family member(s) or caregiver(s), when performed, first 60 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96133",
+                "display": "Neuropsychological testing evaluation by physician or other qualified health care professional add-on, each add’l 60 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96136",
+                "display": "Psychological or neuropsychological test administration and scoring by physician or other qualified health care professional, two or more tests, any method, first30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96137",
+                "display": "Psychological or neuropsychological test administration and scoring by physician or other qualified health care professional, two or more tests, any method, each add’l 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96138",
+                "display": "Psychological or neuropsychological test administration and scoring by technician, two or more tests, any method, first 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96139",
+                "display": "Psychological or neuropsychological test administration and scoring by technician, two or more tests, any method; each add’l 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96146",
+                "display": "Psychological or neuropsychological test administration, with single automated instrument via electronic platform, with automated result only"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "96372",
+                "display": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug) subcutaneous or intramuscular"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "97535",
+                "display": "Self-care/home management training (e.g., activities of daily living (ADLs) and compensatory training, meal preparation, safety procedures, and instructions in use of assistive technology devices/adaptive equipment) direct one-on-one contact by provider, each 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "97537",
+                "display": "Community/work reintegration training (e.g., shopping, transportation, money management, avocational activities and/or work environment/modification analysis, work task analysis, use of assistive technology device/adaptive equipment), direct one-on-one contact by provider, each 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "98966",
+                "display": "Telephone assessment and management provided by qualified non-physician health care prof, 5-10 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "98967",
+                "display": "Telephone assessment and management provided by qualified non-physician health care prof, 11-20 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "98968",
+                "display": "Telephone assessment and management provided by qualified non-physician health care prof, 21-30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99202",
+                "display": "New Pt Office or Other Outpt Visit w/ Straightforward MDM, typically 15-29 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99203",
+                "display": "New Pt Office or Other Outpt Visit w/ Low MDM, typically 30 - 44 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99204",
+                "display": "New Pt Office or Other Outpt Visit w/ Moderate MDM, typically 45 - 59 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99205",
+                "display": "New Pt Office or Other Outpt Visit w/ High MDM, typically 60-74 min"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99211",
+                "display": "Established Pt Office or Other Outpt Visit not requiring a Physician"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99212",
+                "display": "Established Pt Office or Other Outpt Visit w/ Straightforward MDM, typically 10- 19 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99213",
+                "display": "Established Pt Office or Other Outpt Visit w/ Low MDM, typically 20- 29 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99214",
+                "display": "Established Pt Office or Other Outpt Visit w/ Moderate MDM, typically 30 - 39 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99215",
+                "display": "Established Pt Office or Other Outpt Visit w/ High MDM, typically 40 - 54 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99221",
+                "display": "Initial hospital care with Straightforward or low level of medical decision making, per day, if using time, at least 40 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99222",
+                "display": "Initial hospital care with Straightforward or low level of medical decision making, per day, if using time, at least 55 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99223",
+                "display": "Initial hospital care with Moderate level of medical decision making, if using time, at least 75 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99231",
+                "display": "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99232",
+                "display": "Subsequent hospital care with moderate level of medical decision making, if using time, at least 35 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99233",
+                "display": "Subsequent hospital care with moderate level of medical decision making, if using time, at least 50 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99234",
+                "display": "Initial hospital care with same-day admission and discharge with straightforward or low level of medical decision making, per day, if using time, at least 45 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99235",
+                "display": "Initial hospital care with same-day admission and discharge with moderate level of medical decision making, per day, if using time, at least 70 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99236",
+                "display": "Initial hospital care with same-day admission and discharge with high level of medical decision making, per day, if using time, at least 85 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99238",
+                "display": "Inpt Hospital Discharge, 30 mins or less"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99239",
+                "display": "Inpt Hospital Discharge, More than 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99242",
+                "display": "Outpatient consultation with straightforward medical decision making, if using time, at least 20 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99243",
+                "display": "Outpatient consultation with low level of medical decision making, if using time, at least 30 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99244",
+                "display": "Outpatient consultation with moderate level of medical decision making, if using time, at least 40 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99245",
+                "display": "Outpatient consultation with high level of medical decision making, if using time, at least 55 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99252",
+                "display": "Hospital consultation with straightforward medical decision making, if using time, at least 35 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99253",
+                "display": "Hospital consultation with low level of medical decision making, if using time, at least 45 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99254",
+                "display": "Hospital consultation with moderate level of medical decision making, if using time, at least 45 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99255",
+                "display": "Hospital consultation with high level of medical decision making, if using time, at least 80 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99281",
+                "display": "Emergency department visit for problem that may not require health care professional"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99282",
+                "display": "Emergency department visit with straightforward medical decision making"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99283",
+                "display": "Emergency department visit with low level of medical decision making"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99284",
+                "display": "Emergency department visit with moderate level of medical decision making"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99285",
+                "display": "Emergency department visit with high level of medical decision making"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99304",
+                "display": "Initial nursing facility care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99305",
+                "display": "Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99306",
+                "display": "Initial nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99307",
+                "display": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 10 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99308",
+                "display": "Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99309",
+                "display": "Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99310",
+                "display": "Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99315",
+                "display": "Nursing Facility Discharge, 30 mins or less"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99316",
+                "display": "Nursing Facility Discharge, more than 30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99341",
+                "display": "Residence visit for new patient with straightforward medical decision making, per day, if using time, at least 15 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99342",
+                "display": "Residence visit for new patient with low level of medical decision making, per day, if using time, at least 30 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99344",
+                "display": "Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99345",
+                "display": "Residence visit for new patient with high level of medical decision making, per day, if using time, at least 75 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99347",
+                "display": "Residence visit for established patient with straightforward medical decision making, per day, if using time, at least 15 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99348",
+                "display": "Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99349",
+                "display": "Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99350",
+                "display": "Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99366",
+                "display": "Medical Team Conference w/ Interdisciplinary Team and Pt and/or Family and Participation by Nonphysician Health Care Professional, 30 mins or more"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99367",
+                "display": "Medical Team Conference w/ Interdisciplinary Team w/out Pt and/or Family and Participation by Physician, 30 mins or more"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99368",
+                "display": "Medical Team Conference w/ Participation by Nonphysician Health Care Professional, 30 mins or more"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99441",
+                "display": "Telephone E/M service by a physician or other qualified health care professional, 5-10 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99442",
+                "display": "Telephone E/M service by a physician or other qualified health care professional, 11-20 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "99443",
+                "display": "Telephone E/M service by a physician or other qualified health care professional, 21-30 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "G0176",
+                "display": "Activity therapy, such as music, dance, art or play therapies not for recreation, related to care and treatment of member’s disabling mental health problems per session, 45 mins or more"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "G0177",
+                "display": "Training and educational services related to the care and treatment of member’s disabling mental health problems per session, 45 mins or more"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0001",
+                "display": "Alcohol and/or Drug (AOD) Assessment"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0002",
+                "display": "Behavioral Health screening to determine eligibility for admission to treatment program"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0004",
+                "display": "Behavioral Health counseling and therapy, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0005",
+                "display": "Alcohol and/or drug services; group counseling by a clinician"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0006",
+                "display": "Alcohol and/or drug services; case management"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0010",
+                "display": "Clinically managed residential withdrawal management: ASAM level 3.2WM, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0011",
+                "display": "Clinically managed residential withdrawal management: ASAM level 3.7WM, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0015",
+                "display": "Alcohol and/or drug services; intensive outpatient program"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0017",
+                "display": "Behavioral Health; residential (hospital residential treatment program), without room and board, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0018",
+                "display": "Behavioral Health; short-term residential (non-hospital residential treatment program), without room and board, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0019",
+                "display": "Behavioral Health; long-term residential (non-medical, non-acute care in a residential treatment program where stay is typically longer than 30 days), without room and board, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0020",
+                "display": "Alcohol and/or drug services; Methadone administration and/or service (provision of the drug by a licensed program)"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0023",
+                "display": "Behavioral Health outreach service (planned approach to reach a population) /Drop-In Center"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0025",
+                "display": "Behavioral Health prevention education service"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0031",
+                "display": "Mental health assessment by non-physician"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0032",
+                "display": "Mental health service plan development by non-physician"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0033",
+                "display": "Oral medication administration, direct observation"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0034",
+                "display": "Medication training and support, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0035",
+                "display": "Mental health partial hospitalization, less than 24 hours"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0036",
+                "display": "Community psychiatric supportive treatment, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0037",
+                "display": "Community psychiatric supportive treatment, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0038",
+                "display": "Self-help/peer services, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0039",
+                "display": "Assertive community treatment, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0040",
+                "display": "Assertive community treatment program, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0043",
+                "display": "Supported housing, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0044",
+                "display": "Supported housing, per month"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H0045",
+                "display": "Respite care services, not in the home, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2000",
+                "display": "Comprehensive multidisciplinary evaluation"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2001",
+                "display": "Rehabilitation program, per ½ day"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2011",
+                "display": "Crisis intervention service, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2012",
+                "display": "Behavioral Health day treatment, per hour"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2014",
+                "display": "Skills training and development, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2015",
+                "display": "Comprehensive community support services, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2016",
+                "display": "Comprehensive community support services, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2017",
+                "display": "Psychosocial rehabilitation services, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2018",
+                "display": "Psychosocial rehabilitation services, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2021",
+                "display": "Community-based wrap-around services, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2022",
+                "display": "Community-based wrap-around services, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2023",
+                "display": "Supported employment, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2024",
+                "display": "Supported employment, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2025",
+                "display": "Ongoing support to maintain employment, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2026",
+                "display": "Ongoing support to maintain employment, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2027",
+                "display": "Psychoeducational service, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2030",
+                "display": "Mental health Clubhouse services, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2031",
+                "display": "Mental health Clubhouse services, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2032",
+                "display": "Activity therapy, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2033",
+                "display": "Multisystemic therapy for juveniles, per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "H2036",
+                "display": "Alcohol and/or other drug treatment program, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S5150",
+                "display": "Unskilled respite care, not hospice; per 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S5151",
+                "display": "Unskilled respite care, not hospice; per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S9445",
+                "display": "Member education, not otherwise classified, non-physician provider, individual"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S9453",
+                "display": "Smoking cessation classes, non-physician provider, per session"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S9454",
+                "display": "Stress management classes, non-physician provider, per session"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S9480",
+                "display": "Intensive outpatient psychiatric (IOP) services, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "S9485",
+                "display": "Crisis intervention mental health services, per diem"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "T1005",
+                "display": "Respite care services, 15 mins"
+            },
+            {
+                "system" : "https://www.aapc.com/codes/cpt-codes-range/",
+                "version": "6.0.0",
+                "code": "T1017",
+                "display": "Targeted Case management, each 15 mins"
+            }
+        ]
+    }
+}
