@@ -1,0 +1,13 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-healthcare-service",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService",
+  "name": "SignalHealthcareService",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "HealthcareService",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/HealthcareService",
+  "derivation": "constraint"
+}
