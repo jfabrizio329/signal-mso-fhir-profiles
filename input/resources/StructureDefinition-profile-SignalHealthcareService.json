@@ -9,5 +9,55 @@
   "abstract": false,
   "type": "HealthcareService",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/HealthcareService",
-  "derivation": "constraint"
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "HealthcareService.type",
+        "path": "HealthcareService.type",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "description": "Each slice represents a different coding system/valueset",
+          "rules": "open"
+        }
+      },
+      {
+        "id": "HealthcareService.type:serviceCategory",
+        "path": "HealthcareService.type",
+        "sliceName": "serviceCategory",
+        "definition": "Each CPT code falls into one of ten primary categories of service, or 'Service categories'",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "description": "Service Category allowed in healthcare service.",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+        }
+      },
+      {
+        "id": "HealthcareService.type:procedure",
+        "path": "HealthcareService.type",
+        "sliceName": "procedure",
+        "definition": "CPT procedure code associated with serviceCategory(ies)",
+        "binding": {
+          "strength": "required",
+          "description": "CPT procedure codes allowed in healthcare service.",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt"
+        }
+      },
+      {
+        "id": "HealthcareService.program",
+        "path": "HealthcareService.program",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-program"
+        }
+      }
+    ]
+  }
 }
