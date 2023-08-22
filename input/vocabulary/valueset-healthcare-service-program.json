@@ -1,16 +1,6 @@
 {
     "resourceType": "ValueSet",
     "id": "signal-program",
-    "meta": {
-        "versionId": "3",
-        "lastUpdated": "2023-08-16T10:49:17.214+00:00",
-        "profile": [
-            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-        ]
-    },
-    "text": {
-        "status": "generated"
-    },
     "extension": [
         {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -26,22 +16,10 @@
         }
     ],
     "url": "http://signalbhn.org/fhir/ValueSet/signal-program",
-    "version": "6.0.0-cibuild",
     "name": "SignalProgram",
     "title": "Signal Program",
     "status": "draft",
-    "experimental": true,
-    "publisher": "FHIR Project team",
-    "contact": [
-        {
-            "telecom": [
-                {
-                    "system": "url",
-                    "value": "http://hl7.org/fhir"
-                }
-            ]
-        }
-    ],
+    "experimental": false,
     "description": "This value set defines the set of codes that could be can be used to classify signal specific programs.",
     "compose": {
         "include": [

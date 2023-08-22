@@ -1,21 +1,13 @@
 {
     "resourceType": "CodeSystem",
     "id": "signal-healthcare-service-category",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2023-08-16T11:10:17.72+00:00"
-    },
-    "text": {
-        "status": "generated"
-    },
     "url": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
-    "version": "6.0.0",
     "name": "SignalHealthcareServiceCategory",
     "title": "Signal Healthcare Service Category",
     "status": "draft",
     "experimental": false,
     "date": "2023-08-16T16:08:23+05:30",
-    "description": "Broad categories of signal specific healthcare services being performed or delivered",
+    "description": "Broad categories of signal specific healthcare services being performed or delivered. Service categories are defined in the Uniform Service Coding Standards (USCS) Manual from Colorado Behavioral Health Administration (BHA)",
     "caseSensitive": true,
     "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category",
     "content": "complete",
