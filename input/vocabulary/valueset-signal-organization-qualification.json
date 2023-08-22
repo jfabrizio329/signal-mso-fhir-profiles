@@ -2,14 +2,9 @@
     "resourceType": "ValueSet",
     "id": "signal-organization-qualification",
     "meta": {
-        "versionId": "1",
-        "lastUpdated": "2023-08-17T13:45:29.226+00:00",
         "profile": [
             "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
         ]
-    },
-    "text": {
-        "status": "generated"
     },
     "extension": [
         {

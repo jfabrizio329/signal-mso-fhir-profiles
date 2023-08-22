@@ -1,27 +1,21 @@
 {
   "resourceType": "ValueSet",
-  "id": "a90dd9cf-f000-44a1-8ee1-34d8a384a25b",
   "meta": {
       "versionId": "1",
       "lastUpdated": "2023-08-11T14:20:50.265+00:00"
   },
-  "url": "http://signalbhn.org/fhir/us/core/ValueSet/organization-type",
-  "identifier": [
-      {
-          "value": "urn:oid:2.16.840.1.113883.4.642.1.1128"
-      }
-  ],
+  "url": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
   "version": "6.0.0",
-  "name": "OrganizationType",
-  "title": "Organization Type",
-  "status": "active",
+  "name": "SignalOrganizationType",
+  "title": "Signal Organization Type",
+  "status": "draft",
   "experimental": false,
   "date": "2023-07-25",
   "description": "Types of Organization and its details.",
   "compose": {
       "include": [
           {
-              "system": "http://signalbhn.org/fhir/CodeSystem/organization-type",
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
               "concept": [
                 {
                   "code": "so",

@@ -1,23 +1,14 @@
 {
     "resourceType": "ValueSet",
-    "id": "signal-organization-license-type",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2023-08-11T14:20:50.265+00:00"
-    },
-    "url": "http://signalbhn.org/fhir/ValueSet/signal-organization-license-type",
-    "identifier": [
-        {
-            "value": "urn:oid:2.16.840.1.113883.4.642.1.1128"
-        }
-    ],
+    "id": "signal-organization-license",
+    "url": "http://signalbhn.org/fhir/ValueSet/signal-organization-license",
     "version": "6.0.0",
-    "name": "SignalOrganizationLicenseType",
-    "title": "Signal Organization License Type",
-    "status": "active",
+    "name": "SignalOrganizationLicense",
+    "title": "Signal Organization License",
+    "status": "draft",
     "experimental": false,
     "date": "2023-07-25",
-    "description": "Signal specific License type details for Organization",
+    "description": "Signal specific License details for Organization",
     "compose": {
         "include": [
             {
