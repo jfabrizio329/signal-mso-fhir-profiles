@@ -8,10 +8,6 @@
         ],
         "versionId": "e58f20cd-2001-4695-ad80-1901153c6726"
     },
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Organization Affiliation Role</h2><div><p>This example value set defines a set of codes that can be used to indicate the role of one Organization in relation to another.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"codesystem-organization-role.html\"><code>http://hl7.org/fhir/organization-role</code></a></li></ul></div>"
-    },
     "extension": [
         {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
