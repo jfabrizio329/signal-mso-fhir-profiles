@@ -18,21 +18,21 @@
               "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
               "concept": [
                 {
-                  "code": "so",
-                  "display": "Service Organization"
-              },
-              {
-                  "code": "sa",
-                  "display": "State Agency"
-              },
-              {
-                  "code": "sigprov",
-                  "display": "Provider"
-              },
-              {
-                  "code": "sigpay",
-                  "display": "Payer"
-              }
+                    "code": "service-org",
+                    "display": "Service Organization"
+                },
+                {
+                    "code": "state-agency",
+                    "display": "State Agency"
+                },
+                {
+                    "code": "prov-location",
+                    "display": "Provider Location"
+                },
+                {
+                    "code": "payer",
+                    "display": "Payer"
+                }
               ]
           },
           {
@@ -95,23 +95,23 @@
       "total": 15,
       "contains": [
           {
-              "system": "http://signalbhn.org/fhir/CodeSystem/organization-type",
-              "code": "so",
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "service-org",
               "display": "Service Organization"
           },
           {
-              "system": "http://signalbhn.org/fhir/CodeSystem/organization-type",
-              "code": "sa",
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "state-agency",
               "display": "State Agency"
           },
           {
-              "system": "http://signalbhn.org/fhir/CodeSystem/organization-type",
-              "code": "sigprov",
-              "display": "Provider"
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "prov-location",
+              "display": "Provider Location"
           },
           {
-              "system": "http://signalbhn.org/fhir/CodeSystem/organization-type",
-              "code": "sigpay",
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "payer",
               "display": "Payer"
           },
           {
