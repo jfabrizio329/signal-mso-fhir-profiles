@@ -9,6 +9,7 @@
     "date": "2023-08-16T16:08:23+05:30",
     "description": "Signal specific healthcare service types being performed or delivered",
     "caseSensitive": true,
+    "hierarchyMeaning": "is-a",
     "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type",
     "content": "complete",
     "concept": [
