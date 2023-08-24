@@ -12,7 +12,7 @@
     "compose": {
         "include": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category"
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license"
             }
         ]
     },
@@ -21,6 +21,7 @@
         "total": 4,
         "contains": [
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "mh",
                 "display": "Mental Health Designation (MH)",
                 "contains": [
@@ -75,6 +76,7 @@
                 ]
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "sud",
                 "display": "Substance Use Disorder (SUD) Treatment License",
                 "contains": [
@@ -141,10 +143,12 @@
                 ]
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "csl",
                 "display": "Controlled Substance License (CSL)"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "rsso",
                 "display": "Recovery Support Services Organization (RSSO)"
             }
