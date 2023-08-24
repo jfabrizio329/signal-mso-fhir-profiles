@@ -33,42 +33,52 @@
         "total": 10,
         "contains": [
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "prevention-early-intervention",
                 "display": "Prevention/Early Intervention Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "crisis",
                 "display": "Crisis Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "screening",
                 "display": "Screening Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "assessment",
                 "display": "Assessment Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "treatment",
                 "display": "Treatment Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "evaluation-management",
                 "display": "Evaluation and Management (E/M) Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "residential",
                 "display": "Residential Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "respite",
                 "display": "Respite Care Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "recovery",
                 "display": "Peer Support/Recovery Services"
             },
             {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "support",
                 "display": "Support Services"
             }
