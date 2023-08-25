@@ -145,32 +145,32 @@
                 "contains": [
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "mobile",
+                        "code": "crisis-mobile",
                         "display": "Mobile"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "atu-csu",
+                        "code": "crisis-atu-csu",
                         "display": "ATU/CSU"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "youth-csu",
+                        "code": "crisis-youth-csu",
                         "display": "Youth CSU"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "walk-in",
+                        "code": "crisis-walk-in",
                         "display": "Walk-in"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "respite",
+                        "code": "crisis-respite",
                         "display": "Respite"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "transportation",
+                        "code": "crisis-transportation",
                         "display": "Transportation"
                     }
                 ]
@@ -182,12 +182,12 @@
                 "contains": [
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "treatment",
+                        "code": "cymhta-treatment",
                         "display": "Treatment"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "youth-residential",
+                        "code": "cymhta-youth-residential",
                         "display": "Youth residential"
                     }
                 ]
@@ -199,17 +199,17 @@
                 "contains": [
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "Medicaid",
+                        "code": "assessment-Medicaid",
                         "display": "Medicaid"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "ffpsa",
+                        "code": "assessment-ffpsa",
                         "display": "FFPSA"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "cymhta",
+                        "code": "assessment-cymhta",
                         "display": "CYMHTA"
                     }
                 ]
@@ -221,12 +221,12 @@
                 "contains": [
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "rss",
+                        "code": "recovery-rss",
                         "display": "Recovery Support Services (RSS)"
                     },
                     {
                         "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "rlc",
+                        "code": "recovery-rlc",
                         "display": "Recovery Living Community (RLC)"
                     }
                 ]
