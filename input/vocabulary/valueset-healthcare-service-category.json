@@ -81,6 +81,11 @@
                 "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
                 "code": "support",
                 "display": "Support Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "other",
+                "display": "Other Services"
             }
         ]
     }
