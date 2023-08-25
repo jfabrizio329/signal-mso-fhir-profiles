@@ -51,6 +51,10 @@
         {
             "code": "support",
             "display": "Support Services"
+        },
+        {
+            "code": "other",
+            "display": "Other Services"
         }
     ]
 }
