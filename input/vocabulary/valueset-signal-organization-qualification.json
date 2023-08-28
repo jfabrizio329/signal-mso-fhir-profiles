@@ -1,0 +1,415 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-organization-qualification",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://signalbhn.org/fhir/ValueSet/signal-organization-qualification",
+    "version": "6.0.0",
+    "name": "SignalOrganizationQualification",
+    "title": "Signal Organization Qualification",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Signal specific healthcare Service Types and the Licesnse Type being performed or delivered",
+    "compose": {
+        "include": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "code": "sud",
+                "display": "Substance Use Disorder (SUD)",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-0.5",
+                        "display": "ASAM Level 0.5 - Early Intervention"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-1",
+                        "display": "ASAM Level 1.0 - Outpatient Services"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-2.1",
+                        "display": "ASAM Level 2.1 - Intensive Outpatient Services (IOP)"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-2.5",
+                        "display": "ASAM Level 2.5 - Partial Hospitalization Services for adolescents and adults"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.1",
+                        "display": "ASAM Level 3.1 - Clinically Managed Low-Intensity Residential Services"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.3",
+                        "display": "ASAM Level 3.3 - Clinically Managed Population-Specific High-Intensity Residential Services"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.5",
+                        "display": "ASAM Level 3.5 - Clinically Managed High-Intensity Residential Services for adults"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.7",
+                        "display": "ASAM Level 3.7 - Medically Monitored High-Intensity Inpatient Services for adolescents"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-4",
+                        "display": "ASAM Level 4 - Medically Managed Intensive Inpatient"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-1-wm",
+                        "display": "ASAM Level 1-WM - Ambulatory Withdrawal Management Without Extended On-Site Monitoring"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-2-wm",
+                        "display": "ASAM Level 2-WM - Ambulatory Withdrawal Management with Extended On-site Monitoring"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.2-wm",
+                        "display": "ASAM Level 3.2-WM - Clinically Managed Residential Withdrawal Management"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.7-wm",
+                        "display": "ASAM Level 3.7-WM - Medically Monitored Intensive Inpatient Services Withdrawal Management for adults"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-otp",
+                        "display": "ASAM - Opioid Treatment Program (OTP)"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-obot",
+                        "display": "ASAM - Office-Based Opioid Treatment (OBOT)"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "da",
+                        "display": "Differential Assessment"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "ips",
+                        "display": "Individual Placement Services"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "dui-1",
+                        "display": "DUI Level I Education"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "dui-2-e",
+                        "display": "DUI Level II Education-only"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "dui-2-te",
+                        "display": "DUI Level II Therapy and Education"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "code": "crisis",
+                "display": "Crisis",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "mobile",
+                        "display": "Mobile"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "atu-csu",
+                        "display": "ATU/CSU"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "youth-csu",
+                        "display": "Youth CSU"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "walk-in",
+                        "display": "Walk-in"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "respite",
+                        "display": "Respite"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "transportation",
+                        "display": "Transportation"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "code": "cymhta",
+                "display": "CYMHTA",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "treatment",
+                        "display": "Treatment"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "youth-residential",
+                        "display": "Youth residential"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "code": "assessment",
+                "display": "Assessment",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "Medicaid",
+                        "display": "Medicaid"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "ffpsa",
+                        "display": "FFPSA"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "cymhta",
+                        "display": "CYMHTA"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "code": "recovery",
+                "display": "Recovery",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "rss",
+                        "display": "Recovery Support Services (RSS)"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "rlc",
+                        "display": "Recovery Living Community (RLC)"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                "code": "mh",
+                "display": "Mental Health Designation (MH)",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-psych-hosp",
+                        "display": "Psychiatric Hospital"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-psych-hosp-lt",
+                        "display": "Psychiatric Hospital with Long Term Certification"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-hosp-ed",
+                        "display": "Hospital Emergency Department"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-comm-mh",
+                        "display": "Community Mental Health Center"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-comm-mh-atu",
+                        "display": "Community Mental Health Center with Acute Treatment Unit"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-comm-mh-csu",
+                        "display": "Community Mental Health Center with Crisis Stabilization Unit"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-comm-mh-atu-csu",
+                        "display": "Community Mental Health Center with Acute Treatment & Crisis Stabilization Unit"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-comm-mh-clinic",
+                        "display": "Community Mental Health Clinic"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-res-child",
+                        "display": "Residential Child Care Facility"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-res-child-psych-res",
+                        "display": "Residential Child Care Facility with Psychiatric Residential"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-res-child-pshych-res-lt",
+                        "display": "Residential Child Care Facility with Psychiatric Residential with Long Term Certification"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "mh-hospital",
+                        "display": "Hospital"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                "code": "sud",
+                "display": "Substance Use Disorder (SUD) Treatment License",
+                "contains": [
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-alcohol-drug-involuntary-commit",
+                        "display": "Alcohol & Drug Involuntary Commitment"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-cm-res-detox",
+                        "display": "Clinically Managed Residential Detox"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-mip",
+                        "display": "MIP"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-li-dui-edu",
+                        "display": "Level I DUI Education"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-lii-dui-edu",
+                        "display": "Level II DUI Education"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-lii-fourplus",
+                        "display": "Level II Four Plus"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-lii-dui-therapy",
+                        "display": "Level II DUI Therapy"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-lii-enhanced-outpatient-therapy",
+                        "display": "Level II Enhanced Outpatient Therapy"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-gen-treatment",
+                        "display": "General Treatment"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-youth-dui-edu",
+                        "display": "Youth DUI Education"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-youth-treatment",
+                        "display": "Youth Treatment"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-youth-dui-treatment",
+                        "display": "Youth DUI Treatment"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-gender-responsive-treatment-women",
+                        "display": "Gender Responsive Treatment for Women"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-edu-treatment-criminal-justice",
+                        "display": "Education & Treatment Services for Persons Involved in the Criminal Justice System"
+                    },
+                    {
+                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                        "code": "sud-edu-treatment-criminal-justice-enhanced-outpatient",
+                        "display": "Education & Treatment Services for Persons Involved in the Criminal Justice System Enhances Outpatient"
+                    }
+                ]
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                "code": "csl",
+                "display": "Controlled Substance License (CSL)"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license-category",
+                "code": "rsso",
+                "display": "Recovery Support Services Organization (RSSO)"
+            }
+        ]
+    }
+}

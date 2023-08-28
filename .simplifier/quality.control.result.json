@@ -1,22 +1,192 @@
 {
-  "Timestamp": "2023-06-23T21:58:09.37798+00:00",
-  "Series": "free",
-  "Type": "Simplifier",
+  "Timestamp": "2023-08-22T16:40:46.6307133+00:00",
+  "Series": "Validation",
+  "Type": "Forge",
   "Files": [
+    {
+      "Issues": [],
+      "Tag": null,
+      "Length": 2746,
+      "Hash": "D7EF37B8D5F3BAA44421597A31FB4BB5",
+      "FilePath": "input\\resources\\StructureDefinition-extension-adoptionInfo.json"
+    },
+    {
+      "Issues": [],
+      "Tag": null,
+      "Length": 1225,
+      "Hash": "0B5EA1CCBD0FD732CE384F684A9C7F22",
+      "FilePath": "input\\resources\\StructureDefinition-extension-SignalOrgPhotoAttachment.json"
+    },
     {
       "Issues": [
         {
-          "Location": null,
-          "Severity": 1,
-          "System": "https://simplifier.net/qc/errors/evaluation",
-          "Code": "CLAIM",
-          "Message": "This project has no canonical claims."
+          "Location": "Extension.extension.slicing",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CSlicingComponent\u003E can be removed"
+        },
+        {
+          "Location": "Extension.extension:identifier.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        },
+        {
+          "Location": "Extension.extension:issuer.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        },
+        {
+          "Location": "Extension.extension:period.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        },
+        {
+          "Location": "Extension.extension:whereValid.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
         }
       ],
+      "Tag": "90d7a578ff8644748a0cf3e29f0663cc",
+      "Length": 64482,
+      "Hash": "2C66A927037F3354025743E9635D8C61",
+      "FilePath": "input\\resources\\StructureDefinition-extension-SignalQualification.json"
+    },
+    {
+      "Issues": [],
       "Tag": null,
-      "Length": 0,
-      "Hash": null,
-      "FilePath": null
+      "Length": 13721,
+      "Hash": "A7B4775E09DA294B819A67CBE4193B9D",
+      "FilePath": "input\\resources\\StructureDefinition-extention-no-fixed-address.json"
+    },
+    {
+      "Issues": [],
+      "Tag": null,
+      "Length": 685,
+      "Hash": "4646BC1BCF7F87AAF6874020C1B8191F",
+      "FilePath": "input\\resources\\StructureDefinition-profile-location.json"
+    },
+    {
+      "Issues": [],
+      "Tag": null,
+      "Length": 418,
+      "Hash": "4D1210DB79D7457850D5099548E0396C",
+      "FilePath": "input\\resources\\StructureDefinition-profile-OrganizationAffiliation.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "Patient.extension:ethnicity.extension",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC012",
+          "Message": "Minimum cardinality should be set to 1 in the base profile"
+        },
+        {
+          "Location": "Patient.extension:tribalAffiliation.extension",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC012",
+          "Message": "Minimum cardinality should be set to 1 in the base profile"
+        },
+        {
+          "Location": "Patient.extension:ethnicity.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC006",
+          "Message": "Minimum cardinality can be recalculated and set to 1"
+        },
+        {
+          "Location": "Patient.extension:tribalAffiliation.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC006",
+          "Message": "Minimum cardinality can be recalculated and set to 1"
+        },
+        {
+          "Location": "Patient.extension:adoptionInfo.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        },
+        {
+          "Location": "Patient.address.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element can be removed"
+        },
+        {
+          "Location": "Patient.address.extension:noFixedAddress.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        }
+      ],
+      "Tag": "75733822717c4b0b9f86be8527b0e3f5",
+      "Length": 8341,
+      "Hash": "EDB32E1C3993B3F6B421D9CB88887D7C",
+      "FilePath": "input\\resources\\StructureDefinition-profile-patient.json"
+    },
+    {
+      "Issues": [],
+      "Tag": null,
+      "Length": 397,
+      "Hash": "29A78C20F4ABBF1F358223CEFFFB0878",
+      "FilePath": "input\\resources\\StructureDefinition-profile-practitioner.json"
+    },
+    {
+      "Issues": [],
+      "Tag": null,
+      "Length": 413,
+      "Hash": "3EF74898FAC9AAD597CDD67D6DF1D4E2",
+      "FilePath": "input\\resources\\StructureDefinition-profile-PractitionerRole.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "Organization.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element can be removed"
+        },
+        {
+          "Location": "Organization.extension:qualification.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        },
+        {
+          "Location": "Organization.extension:photo.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 can be removed"
+        },
+        {
+          "Location": "Organization.extension:photo.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u0027*\u0027 can be removed"
+        }
+      ],
+      "Tag": "a55a678d608b49de9962946488ade57e",
+      "Length": 2105,
+      "Hash": "1174920AF95F78B364EF40DDD8A86863",
+      "FilePath": "input\\resources\\StructureDefinition-profile-SignalUSCoreOrganizationProfile.json"
     }
   ]
 }

@@ -1,0 +1,153 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-organization-license",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-08-11T13:43:14.523+00:00"
+    },
+    "text": {
+        "status": "extensions"
+    },
+    "url": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+    "version": "6.0.0",
+    "name": "SignalOrganizationLicense",
+    "title": "Signal Organization License",
+    "status": "active",
+    "experimental": false,
+    "date": "2019-11-01T09:29:23+11:00",
+    "description": "Categories of signal specific Organization License details",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-organization-license",
+    "hierarchyMeaning" : "is-a",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "mh",
+            "display": "Mental Health Designation (MH)",
+            "concept": [
+                {
+                    "code": "mh-psych-hosp",
+                    "display": "Psychiatric Hospital"
+                },
+                {
+                    "code": "mh-psych-hosp-lt",
+                    "display": "Psychiatric Hospital with Long Term Certification"
+                },
+                {
+                    "code": "mh-hosp-ed",
+                    "display": "Hospital Emergency Department"
+                },
+                {
+                    "code": "mh-comm-mh",
+                    "display": "Community Mental Health Center"
+                },
+                {
+                    "code": "mh-comm-mh-atu",
+                    "display": "Community Mental Health Center with Acute Treatment Unit"
+                },
+                {
+                    "code": "mh-comm-mh-csu",
+                    "display": "Community Mental Health Center with Crisis Stabilization Unit"
+                },
+                {
+                    "code": "mh-comm-mh-atu-csu",
+                    "display": "Community Mental Health Center with Acute Treatment & Crisis Stabilization Unit"
+                },
+                {
+                    "code": "mh-comm-mh-clinic",
+                    "display": "Community Mental Health Clinic"
+                },
+                {
+                    "code": "mh-res-child",
+                    "display": "Residential Child Care Facility"
+                },
+                {
+                    "code": "mh-res-child-psych-res",
+                    "display": "Residential Child Care Facility with Psychiatric Residential"
+                },
+                {
+                    "code": "mh-res-child-pshych-res-lt",
+                    "display": "Residential Child Care Facility with Psychiatric Residential with Long Term Certification"
+                },
+                {
+                    "code": "mh-hospital",
+                    "display": "Hospital"
+                }
+            ]
+        },
+        {
+            "code": "sud",
+            "display": "Substance Use Disorder (SUD) Treatment License",
+            "concept": [
+                {
+                    "code": "sud-alcohol-drug-involuntary-commit",
+                    "display": "Alcohol & Drug Involuntary Commitment"
+                },
+                {
+                    "code": "sud-cm-res-detox",
+                    "display": "Clinically Managed Residential Detox"
+                },
+                {
+                    "code": "sud-mip",
+                    "display": "MIP"
+                },
+                {
+                    "code": "sud-li-dui-edu",
+                    "display": "Level I DUI Education"
+                },
+                {
+                    "code": "sud-lii-dui-edu",
+                    "display": "Level II DUI Education"
+                },
+                {
+                    "code": "sud-lii-fourplus",
+                    "display": "Level II Four Plus"
+                },
+                {
+                    "code": "sud-lii-dui-therapy",
+                    "display": "Level II DUI Therapy"
+                },
+                {
+                    "code": "sud-lii-enhanced-outpatient-therapy",
+                    "display": "Level II Enhanced Outpatient Therapy"
+                },
+                {
+                    "code": "sud-gen-treatment",
+                    "display": "General Treatment"
+                },
+                {
+                    "code": "sud-youth-dui-edu",
+                    "display": "Youth DUI Education"
+                },
+                {
+                    "code": "sud-youth-treatment",
+                    "display": "Youth Treatment"
+                },
+                {
+                    "code": "sud-youth-dui-treatment",
+                    "display": "Youth DUI Treatment"
+                },
+                {
+                    "code": "sud-gender-responsive-treatment-women",
+                    "display": "Gender Responsive Treatment for Women"
+                },
+                {
+                    "code": "sud-edu-treatment-criminal-justice",
+                    "display": "Education & Treatment Services for Persons Involved in the Criminal Justice System"
+                },
+                {
+                    "code": "sud-edu-treatment-criminal-justice-enhanced-outpatient",
+                    "display": "Education & Treatment Services for Persons Involved in the Criminal Justice System Enhances Outpatient"
+                }
+            ]
+        },
+        {
+            "code": "csl",
+            "display": "Controlled Substance License (CSL)"
+        },
+        {
+            "code": "rsso",
+            "display": "Recovery Support Services Organization (RSSO)"
+        }       
+    ]
+}

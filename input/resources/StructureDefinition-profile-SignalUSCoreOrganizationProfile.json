@@ -12,24 +12,9 @@
   "differential": {
     "element": [
       {
-        "id": "Organization.extension",
-        "path": "Organization.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
         "id": "Organization.extension:qualification",
         "path": "Organization.extension",
         "sliceName": "qualification",
-        "min": 0,
         "type": [
           {
             "code": "Extension",
@@ -41,12 +26,23 @@
         "isModifier": false
       },
       {
+        "id": "Organization.extension:qualification.extension:code",
+        "path": "Organization.extension.extension",
+        "sliceName": "code"
+      },
+      {
+        "id": "Organization.extension:qualification.extension:code.value[x]",
+        "path": "Organization.extension.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-organization-license"
+        }
+      },
+      {
         "id": "Organization.extension:photo",
         "path": "Organization.extension",
         "sliceName": "photo",
         "short": "Image or logo for the organization",
-        "min": 0,
-        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -56,6 +52,37 @@
           }
         ],
         "isModifier": false
+      },
+      {
+        "id": "Organization.type",
+        "path": "Organization.type",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "description": "Differentiate on code system used to capture information.",
+          "rules": "open"
+        },
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type"
+        }
+      },
+      {
+        "id": "Organization.type:npiTaxonomy",
+        "path": "Organization.type",
+        "sliceName": "npiTaxonomy",
+        "short": "NPI Provider Taxonomy Code",
+        "definition": "A taxonomy code is a unique 10-character code that designates your classification and specialization. You will use this code when applying for a National Provider Identifier, commonly referred to as an NPI.",
+        "comment": "For NPI Taxonomy, use this ValueSet: Valueset-provider-taxonomy - FHIR v5.0.0 (hl7.org). More information:\r\n\r\nhttps://taxonomy.nucc.org/\r\nThe Health Care Provider Taxonomy code set is an external, nonmedical data code set designed for use in an electronic environment, specifically within the ASC X12N Health Care transactions. This includes the transactions mandated under HIPAA.\r\nThe taxonomy code is a unique alphanumeric code, ten characters in length. The code set is structured into three distinct \"Levels\" including Provider Grouping, Classification, and Area of Specialization.\r\nFind Your Taxonomy Code | CMS (https://www.cms.gov/medicare/provider-enrollment-and-certification/find-your-taxonomy-code)\r\n\r\nNote: You may select more than one code or code description when applying for an NPI, but you must indicate one of them as the primary code.",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/provider-taxonomy"
+        }
       }
     ]
   }
