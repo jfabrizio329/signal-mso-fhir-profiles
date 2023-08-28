@@ -1,17 +1,6 @@
 {
     "resourceType": "ValueSet",
     "id": "service-provision-conditions",
-    "meta": {
-        "lastUpdated": "2019-11-01T09:29:23.356+11:00",
-        "profile": [
-            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-        ],
-        "versionId": "8a710074-1174-45ab-ae3c-2d1577cbe363"
-    },
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ServiceProvisionConditions</h2><div><p>The code(s) that detail the conditions under which the healthcare service is available/offered.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"codesystem-service-provision-conditions.html\"><code>http://terminology.hl7.org/CodeSystem/service-provision-conditions</code></a></li></ul></div>"
-    },
     "extension": [
         {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -33,27 +22,12 @@
             "value": "urn:oid:2.16.840.1.113883.4.642.3.514"
         }
     ],
-    "version": "4.0.1",
     "name": "ServiceProvisionConditions",
     "title": "ServiceProvisionConditions",
     "status": "draft",
     "experimental": false,
     "date": "2019-11-01T09:29:23+11:00",
     "publisher": "HL7 (FHIR Project)",
-    "contact": [
-        {
-            "telecom": [
-                {
-                    "system": "url",
-                    "value": "http://hl7.org/fhir"
-                },
-                {
-                    "system": "email",
-                    "value": "fhir@lists.hl7.org"
-                }
-            ]
-        }
-    ],
     "description": "The code(s) that detail the conditions under which the healthcare service is available/offered.",
     "immutable": true,
     "compose": {
@@ -67,14 +41,17 @@
         "timestamp": "2023-08-07T07:33:13.4374309+00:00",
         "contains": [
             {
+                "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
                 "code": "free",
                 "display": "Free"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
                 "code": "disc",
                 "display": "Discounts Available"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
                 "code": "cost",
                 "display": "Fees apply"
             }

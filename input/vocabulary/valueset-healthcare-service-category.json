@@ -1,0 +1,92 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-healthcare-service-category",
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category",
+    "name": "SignalHealthcareServiceCategory",
+    "title": "Signal Healthcare Service Category",
+    "status": "draft",
+    "experimental": false,
+    "description": "Broad categories of signal specific healthcare services being performed or delivered",
+    "compose": {
+        "include": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "total": 10,
+        "contains": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "prevention-early-intervention",
+                "display": "Prevention/Early Intervention Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "crisis",
+                "display": "Crisis Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "screening",
+                "display": "Screening Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "assessment",
+                "display": "Assessment Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "treatment",
+                "display": "Treatment Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "evaluation-management",
+                "display": "Evaluation and Management (E/M) Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "residential",
+                "display": "Residential Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "respite",
+                "display": "Respite Care Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "recovery",
+                "display": "Peer Support/Recovery Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "support",
+                "display": "Support Services"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+                "code": "other",
+                "display": "Other Services"
+            }
+        ]
+    }
+}

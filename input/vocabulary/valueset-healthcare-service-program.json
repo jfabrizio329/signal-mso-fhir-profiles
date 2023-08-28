@@ -1,0 +1,62 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-program",
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "http://signalbhn.org/fhir/ValueSet/signal-program",
+    "name": "SignalProgram",
+    "title": "Signal Program",
+    "status": "draft",
+    "experimental": false,
+    "description": "This value set defines the set of codes that could be can be used to classify signal specific programs.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "total": 5,
+        "contains": [
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "code": "sud",
+                "display": "Substance Use Disorder (SUD)"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "code": "crisis",
+                "display": "Colorado Crisis Services (CCS)"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "code": "cymhta",
+                "display": "Children and Youth Mental Health Treatment Act (CYMHTA)"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "code": "assessment",
+                "display": "Assessment"
+            },
+            {
+                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "code": "recovery",
+                "display": "Recovery"
+            }
+        ]
+    }
+}

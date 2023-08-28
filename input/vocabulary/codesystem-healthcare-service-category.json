@@ -1,0 +1,60 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-healthcare-service-category",
+    "url": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-category",
+    "name": "SignalHealthcareServiceCategory",
+    "title": "Signal Healthcare Service Category",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Broad categories of signal specific healthcare services being performed or delivered. Service categories are defined in the Uniform Service Coding Standards (USCS) Manual from Colorado Behavioral Health Administration (BHA)",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "prevention-early-intervention",
+            "display": "Prevention/Early Intervention Services"
+        },
+        {
+            "code": "crisis",
+            "display": "Crisis Services"
+        },
+        {
+            "code": "screening",
+            "display": "Screening Services"
+        },
+        {
+            "code": "assessment",
+            "display": "Assessment Services"
+        },
+        {
+            "code": "treatment",
+            "display": "Treatment Services"
+        },
+        {
+            "code": "evaluation-management",
+            "display": "Evaluation and Management (E/M) Services"
+        },
+        {
+            "code": "residential",
+            "display": "Residential Services"
+        },
+        {
+            "code": "respite",
+            "display": "Respite Care Services"
+        },
+        {
+            "code": "recovery",
+            "display": "Peer Support/Recovery Services"
+        },
+        {
+            "code": "support",
+            "display": "Support Services"
+        },
+        {
+            "code": "other",
+            "display": "Other Services"
+        }
+    ]
+}

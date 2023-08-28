@@ -1,9 +1,6 @@
 {
     "resourceType": "ValueSet",
     "id": "us-core-usps-state",
-    "text": {
-        "status": "generated"
-    },
     "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state",
     "identifier": [
         {
@@ -11,28 +8,12 @@
             "value": "urn:oid:2.16.840.1.113883.4.642.3.40"
         }
     ],
-    "version": "6.0.0",
     "name": "UspsTwoLetterAlphabeticCodes",
     "title": "USPS Two Letter Alphabetic Codes",
     "status": "active",
     "experimental": false,
     "date": "2022-09-29",
     "publisher": "HL7 International - Cross-Group Projects",
-    "contact": [
-        {
-            "name": "HL7 International - Cross-Group Projects",
-            "telecom": [
-                {
-                    "system": "url",
-                    "value": "http://www.hl7.org/Special/committees/cgp"
-                },
-                {
-                    "system": "email",
-                    "value": "cgp@lists.HL7.org"
-                }
-            ]
-        }
-    ],
     "description": "This value set defines two letter USPS alphabetic codes.",
     "jurisdiction": [
         {

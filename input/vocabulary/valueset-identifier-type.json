@@ -1,17 +1,6 @@
 {
     "resourceType": "ValueSet",
     "id": "identifier-type",
-    "meta": {
-        "versionId": "93dc07fb-434d-4111-bb92-b1c120765a25",
-        "lastUpdated": "2023-05-25T15:16:41.774+00:00",
-        "profile": [
-            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-        ]
-    },
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The narrative has been removed to reduce the size of the distribution of the Hl7.Fhir.Specification library</p></div>"
-    },
     "extension": [
         {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status",
@@ -33,22 +22,11 @@
             "value": "urn:oid:2.16.840.1.113883.18.108"
         }
     ],
-    "version": "2.9",
     "name": "v2.0203",
     "title": "v2 Identifier Type",
     "status": "active",
     "experimental": false,
     "publisher": "HL7, Inc",
-    "contact": [
-        {
-            "telecom": [
-                {
-                    "system": "url",
-                    "value": "http://hl7.org"
-                }
-            ]
-        }
-    ],
     "description": "FHIR Value set/code system definition for HL7 v2 table 0203 ( Identifier Type)",
     "immutable": true,
     "compose": {
@@ -63,510 +41,637 @@
         "total": 5,
         "contains": [
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "AC",
                 "display": "Accreditation/Certification Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "ACSN",
                 "display": "Accession ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "AM",
                 "display": "American Express"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "AMA",
                 "display": "American Medical Association Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "AN",
                 "display": "Account number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "ANC",
                 "display": "Account number Creditor"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "AND",
                 "display": "Account number debitor"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "ANON",
                 "display": "Anonymous identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "ANT",
                 "display": "Temporary Account Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "APRN",
                 "display": "Advanced Practice Registered Nurse number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "ASID",
                 "display": "Ancestor Specimen ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BA",
                 "display": "Bank Account Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BC",
                 "display": "Bank Card Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BCFN",
                 "display": "Birth Certificate File Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BCT",
                 "display": "Birth Certificate"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BR",
                 "display": "Birth registry number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BRN",
                 "display": "Breed Registry Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "BSNR",
                 "display": "Primary physician office number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "CC",
                 "display": "Cost Center number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "CONM",
                 "display": "Change of Name Document"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "CY",
                 "display": "County number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "CZ",
                 "display": "Citizenship Card"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DC",
                 "display": "Death Certificate ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DCFN",
                 "display": "Death Certificate File Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DDS",
                 "display": "Dentist license number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DEA",
                 "display": "Drug Enforcement Administration registration number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DFN",
                 "display": "Drug Furnishing or prescriptive authority Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DI",
                 "display": "Diner's Club card"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DL",
                 "display": "Driver's license number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DN",
                 "display": "Doctor number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DO",
                 "display": "Osteopathic License number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DP",
                 "display": "Diplomatic Passport"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DPM",
                 "display": "Podiatrist license number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DR",
                 "display": "Donor Registration Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "DS",
                 "display": "Discover Card"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "EI",
                 "display": "Employee number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "EN",
                 "display": "Employer number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "ESN",
                 "display": "Staff Enterprise Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "FDR",
                 "display": "Fetal Death Report ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "FDRFN",
                 "display": "Fetal Death Report File Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "FI",
                 "display": "Facility ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "FILL",
                 "display": "Filler Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "GI",
                 "display": "Guarantor internal identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "GL",
                 "display": "General ledger number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "GN",
                 "display": "Guarantor external identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "HC",
                 "display": "Health Card Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "IND",
                 "display": "Indigenous/Aboriginal"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "JHN",
                 "display": "Jurisdictional health number (Canada)"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "LACSN",
                 "display": "Laboratory Accession ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "LANR",
                 "display": "Lifelong physician number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "LI",
                 "display": "Labor and industries number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "LN",
                 "display": "License number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "LR",
                 "display": "Local Registry ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MA",
                 "display": "Patient Medicaid number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MB",
                 "display": "Member Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MC",
                 "display": "Patient's Medicare number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MCD",
                 "display": "Practitioner Medicaid number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MCN",
                 "display": "Microchip Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MCR",
                 "display": "Practitioner Medicare number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MCT",
                 "display": "Marriage Certificate"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MD",
                 "display": "Medical License number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MI",
                 "display": "Military ID number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MR",
                 "display": "Medical record number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MRT",
                 "display": "Temporary Medical Record Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "MS",
                 "display": "MasterCard"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NBSNR",
                 "display": "Secondary physician office number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NCT",
                 "display": "Naturalization Certificate"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NE",
                 "display": "National employer identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NH",
                 "display": "National Health Plan Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NI",
                 "display": "National unique individual identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NII",
                 "display": "National Insurance Organization Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NIIP",
                 "display": "National Insurance Payor Identifier (Payor)"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NNxxx",
                 "display": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NP",
                 "display": "Nurse practitioner number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "NPI",
                 "display": "National provider identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "OBI",
                 "display": "Observation Instance Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "OD",
                 "display": "Optometrist license number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PA",
                 "display": "Physician Assistant number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PC",
                 "display": "Parole Card"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PCN",
                 "display": "Penitentiary/correctional institution Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PE",
                 "display": "Living Subject Enterprise Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PEN",
                 "display": "Pension Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PHC",
                 "display": "Public Health Case Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PHE",
                 "display": "Public Health Event Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PHO",
                 "display": "Public Health Official ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PI",
                 "display": "Patient internal identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PLAC",
                 "display": "Placer Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PN",
                 "display": "Person number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PNT",
                 "display": "Temporary Living Subject Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PPIN",
                 "display": "Medicare/CMS Performing Provider Identification Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PPN",
                 "display": "Passport number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PRC",
                 "display": "Permanent Resident Card Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PRN",
                 "display": "Provider number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "PT",
                 "display": "Patient external identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "QA",
                 "display": "QA number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "RI",
                 "display": "Resource identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "RN",
                 "display": "Registered Nurse Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "RPH",
                 "display": "Pharmacist license number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "RR",
                 "display": "Railroad Retirement number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "RRI",
                 "display": "Regional registry ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "RRP",
                 "display": "Railroad Retirement Provider"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SB",
                 "display": "Social Beneficiary Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SID",
                 "display": "Specimen ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SL",
                 "display": "State license"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SN",
                 "display": "Subscriber Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SNBSN",
                 "display": "State assigned NDBS card Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SNO",
                 "display": "Serial Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SP",
                 "display": "Study Permit"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SR",
                 "display": "State registry ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "SS",
                 "display": "Social Security number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "STN",
                 "display": "Shipment Tracking Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "TAX",
                 "display": "Tax ID number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "TN",
                 "display": "Treaty Number/ (Canada)"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "TPR",
                 "display": "Temporary Permanent Resident (Canada)"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "TRL",
                 "display": "Training License Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "U",
                 "display": "Unspecified identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "UDI",
                 "display": "Universal Device Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "UPIN",
                 "display": "Medicare/CMS (formerly HCFA)'s Universal Physician Identification numbers"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "USID",
                 "display": "Unique Specimen ID"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "VN",
                 "display": "Visit number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "VP",
                 "display": "Visitor Permit"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "VS",
                 "display": "VISA"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "WC",
                 "display": "WIC identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "WCN",
                 "display": "Workers' Comp Number"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "WP",
                 "display": "Work Permit"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "XV",
                 "display": "Health Plan Identifier"
             },
             {
+                "system": "http://hl7.org/fhir/identifier-type",
                 "code": "XX",
                 "display": "Organization identifier"
             }

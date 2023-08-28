@@ -1,9 +1,6 @@
 {
   "resourceType": "ValueSet",
   "id": "omb-race-category",
-  "text": {
-      "status": "generated"
-  },
   "url": "http://hl7.org/fhir/us/core/ValueSet/omb-race-category",
   "identifier": [
       {
@@ -11,28 +8,12 @@
           "value": "urn:oid:2.16.840.1.113883.4.642.2.575"
       }
   ],
-  "version": "6.0.0",
   "name": "OmbRaceCategories",
   "title": "OMB Race Categories",
   "status": "active",
   "experimental": false,
   "date": "2022-09-29",
   "publisher": "HL7 International - Cross-Group Projects",
-  "contact": [
-      {
-          "name": "HL7 International - Cross-Group Projects",
-          "telecom": [
-              {
-                  "system": "url",
-                  "value": "http://www.hl7.org/Special/committees/cgp"
-              },
-              {
-                  "system": "email",
-                  "value": "cgp@lists.HL7.org"
-              }
-          ]
-      }
-  ],
   "description": "The codes for the concepts 'Unknown', 'Asked but Unknown', 'Other Race'* and\nthe codes for the five race categories - 'American Indian' or 'Alaska Native',\n'Asian', 'Black or African American', 'Native Hawaiian or Other Pacific\nIslander', and 'White' - as defined by the [OMB Standards for Maintaining,\nCollecting, and Presenting Federal Data on Race and Ethnicity, Statistical\nPolicy Directive No. 15, as revised, October 30,\n1997](https://www.govinfo.gov/content/pkg/FR-1997-10-30/pdf/97-28653.pdf)\n\n\\* The use of 'Other Race' is discouraged for statistical analysis.",
   "jurisdiction": [
       {
