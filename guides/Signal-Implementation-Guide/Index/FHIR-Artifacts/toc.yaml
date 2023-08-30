@@ -6,3 +6,5 @@
   filename: Structure-Definition--OrganizationAffiliation-Profile.page.md
 - name: 'Structure Definition: HealthcareService Profile'
   filename: Structure-Definition--HealthcareService-Profile.page.md
+- name: 'Structure Definition: Location Profile'
+  filename: Structure-Definition--Location-Profile.page.md

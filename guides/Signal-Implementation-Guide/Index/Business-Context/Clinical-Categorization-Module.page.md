@@ -1,6 +1,12 @@
-## {{page-title}}
+---
+topic: {{page-title}}
+---
 
-### Context
+# {{page-title}}
+
+---
+
+## Context
 This is the administration module for clinical categorization.  It captures concepts the entire admission or case, individual services, surveys, and discharge events.
 
 For this specific implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
@@ -10,7 +16,7 @@ For this specific implementation, modifications will be made to the [Clinical Ca
 - `Encounter` resources will be child (lower-level) pointing to a related `EpisodeOfCare` will collect individual service codes/procedures during a case.
 - `Encounter` will also be created for each event or transaction including but not limited to admission, discharge, survey, notes, and more.
 
-### FHIR Focus Resource Types
+## FHIR Focus Resource Types
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
@@ -29,9 +35,9 @@ For this specific implementation, modifications will be made to the [Clinical Ca
 | [ChargeItem](http://hl7.org/fhir/R4/chargeitem.html) | --- | --- |
 | --- | --- | --- |
 
-### Conceptual Model
+## Conceptual Model
 
 ![organization and services conceptual diagram](../assets/images/signal-admission-2023-08-02.png "Logo Title Text 1")
 
 
-### Examples
+## Examples
