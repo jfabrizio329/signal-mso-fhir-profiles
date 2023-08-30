@@ -13,6 +13,14 @@
   "differential": {
     "element": [
       {
+        "id": "HealthcareService.category",
+        "path": "HealthcareService.category",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+        }
+      },
+      {
         "id": "HealthcareService.type",
         "path": "HealthcareService.type",
         "slicing": {
@@ -27,15 +35,15 @@
         }
       },
       {
-        "id": "HealthcareService.type:serviceCategory",
+        "id": "HealthcareService.type:services",
         "path": "HealthcareService.type",
-        "sliceName": "serviceCategory",
+        "sliceName": "services",
         "definition": "Each CPT code falls into one of ten primary categories of service, or 'Service categories'",
         "min": 1,
         "binding": {
           "strength": "required",
-          "description": "Service Category allowed in healthcare service.",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+          "description": "Service types allowed in healthcare service",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       },
       {
