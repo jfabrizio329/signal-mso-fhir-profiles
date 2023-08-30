@@ -56,30 +56,37 @@
         "total": 7,
         "contains": [
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "AD",
                 "display": "Admission diagnosis"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "DD",
                 "display": "Discharge diagnosis"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "CC",
                 "display": "Chief complaint"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "CM",
                 "display": "Comorbidity diagnosis"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "pre-op",
                 "display": "pre-op diagnosis"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "post-op",
                 "display": "post-op diagnosis"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
                 "code": "billing",
                 "display": "Billing"
             }
