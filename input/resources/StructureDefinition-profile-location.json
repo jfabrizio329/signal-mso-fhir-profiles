@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "profile-location",
   "url": "https://signalbhn.org/fhir/StructureDefinition/Location",
   "name": "LocationProfile",
   "status": "draft",

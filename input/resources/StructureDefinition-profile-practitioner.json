@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "profile-practitioner",
   "url": "https://signalbhn.org/fhir/StructureDefinition/Practitioner",
   "name": "PractitionerProfile",
   "status": "draft",

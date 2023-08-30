@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "profile-organization-affiliation",
   "url": "https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation",
   "name": "OrganizationAffiliation",
   "status": "draft",
