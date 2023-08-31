@@ -1,4 +1,10 @@
-## {{page-title}}
+---
+topic: {{page-title}}
+---
+
+# {{page-title}}
+
+---
 
 Canonical URL: https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation
 

@@ -1,6 +1,12 @@
-## {{page-title}}
+---
+topic: {{page-title}}
+---
 
-## Terms, Acronyms, and Abbreviations
+# {{page-title}}
+
+---
+
+# Terms, Acronyms, and Abbreviations
 
 |Term/Acronym/Abbreviation|Description|
 |--- | --- |
@@ -16,7 +22,7 @@
 | asdf | asdf |
 
 
-## FHIR focus elements to business terms
+# FHIR focus elements to business terms
 The following describes Signal-specific aliases and definitions and how they align to FHIR resources.  US Core profiles shall be used where they exist:
 
 |Signal term|FHIR resource|Notes|

@@ -1,1 +1,7 @@
-## {{page-title}}
+---
+topic: {{page-title}}
+---
+
+# {{page-title}}
+
+---
