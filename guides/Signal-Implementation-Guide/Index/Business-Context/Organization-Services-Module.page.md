@@ -21,14 +21,8 @@ This is the administration module for Organiation Services, which defines the re
 
 # Conceptual Model
 
-![organization and services conceptual diagram](../assets/images/signal-org-conceptual-01.png "organization and services conceptual diagram")
-
-{{render:assets/images/signal-org-conceptual-01-png}}
-
-{{render:../assets/images/signal-org-conceptual-01-png}}
-
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-conceptual-01.png}}
 
 # Examples
 
-![organization example 01](../assets/images/signal-org-example-01.png "organization example 01")
-
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-example-01.png}}
