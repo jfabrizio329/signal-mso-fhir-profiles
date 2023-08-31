@@ -1,0 +1,42 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-profile-us-core-service-request",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalUSCoreServiceRequest",
+  "name": "StructureDefinition-profile-SignalUSCoreServiceRequest",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ServiceRequest.status",
+        "path": "ServiceRequest.status",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/request-status"
+        }
+      },
+      {
+        "id": "ServiceRequest.intent",
+        "path": "ServiceRequest.intent",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/request-intent"
+        }
+      },
+      {
+        "id": "ServiceRequest.category:us-core",
+        "path": "ServiceRequest.category",
+        "sliceName": "us-core",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+        }
+      }
+    ]
+  }
+}
