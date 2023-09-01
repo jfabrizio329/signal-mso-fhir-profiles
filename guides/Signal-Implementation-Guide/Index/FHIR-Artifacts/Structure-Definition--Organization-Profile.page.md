@@ -61,30 +61,30 @@ The Organization resource is used to collect information on healthcare service p
 **.name**
 - SHOULD contain the name of the organization presented to providers and users, e.g., "Denver Medical"
 
-
 **.type**
 - Signal custom code system that identifies the kind of organization (e.g. service organization, provider agency, provider location)
-- Type does not explicitly denote hierarchy. The `.partOf` and the *OrganizationAffiliation* resource should be used for this purpose.
-- Binding: [SignalOrganizationType](https://simplifier.net/resolve?scope=Signal-MSO-FHIR-Profiles@current&filepath=input/vocabulary/valueset-organization-type.json) (required)
+- Type does not explicitly denote hierarchy. See the `.partOf` element and the *OrganizationAffiliation* resource for more information.
 Slices:
    - **.type:npiTaxonomy** - Signal Custom slice representing NPI Provider Taxonomy Code
-      - Binding: [ProviderTaxonomyCodes](https://simplifier.net/resolve?scope=Signal-MSO-FHIR-Profiles@current&filepath=input/vocabulary/valueset-provider-taxonomy.json) (required)
 
 **.partOf**
-- The organization of which this organization forms a part
-- Provider locations are part of an Provider/State Agency
+- SHALL reference an existing Organization resource when used
+- The organization that wholly or partly owns the current organization; e.g. Provider locations are part of an Provider/State Agency
 - Most common example is the specific *provider location* for a *provider agency*;  e.g. 'Denver West' provider location would contain `.partOf='Denver Medical'`
 - This relationship will be used for determining user access to services associated with Patients at the provider agency
 
-**.qualification (extension)**
-- This should represent the same as the `Organization.qualification` element now included in [Organization (R5)](https://hl7.org/fhir/R5/organization.html)
-- Signal custom code system and valueset that identifies services (licenses) a provider is qualified to offer
-   - Binding: [valueset-organization-license-type.json](https://simplifier.net/resolve?scope=Signal-MSO-FHIR-Profiles@current&filepath=input/vocabulary/valueset-organization-license-type.json) (required)
+**.extension:qualification**
+- Represents the same purpose as the `Organization.qualification` element now included in [Organization (R5)](https://hl7.org/fhir/R5/organization.html)
+- Signal custom code system and valueset that identifies services (licenses) a provider is qualified to offer.  
+   - Licenses are assigned by [Colorado LADDERS](https://www.colorado.gov/LADDERS)
 
-**.photo (extension)**
+
+**.extension:photo**
 - Used to store Organization logo for use in the user interface (UI)
 - Logo will be placed in storage and URI provided for the file
 
+**.addresss**
+- SHOULD contain information about the physical location of this organization. In the case of provider locations, SHOULD match the location on any licenses (defined in `.qualification`).
 
 # Examples
 
