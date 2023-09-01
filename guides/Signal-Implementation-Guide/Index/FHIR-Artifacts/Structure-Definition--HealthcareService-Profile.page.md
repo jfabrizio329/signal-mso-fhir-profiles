@@ -39,43 +39,16 @@ The HealthcareService resource is used to describe healthcare services offered b
 - SHALL be used to group services offered by one or more organizations under a formal "program" label; e.g. SUD, CYMHTA, CCS.
 - Programs are relatively static within the organization and create the main taxonomy for the service categories and procedures available.
 
-**.type** -- *Future change* call this the `.type.services` element
-- SHALL be used as a secondary grouping of services offered, creating a hierarchical relationship to programs; e.g. SUD ASAM-0.5, SUD Differential Assessment, Crisis mobile, CYMHTA treatment.
+**.type:service**  -- *Future change* change this to .category element
+- Secondary level to program, used as a hierarchical relationship to programs; e.g. SUD ASAM-0.5, SUD Differential Assessment, Crisis mobile, CYMHTA treatment.
+- Previously referred to as *modality*
 
-**.type.serviceCategory**  -- *Future change* change this to .category element
-- SHALL be used to facilitate groupings of procedures to be offered; e.g. Prevention/Eearly Intervention Services, Screening, Crisis
-- Definitions from Colorado BHA USCS Manual and a catch-all Other for business-specific definitions
-
-**.type.procedure**
-- SHOULD be populated with with procedure codes (HCPCS, CPT) available under each related .serviceCategory
-- Definitions from Colorado BHA USCS Manual
+**.type:procedure**
+- SHOULD be populated with with procedure codes (HCPCS, CPT) that are applicable to this service category
+- Definitions come from [Colorado BHA USCS Manual](https://hcpf.colorado.gov/sites/hcpf/files/July%202023%20USCS%20Manual%20Draft%20-Final.pdf)
 
 **.category**
-- *Future change*: this will be the .type.serviceCategory
-
-**.type**
-- asdf
-
-**.type**
-- asdf
-
-**.type**
-- asdf
-
-**.type**
-- asdf
-
-**.type**
-- asdf
-
-**.type**
-- asdf
-
-**.type**
-- asdf
-
-
-
-
+- SHALL be used to facilitate groupings of procedures to be offered; e.g. Prevention/Eearly Intervention Services, Screening, Crisis
+- Definitions from Colorado BHA USCS Manual and a catch-all Other for business-specific definitions
 
 ### Examples
