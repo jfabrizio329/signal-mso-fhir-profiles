@@ -21,8 +21,8 @@ This is the administration module for Organiation Services, which defines the re
 
 # Conceptual Model
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-conceptual-01.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-service-module-2023-08-31.png}}
 
 # Examples
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-example-01.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-example-01-2023-08-31.png}}

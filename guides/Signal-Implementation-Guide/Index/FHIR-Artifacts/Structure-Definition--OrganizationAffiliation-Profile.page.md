@@ -14,14 +14,17 @@ Derived from: [OrganizationAffiliation (R4)](http://hl7.org/fhir/R4/organization
 
 Module:  {{pagelink:Organization-Services-Module}}
 
-### Formal views of profile content
+---
+
+# Formal profile content
 {{tree:https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation, snapshot}}
 
 
-### Usage
-The Organization Affiliation resource is used to 
+# Profile usage
 
-#### Notes
+TBD
+
+## Profile element notes
 
 **.type**
 - asdf
@@ -29,4 +32,4 @@ The Organization Affiliation resource is used to
 
 
 
-### Examples
+# Examples
