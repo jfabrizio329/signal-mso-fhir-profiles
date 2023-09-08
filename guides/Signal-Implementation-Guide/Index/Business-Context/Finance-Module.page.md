@@ -13,7 +13,13 @@ This is the Finance Module for capturing information related to contracts, accou
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
+| [Contract](http://hl7.org/fhir/R4/contract.html) | TBD        | TBD |
+| [Coverage](https://hl7.org/fhir/us/core/StructureDefinition-us-core-coverage.html) (US Core) | TBD        | TBD |
+| [Account](http://hl7.org/fhir/R4/account.html) | TBD        | TBD |
+| [Invoice](http://hl7.org/fhir/R4/invoice.html) | TBD        | TBD |
+| [ChargeItem](http://hl7.org/fhir/R4/chargeitem.html) | TBD        | TBD |
 | TBD | TBD        | TBD |
+
 
 
 # Conceptual Model

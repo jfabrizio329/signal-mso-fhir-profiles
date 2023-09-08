@@ -18,4 +18,4 @@ A Provider-location (Organization.participatingOrganization) has a relationship 
 OrganizationAffiliation.healthcareService 0..* (HealthcareService) references all the offered programs, services, service categories, and procedure codes.  There will be 1 or many HealthcareService references, depending on the number of programs and services offered by the provider.
 HealthcareService.program (Signal MSO FHIR Profiles | SignalProgram - SIMPLIFIER.NET) contains the applicable programs. 
 
-See the [Organization Services Mdule example 1]()
+See the {{pagelink:Index/Business-Context/Organization-Services-Module.page.md}} for more information.

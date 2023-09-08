@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: organization-profile
 ---
 
 # {{page-title}}
@@ -16,7 +16,7 @@ Module:  {{pagelink:Organization-Services-Module}}
 
 ---
 
-# Formal profile content
+## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
 		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile, snapshot}}
@@ -29,11 +29,11 @@ Module:  {{pagelink:Organization-Services-Module}}
 	</tab>
 </tabs>
 
-# Profile usage
+## Profile usage
 
 The Organization resource is used to collect information on healthcare service providers, provider locations, or service organizations that may be used as support for other resources that need to reference organizations.  Hierarchies (levels via Organization.partOf), affiliations (via the OrganizationAffliation resource), and services (via the HealthcareServices resource) are established to provide context into relationships and capabilities of each organization.
 
-## Profile element notes
+### Profile element notes
 
 **.identifier**
 - Business identifier(s) specific to this resource
@@ -86,5 +86,5 @@ Slices:
 **.addresss**
 - SHOULD contain information about the physical location of this organization. In the case of provider locations, SHOULD match the location on any licenses (defined in `.qualification`).
 
-# Examples
+## Examples
 

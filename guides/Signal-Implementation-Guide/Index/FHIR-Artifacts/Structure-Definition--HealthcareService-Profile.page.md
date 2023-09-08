@@ -16,7 +16,7 @@ Module:  {{pagelink:Organization-Services-Module}}
 
 ---
 
-# Formal profile content
+## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
 		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService, snapshot}}
@@ -29,11 +29,11 @@ Module:  {{pagelink:Organization-Services-Module}}
 	</tab>
 </tabs>
 
-# Profile usage
+## Profile usage
 
 The HealthcareService resource is used to describe healthcare services offered by an organization (called a provider) within a given context defined by OrganizationAffiliation. This resource contains many business-specific elements including offered programs, service types (modalities), service categories, procedure codes, and more.  HealthcareService is meant to be a reusable resource, relating the aforementioned business elements to providers.
 
-## Profile element notes
+### Profile element notes
 
 **.program**
 - SHALL be used to group services offered by one or more organizations under a formal "program" label; e.g. SUD, CYMHTA, CCS.
@@ -51,4 +51,4 @@ The HealthcareService resource is used to describe healthcare services offered b
 - SHALL be used to facilitate groupings of procedures to be offered; e.g. Prevention/Eearly Intervention Services, Screening, Crisis
 - Definitions from Colorado BHA USCS Manual and a catch-all Other for business-specific definitions
 
-### Examples
+## Examples

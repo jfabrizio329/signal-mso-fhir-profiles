@@ -20,14 +20,14 @@ For this specific implementation, modifications will be made to the [Clinical Ca
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
-| [EpisodeOfCare](http://hl7.org/fhir/R4/episodeofcare.html)         | Admission, Case Program, Problem | --- |
-| [Encounter](https://hl7.org/fhir/us/core/StructureDefinition-us-core-encounter.html)             | Visit | --- |
-| [ServiceRequest](https://hl7.org/fhir/us/core/StructureDefinition-us-core-servicerequest.html)        | Referral | --- |
-| [Procedure](https://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html)             | Service | --- |
-| [Simple Observation](https://hl7.org/fhir/us/core/StructureDefinition-us-core-simple-observation.html) | --- | --- |
-| [Condition Problems](https://hl7.org/fhir/us/core/StructureDefinition-us-core-condition-problems-health-concerns.html) | --- | For practitioner notes on encounter related to condition. Capture clinical concept that is documented and categorized as a problem or health concern including information about a Social Determinants of Health-related condition. |
-| [Condition Encounter Diagnosis](https://hl7.org/fhir/us/core/StructureDefinition-us-core-condition-encounter-diagnosis.html) | --- | For encoutner diagnosis |
-| [Organization](https://hl7.org/fhir/us/core/StructureDefinition-us-core-organization.html) | Provider, Agency, Location | --- |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--EpisodeOfCare-Profile.page.md}}         | Admission, Case Program, Problem | --- |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Encounter-Profile.page.md}} | Visit | --- |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--ServiceRequest-Profile.page.md}}        | Referral | --- |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Procedure-Profile.page.md}}             | Service | --- |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Simple-Observation-Profile.page.md}} | --- | --- |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Condition-Problems-Profile.page.md}} | --- | For practitioner notes on encounter related to condition. Capture clinical concept that is documented and categorized as a problem or health concern including information about a Social Determinants of Health-related condition. |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Condition-Encounter-Diagnosis-Profile.page.md}} | --- | For encoutner diagnosis |
+| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Organization-Profile.page.md}} | Provider, Agency, Location | --- |
 | [Patient](https://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html) | Client | --- |
 | [Practitioner](https://hl7.org/fhir/us/core/StructureDefinition-us-core-practitioner.html) | Clinician, doctor | Not currently used |
 | [PractitionerRole](https://hl7.org/fhir/us/core/StructureDefinition-us-core-practitionerrole.html) | --- | Not currently used |
