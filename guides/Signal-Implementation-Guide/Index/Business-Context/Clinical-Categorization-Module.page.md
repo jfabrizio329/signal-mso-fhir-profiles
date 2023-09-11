@@ -6,7 +6,7 @@ topic: {{page-title}}
 
 ---
 
-# Context
+## Context
 This is the administration module for clinical categorization.  It captures concepts the entire admission or case, individual services, surveys, and discharge events.
 
 For this specific implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
@@ -16,7 +16,7 @@ For this specific implementation, modifications will be made to the [Clinical Ca
 - `Encounter` resources will be child (lower-level) pointing to a related `EpisodeOfCare` will collect individual service codes/procedures during a case.
 - `Encounter` will also be created for each event or transaction including but not limited to admission, discharge, survey, notes, and more.
 
-# FHIR Focus Resource Types
+## FHIR Focus Resource Types
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
@@ -41,17 +41,17 @@ For this specific implementation, modifications will be made to the [Clinical Ca
 | --- | --- | --- |
 
 
-# Conceptual Model
+## Conceptual Model
 
 {{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-clinical-module-2023-08-31.png}}
 
-## Structured Screening and Assessments - Survey, Questionnaire, and Questionnaire Response
+### Structured Screening and Assessments - Survey, Questionnaire, and Questionnaire Response
 
 Following [HL7.FHIR.US.CORE\Screening and Assessments - FHIR v4.0.01](http://hl7.org/fhir/us/core/screening-and-assessments.html) guidance.
 - US Core Observation Screening Assessment Profile
 - SDC Base Questionnaire
 - US Core QuestionnaireResponse Profile
 
-# Examples
+## Examples
 
 

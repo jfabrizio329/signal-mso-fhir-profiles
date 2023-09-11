@@ -6,10 +6,10 @@ topic: {{page-title}}
 
 ---
 
-# Context
+## Context
 This is the administration module for Organiation Services, which defines the relationship between service organizations, provider agencies, and locations and the types of programs, services, and procedures they are able to provide.
 
-# FHIR Focus Resource Types
+## FHIR Focus Resource Types
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
@@ -19,10 +19,10 @@ This is the administration module for Organiation Services, which defines the re
 | {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Location-Profile.page.md}}                 | --- | Utilized as a fact table for further descriptive elements of an Organization |
 
 
-# Conceptual Model
+## Conceptual Model
 
 {{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-service-module-2023-08-31.png}}
 
-# Examples
+## Examples
 
 {{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-example-01-2023-08-31.png}}
