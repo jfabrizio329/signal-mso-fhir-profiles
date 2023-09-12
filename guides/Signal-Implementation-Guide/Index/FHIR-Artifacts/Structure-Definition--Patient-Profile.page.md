@@ -31,7 +31,11 @@ Module:  {{pagelink:Patient-Administration-Module}}
 
 ## Profile usage
 
-The Organization resource is used to collect basic demographic and administrative information on individual patients that are receiving services.  It is designed to be specific to each provider organization (utilizing the `manageingOrganization` element.
+The Patient resource is used to collect basic demographic and administrative information on individuals that are receiving one or more services. The profile is expected to comply with the US Core Patient Profile specifications, plus contains additional extensions and identifier slices specific for Signal.
+
+Note there is no program, admission, encounter, or other provider interaction information contained on the Patient resource.  Nor is there any insurance, coverage, or payment information directly on Patient.  This resource only covers the "who" information about the patient.
+
+The patient profile is designed to be specific to each provider organization utilizing the `managingOrganization` element. Multiple resources for an indiviaul may exist, and in this way, duplicate records for an individual are expected within this system across provider organizations.
 
 ### Profile element notes
 

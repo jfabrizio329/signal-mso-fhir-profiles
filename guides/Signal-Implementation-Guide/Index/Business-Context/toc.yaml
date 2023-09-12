@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: Use Cases
+  filename: Use-Cases.page.md
 - name: Business Rules
   filename: Business-Rules.page.md
 - name: Patient Administration Module

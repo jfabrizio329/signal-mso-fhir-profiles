@@ -9,6 +9,8 @@ topic: patient-administration-module
 ## Context
 This is the Patient Administration Module for describing Patient interaction touchpoints.
 
+Note that there is no program, admission, encounter, or other provider interaction information contained on the Patient resource.  Nor is there any insurance, coverage, or payment information directly on Patient.  The Patient resource only covers the "who" information about the patient. Other resources will point to the patient, as noted in the conceptual model diagram.
+
 ## FHIR Focus Resource Types
 
 | Name                      | Aliases                                   | Description |
