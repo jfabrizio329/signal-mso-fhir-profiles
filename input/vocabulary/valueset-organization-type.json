@@ -1,0 +1,175 @@
+{
+  "resourceType": "ValueSet",
+  "id": "signal-organization-type",
+  "url": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
+  "name": "SignalOrganizationType",
+  "title": "Signal Organization Type",
+  "status": "draft",
+  "experimental": false,
+  "date": "2023-07-25",
+  "description": "Types of Organization and its details.",
+  "compose": {
+      "include": [
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "concept": [
+                {
+                    "code": "service-org",
+                    "display": "Service Organization"
+                },
+                {
+                    "code": "state-agency",
+                    "display": "State Agency"
+                },
+                {
+                    "code": "prov-location",
+                    "display": "Provider Location"
+                },
+                {
+                    "code": "payer",
+                    "display": "Payer"
+                }
+              ]
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "concept":[
+                {
+                  "code": "prov",
+                  "display": "Healthcare Provider"
+              },
+              {
+                  "code": "dept",
+                  "display": "Hospital Department"
+              },
+              {
+                  "code": "team",
+                  "display": "Organizational team"
+              },
+              {
+                  "code": "govt",
+                  "display": "Government"
+              },
+              {
+                  "code": "ins",
+                  "display": "Insurance Company"
+              },
+              {
+                  "code": "pay",
+                  "display": "Payer"
+              },
+              {
+                  "code": "edu",
+                  "display": "Educational Institute"
+              },
+              {
+                  "code": "reli",
+                  "display": "Religious Institution"
+              },
+              {
+                  "code": "crs",
+                  "display": "Clinical Research Sponsor"
+              },
+              {
+                  "code": "cg",
+                  "display": "Community Group"
+              },
+              {
+                  "code": "bus",
+                  "display": "Non-Healthcare Business or Corporation"
+              },
+              {
+                  "code": "other",
+                  "display": "Other"
+              }
+                          ]
+          }
+      ]
+  },
+  "expansion": {
+      "timestamp": "2022-06-10T10:28:30-04:00",
+      "total": 15,
+      "contains": [
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "service-org",
+              "display": "Service Organization"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "state-agency",
+              "display": "State Agency"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "prov-location",
+              "display": "Provider Location"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+              "code": "payer",
+              "display": "Payer"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "prov",
+              "display": "Healthcare Provider"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "dept",
+              "display": "Hospital Department"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "team",
+              "display": "Organizational team"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "govt",
+              "display": "Government"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "ins",
+              "display": "Insurance Company"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "pay",
+              "display": "Payer"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "edu",
+              "display": "Educational Institute"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "reli",
+              "display": "Religious Institution"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "crs",
+              "display": "Clinical Research Sponsor"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "cg",
+              "display": "Community Group"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "bus",
+              "display": "Non-Healthcare Business or Corporation"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "other",
+              "display": "Other"
+          }
+      ]
+  }
+}

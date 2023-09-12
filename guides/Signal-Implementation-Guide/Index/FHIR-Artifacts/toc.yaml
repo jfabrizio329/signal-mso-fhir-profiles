@@ -1,0 +1,38 @@
+- name: Index
+  filename: Index.page.md
+- name: 'Structure Definition: Patient Profile'
+  filename: Structure-Definition--Patient-Profile.page.md
+- name: 'Structure Definition: Organization Profile'
+  filename: Structure-Definition--Organization-Profile.page.md
+- name: 'Structure Definition: OrganizationAffiliation Profile'
+  filename: Structure-Definition--OrganizationAffiliation-Profile.page.md
+- name: 'Structure Definition: HealthcareService Profile'
+  filename: Structure-Definition--HealthcareService-Profile.page.md
+- name: 'Structure Definition: Location Profile'
+  filename: Structure-Definition--Location-Profile.page.md
+- name: 'Structure Definition: EpisodeOfCare Profile'
+  filename: Structure-Definition--EpisodeOfCare-Profile.page.md
+- name: 'Structure Definition: Encounter Profile'
+  filename: Structure-Definition--Encounter-Profile.page.md
+- name: 'Structure Definition: ServiceRequest Profile'
+  filename: Structure-Definition--ServiceRequest-Profile.page.md
+- name: 'Structure Definition: Procedure Profile'
+  filename: Structure-Definition--Procedure-Profile.page.md
+- name: 'Structure Definition: Simple Observation Profile'
+  filename: Structure-Definition--Simple-Observation-Profile.page.md
+- name: 'Structure Definition: Condition Problems Profile'
+  filename: Structure-Definition--Condition-Problems-Profile.page.md
+- name: 'Structure Definition: Condition Encounter Diagnosis Profile'
+  filename: Structure-Definition--Condition-Encounter-Diagnosis-Profile.page.md
+- name: 'Structure Definition: Practitioner Profile'
+  filename: Structure-Definition--Practitioner-Profile.page.md
+- name: 'Structure Definition: PractitionerRole Profile'
+  filename: Structure-Definition--PractitionerRole-Profile.page.md
+- name: 'Structure Definition: ChargeItem Profile'
+  filename: Structure-Definition--ChargeItem-Profile.page.md
+- name: 'Structure Definition: Observation Screening Assessment Profile'
+  filename: Structure-Definition--Observation-Screening-Assessment-Profile.page.md
+- name: 'Structure Definition: Questionnaire Profile'
+  filename: Structure-Definition--Questionnaire-Profile.page.md
+- name: 'Structure Definition: QuestionnaireResponse Profile'
+  filename: Structure-Definition--QuestionnaireResponse-Profile.page.md

@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-program",
+    "url": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+    "name": "SignalProgram",
+    "title": "Signal Program",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "This value set defines the set of codes that could be can be used to classify signal specific programs.",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-program",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "sud",
+            "display": "Substance Use Disorder (SUD)"
+        },
+        {
+            "code": "crisis",
+            "display": "Colorado Crisis Services (CCS)"
+        },
+        {
+            "code": "cymhta",
+            "display": "Children and Youth Mental Health Treatment Act (CYMHTA)"
+        },
+        {
+            "code": "assessment",
+            "display": "Assessment"
+        },
+        {
+            "code": "recovery",
+            "display": "Recovery"
+        }
+    ]
+}

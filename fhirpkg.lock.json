@@ -1,5 +1,5 @@
 {
-  "updated": "2023-06-23T16:53:19.7314865-05:00",
+  "updated": "2023-08-29T13:05:45.0734544-05:00",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.us.core": "6.0.0",
@@ -10,7 +10,8 @@
     "hl7.fhir.uv.sdc": "3.0.0",
     "hl7.fhir.r4.examples": "4.0.1",
     "us.cdc.phinvads": "0.12.0",
-    "ihe.formatcode.fhir": "1.1.0"
+    "ihe.formatcode.fhir": "1.1.0",
+    "hl7.fhir.us.davinci-pdex-plan-net": "1.1.0"
   },
   "missing": {}
 }

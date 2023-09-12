@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "org-photo",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalOrgPhotoAttachment",
+  "name": "SignalOrgPhotoAttachment",
+  "status": "draft",
+  "description": "Image that can be used to brand or identify the Organization",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Organization"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Organization image or logo",
+        "definition": "Image that can be used to brand or identify the Organization"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalOrgPhotoAttachment"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Attachment"
+          }
+        ]
+      }
+    ]
+  }
+}

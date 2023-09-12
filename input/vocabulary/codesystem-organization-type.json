@@ -1,0 +1,39 @@
+{
+    "resourceType": "CodeSystem",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-08-11T13:43:14.523+00:00"
+    },
+    "text": {
+        "status": "extensions"
+    },
+    "url": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
+    "version": "6.0.0",
+    "name": "SignalOrganizationType",
+    "title": "Signal Organization Type",
+    "status": "draft",
+    "experimental": false,
+    "date": "2019-11-01T09:29:23+11:00",
+    "description": "This code system aligns with the speicific institutional requirements for organization types for this Managed Service Organization.",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "service-org",
+            "display": "Service Organization"
+        },
+        {
+            "code": "state-agency",
+            "display": "State Agency"
+        },
+        {
+            "code": "prov-location",
+            "display": "Provider Location"
+        },
+        {
+            "code": "payer",
+            "display": "Payer"
+        }
+    ]
+}

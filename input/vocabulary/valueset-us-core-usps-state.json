@@ -1,0 +1,414 @@
+{
+    "resourceType": "ValueSet",
+    "id": "us-core-usps-state",
+    "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.840.1.113883.4.642.3.40"
+        }
+    ],
+    "name": "UspsTwoLetterAlphabeticCodes",
+    "title": "USPS Two Letter Alphabetic Codes",
+    "status": "active",
+    "experimental": false,
+    "date": "2022-09-29",
+    "publisher": "HL7 International - Cross-Group Projects",
+    "description": "This value set defines two letter USPS alphabetic codes.",
+    "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "urn:iso:std:iso:3166",
+                    "code": "US"
+                }
+            ]
+        }
+    ],
+    "copyright": "On July 1, 1963, the Post Office Department implemented the five-digit ZIP Code, which was placed after the state name in the last line of an address. To provide room for the ZIP Code, the Department issued two-letter abbreviations for all states and territories. Publication 59, Abbreviations for Use with ZIP Code, issued by the Department in October 1963. There is no copyright restriction on this value set.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://www.usps.com/"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "total": 62,
+        "contains": [
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AL",
+                "display": "Alabama"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AK",
+                "display": "Alaska"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AS",
+                "display": "American Samoa"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AZ",
+                "display": "Arizona"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AR",
+                "display": "Arkansas"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "CA",
+                "display": "California"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "CO",
+                "display": "Colorado"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "CT",
+                "display": "Connecticut"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "DE",
+                "display": "Delaware"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "DC",
+                "display": "District of Columbia"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "FM",
+                "display": "Federated States of Micronesia"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "FL",
+                "display": "Florida"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "GA",
+                "display": "Georgia"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "GU",
+                "display": "Guam"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "HI",
+                "display": "Hawaii"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "ID",
+                "display": "Idaho"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "IL",
+                "display": "Illinois"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "IN",
+                "display": "Indiana"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "IA",
+                "display": "Iowa"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "KS",
+                "display": "Kansas"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "KY",
+                "display": "Kentucky"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "LA",
+                "display": "Louisiana"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "ME",
+                "display": "Maine"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MH",
+                "display": "Marshall Islands"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MD",
+                "display": "Maryland"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MA",
+                "display": "Massachusetts"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MI",
+                "display": "Michigan"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MN",
+                "display": "Minnesota"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MS",
+                "display": "Mississippi"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MO",
+                "display": "Missouri"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MT",
+                "display": "Montana"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NE",
+                "display": "Nebraska"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NV",
+                "display": "Nevada"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NH",
+                "display": "New Hampshire"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NJ",
+                "display": "New Jersey"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NM",
+                "display": "New Mexico"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NY",
+                "display": "New York"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "NC",
+                "display": "North Carolina"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "ND",
+                "display": "North Dakota"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "MP",
+                "display": "Northern Mariana Islands"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "OH",
+                "display": "Ohio"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "OK",
+                "display": "Oklahoma"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "OR",
+                "display": "Oregon"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "PW",
+                "display": "Palau"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "PA",
+                "display": "Pennsylvania"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "PR",
+                "display": "Puerto Rico"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "RI",
+                "display": "Rhode Island"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "SC",
+                "display": "South Carolina"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "SD",
+                "display": "South Dakota"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "TN",
+                "display": "Tennessee"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "TX",
+                "display": "Texas"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "UT",
+                "display": "Utah"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "VT",
+                "display": "Vermont"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "VI",
+                "display": "Virgin Islands"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "VA",
+                "display": "Virginia"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "WA",
+                "display": "Washington"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "WV",
+                "display": "West Virginia"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "WI",
+                "display": "Wisconsin"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "WY",
+                "display": "Wyoming"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AE",
+                "display": "Armed Forces Europe, the Middle East, and Canada"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AP",
+                "display": "Armed Forces Pacific"
+            },
+            {
+                "system": "http://hl7.org/fhir/us/core/STU6.1/ValueSet-us-core-usps-state.html",
+                "version": "6.1.0",
+                "code": "AA",
+                "display": "Armed Forces Americas (except Canada)"
+            }
+        ]
+    }
+}
