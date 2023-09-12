@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: location-profile
 ---
 
 # {{page-title}}
@@ -16,7 +16,7 @@ Module:  {{pagelink:Organization-Services-Module}}
 
 ---
 
-# Formal profile content
+## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
 		{{tree:https://signalbhn.org/fhir/StructureDefinition/Location, snapshot}}
@@ -29,14 +29,14 @@ Module:  {{pagelink:Organization-Services-Module}}
 	</tab>
 </tabs>
 
-# Profile usage
+## Profile usage
 
 The Location resource is used to provide supporting fact information to other resources, including re-usable concepts such as service regions.  This resource may also be used as linkage between organization and location using HealthcareService that says "this service at this organization at this site (possibly scoped by time)".
 
-## Profile element notes
+### Profile element notes
 
 **.type**
 - *FUTURE* - will want to include [CMS Place of Service](https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set.html), which is in https://www.hl7.org/fhir/valueset-service-place.html.  May need to add it to the existing set.
 
-# Examples
+## Examples
 

@@ -1,7 +1,11 @@
 - name: Index
   filename: Index.page.md
+- name: Use Cases
+  filename: Use-Cases.page.md
 - name: Business Rules
   filename: Business-Rules.page.md
+- name: Patient Administration Module
+  filename: Patient-Administration-Module.page.md
 - name: Organization Services Module
   filename: Organization-Services-Module.page.md
 - name: Clinical Categorization Module

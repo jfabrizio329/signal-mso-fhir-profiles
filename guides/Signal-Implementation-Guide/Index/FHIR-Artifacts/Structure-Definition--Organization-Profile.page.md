@@ -1,8 +1,12 @@
 ---
-topic: {{page-title}}
+topic: organization-profile
 ---
 
 # {{page-title}}
+
+---
+
+**Status**:  Pending change to `.category` element see [issue #79](https://github.com/enjoysparkling/signal-mso-fhir-profiles/issues/79)
 
 ---
 
@@ -16,7 +20,7 @@ Module:  {{pagelink:Organization-Services-Module}}
 
 ---
 
-# Formal profile content
+## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
 		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile, snapshot}}
@@ -29,11 +33,11 @@ Module:  {{pagelink:Organization-Services-Module}}
 	</tab>
 </tabs>
 
-# Profile usage
+## Profile usage
 
 The Organization resource is used to collect information on healthcare service providers, provider locations, or service organizations that may be used as support for other resources that need to reference organizations.  Hierarchies (levels via Organization.partOf), affiliations (via the OrganizationAffliation resource), and services (via the HealthcareServices resource) are established to provide context into relationships and capabilities of each organization.
 
-## Profile element notes
+### Profile element notes
 
 **.identifier**
 - Business identifier(s) specific to this resource
@@ -43,7 +47,7 @@ The Organization resource is used to collect information on healthcare service p
 - Slices:
    - **identifier:NPI** - National Provider Identifier (NPI)
       - Required for Signal
-      - Should match to the NPI Taxonomy registered with CMS
+      - SHOULD match to the NPI Taxonomy registered with CMS which SHOULD be included on `.type:npiTaxonomy`
    - **identifier:CLIA** - Clinical Laboratory Improvement Amendments (CLIA) Number for laboratories
    - **identifier:NAIC** - NAIC Code
 
@@ -62,10 +66,10 @@ The Organization resource is used to collect information on healthcare service p
 - SHOULD contain the name of the organization presented to providers and users, e.g., "Denver Medical"
 
 **.type**
-- Signal custom code system that identifies the kind of organization (e.g. service organization, provider agency, provider location)
-- Type does not explicitly denote hierarchy. See the `.partOf` element and the *OrganizationAffiliation* resource for more information.
+- Cstom code system that identifies the kind of organization (e.g. service organization, provider agency, provider location)
+- Does not explicitly denote hierarchy. See the `.partOf` element and the *OrganizationAffiliation* resource for more information.
 Slices:
-   - **.type:npiTaxonomy** - Signal Custom slice representing NPI Provider Taxonomy Code
+   - **.type:npiTaxonomy** - representing NPI Provider Taxonomy Code (from CMS)
 
 **.partOf**
 - SHALL reference an existing Organization resource when used
@@ -77,14 +81,18 @@ Slices:
 - Represents the same purpose as the `Organization.qualification` element now included in [Organization (R5)](https://hl7.org/fhir/R5/organization.html)
 - Signal custom code system and valueset that identifies services (licenses) a provider is qualified to offer.  
    - Licenses are assigned by [Colorado LADDERS](https://www.colorado.gov/LADDERS)
-
+- Qualification address SHALL match the `.address` field
 
 **.extension:photo**
 - Used to store Organization logo for use in the user interface (UI)
-- Logo will be placed in storage and URI provided for the file
+- Logo will be placed in storage and URI provided for the file, so use the “.url” not “.data” field, to prevent search API filesizes from being too large.
+- File size and type constraints to be applied by implementation partners
+- Restricted to “safe” data types
+   - Images: jpeg, jpg, png, gif, ico
 
 **.addresss**
-- SHOULD contain information about the physical location of this organization. In the case of provider locations, SHOULD match the location on any licenses (defined in `.qualification`).
+- SHOULD contain information about the physical location of this organization. 
+- SHALL match the location on licenses (defined in `extension:qualification`).
 
-# Examples
+## Examples
 

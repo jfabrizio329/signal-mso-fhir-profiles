@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: organizationaffiliation-profile
 ---
 
 # {{page-title}}
@@ -16,7 +16,7 @@ Module:  {{pagelink:Organization-Services-Module}}
 
 ---
 
-# Formal profile content
+## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
 		{{tree:https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation, snapshot}}
@@ -29,11 +29,11 @@ Module:  {{pagelink:Organization-Services-Module}}
 	</tab>
 </tabs>
 
-# Profile usage
+## Profile usage
 
 The OrganizationAffiliation resource is used to establish a relationship between a Organization resources such as Service Organization and Providers (provider locations) in addition to defining services that are offered via the HealthcareService resource.  Hierarchies between a provider agency and provider location are captured via `Organization.partOf`.
 
-## Profile element notes
+### Profile element notes
 
 **.organization**
 - SHOULD reference the service organization that owns the contract with the participatingOrganization
@@ -57,4 +57,4 @@ The OrganizationAffiliation resource is used to establish a relationship between
 - Will typically represent the business region for offered services (relative to the service organization)
 
 
-# Examples
+## Examples
