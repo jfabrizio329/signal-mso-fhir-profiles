@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: intro-home
 ---
 
 # {{page-title}}

@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: fhir-artifacts-index
 ---
 
 # {{page-title}}
@@ -9,9 +9,13 @@ topic: {{page-title}}
 Most profiles are derived from [US Core](https://hl7.org/fhir/us/core/index.html) or [FHIR Core R4](http://hl7.org/fhir/R4/resourcelist.html), which contains detailed background: 
 > A simple narrative summary gives each profile’s requirements and guidance. A formal hierarchical table presents a [logical view](http://hl7.org/fhir/R4/formats.html#table) of the content in both a differential and snapshot view and references to appropriate terminologies and examples are provided.
 
-In this implementation guide, there is additional business logic and specifications around how to use key fields.
+Review [US Core Must Support](https://hl7.org/fhir/us/core/must-support.html) for definitions on mandetory elements and requirements.  These must also be supported in this IG for any profiles used from US Core.
 
-## Profile page format
+All Signal-specific fields added are also defined as *key elements*. See [FHIR IG Guidance Structure Definitions](https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions) for more information.
+
+## Profile page viewing instructions
+
+---
 
 **Status**:  `Will describe any Work-in-Progress (WIP) information.`
 

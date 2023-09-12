@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: business-context-index
 ---
 
 # {{page-title}}
