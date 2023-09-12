@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: clinical-categorization-module
 ---
 
 # {{page-title}}
@@ -9,7 +9,7 @@ topic: {{page-title}}
 ## Context
 This is the administration module for clinical categorization.  It captures concepts the entire admission or case, individual services, surveys, and discharge events.
 
-For this specific implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
+For this implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
 
 - Admission defines a Parent (top-level) `EpisodeOfCare` resource that will record Admission and Discharge Dates.
 - `EspisodeOfCare` is loosely based on the service category, previously defined as _modality_.
@@ -20,25 +20,21 @@ For this specific implementation, modifications will be made to the [Clinical Ca
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--EpisodeOfCare-Profile.page.md}}         | Admission, Case Program, Problem | --- |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Encounter-Profile.page.md}} | Visit | --- |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--ServiceRequest-Profile.page.md}}        | Referral | --- |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Procedure-Profile.page.md}}             | Service | --- |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Simple-Observation-Profile.page.md}} | --- | --- |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Condition-Problems-Profile.page.md}} | --- | For practitioner notes on encounter related to condition. Capture clinical concept that is documented and categorized as a problem or health concern including information about a Social Determinants of Health-related condition. |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Condition-Encounter-Diagnosis-Profile.page.md}} | --- | For encoutner diagnosis |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Organization-Profile.page.md}} | Provider, Agency, Location | --- |
-| [Patient](https://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html) | Client | --- |
-| [Practitioner](https://hl7.org/fhir/us/core/StructureDefinition-us-core-practitioner.html) | Clinician, doctor | Not currently used |
-| [PractitionerRole](https://hl7.org/fhir/us/core/StructureDefinition-us-core-practitionerrole.html) | --- | Not currently used |
-| [ChargeItem](http://hl7.org/fhir/R4/chargeitem.html) | --- | --- |
-| [Observation Screening Assessment](https://hl7.org/fhir/us/core/StructureDefinition-us-core-observation-screening-assessment.html) | Survey | --- |
-| [Questionnaire](http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire.html) | Survey (DACODS, CCAR) | --- |
-| [QuestionnaireResponse](https://hl7.org/fhir/us/core/StructureDefinition-us-core-questionnaireresponse.html) | Survey Response, Answers | --- |
-| --- | --- | --- |
-| --- | --- | --- |
-| --- | --- | --- |
-| --- | --- | --- |
+| {{pagelink:episodeofcare-profile}}         | Admission, Case Program, Problem | --- |
+| {{pagelink:encounter-profile}} | Visit | --- |
+| {{pagelink:servicerequest-profile}}        | Referral | --- |
+| {{pagelink:procedure-profile}}             | Service | --- |
+| {{pagelink:simple-observation-profile}} | --- | --- |
+| {{pagelink:condition-problems-profile}} | --- | For practitioner notes on encounter related to condition. Capture clinical concept that is documented and categorized as a problem or health concern including information about a Social Determinants of Health-related condition. |
+| {{pagelink:condition-encounter-profile}} | --- | For encoutner diagnosis |
+| {{pagelink:organization-profile}} | Provider, Agency, Location | --- |
+| {{pagelink:patient-profile}} | Client | --- |
+| {{pagelink:practitioner-profile}} | Clinician, doctor | Not currently used |
+| {{pagelink:practitionerrole-profile}} | --- | Not currently used |
+| {{pagelink:chargeitem-profile}} | --- | --- |
+| {{pagelink:observation-screening-assessment-profile}} | Survey | --- |
+| {{pagelink:questionnaire-profile}} | Survey (DACODS, CCAR) | --- |
+| {{pagelink:questionnaireresponse-profile}} | Survey Response, Answers | --- |
 
 
 ## Conceptual Model

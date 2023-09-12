@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: location-profile
 ---
 
 # {{page-title}}

@@ -1,12 +1,16 @@
 ---
-topic: {{page-title}}
+topic: procedure-profile
 ---
 
 # {{page-title}}
 
 ---
 
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/Procedure
+**Status**:  WIP, expect Signal custom profile
+
+---
+
+Canonical URL: http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure
 
 Simplifier project page: [Procedure](https://simplifier.net/signal-mso-fhir-profiles/)
 
@@ -19,13 +23,13 @@ Module:  {{pagelink:Clinical-Categorization-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/Procedure, snapshot}}
+		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/Procedure, buttons}}
+		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/Procedure,}}
+		{{json:http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure,}}
 	</tab>
 </tabs>
 

@@ -1,12 +1,16 @@
 ---
-topic: {{page-title}}
+topic: servicerequest-profile
 ---
 
 # {{page-title}}
 
 ---
 
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/ServiceRequest
+**Status**:  WIP, expect Signal custom profile
+
+---
+
+Canonical URL: ~~https://signalbhn.org/fhir/StructureDefinition/ServiceRequest~~ http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest
 
 Simplifier project page: [ServiceRequest](https://simplifier.net/signal-mso-fhir-profiles/)
 
@@ -19,13 +23,13 @@ Module:  {{pagelink:Clinical-Categorization-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/ServiceRequest, snapshot}}
+		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/ServiceRequest, buttons}}
+		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/ServiceRequest,}}
+		{{json:http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest,}}
 	</tab>
 </tabs>
 

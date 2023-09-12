@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: patient-profile
 ---
 
 # {{page-title}}

@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: patient-administration-module
 ---
 
 # {{page-title}}
@@ -13,8 +13,8 @@ This is the Patient Administration Module for describing Patient interaction tou
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
-| [Patient](https://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html) | Client        | Represents the ID of a distinct patient in the context of the provider organization. (See notes below) |
-| {{pagelink:Index/FHIR-Artifacts/Structure-Definition--Organization-Profile.page.md}} | Provider, Agency        | Represents a provider agency that is in charge of a patient's episode of care. |
+| {{pagelink:patient-profile}} | Client        | Represents the ID of a distinct patient in the context of the provider organization. (See notes below) |
+| {{pagelink:organization-profile}} | Provider, Agency        | Represents a provider agency that is in charge of a patient's episode of care. |
 
 
 ## Conceptual Model

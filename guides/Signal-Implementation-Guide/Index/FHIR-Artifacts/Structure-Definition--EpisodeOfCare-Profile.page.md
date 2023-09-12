@@ -1,12 +1,16 @@
 ---
-topic: {{page-title}}
+topic: episodeofcare-profile
 ---
 
 # {{page-title}}
 
 ---
 
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/EpisodeOfCare
+**Status**:  WIP, expect Signal custom profile
+
+---
+
+Canonical URL: ~~https://signalbhn.org/fhir/StructureDefinition/EpisodeOfCare~~ http://hl7.org/fhir/StructureDefinition/EpisodeOfCare
 
 Simplifier project page: [EpisodeOfCare](https://simplifier.net/signal-mso-fhir-profiles/)
 
@@ -19,13 +23,13 @@ Module:  {{pagelink:Clinical-Categorization-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/EpisodeOfCare, snapshot}}
+		{{tree:http://hl7.org/fhir/StructureDefinition/EpisodeOfCare, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/EpisodeOfCare, buttons}}
+		{{tree:http://hl7.org/fhir/StructureDefinition/EpisodeOfCare, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/EpisodeOfCare,}}
+		{{json:http://hl7.org/fhir/StructureDefinition/EpisodeOfCare,}}
 	</tab>
 </tabs>
 

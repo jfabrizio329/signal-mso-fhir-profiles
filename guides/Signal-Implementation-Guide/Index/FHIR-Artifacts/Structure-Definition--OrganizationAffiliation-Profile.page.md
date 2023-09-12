@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: organizationaffiliation-profile
 ---
 
 # {{page-title}}

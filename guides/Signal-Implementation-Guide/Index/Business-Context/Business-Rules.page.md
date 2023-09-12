@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: business-rules
 ---
 
 # {{page-title}}

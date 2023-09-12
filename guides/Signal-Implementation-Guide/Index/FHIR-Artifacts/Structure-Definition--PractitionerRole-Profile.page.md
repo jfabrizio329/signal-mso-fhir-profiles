@@ -1,14 +1,18 @@
 ---
-topic: {{page-title}}
+topic: practitionerrole-profile
 ---
 
 # {{page-title}}
 
 ---
 
+**Status**:  WIP, expect Signal custom profile
+
+---
+
 Canonical URL: https://signalbhn.org/fhir/StructureDefinition/PractitionerRole
 
-Simplifier project page: [PractitionerRole](https://simplifier.net/signal-mso-fhir-profiles/)
+Simplifier project page: [PractitionerRoleProfile](https://simplifier.net/signal-mso-fhir-profiles/practitionerroleprofile)
 
 Derived from: [US Core PractitionerRole STU6 (R4)](https://hl7.org/fhir/us/core/StructureDefinition-us-core-practitionerrole.html)
 

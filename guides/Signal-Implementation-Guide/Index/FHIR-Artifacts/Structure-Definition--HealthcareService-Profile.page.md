@@ -1,5 +1,5 @@
 ---
-topic: {{page-title}}
+topic: healthcareservice-profile
 ---
 
 # {{page-title}}
