@@ -1,0 +1,121 @@
+{
+    "resourceType": "ValueSet",
+    "id": "us-core-discharge-disposition",
+    "text": {
+        "status": "generated"
+    },
+    "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-discharge-disposition",
+    "version": "6.0.0",
+    "name": "USCoreDischargeDisposition",
+    "title": "US Core Discharge Disposition",
+    "status": "active",
+    "experimental": false,
+    "date": "2022-09-29",
+    "publisher": "HL7 International - Cross-Group Projects",
+    "contact": [
+        {
+            "name": "HL7 International - Cross-Group Projects",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://www.hl7.org/Special/committees/cgp"
+                },
+                {
+                    "system": "email",
+                    "value": "cgp@lists.HL7.org"
+                }
+            ]
+        }
+    ],
+    "description": "[National Uniform Billing Committee](http://www.nubc.org/), manual UB-04, UB form locator 17.",
+    "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "urn:iso:std:iso:3166",
+                    "code": "US"
+                }
+            ]
+        }
+    ],
+    "copyright": "The Official UB-04 Data Specifications Manual 2022 is copyrighted by the American Hospital Association. It is the only official source of UB-04 billing information adopted by the National Uniform Billing Committee (NUBC). To license an electronic version of the UB-04 code set for internal use or integration into products and services, contact the Licensing Department at [ub04@aha.org](mailto:ub04@aha.org).",
+    "compose": {
+        "include": [
+            {
+                "system": "http://www.nubc.org/patient-discharge"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "total": 11,
+        "contains": [
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "home",
+                "display": "Home"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "alt-home",
+                "display": "Alternative home"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "other-hcf",
+                "display": "Other healthcare facility"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "hosp",
+                "display": "Hospice"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "long",
+                "display": "Long-term care"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "aadvice",
+                "display": "Left against advice"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "exp",
+                "display": "Expired"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "psy",
+                "display": "Psychiatric hospital"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "rehab",
+                "display": "Rehabilitation"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "snf",
+                "display": "Skilled nursing facility"
+            },
+            {
+                "system": "https://terminology.hl7.org/5.2.0/CodeSystem-discharge-disposition.json",
+                "version": "6.0.0",
+                "code": "oth",
+                "display": "Other"
+            }
+        ]
+    }
+}
