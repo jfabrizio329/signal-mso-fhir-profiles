@@ -66,30 +66,37 @@
         "timestamp": "2023-08-03T17:08:32-04:00",
         "contains": [
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "mon",
                 "display": "Monday"
             },
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "tue",
                 "display": "Tuesday"
             },
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "wed",
                 "display": "Wednesday"
             },
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "thu",
                 "display": "Thursday"
             },
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "fri",
                 "display": "Friday"
             },
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "sat",
                 "display": "Saturday"
             },
             {
+                "system": "http://hl7.org/fhir/days-of-week",
                 "code": "sun",
                 "display": "Sunday"
             }
