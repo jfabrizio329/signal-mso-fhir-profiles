@@ -32,15 +32,15 @@
         "min": 1,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt"
         }
       },
       {
         "id": "Encounter.serviceType",
         "path": "Encounter.serviceType",
         "binding": {
-          "strength": "example",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       }
     ]
