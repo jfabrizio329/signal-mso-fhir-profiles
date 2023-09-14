@@ -57,7 +57,7 @@
                 {
                     "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
                     "code": "001",
-                    "display": "World"
+                    "display": "US"
                 }
             ]
         }
@@ -85,14 +85,17 @@
         "timestamp": "2019-11-01T09:29:23+11:00",
         "contains": [
             {
+                "system": "http://snomed.info/sct",
                 "code": "24484000",
                 "display": "Severe"
             },
             {
+                "system": "http://snomed.info/sct",
                 "code": "6736007",
                 "display": "Moderate"
             },
             {
+                "system": "http://snomed.info/sct",
                 "code": "255604002",
                 "display": "Mild"
             }

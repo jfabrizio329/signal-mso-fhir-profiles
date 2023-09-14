@@ -63,28 +63,34 @@
         "timestamp": "2019-11-01T09:29:23+11:00",
         "contains": [
             {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                 "code": "active",
                 "display": "Active",
                 "contains": [
                     {
+                        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                         "code": "recurrence",
                         "display": "Recurrence"
                     },
                     {
+                        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                         "code": "relapse",
                         "display": "Relapse"
                     }
                 ]
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                 "code": "inactive",
                 "display": "Inactive",
                 "contains": [
                     {
+                        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                         "code": "remission",
                         "display": "Remission"
                     },
                     {
+                        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
                         "code": "resolved",
                         "display": "Resolved"
                     }
