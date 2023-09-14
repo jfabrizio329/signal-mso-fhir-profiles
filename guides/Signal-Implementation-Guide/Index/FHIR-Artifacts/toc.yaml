@@ -36,3 +36,5 @@
   filename: Structure-Definition--Questionnaire-Profile.page.md
 - name: 'Structure Definition: QuestionnaireResponse Profile'
   filename: Structure-Definition--QuestionnaireResponse-Profile.page.md
+- name: 'Structure Definition: DocumentReference'
+  filename: Structure-Definition--DocumentReference.page.md
