@@ -1,0 +1,48 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "profile-signal-us-core-encounter",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreEncounter",
+  "name": "SignalUSCoreEncounterProfile",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.type",
+        "path": "Encounter.type",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Encounter.type:Procedure",
+        "path": "Encounter.type",
+        "sliceName": "Procedure",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt"
+        }
+      },
+      {
+        "id": "Encounter.serviceType",
+        "path": "Encounter.serviceType",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+        }
+      }
+    ]
+  }
+}
