@@ -1,0 +1,33 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-epdisode-of-care",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare",
+  "name": "StructureDefinition-profile-SignalEpisodeOfCare",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "EpisodeOfCare",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "EpisodeOfCare.status",
+        "path": "EpisodeOfCare.status",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/episode-of-care-status"
+        }
+      },
+      {
+        "id": "EpisodeOfCare.type",
+        "path": "EpisodeOfCare.type",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+        }
+      }
+    ]
+  }
+}
