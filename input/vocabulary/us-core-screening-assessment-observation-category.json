@@ -1,32 +1,13 @@
 {
     "resourceType": "ValueSet",
     "id": "us-core-screening-assessment-observation-category",
-    "text": {
-        "status": "generated"
-    },
     "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-screening-assessment-observation-category",
-    "version": "6.0.0",
     "name": "USCoreScreeningAssessmentObservationCategory",
     "title": "US Core Screening Assessment Observation Category",
     "status": "active",
     "experimental": false,
     "date": "2023-03-28",
     "publisher": "HL7 International - Cross-Group Projects",
-    "contact":  [
-        {
-            "name": "HL7 International - Cross-Group Projects",
-            "telecom":  [
-                {
-                    "system": "url",
-                    "value": "http://www.hl7.org/Special/committees/cgp"
-                },
-                {
-                    "system": "email",
-                    "value": "cgp@lists.HL7.org"
-                }
-            ]
-        }
-    ],
     "description": "Category codes used in the US Core Observation Screening Assessment Profile to help identify the type of USCDI Health Status/Assessment data class being reported.",
     "jurisdiction":  [
         {
@@ -52,25 +33,21 @@
         "contains": [
             {
                 "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
-                "version": "6.0.0",
                 "code": "sdoh",
                 "display": "SDOH"
             },
             {
                 "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
-                "version": "6.0.0",
                 "code": "functional-status",
                 "display": "Functional Status"
             },
             {
                 "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
-                "version": "6.0.0",
                 "code": "disability-status",
                 "display": "Disability Status"
             },
             {
                 "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
-                "version": "6.0.0",
                 "code": "cognitive-status",
                 "display": "Cognitive Status"
             }
