@@ -16,7 +16,7 @@
         "id": "HealthcareService.category",
         "path": "HealthcareService.category",
         "binding": {
-          "strength": "example",
+          "strength": "required",
           "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
         }
       },
