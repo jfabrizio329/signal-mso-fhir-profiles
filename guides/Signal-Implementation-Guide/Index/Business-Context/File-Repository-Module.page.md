@@ -13,10 +13,7 @@ This is the file repository module which is used for administrative and workflow
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
-| {{pagelink:organization-profile}} | Provider, Agency, State Agency, County, Location        | Represents a distinct place where services are offered, in hierarchical fashion; e.g. a provider agency is an organization with 1 or more provider locations which are also organizations (their relationship is recorded using the .partOf reference |
-| {{pagelink:organizationaffiliation-profile}}  | --- | Create associations between participanting providers (locations) and the service provider where specified services are provided in 1 or more HealthcareService resource(s) |
-| {{pagelink:healthcareservice-profile}}   | Program, Services, Service Categories, Procedure codes | --- |
-| {{pagelink:location-profile}}                 | --- | Utilized as a fact table for further descriptive elements of an Organization |
+| {{pagelink:documentreference-profile}} | File repository, metadata        | Contains searchable metadata about attached files, including references to encounters, episodes of care, patient, and more |
 
 
 ## Conceptual Model

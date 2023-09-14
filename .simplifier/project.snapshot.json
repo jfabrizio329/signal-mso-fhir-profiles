@@ -417,14 +417,14 @@
       "Hash": "B3709F3EDE2CC6A3FD3044E66A6ACA43"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\File-Repository-Module.page.md": {
-      "Length": 1396,
-      "LastWriteTime": "2023-09-14T23:39:04+00:00",
-      "Hash": "35C113FE3DCFD79250AE374FADD02886"
+      "Length": 755,
+      "LastWriteTime": "2023-09-15T01:29:06+00:00",
+      "Hash": "7A26A7621DD142E6ADBF204D02AFF4B0"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--DocumentReference.page.md": {
-      "Length": 1544,
-      "LastWriteTime": "2023-09-14T23:56:48+00:00",
-      "Hash": "70C7F34E1944EE6B19AD295927C07930"
+      "Length": 4158,
+      "LastWriteTime": "2023-09-15T01:30:54+00:00",
+      "Hash": "0B6832FBEB799D0ADEC987787D00A932"
     },
     "input\\vocabulary\\valuset-location-physical-type.json": {
       "Length": 4892,
