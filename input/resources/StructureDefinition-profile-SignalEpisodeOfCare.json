@@ -24,7 +24,7 @@
         "id": "EpisodeOfCare.type",
         "path": "EpisodeOfCare.type",
         "binding": {
-          "strength": "example",
+          "strength": "extensible",
           "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       }
