@@ -47,9 +47,9 @@
       "Hash": "42995B74D479DF0CCB4436484B5F6207"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\toc.yaml": {
-      "Length": 2296,
-      "LastWriteTime": "2023-09-08T23:20:06+00:00",
-      "Hash": "385FB66E66EEF87B8CD998DD5688AC0D"
+      "Length": 2408,
+      "LastWriteTime": "2023-09-14T23:40:58+00:00",
+      "Hash": "EE19546C1D416222BC43E3078088B13A"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Introduction.page.md": {
       "Length": 1265,
@@ -67,9 +67,9 @@
       "Hash": "4D8CE35CF956590773280F5147E78CEB"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\toc.yaml": {
-      "Length": 184,
-      "LastWriteTime": "2023-09-01T08:00:08+00:00",
-      "Hash": "B681CF4F35CDB10912014A12EC17ABC0"
+      "Length": 240,
+      "LastWriteTime": "2023-09-14T23:48:30+00:00",
+      "Hash": "23D37A5A57822196BC4A95F16A81841B"
     },
     "input\\resources\\StructureDefinition-profile-OrganizationAffiliation.json": {
       "Length": 466,
@@ -167,9 +167,9 @@
       "Hash": "3B03078464BE83C5A4EB59AB5CC54B0F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\toc.yaml": {
-      "Length": 482,
-      "LastWriteTime": "2023-09-12T23:13:16+00:00",
-      "Hash": "23137488B0753515687CEA2122C20181"
+      "Length": 558,
+      "LastWriteTime": "2023-09-14T23:38:50+00:00",
+      "Hash": "C80DD9759C9B1BAFAAF79D018DF1BF14"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Organization-Profile.page.md": {
       "Length": 4722,
@@ -332,9 +332,149 @@
       "Hash": "3B2BFC56106CF21FB1B89C65DEDF4230"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Use-Cases.page.md": {
-      "Length": 863,
-      "LastWriteTime": "2023-09-12T23:13:40+00:00",
-      "Hash": "8F882CE2931750455C2CFF2CD5D29193"
+      "Length": 837,
+      "LastWriteTime": "2023-09-13T02:33:12+00:00",
+      "Hash": "F5C45F9951E73BEF2BDE930D9657DBF5"
+    },
+    "input\\vocabulary\\valueset-condition-clinical-status.json": {
+      "Length": 3654,
+      "LastWriteTime": "2023-09-14T22:14:56+00:00",
+      "Hash": "B2D2A045DEAF59CF8B59EB8734FBB478"
+    },
+    "input\\vocabulary\\valueset-condition-severity.json": {
+      "Length": 3710,
+      "LastWriteTime": "2023-09-14T22:14:56+00:00",
+      "Hash": "13204C59A856D8F4EB39324BC7CED3DB"
+    },
+    "input\\vocabulary\\valueset-condition-verification-status.json": {
+      "Length": 3794,
+      "LastWriteTime": "2023-09-14T22:14:56+00:00",
+      "Hash": "C3E4420438232952222431D81B2C53CF"
+    },
+    "input\\vocabulary\\valueset-days-of-week.json": {
+      "Length": 3031,
+      "LastWriteTime": "2023-09-14T01:00:30+00:00",
+      "Hash": "E28580FAB852A5A07E2B88973459CA7C"
+    },
+    "input\\vocabulary\\valueset-encounter-admission.json": {
+      "Length": 1729,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "2C771B739EDEE764105854E5745F56C9"
+    },
+    "input\\vocabulary\\valueset-encounter-admit-source.json": {
+      "Length": 3809,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "8ECA3F93155B27BA2BE07DB469689E00"
+    },
+    "input\\vocabulary\\valueset-encounter-class.json": {
+      "Length": 5578,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "3C46C2A8DDCE9573878BBF1FCF305E6F"
+    },
+    "input\\vocabulary\\valueset-encounter-classHistory-class.json": {
+      "Length": 6808,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "BCEE0664955DF1A7EB4D8CF15C75CBA2"
+    },
+    "input\\vocabulary\\valueset-encounter-diet.json": {
+      "Length": 3235,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "B592EABAB8CA6CDAE7488D96A4F431CB"
+    },
+    "input\\vocabulary\\valueset-encounter-location-status.json": {
+      "Length": 2533,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "5FA0B56B3DB69FB0C3350C8CD13AD7C2"
+    },
+    "input\\vocabulary\\valueset-encounter-participant-type.json": {
+      "Length": 4543,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "38F586B11E60BEAB113DC3174E61941C"
+    },
+    "input\\vocabulary\\valueset-encounter-priority.json": {
+      "Length": 5049,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "F992B4053C83063E2A86B502ADD10B13"
+    },
+    "input\\vocabulary\\valueset-encounter-special-arrangements.json": {
+      "Length": 2751,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "758EECA155EE85082B3C996E194D8D41"
+    },
+    "input\\vocabulary\\valueset-encounter-special-courtesy.json": {
+      "Length": 3534,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "6A291E56194F0BF6CA4302CDD8F3D194"
+    },
+    "input\\vocabulary\\valueset-encounter-status.json": {
+      "Length": 3680,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "CB3A80A5EFE0875E9DBE99A5459AED58"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Home\\Changelog.page.md": {
+      "Length": 798,
+      "LastWriteTime": "2023-09-14T23:54:42+00:00",
+      "Hash": "B3709F3EDE2CC6A3FD3044E66A6ACA43"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\File-Repository-Module.page.md": {
+      "Length": 755,
+      "LastWriteTime": "2023-09-15T01:29:06+00:00",
+      "Hash": "7A26A7621DD142E6ADBF204D02AFF4B0"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--DocumentReference.page.md": {
+      "Length": 4158,
+      "LastWriteTime": "2023-09-15T01:30:54+00:00",
+      "Hash": "0B6832FBEB799D0ADEC987787D00A932"
+    },
+    "input\\vocabulary\\valuset-location-physical-type.json": {
+      "Length": 4892,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "ED230C85435D1A1544C59E01113B35FE"
+    },
+    "input\\vocabulary\\valueset-questionnaire-answers-status.json": {
+      "Length": 3253,
+      "LastWriteTime": "2023-09-14T00:57:48+00:00",
+      "Hash": "4580614DC3530A79922221A54DD68EA2"
+    },
+    "input\\vocabulary\\valueset-service-type.json": {
+      "Length": 134690,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "6CB280B06A637D8EB371F79C145E490C"
+    },
+    "input\\resources\\StructureDefinition-profile-SignalUSCoreEncounter.json": {
+      "Length": 1331,
+      "LastWriteTime": "2023-09-14T22:08:18+00:00",
+      "Hash": "7F884F490945312C6D222AD49856F783"
+    },
+    "input\\resources\\StructureDefinition-profile-SignalEpisodeOfCare.json": {
+      "Length": 1001,
+      "LastWriteTime": "2023-09-14T22:11:28+00:00",
+      "Hash": "5169C59636BB0C7B09E1D469B954EB34"
+    },
+    "input\\vocabulary\\valueset-us-core-discharge-disposition.json": {
+      "Length": 4590,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "7D3F1A6C53B16B6F730408964DCCA79D"
+    },
+    "input\\vocabulary\\valueset-us-core-encounter-type.json": {
+      "Length": 3692,
+      "LastWriteTime": "2023-09-13T02:57:22+00:00",
+      "Hash": "F93121468ADA6DC16A44B4AAB2D538DA"
+    },
+    "input\\vocabulary\\valueset-us-core-problem-or-health-concern.json": {
+      "Length": 2466,
+      "LastWriteTime": "2023-09-14T22:14:56+00:00",
+      "Hash": "017FF214A4E0C93CED5914704069997E"
+    },
+    "input\\vocabulary\\valueset-us-core-screening-assessment-condition-category.json": {
+      "Length": 2646,
+      "LastWriteTime": "2023-09-14T22:14:56+00:00",
+      "Hash": "D3295F0F37F2F7F78C16C7A66B1640DE"
+    },
+    "input\\vocabulary\\us-core-screening-assessment-observation-category.json": {
+      "Length": 2064,
+      "LastWriteTime": "2023-09-14T22:09:54+00:00",
+      "Hash": "769D62C3169093B5DD7413D8FA87896E"
     }
   }
 }
