@@ -47,9 +47,9 @@
       "Hash": "42995B74D479DF0CCB4436484B5F6207"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\toc.yaml": {
-      "Length": 2408,
-      "LastWriteTime": "2023-09-14T23:40:58+00:00",
-      "Hash": "EE19546C1D416222BC43E3078088B13A"
+      "Length": 2368,
+      "LastWriteTime": "2023-09-15T01:39:32+00:00",
+      "Hash": "4036D59E1B6E0C2002731C737FF05A90"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Introduction.page.md": {
       "Length": 1265,
@@ -67,9 +67,9 @@
       "Hash": "4D8CE35CF956590773280F5147E78CEB"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\toc.yaml": {
-      "Length": 240,
-      "LastWriteTime": "2023-09-14T23:48:30+00:00",
-      "Hash": "23D37A5A57822196BC4A95F16A81841B"
+      "Length": 232,
+      "LastWriteTime": "2023-09-15T01:39:32+00:00",
+      "Hash": "A46A9DBBB886D509CEE5D28E51C20330"
     },
     "input\\resources\\StructureDefinition-profile-OrganizationAffiliation.json": {
       "Length": 466,
@@ -167,9 +167,9 @@
       "Hash": "3B03078464BE83C5A4EB59AB5CC54B0F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\toc.yaml": {
-      "Length": 558,
-      "LastWriteTime": "2023-09-14T23:38:50+00:00",
-      "Hash": "C80DD9759C9B1BAFAAF79D018DF1BF14"
+      "Length": 542,
+      "LastWriteTime": "2023-09-15T01:39:32+00:00",
+      "Hash": "2630935A068A4ABE304D3524962FEAC5"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Organization-Profile.page.md": {
       "Length": 4722,
@@ -422,9 +422,9 @@
       "Hash": "7A26A7621DD142E6ADBF204D02AFF4B0"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--DocumentReference.page.md": {
-      "Length": 4158,
-      "LastWriteTime": "2023-09-15T01:30:54+00:00",
-      "Hash": "0B6832FBEB799D0ADEC987787D00A932"
+      "Length": 4493,
+      "LastWriteTime": "2023-09-20T00:22:44+00:00",
+      "Hash": "5799E6D1F02F080DBD27C43A7E6F7D93"
     },
     "input\\vocabulary\\valuset-location-physical-type.json": {
       "Length": 4892,
