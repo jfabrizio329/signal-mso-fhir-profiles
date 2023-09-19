@@ -39,18 +39,19 @@ The HealthcareService resource is used to describe healthcare services offered b
 - SHALL be used to group services offered by one or more organizations under a formal "program" label; e.g. SUD, CYMHTA, CCS.
 - Programs are relatively static within the organization and create the main taxonomy for the service categories and procedures available.
 
-**.type**
-- Custom code system for Signal that represents the "services" or "service type" codes that are available based on Organization qualifications; e.g. asam-0.5, da, crisis-mobile, etc.
-
-**.type:serviceCategory**  -- *Future change* change this to .category element
-- Secondary level to program, used as a hierarchical relationship to programs; e.g. SUD ASAM-0.5, SUD Differential Assessment, Crisis mobile, CYMHTA treatment.
-- Previously referred to as *modality*
-
 **.category**
 - SHALL be used to facilitate groupings of procedures to be offered; e.g. Prevention/Eearly Intervention Services, Screening, Crisis
 - Definitions from Colorado BHA USCS Manual and a catch-all Other for business-specific definitions
    - will also include an "Other" code for non-Colorado BHA procedures
 - Procedure codes will directly fall into one of these categories
+- Secondary level to program, used as a hierarchical relationship to programs; e.g. SUD ASAM-0.5, SUD Differential Assessment, Crisis mobile, CYMHTA treatment.
+- Previously referred to as *modality*
+
+**.type**
+- Will remain FHIR default (example) but will be unused at this time (see slices)
+
+**.type:services**
+- Custom code system for Signal that represents the "services" or "service type" codes that are available based on Organization qualifications; e.g. asam-0.5, da, crisis-mobile, etc.
 
 **.type:procedure** -- *Tentative use, this is likely to change*
 - SHOULD be populated with with procedure codes (HCPCS, CPT) that are applicable to this service category
