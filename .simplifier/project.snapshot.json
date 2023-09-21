@@ -187,9 +187,9 @@
       "Hash": "0FC546431E1D1838A2623733082FDF07"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Clinical-Categorization-Module.page.md": {
-      "Length": 2788,
-      "LastWriteTime": "2023-09-12T22:15:18+00:00",
-      "Hash": "4D3DC5DF2CEE646B4EB2D919A685959C"
+      "Length": 7512,
+      "LastWriteTime": "2023-09-22T01:09:12+00:00",
+      "Hash": "8D8B971DB656C1266A1CAF557F2BEAE2"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Organization-Services-Module.page.md": {
       "Length": 1514,
@@ -412,9 +412,9 @@
       "Hash": "CB3A80A5EFE0875E9DBE99A5459AED58"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Changelog.page.md": {
-      "Length": 1043,
-      "LastWriteTime": "2023-09-20T01:22:36+00:00",
-      "Hash": "89606C0F2614F071969DB9285DF79F83"
+      "Length": 1209,
+      "LastWriteTime": "2023-09-22T01:06:54+00:00",
+      "Hash": "03C5CDCAF82BED56C2EC9B4002EB3B56"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\File-Repository-Module.page.md": {
       "Length": 755,
@@ -475,6 +475,36 @@
       "Length": 2064,
       "LastWriteTime": "2023-09-14T22:09:54+00:00",
       "Hash": "769D62C3169093B5DD7413D8FA87896E"
+    },
+    "input\\vocabulary\\valuset-data-absent-reason.json": {
+      "Length": 5562,
+      "LastWriteTime": "2023-09-21T02:40:56+00:00",
+      "Hash": "DA40C136014806707B1D1B8EF8B294E2"
+    },
+    "input\\vocabulary\\valueset-observation-category.json": {
+      "Length": 3763,
+      "LastWriteTime": "2023-09-21T02:40:56+00:00",
+      "Hash": "470CE66E40B07CB2144AF093B44F9BC2"
+    },
+    "input\\vocabulary\\valuset-observation-status.json": {
+      "Length": 3675,
+      "LastWriteTime": "2023-09-21T02:40:56+00:00",
+      "Hash": "EACB665FB1E8528D9BDDF8D2072B83EE"
+    },
+    "input\\vocabulary\\valueset-reference-range-applies-to.json": {
+      "Length": 280776,
+      "LastWriteTime": "2023-09-21T02:40:56+00:00",
+      "Hash": "93B6427362D182603D0109ABA00E8D6D"
+    },
+    "input\\vocabulary\\valueset-reference-range-meaning.json": {
+      "Length": 4934,
+      "LastWriteTime": "2023-09-21T02:40:56+00:00",
+      "Hash": "EB69D52241924FFF1D775D5361754E4C"
+    },
+    "input\\vocabulary\\valueset-us-core-simple-observation-category.json": {
+      "Length": 4824,
+      "LastWriteTime": "2023-09-21T02:40:56+00:00",
+      "Hash": "5863A5D70EA7F0F9BACAB0F15BFB7FEC"
     }
   }
 }
