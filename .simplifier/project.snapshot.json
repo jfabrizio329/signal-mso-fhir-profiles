@@ -167,9 +167,9 @@
       "Hash": "3B03078464BE83C5A4EB59AB5CC54B0F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\toc.yaml": {
-      "Length": 542,
-      "LastWriteTime": "2023-09-15T01:39:32+00:00",
-      "Hash": "2630935A068A4ABE304D3524962FEAC5"
+      "Length": 632,
+      "LastWriteTime": "2023-09-22T01:21:56+00:00",
+      "Hash": "606F0B5A8143E468B4F76AFF5DDCA215"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Organization-Profile.page.md": {
       "Length": 4722,
@@ -187,9 +187,9 @@
       "Hash": "0FC546431E1D1838A2623733082FDF07"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Clinical-Categorization-Module.page.md": {
-      "Length": 7512,
-      "LastWriteTime": "2023-09-22T01:09:12+00:00",
-      "Hash": "8D8B971DB656C1266A1CAF557F2BEAE2"
+      "Length": 7516,
+      "LastWriteTime": "2023-09-22T01:34:30+00:00",
+      "Hash": "1FA0BF33F1340A4EFD8FFCF7A12ACC02"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Organization-Services-Module.page.md": {
       "Length": 1514,
@@ -252,9 +252,9 @@
       "Hash": "D2C7D8EDC4C0A9D2D96099405A61DDD1"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Implementer---Developer-Q-A.page.md": {
-      "Length": 1283,
-      "LastWriteTime": "2023-09-13T01:30:12+00:00",
-      "Hash": "7AC6BB37583F29567E1BC09CC1EC8E68"
+      "Length": 1425,
+      "LastWriteTime": "2023-09-22T01:32:32+00:00",
+      "Hash": "E1A372314940A6F26C5BDECEED9A3A05"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Observation-Screening-Assessment-Profile.page.md": {
       "Length": 1024,
@@ -412,9 +412,9 @@
       "Hash": "CB3A80A5EFE0875E9DBE99A5459AED58"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Changelog.page.md": {
-      "Length": 1209,
-      "LastWriteTime": "2023-09-22T01:06:54+00:00",
-      "Hash": "03C5CDCAF82BED56C2EC9B4002EB3B56"
+      "Length": 1261,
+      "LastWriteTime": "2023-09-22T01:31:22+00:00",
+      "Hash": "B9D6AE49A76947E2DEE979E6D5674C0F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\File-Repository-Module.page.md": {
       "Length": 755,
@@ -505,6 +505,11 @@
       "Length": 4824,
       "LastWriteTime": "2023-09-21T02:40:56+00:00",
       "Hash": "5863A5D70EA7F0F9BACAB0F15BFB7FEC"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Communications-Module.page.md": {
+      "Length": 2854,
+      "LastWriteTime": "2023-09-22T01:34:16+00:00",
+      "Hash": "4FBC1DE19A63B5B268E11F42C144C8A4"
     }
   }
 }

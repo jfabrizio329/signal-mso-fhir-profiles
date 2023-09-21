@@ -18,7 +18,7 @@ Detailed changes can be found on the [GitHub 'main' commits](https://github.com/
 
 | Date | Description | New Package Version |
 | --- | --- | --- |
-| 2023-09-21 | - Updated {{pagelink:clinical-categorization-module}} with an example and additional clarification for EpisodeOfCare vs. Encounter rationale | 0.1.3 |
+| 2023-09-21 | - Updated {{pagelink:clinical-categorization-module}} with an example and additional clarification for EpisodeOfCare vs. Encounter rationale <br /> - Created {{pagelink:communications-module}} | 0.1.3 |
 | 2023-09-19 | - Updated {{pagelink:documentreference-profile}} with new information <br /> - Updated {{pagelink:episodeofcare-profile}} from last discussion <br /> - Updated {{pagelink:healthcareservice-profile}} with latest elements | 0.1.2 |
 | 2023-09-14 | - Created {{pagelink:file-repository-module}}  <br /> - Created {{pagelink:documentreference-profile}} <br /> - Created {{pagelink:changelog}}| 0.1.1 |
 

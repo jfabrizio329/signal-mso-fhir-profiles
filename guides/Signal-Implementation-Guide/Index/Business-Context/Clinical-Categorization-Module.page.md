@@ -9,20 +9,6 @@ topic: clinical-categorization-module
 ## Context
 This is the administration module for clinical categorization.  It captures concepts the entire admission or case, individual services, surveys, and discharge events.
 
-
-### EpisodeOfCare and Encounters
-
-Per [FHIR EpisodeOfCare Boundaries and Relationships](https://www.hl7.org/fhir/episodeofcare.html#bnr):
-> The primary difference between the EpisodeOfCare and the Encounter is that the Encounter records the details of an activity directly relating to the patient, while the EpisodeOfCare is the container that can link a series of Encounters together for problems/issues.
-
-
-For this implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
-
-- Admission defines a Parent (top-level) `EpisodeOfCare` resource that will record Admission and Discharge Dates.
-- `EspisodeOfCare` is loosely based on the service category, previously defined as _modality_.
-- `Encounter` resources will be child (lower-level) pointing to a related `EpisodeOfCare` will collect individual service codes/procedures during a case.
-- `Encounter` will also be created for each event or transaction including but not limited to admission, discharge, survey, notes, and more.
-
 ## FHIR Focus Resource Types
 
 | Name                      | Aliases                                   | Description |
@@ -56,6 +42,21 @@ Following [HL7.FHIR.US.CORE\Screening and Assessments - FHIR v4.0.01](http://hl7
 - {{pagelink:questionnaireresponse-profile}}
 
  In addition, we are utilizing the US Core Screening and Assessments guidance.
+
+## Notes
+
+### EpisodeOfCare and Encounters
+
+Per [EpisodeOfCare Boundaries and Relationships](https://www.hl7.org/fhir/episodeofcare.html#bnr):
+> The primary difference between the EpisodeOfCare and the Encounter is that the Encounter records the details of an activity directly relating to the patient, while the EpisodeOfCare is the container that can link a series of Encounters together for problems/issues.
+
+For this implementation, modifications will be made to the [Clinical Categorization Resources in the Administration module](http://hl7.org/fhir/administration-module.html#clinical-reg):
+
+- Admission defines a Parent (top-level) `EpisodeOfCare` resource that will record Admission and Discharge Dates.
+- `EspisodeOfCare` is loosely based on the service category, previously defined as _modality_.
+- `Encounter` resources will be child (lower-level) pointing to a related `EpisodeOfCare` will collect individual service codes/procedures during a case.
+- `Encounter` will also be created for each event or transaction including but not limited to admission, discharge, survey, notes, and more.
+
 
 ## Examples
 

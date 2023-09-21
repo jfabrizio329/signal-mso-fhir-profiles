@@ -19,3 +19,7 @@ OrganizationAffiliation.healthcareService 0..* (HealthcareService) references al
 HealthcareService.program (Signal MSO FHIR Profiles | SignalProgram - SIMPLIFIER.NET) contains the applicable programs. 
 
 See the {{pagelink:Index/Business-Context/Organization-Services-Module.page.md}} for more information.
+
+## What is the difference between EpisodeOfCare and Encounter?
+
+See {{pagelink:clinical-categorization-module}} notes and examples sections.
