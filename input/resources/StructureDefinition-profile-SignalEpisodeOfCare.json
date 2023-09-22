@@ -25,7 +25,7 @@
         "path": "EpisodeOfCare.type",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       }
     ]

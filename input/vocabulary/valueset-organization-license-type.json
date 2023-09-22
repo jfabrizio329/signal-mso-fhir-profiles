@@ -1,7 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "signal-organization-license",
-    "url": "http://signalbhn.org/fhir/ValueSet/signal-organization-license",
+    "url": "https://signalbhn.org/fhir/ValueSet/signal-organization-license",
     "version": "6.0.0",
     "name": "SignalOrganizationLicense",
     "title": "Signal Organization License",
@@ -12,7 +12,7 @@
     "compose": {
         "include": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license"
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license"
             }
         ]
     },
@@ -21,161 +21,161 @@
         "total": 4,
         "contains": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "mh",
                 "display": "Mental Health Designation (MH)",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-psych-hosp",
                         "display": "Psychiatric Hospital"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-psych-hosp-lt",
                         "display": "Psychiatric Hospital with Long Term Certification"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-hosp-ed",
                         "display": "Hospital Emergency Department"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-comm-mh",
                         "display": "Community Mental Health Center"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-comm-mh-atu",
                         "display": "Community Mental Health Center with Acute Treatment Unit"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-comm-mh-csu",
                         "display": "Community Mental Health Center with Crisis Stabilization Unit"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-comm-mh-atu-csu",
                         "display": "Community Mental Health Center with Acute Treatment & Crisis Stabilization Unit"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-comm-mh-clinic",
                         "display": "Community Mental Health Clinic"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-res-child",
                         "display": "Residential Child Care Facility"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-res-child-psych-res",
                         "display": "Residential Child Care Facility with Psychiatric Residential"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-res-child-pshych-res-lt",
                         "display": "Residential Child Care Facility with Psychiatric Residential with Long Term Certification"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "mh-hospital",
                         "display": "Hospital"
                     }
                 ]
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "sud",
                 "display": "Substance Use Disorder (SUD) Treatment License",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-alcohol-drug-involuntary-commit",
                         "display": "Alcohol & Drug Involuntary Commitment"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-cm-res-detox",
                         "display": "Clinically Managed Residential Detox"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-mip",
                         "display": "MIP"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-li-dui-edu",
                         "display": "Level I DUI Education"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-lii-dui-edu",
                         "display": "Level II DUI Education"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-lii-fourplus",
                         "display": "Level II Four Plus"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-lii-dui-therapy",
                         "display": "Level II DUI Therapy"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-lii-enhanced-outpatient-therapy",
                         "display": "Level II Enhanced Outpatient Therapy"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-gen-treatment",
                         "display": "General Treatment"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-youth-dui-edu",
                         "display": "Youth DUI Education"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-youth-treatment",
                         "display": "Youth Treatment"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-youth-dui-treatment",
                         "display": "Youth DUI Treatment"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-gender-responsive-treatment-women",
                         "display": "Gender Responsive Treatment for Women"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-edu-treatment-criminal-justice",
                         "display": "Education & Treatment Services for Persons Involved in the Criminal Justice System"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                         "code": "sud-edu-treatment-criminal-justice-enhanced-outpatient",
                         "display": "Education & Treatment Services for Persons Involved in the Criminal Justice System Enhances Outpatient"
                     }
                 ]
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "csl",
                 "display": "Controlled Substance License (CSL)"
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-license",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-license",
                 "code": "rsso",
                 "display": "Recovery Support Services Organization (RSSO)"
             }

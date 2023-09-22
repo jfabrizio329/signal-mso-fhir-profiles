@@ -15,7 +15,7 @@
             "valueInteger": 1
         }
     ],
-    "url": "http://signalbhn.org/fhir/ValueSet/signal-program",
+    "url": "https://signalbhn.org/fhir/ValueSet/signal-program",
     "name": "SignalProgram",
     "title": "Signal Program",
     "status": "draft",
@@ -24,7 +24,7 @@
     "compose": {
         "include": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program"
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-program"
             }
         ]
     },
@@ -33,27 +33,27 @@
         "total": 5,
         "contains": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
                 "code": "sud",
                 "display": "Substance Use Disorder (SUD)"
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
                 "code": "crisis",
                 "display": "Colorado Crisis Services (CCS)"
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
                 "code": "cymhta",
                 "display": "Children and Youth Mental Health Treatment Act (CYMHTA)"
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
                 "code": "assessment",
                 "display": "Assessment"
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-program",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
                 "code": "recovery",
                 "display": "Recovery"
             }

@@ -7,7 +7,7 @@
     "text": {
         "status": "extensions"
     },
-    "url": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
+    "url": "https://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
     "version": "6.0.0",
     "name": "SignalOrganizationType",
     "title": "Signal Organization Type",
@@ -16,7 +16,7 @@
     "date": "2019-11-01T09:29:23+11:00",
     "description": "This code system aligns with the speicific institutional requirements for organization types for this Managed Service Organization.",
     "caseSensitive": true,
-    "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
+    "valueSet": "https://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type",
     "content": "complete",
     "concept": [
         {
