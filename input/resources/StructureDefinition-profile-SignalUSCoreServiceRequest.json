@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "signal-profile-us-core-service-request",
-  "url": "https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalUSCoreServiceRequest",
-  "name": "StructureDefinition-profile-SignalUSCoreServiceRequest",
+  "id": "signal-servicerequest",
+  "url": " https://signalbhn.org/fhir/StructureDefinition/servicerequest",
+  "name": "signal-servicerequest-profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
