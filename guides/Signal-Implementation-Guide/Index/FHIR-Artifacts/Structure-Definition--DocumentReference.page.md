@@ -37,6 +37,8 @@ Module:  {{pagelink:File-Repository-Module}}
 
 The DocumentReference resource will be used to store metadata about files uploaded and interchanged between a service organization and a provider agency or location so they can be discovered and managed.  The files may be of any kind and used for any purpose.  In the case they relate to a specific encounter or episode of care (admission), those references SHOULD be provided.
 
+**Note**:  Although there exists a [US Core DocumentReference](https://hl7.org/fhir/us/core/StructureDefinition-us-core-documentreference.html), it is geared towards Clinical Notes and requires a Patient reference.  Signal's DocumentReference will be used in a much more general capacity and will not always have an explicit Patient.
+
 ### File Storage
 Files are intended to be stored in an external storage (e.g. Azure storage) and be linked with a resolvable URI for parties with proper permissions.
 

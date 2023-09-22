@@ -38,5 +38,8 @@ The Location resource is used to provide supporting fact information to other re
 **.type**
 - *FUTURE* - will want to include [CMS Place of Service](https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set.html), which is in https://www.hl7.org/fhir/valueset-service-place.html.  May need to add it to the existing set.
 
+**.address.extension.region**  - *FUTURE* 
+- will want to include the business region definition.  Will primarily be used off OrganizationAffiliation in reference to the service organization.
+
 ## Examples
 
