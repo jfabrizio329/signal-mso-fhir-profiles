@@ -192,9 +192,9 @@
       "Hash": "1FA0BF33F1340A4EFD8FFCF7A12ACC02"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Organization-Services-Module.page.md": {
-      "Length": 1514,
-      "LastWriteTime": "2023-09-12T22:15:12+00:00",
-      "Hash": "74CFBF32A2E08A27952EE65448780121"
+      "Length": 2290,
+      "LastWriteTime": "2023-09-22T23:19:14+00:00",
+      "Hash": "338147D0B72A571151F82018CC104554"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--HealthcareService-Profile.page.md": {
       "Length": 2800,
@@ -227,9 +227,9 @@
       "Hash": "DCB5B8ED6647205A344A45BF8DDD9090"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Location-Profile.page.md": {
-      "Length": 1445,
-      "LastWriteTime": "2023-09-12T22:09:10+00:00",
-      "Hash": "6033C39D2DD46546CCE31013D2F099B7"
+      "Length": 1638,
+      "LastWriteTime": "2023-09-22T23:48:12+00:00",
+      "Hash": "343D8A42677AEE2D2A1C00F9A9710F7E"
     },
     ".simplifier\\.forge-corrected-files\\75733822717c4b0b9f86be8527b0e3f5.json": {
       "Length": 8013,
