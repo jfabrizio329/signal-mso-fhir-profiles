@@ -38,3 +38,5 @@
   filename: Structure-Definition--QuestionnaireResponse-Profile.page.md
 - name: 'Structure Definition: DocumentReference'
   filename: Structure-Definition--DocumentReference.page.md
+- name: 'Structure Definition: Task'
+  filename: Structure-Definition--Task.page.md
