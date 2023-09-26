@@ -16,7 +16,7 @@ FHIR provides for many resources that can be used within a [Workflow](http://hl7
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
 | {{pagelink:documentreference-profile}} | File repository, metadata        | Contains searchable metadata about attached files, including references to encounters, episodes of care, patient, and more |
-| [Task](http://hl7.org/fhir/R4/task.html) | --- | A task resource describes an activity that can be performed and tracks the state of completion of that activity. It is a representation that an activity should be or has been initiated, and eventually, represents the successful or unsuccessful completion of that activity. |
+| {{pagelink:task-profile}} | --- | A task resource describes an activity that can be performed and tracks the state of completion of that activity. It is a representation that an activity should be or has been initiated, and eventually, represents the successful or unsuccessful completion of that activity. |
 
 
 ## Conceptual Model
