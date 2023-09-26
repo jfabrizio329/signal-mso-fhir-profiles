@@ -40,3 +40,9 @@
   filename: Structure-Definition--DocumentReference.page.md
 - name: 'Structure Definition: Task'
   filename: Structure-Definition--Task.page.md
+- name: 'Structure Definition: Communication'
+  filename: Structure-Definition--Communication.page.md
+- name: 'Structure Definition: CommunicationRequest'
+  filename: Structure-Definition--CommunicationRequest.page.md
+- name: 'Structure Definition: Flag'
+  filename: Structure-Definition--Flag.page.md
