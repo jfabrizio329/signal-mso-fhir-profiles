@@ -47,9 +47,9 @@
       "Hash": "42995B74D479DF0CCB4436484B5F6207"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\toc.yaml": {
-      "Length": 2494,
-      "LastWriteTime": "2023-09-26T02:19:50+00:00",
-      "Hash": "4C4D23275949C66E0852F59A11DE4B68"
+      "Length": 2802,
+      "LastWriteTime": "2023-09-27T01:30:30+00:00",
+      "Hash": "8B0088546D529FCA45D0BDEF37AC96EE"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Introduction.page.md": {
       "Length": 1265,
@@ -167,9 +167,9 @@
       "Hash": "3B03078464BE83C5A4EB59AB5CC54B0F"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\toc.yaml": {
-      "Length": 628,
-      "LastWriteTime": "2023-09-26T02:14:00+00:00",
-      "Hash": "AA18F2090B0846856715AC0FE21AD5F2"
+      "Length": 592,
+      "LastWriteTime": "2023-09-27T01:12:38+00:00",
+      "Hash": "83650F1CEDF5382145CFD911E8195503"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Organization-Profile.page.md": {
       "Length": 4722,
@@ -192,9 +192,9 @@
       "Hash": "1FA0BF33F1340A4EFD8FFCF7A12ACC02"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Organization-Services-Module.page.md": {
-      "Length": 2290,
-      "LastWriteTime": "2023-09-22T23:19:14+00:00",
-      "Hash": "338147D0B72A571151F82018CC104554"
+      "Length": 2348,
+      "LastWriteTime": "2023-09-26T22:25:28+00:00",
+      "Hash": "DEC3C7EAED29B100845AB7366AEF7FFB"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--HealthcareService-Profile.page.md": {
       "Length": 2800,
@@ -412,9 +412,9 @@
       "Hash": "CB3A80A5EFE0875E9DBE99A5459AED58"
     },
     "guides\\Signal-Implementation-Guide\\Index\\Home\\Changelog.page.md": {
-      "Length": 1758,
-      "LastWriteTime": "2023-09-26T02:28:46+00:00",
-      "Hash": "4F153F791794A2F9E2CFD26D95CA3CDE"
+      "Length": 1987,
+      "LastWriteTime": "2023-09-27T01:33:22+00:00",
+      "Hash": "F743C665F0632868753D0DB96F023D7E"
     },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--DocumentReference.page.md": {
       "Length": 4493,
@@ -501,20 +501,30 @@
       "LastWriteTime": "2023-09-21T02:40:56+00:00",
       "Hash": "5863A5D70EA7F0F9BACAB0F15BFB7FEC"
     },
-    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\Communications-Module.page.md": {
-      "Length": 3050,
-      "LastWriteTime": "2023-09-22T01:34:16+00:00",
-      "Hash": "0FE1AACBCA1B14BE5F7D87EDB0C4531E"
-    },
     "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Task.page.md": {
       "Length": 1194,
       "LastWriteTime": "2023-09-26T02:31:20+00:00",
       "Hash": "E18E9DBA7907AE4D8A94BBAEBA41D72B"
     },
-    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\File-Exchange-Module.page.md": {
-      "Length": 1269,
-      "LastWriteTime": "2023-09-26T02:18:56+00:00",
-      "Hash": "A7B8AACB1BA38459B8A379B82840F8B3"
+    "guides\\Signal-Implementation-Guide\\Index\\Business-Context\\File-Exchange-and-Communications-Module.page.md": {
+      "Length": 4002,
+      "LastWriteTime": "2023-09-27T01:34:56+00:00",
+      "Hash": "57BFB0D73823B0DA7A5C4AAFB80D818E"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Communication.page.md": {
+      "Length": 890,
+      "LastWriteTime": "2023-09-27T01:36:24+00:00",
+      "Hash": "01EDE838653D90F8EA239C9A3CDD9C98"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--CommunicationRequest.page.md": {
+      "Length": 946,
+      "LastWriteTime": "2023-09-27T01:36:28+00:00",
+      "Hash": "79FEAC6E9B06BA5536A35C595CCA9C62"
+    },
+    "guides\\Signal-Implementation-Guide\\Index\\FHIR-Artifacts\\Structure-Definition--Flag.page.md": {
+      "Length": 818,
+      "LastWriteTime": "2023-09-27T01:36:40+00:00",
+      "Hash": "5C1DA89BE50DE891F018AF90A741EE67"
     }
   }
 }

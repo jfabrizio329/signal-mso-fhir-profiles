@@ -26,10 +26,12 @@ This is the administration module for Organiation Services, which defines the re
 ## Examples
 (An example is intended to be illustrative of the relationship between resources but may not represent a completely accurate business process at the time the example was published.)
 
-In this example, fabricated provider *Denver Medical* has a location called *Denver East* that has affiliations for both Signal and RMHC.  
+### Provider Agency, Provider Locations, Services example
+
+Fabricated provider *Denver Medical* has a location called *Denver East* that has affiliations for both Signal and RMHC.  (see diagram below)
 - Denver East has 2 qualifications with Colorado BHA (via LADDERS) which allows services ASAM-0.5 and CYMHTA Treatment which are also coded as qualifications via the administrator.
 - Denver East's affiliation with Signal offers 2 services, ASAM-0.5 (via SUD) and Treatment (via CYMHTA), and this occurs in Signal's South region.
 - Denver East's affiliation with RMHC offers 1 service, Treatment (via CYMHTA), and this occurs in RMHC's Mid-West region.
 
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-example-01-2023-09-22.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-org-example-2023-09-22.png}}
