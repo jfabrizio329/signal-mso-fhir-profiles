@@ -1,0 +1,77 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-region",
+    "name": "SignalRegion",
+    "title": "Signal Region",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "description": "Signal specific regions mapped to a service organization",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-region"
+            }
+        ]
+    },
+    "url": "https://signalbhn.org/fhir/ValueSet/signal-region",
+    "expansion": {
+        "timestamp": "2023-09-27T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                "code": "signal-region",
+                "display": "Signal Region",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "signal-north",
+                        "display": "Signal North"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "signal-south",
+                        "display": "Signal South"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "signal-east",
+                        "display": "Signal East"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "signal-west",
+                        "display": "Signal West"
+                    }
+                ]
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                "code": "rmh-region",
+                "display": "Rocky Mountain Health Region",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "rmh-north",
+                        "display": "Rocky Mountain Health North"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "rmh-south",
+                        "display": "Rocky Mountain Health South"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "rmh-east",
+                        "display": "Rocky Mountain Health East"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+                        "code": "rmh-west",
+                        "display": "Rocky Mountain Health West"
+                    }
+                ]       
+            }
+        ]
+    }
+}

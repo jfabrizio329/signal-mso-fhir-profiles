@@ -1,0 +1,66 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-region",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/region",
+  "name": "SignalRegion",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+      {
+          "type": "element",
+          "expression": "Address"
+      }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+      "element": [
+          {
+              "id": "Extension.extension",
+              "path": "Extension.extension",
+              "slicing": {
+                  "discriminator": [
+                      {
+                          "type": "value",
+                          "path": "url"
+                      }
+                  ],
+                  "rules": "open"
+              },
+              "min": 0
+          },
+          {
+              "id": "Extension.extension:code",
+              "path": "Extension.extension",
+              "sliceName": "code",
+              "min": 0
+          },
+          {
+              "id": "Extension.extension:code.url",
+              "path": "Extension.extension.url",
+              "fixedUri": "code"
+          },
+          {
+              "id": "Extension.extension:code.value[x]",
+              "path": "Extension.extension.value[x]",
+              "type": [
+                  {
+                      "code": "CodeableConcept"
+                  }
+              ],
+              "binding": {
+                  "strength": "extensible",
+                  "valueSet": "https://signalbhn.org/fhir/CodeSystem/signal-region"
+              }
+          },
+          {
+              "id": "Extension.url",
+              "path": "Extension.url",
+              "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/region"
+          }
+      ]
+  }
+}
