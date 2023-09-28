@@ -32,6 +32,10 @@
             "display": "Provider Location"
         },
         {
+            "code": "prov-agency",
+            "display": "Provider Agency"
+        },
+        {
             "code": "payer",
             "display": "Payer"
         }

@@ -26,6 +26,10 @@
                     "display": "Provider Location"
                 },
                 {
+                    "code": "prov-agency",
+                    "display": "Provider Agency"
+                },
+                {
                     "code": "payer",
                     "display": "Payer"
                 }
@@ -105,6 +109,11 @@
               "code": "prov-location",
               "display": "Provider Location"
           },
+          {
+            "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
+            "code": "prov-agency",
+            "display": "Provider Agency"
+        },
           {
               "system": "http://signalbhn.org/fhir/CodeSystem/signal-organization-type",
               "code": "payer",
