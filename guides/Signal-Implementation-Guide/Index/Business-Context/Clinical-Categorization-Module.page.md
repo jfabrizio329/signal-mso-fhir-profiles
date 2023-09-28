@@ -22,8 +22,8 @@ This is the administration module for clinical categorization.  It captures conc
 | {{pagelink:condition-encounter-profile}} | Condition, Problem, Diagnosis | For encoutner diagnosis resulting from a healthcare interaction |
 | {{pagelink:organization-profile}} | Provider, Provider Agency, Provider Location | Organization providing services |
 | {{pagelink:patient-profile}} | Client | --- |
-| {{pagelink:practitioner-profile}} | Clinician, doctor | Not currently used |
-| {{pagelink:practitionerrole-profile}} | --- | Not currently used |
+| {{pagelink:practitioner-profile}} | Clinician, physician, doctor, nurse, user | See {{pagelink:organization-services-module}} |
+| {{pagelink:practitionerrole-profile}} | --- | See {{pagelink:organization-services-module}} |
 | {{pagelink:chargeitem-profile}} | --- | Not currently used |
 | {{pagelink:observation-screening-assessment-profile}} | Survey | Contains details on type of screening or assessment and results |
 | {{pagelink:questionnaire-profile}} | Survey (DACODS, CCAR) | Contains questions asked on screening or assessment |
@@ -32,7 +32,7 @@ This is the administration module for clinical categorization.  It captures conc
 
 ## Conceptual Model
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-clinical-module-2023-08-31.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-clinical-module-2023-09-28.png}}
 
 ### Structured Screening and Assessments - Survey, Questionnaire, and Questionnaire Response
 

@@ -6,8 +6,6 @@ topic: communication-profile
 
 ---
 
-Status: WIP, will receive additional profile notes in the near future
-
 Canonical URL: http://hl7.org/fhir/StructureDefinition/communication
 
 Simplifier project page: Not Applicable
@@ -47,7 +45,7 @@ A Communication is not intended to provide additional or novel findings for a Pa
 
 **.recipient**
 - Required field that will represent the status of a communication
-- *MAY* reference an Organization resource (e.g. Service Organization) if no specific person needs to be notified
+- *MAY* reference an Organization resource (e.g. Service Organization) if message is intended for all Practitioners associated with the Organization, otherwise *SHOULD* reference a Practitioner
 
 **.sent**
 - The time when this communication was sent.

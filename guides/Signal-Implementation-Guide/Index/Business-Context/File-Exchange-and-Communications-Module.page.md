@@ -24,7 +24,7 @@ This module is also used  and specify resources used by the application back-end
 
 ## Conceptual Model
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-file-2023-09-26.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-file-module-2023-09-28.png}}
 
 ## Notes
 
