@@ -33,7 +33,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://signalbhn.org/fhir/ValueSet/region"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-region"
         }
       }
     ]
