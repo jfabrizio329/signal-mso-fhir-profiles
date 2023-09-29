@@ -8,59 +8,34 @@
   "kind": "complex-type",
   "abstract": false,
   "context": [
-      {
-          "type": "element",
-          "expression": "Address"
-      }
+    {
+      "type": "element",
+      "expression": "Address"
+    }
   ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation": "constraint",
   "differential": {
-      "element": [
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/region"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
           {
-              "id": "Extension.extension",
-              "path": "Extension.extension",
-              "slicing": {
-                  "discriminator": [
-                      {
-                          "type": "value",
-                          "path": "url"
-                      }
-                  ],
-                  "rules": "open"
-              },
-              "min": 0
-          },
-          {
-              "id": "Extension.extension:code",
-              "path": "Extension.extension",
-              "sliceName": "code",
-              "min": 0
-          },
-          {
-              "id": "Extension.extension:code.url",
-              "path": "Extension.extension.url",
-              "fixedUri": "code"
-          },
-          {
-              "id": "Extension.extension:code.value[x]",
-              "path": "Extension.extension.value[x]",
-              "type": [
-                  {
-                      "code": "CodeableConcept"
-                  }
-              ],
-              "binding": {
-                  "strength": "extensible",
-                  "valueSet": "https://signalbhn.org/fhir/CodeSystem/signal-region"
-              }
-          },
-          {
-              "id": "Extension.url",
-              "path": "Extension.url",
-              "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/region"
+            "code": "CodeableConcept"
           }
-      ]
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/region"
+        }
+      }
+    ]
   }
 }

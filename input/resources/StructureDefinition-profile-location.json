@@ -12,36 +12,6 @@
   "differential": {
     "element": [
       {
-        "id": "Location.address.extension",
-        "path": "Location.address.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
-        "id": "Location.address.extension:Region",
-        "path": "Location.address.extension",
-        "sliceName": "Region",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://signalbhn.org/fhir/StructureDefinition/region"
-            ]
-          }
-        ],
-        "isModifier": false
-      },
-      {
         "id": "Location.address.district",
         "path": "Location.address.district",
         "binding": {
