@@ -24,7 +24,7 @@ This is the Finance Module for capturing information related to contracts, accou
 
 ## Conceptual Model
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-finance-module-2023-08-31.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-finance-module-2023-10-04.png}}
 
 ## Examples
 
