@@ -111,7 +111,7 @@
             "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-type",
             "code": "prov-agency",
             "display": "Provider Agency"
-        },
+          },
           {
               "system": "https://signalbhn.org/fhir/CodeSystem/signal-organization-type",
               "code": "payer",

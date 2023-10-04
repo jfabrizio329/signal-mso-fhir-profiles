@@ -1,7 +1,7 @@
 {
     "resourceType": "CodeSystem",
     "id": "signal-healthcare-service-type",
-    "url": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+    "url": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
     "name": "SignalHealthcareServiceType",
     "title": "Signal Healthcare Service Type",
     "status": "draft",
@@ -10,7 +10,7 @@
     "description": "Signal specific healthcare service types being performed or delivered",
     "caseSensitive": true,
     "hierarchyMeaning": "is-a",
-    "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type",
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type",
     "content": "complete",
     "concept": [
         {

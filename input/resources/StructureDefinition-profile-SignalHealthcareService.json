@@ -17,7 +17,7 @@
         "path": "HealthcareService.category",
         "binding": {
           "strength": "required",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
         }
       },
       {
@@ -43,7 +43,7 @@
         "binding": {
           "strength": "required",
           "description": "Service types allowed in healthcare service",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       },
       {
@@ -54,7 +54,7 @@
         "binding": {
           "strength": "required",
           "description": "CPT procedure codes allowed in healthcare service.",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt"
         }
       },
       {
@@ -63,7 +63,7 @@
         "min": 1,
         "binding": {
           "strength": "required",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-program"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-program"
         }
       }
     ]
