@@ -1,81 +1,76 @@
 {
-  "Timestamp": "2023-08-22T16:40:46.6307133+00:00",
-  "Series": "Validation",
-  "Type": "Forge",
+  "Timestamp": "2023-10-04T20:18:49.5187734+00:00",
+  "Series": "recommended",
+  "Type": "Simplifier",
   "Files": [
     {
-      "Issues": [],
+      "Issues": [
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "CLAIM",
+          "Message": "This project has no canonical claims."
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "UNIQUENESS",
+          "Message": "The following values are duplicated: https://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type, http://hl7.org/fhir/ValueSet/location-physical-type"
+        }
+      ],
       "Tag": null,
-      "Length": 2746,
-      "Hash": "D7EF37B8D5F3BAA44421597A31FB4BB5",
-      "FilePath": "input\\resources\\StructureDefinition-extension-adoptionInfo.json"
-    },
-    {
-      "Issues": [],
-      "Tag": null,
-      "Length": 1225,
-      "Hash": "0B5EA1CCBD0FD732CE384F684A9C7F22",
-      "FilePath": "input\\resources\\StructureDefinition-extension-SignalOrgPhotoAttachment.json"
+      "Length": 0,
+      "Hash": null,
+      "FilePath": null
     },
     {
       "Issues": [
         {
-          "Location": "Extension.extension.slicing",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u003CSlicingComponent\u003E can be removed"
+          "Location": "ImplementationGuide",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027ImplementationGuide.packageId\u0027 is 0, which is not within the specified cardinality of 1..1"
         },
         {
-          "Location": "Extension.extension:identifier.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
+          "Location": "ImplementationGuide.definition[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027ImplementationGuide.definition.resource\u0027 is 0, which is not within the specified cardinality of 1..*"
         },
         {
-          "Location": "Extension.extension:issuer.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
-        },
-        {
-          "Location": "Extension.extension:period.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
-        },
-        {
-          "Location": "Extension.extension:whereValid.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/guides/Signal-Implementation-Guide/ImplementationGuide.xml must have an id"
         }
       ],
-      "Tag": "90d7a578ff8644748a0cf3e29f0663cc",
-      "Length": 64482,
-      "Hash": "2C66A927037F3354025743E9635D8C61",
-      "FilePath": "input\\resources\\StructureDefinition-extension-SignalQualification.json"
-    },
-    {
-      "Issues": [],
       "Tag": null,
-      "Length": 13721,
-      "Hash": "A7B4775E09DA294B819A67CBE4193B9D",
-      "FilePath": "input\\resources\\StructureDefinition-extention-no-fixed-address.json"
+      "Length": 865,
+      "Hash": "CF73FFFC9E10E868FC7DA99ED4755FE4",
+      "FilePath": "guides\\Signal-Implementation-Guide\\ImplementationGuide.xml"
     },
     {
-      "Issues": [],
-      "Tag": null,
-      "Length": 685,
-      "Hash": "4646BC1BCF7F87AAF6874020C1B8191F",
-      "FilePath": "input\\resources\\StructureDefinition-profile-location.json"
-    },
-    {
-      "Issues": [],
+      "Issues": [
+        {
+          "Location": "StructureDefinition",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/StructureDefinition",
+          "Code": "sdf-6",
+          "Message": "Instance failed constraint sdf-6 \u0022A structure must have either a differential, or a snapshot (or both)\u0022"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-OrganizationAffiliation.json must have an id"
+        }
+      ],
       "Tag": null,
       "Length": 418,
       "Hash": "4D1210DB79D7457850D5099548E0396C",
@@ -84,108 +79,754 @@
     {
       "Issues": [
         {
-          "Location": "Patient.extension:ethnicity.extension",
-          "Severity": 1,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC012",
-          "Message": "Minimum cardinality should be set to 1 in the base profile"
+          "Location": "StructureDefinition",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/StructureDefinition",
+          "Code": "sdf-6",
+          "Message": "Instance failed constraint sdf-6 \u0022A structure must have either a differential, or a snapshot (or both)\u0022"
         },
         {
-          "Location": "Patient.extension:tribalAffiliation.extension",
-          "Severity": 1,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC012",
-          "Message": "Minimum cardinality should be set to 1 in the base profile"
-        },
-        {
-          "Location": "Patient.extension:ethnicity.extension",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC006",
-          "Message": "Minimum cardinality can be recalculated and set to 1"
-        },
-        {
-          "Location": "Patient.extension:tribalAffiliation.extension",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC006",
-          "Message": "Minimum cardinality can be recalculated and set to 1"
-        },
-        {
-          "Location": "Patient.extension:adoptionInfo.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
-        },
-        {
-          "Location": "Patient.address.extension",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC009",
-          "Message": "Differential element can be removed"
-        },
-        {
-          "Location": "Patient.address.extension:noFixedAddress.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-practitioner.json must have an id"
         }
       ],
-      "Tag": "75733822717c4b0b9f86be8527b0e3f5",
-      "Length": 8341,
-      "Hash": "EDB32E1C3993B3F6B421D9CB88887D7C",
-      "FilePath": "input\\resources\\StructureDefinition-profile-patient.json"
-    },
-    {
-      "Issues": [],
       "Tag": null,
       "Length": 397,
       "Hash": "29A78C20F4ABBF1F358223CEFFFB0878",
       "FilePath": "input\\resources\\StructureDefinition-profile-practitioner.json"
     },
     {
-      "Issues": [],
+      "Issues": [
+        {
+          "Location": "CodeSystem.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
       "Tag": null,
-      "Length": 413,
-      "Hash": "3EF74898FAC9AAD597CDD67D6DF1D4E2",
+      "Length": 5822,
+      "Hash": "B286D35D9D1D1302F9C39BA4FBDA100E",
+      "FilePath": "input\\vocabulary\\codesystem-organization-license.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "CodeSystem.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/vocabulary/codesystem-organization-type.json must have an id"
+        }
+      ],
+      "Tag": null,
+      "Length": 1304,
+      "Hash": "29F9C5281E094DAD95101A79B1E9B1E8",
+      "FilePath": "input\\vocabulary\\codesystem-organization-type.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0].div[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/Narrative",
+          "Code": "txt-1",
+          "Message": "Instance failed constraint txt-1 \u0022The narrative SHALL contain only the basic html formatting elements and attributes described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, \u003Ca\u003E elements (either name or href), images and internally contained style attributes\u0022"
+        },
+        {
+          "Location": "ValueSet.text[0].div[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/Narrative",
+          "Code": "txt-2",
+          "Message": "Instance failed constraint txt-2 \u0022The narrative SHALL have some non-whitespace content\u0022"
+        }
+      ],
+      "Tag": null,
+      "Length": 6930,
+      "Hash": "0626A48BFFDA06AAB75946910A7A25EF",
+      "FilePath": "input\\vocabulary\\valueset-encounter-classHistory-class.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.expansion[0].contains[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[1]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[2]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[3]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[4]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        }
+      ],
+      "Tag": null,
+      "Length": 3053,
+      "Hash": "4E30350D42AEA9BA0609CD370BDC5F91",
+      "FilePath": "input\\vocabulary\\valueset-episode-of-care-type.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.expansion[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027ValueSet.expansion.timestamp\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 6141,
+      "Hash": "18AF6D535651428161F6336DDCA04053",
+      "FilePath": "input\\vocabulary\\valueset-organization-type.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0].div[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/Narrative",
+          "Code": "txt-1",
+          "Message": "Instance failed constraint txt-1 \u0022The narrative SHALL contain only the basic html formatting elements and attributes described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, \u003Ca\u003E elements (either name or href), images and internally contained style attributes\u0022"
+        },
+        {
+          "Location": "ValueSet.text[0].div[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/Narrative",
+          "Code": "txt-2",
+          "Message": "Instance failed constraint txt-2 \u0022The narrative SHALL have some non-whitespace content\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[1]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[2]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[3]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[4]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[5]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[6]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[7]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[8]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[9]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[10]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[11]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[12]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[13]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[14]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[15]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[16]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[17]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[18]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[19]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[20]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[21]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[22]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[23]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[24]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[25]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[26]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[27]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[28]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[29]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[30]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[31]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[32]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[33]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[34]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[35]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[36]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[37]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[38]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[39]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[40]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[41]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[42]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[43]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[44]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[45]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[46]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[47]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[48]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[49]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[50]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[51]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[52]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[53]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[54]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[55]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[56]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[57]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[58]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[59]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        },
+        {
+          "Location": "ValueSet.expansion[0].contains[60]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+          "Code": "vsd-10",
+          "Message": "Instance failed constraint vsd-10 \u0022Must have a system if a code is present\u0022"
+        }
+      ],
+      "Tag": null,
+      "Length": 8790,
+      "Hash": "619CF876521932BEEA92D218AE667AE2",
+      "FilePath": "input\\vocabulary\\valueset-qualification-code.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.expansion[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027ValueSet.expansion.timestamp\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 285668,
+      "Hash": "40DF1DB0329E71EB5D5665C996F82C52",
+      "FilePath": "input\\vocabulary\\valueset-reference-range-applies-to.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 4710,
+      "Hash": "B6CAE62F46E88B8DCD607D7417B5C7E7",
+      "FilePath": "input\\vocabulary\\valueset-us-core-discharge-disposition.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 3784,
+      "Hash": "71D214DA728E073DDA6459E2492DA542",
+      "FilePath": "input\\vocabulary\\valueset-us-core-encounter-type.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 2542,
+      "Hash": "9F0A49A1D8C1623884E59719D57DB8DC",
+      "FilePath": "input\\vocabulary\\valueset-us-core-problem-or-health-concern.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 58456,
+      "Hash": "F074DEAC1868B0DE9E0D6A1563DF3D73",
+      "FilePath": "input\\vocabulary\\valueset-us-core-procedure-code.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 4823,
+      "Hash": "09E67C3BE18FAF88A9F3B6E85433A9B6",
+      "FilePath": "input\\vocabulary\\valueset-us-core-service-request-category.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.text[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027Narrative.div\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 4959,
+      "Hash": "F78291963354DCE86A8FD06031C38891",
+      "FilePath": "input\\vocabulary\\valueset-us-core-simple-observation-category.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-extension-SignalQualification.json must have an id"
+        }
+      ],
+      "Tag": null,
+      "Length": 64482,
+      "Hash": "2C66A927037F3354025743E9635D8C61",
+      "FilePath": "input\\resources\\StructureDefinition-extension-SignalQualification.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-location.json must have an id"
+        }
+      ],
+      "Tag": null,
+      "Length": 685,
+      "Hash": "4646BC1BCF7F87AAF6874020C1B8191F",
+      "FilePath": "input\\resources\\StructureDefinition-profile-location.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-PractitionerRole.json must have an id"
+        }
+      ],
+      "Tag": null,
+      "Length": 784,
+      "Hash": "1BB76DCC5B61B6E94A0113C685A794C1",
       "FilePath": "input\\resources\\StructureDefinition-profile-PractitionerRole.json"
     },
     {
       "Issues": [
         {
-          "Location": "Organization.extension",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC009",
-          "Message": "Differential element can be removed"
-        },
-        {
-          "Location": "Organization.extension:qualification.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
-        },
-        {
-          "Location": "Organization.extension:photo.min",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u00270\u0027 can be removed"
-        },
-        {
-          "Location": "Organization.extension:photo.max",
-          "Severity": 4,
-          "System": "https://forge.net/qc/errors/evaluation",
-          "Code": "FC011",
-          "Message": "Differential value \u0027*\u0027 can be removed"
+          "Location": null,
+          "Severity": 0,
+          "System": "https://simplifier.net/qc/errors/evaluation",
+          "Code": "FHIRPATH",
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-SignalUSCoreOrganizationProfile.json must have an id"
         }
       ],
-      "Tag": "a55a678d608b49de9962946488ade57e",
-      "Length": 2105,
-      "Hash": "1174920AF95F78B364EF40DDD8A86863",
+      "Tag": null,
+      "Length": 3831,
+      "Hash": "77801B2A703CB4BA273B31ECE2BC7BD7",
       "FilePath": "input\\resources\\StructureDefinition-profile-SignalUSCoreOrganizationProfile.json"
     }
   ]

@@ -32,7 +32,7 @@ This is the administration module for clinical categorization.  It captures conc
 
 ## Conceptual Model
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-clinical-module-2023-09-28.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-clinical-module-2023-10-04.png}}
 
 ### Structured Screening and Assessments - Survey, Questionnaire, and Questionnaire Response
 

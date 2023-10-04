@@ -10,9 +10,9 @@ topic: episodeofcare-profile
 
 ---
 
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/episodeofcare
 
-Simplifier project page: [EpisodeOfCare](https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare)
+Simplifier project page: [EpisodeOfCare](https://signalbhn.org/fhir/StructureDefinition/episodeofcare)
 
 Derived from: [FHIR Core R4 EpisodeOfCare](http://hl7.org/fhir/R4/episodeofcare.html)
 
@@ -23,13 +23,13 @@ Module:  {{pagelink:Clinical-Categorization-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/episodeofcare, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/episodeofcare, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/episodeofcare,}}
 	</tab>
 </tabs>
 
