@@ -1,8 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "signal-epdisode-of-care",
-  "url": "https://signalbhn.org/fhir/StructureDefinition/StructureDefinition-profile-SignalEpisodeOfCare",
-  "name": "StructureDefinition-profile-SignalEpisodeOfCare",
+  "id": "signal-epdisodeofcare",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/episodeofcare",
+  "name": "signal-episodeofcare-profile",
+  "title": "EpisodeOfCare Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -23,8 +24,37 @@
       {
         "id": "EpisodeOfCare.type",
         "path": "EpisodeOfCare.type",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "coding.system"
+            }
+          ],
+          "rules": "open"
+        },
         "binding": {
           "strength": "extensible",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+        }
+      },
+      {
+        "id": "EpisodeOfCare.type:program",
+        "path": "EpisodeOfCare.type",
+        "sliceName": "program",
+        "binding": {
+          "strength": "required",
+          "description": "This value set defines the set of codes that could be can be used to classify signal specific programs",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-program"
+        }
+      },
+      {
+        "id": "EpisodeOfCare.type:services",
+        "path": "EpisodeOfCare.type",
+        "sliceName": "services",
+        "binding": {
+          "strength": "required",
+          "description": "Signal specific healthcare service types being performed or delivered",
           "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       }
