@@ -64,59 +64,59 @@
         "timestamp": "2023-08-07T13:07:26.5805095+00:00",
         "contains": [
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "group",
-                "display": "Group",
-                "definition": "An employee group"
+                "display": "Group"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "subgroup",
-                "display": "SubGroup",
-                "definition": "A sub-group of an employee group"
+                "display": "SubGroup"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "plan",
-                "display": "Plan",
-                "definition": "A specific suite of benefits."
+                "display": "Plan"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "subplan",
-                "display": "SubPlan",
-                "definition": "A subset of a specific suite of benefits."
+                "display": "SubPlan"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "class",
-                "display": "Class",
-                "definition": "A class of benefits."
+                "display": "Class"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "subclass",
-                "display": "SubClass",
-                "definition": "A subset of a class of benefits."
+                "display": "SubClass"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "sequence",
-                "display": "Sequence",
-                "definition": "A sequence number associated with a short-term continuance of the coverage."
+                "display": "Sequence"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "rxbin",
-                "display": "RX BIN",
-                "definition": "Pharmacy benefit manager's Business Identification Number."
+                "display": "RX BIN"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "rxpcn",
-                "display": "RX PCN",
-                "definition": "A Pharmacy Benefit Manager specified Processor Control Number."
+                "display": "RX PCN"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "rxid",
-                "display": "RX Id",
-                "definition": "A Pharmacy Benefit Manager specified Member ID."
+                "display": "RX Id"
             },
             {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
                 "code": "rxgroup",
-                "display": "RX Group",
-                "definition": "A Pharmacy Benefit Manager specified Group number."
+                "display": "RX Group"
             }
         ]
     }
