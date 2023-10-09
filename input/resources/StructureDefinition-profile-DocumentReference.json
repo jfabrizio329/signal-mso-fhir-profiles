@@ -1,0 +1,25 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "profile-documentreference",
+    "url": "https://signalbhn.org/fhir/StructureDefinition/documentreference",
+    "name": "DocumentReferenceProfile",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "DocumentReference",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "DocumentReference.category",
+          "path": "DocumentReference.category",
+          "binding": {
+            "strength": "required",
+            "valueSet": "https://signalbhn.org/fhir/us/core/ValueSet/signal-filerepo-classification"
+          }
+        }
+      ]
+    }
+  }
