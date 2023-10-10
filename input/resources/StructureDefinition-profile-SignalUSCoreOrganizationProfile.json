@@ -54,6 +54,24 @@
         "isModifier": false
       },
       {
+        "id": "Organization.identifier:EIN",
+        "path": "Organization.identifier",
+        "sliceName": "EIN"
+      },
+      {
+        "id": "Organization.identifier:MMIS",
+        "path": "Organization.identifier",
+        "sliceName": "MMIS"
+      },
+      {
+        "id": "Organization.identifier:MMIS.system",
+        "path": "Organization.identifier.system",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-region"
+        }
+      },
+      {
         "id": "Organization.type",
         "path": "Organization.type",
         "slicing": {
