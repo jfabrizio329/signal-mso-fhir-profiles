@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile",
-  "name": "SignalUSCoreOrganizationProfile",
+  "id": "signal-organization",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/organization",
+  "name": "signal-organization-profile",
+  "title": "Organization Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

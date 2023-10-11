@@ -1,8 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "signal-healthcare-service",
-  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService",
-  "name": "SignalHealthcareService",
+  "id": "signal-healthcareservice",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/healthcareservice",
+  "name": "signal-healthcareservice-profile",
+  "title": "HealthcareService Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
