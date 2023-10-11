@@ -1,5 +1,5 @@
 {
-  "Timestamp": "2023-09-29T15:01:00.1177206+00:00",
+  "Timestamp": "2023-10-04T20:18:49.5187734+00:00",
   "Series": "recommended",
   "Type": "Simplifier",
   "Files": [
@@ -17,7 +17,7 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "UNIQUENESS",
-          "Message": "The following values are duplicated: http://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type, http://hl7.org/fhir/ValueSet/location-physical-type"
+          "Message": "The following values are duplicated: https://signalbhn.org/fhir/us/core/ValueSet/signal-organization-type, http://hl7.org/fhir/ValueSet/location-physical-type"
         }
       ],
       "Tag": null,
@@ -46,7 +46,7 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/guides/Signal-Implementation-Guide/ImplementationGuide.xml must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/guides/Signal-Implementation-Guide/ImplementationGuide.xml must have an id"
         }
       ],
       "Tag": null,
@@ -68,7 +68,7 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-OrganizationAffiliation.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-OrganizationAffiliation.json must have an id"
         }
       ],
       "Tag": null,
@@ -90,7 +90,7 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-practitioner.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-practitioner.json must have an id"
         }
       ],
       "Tag": null,
@@ -109,8 +109,8 @@
         }
       ],
       "Tag": null,
-      "Length": 5820,
-      "Hash": "0DE5FA9600A8AB681B8270BBD8886A8D",
+      "Length": 5822,
+      "Hash": "B286D35D9D1D1302F9C39BA4FBDA100E",
       "FilePath": "input\\vocabulary\\codesystem-organization-license.json"
     },
     {
@@ -127,12 +127,12 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/vocabulary/codesystem-organization-type.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/vocabulary/codesystem-organization-type.json must have an id"
         }
       ],
       "Tag": null,
-      "Length": 1201,
-      "Hash": "6238315B191679A465060C5AC419FF76",
+      "Length": 1304,
+      "Hash": "29F9C5281E094DAD95101A79B1E9B1E8",
       "FilePath": "input\\vocabulary\\codesystem-organization-type.json"
     },
     {
@@ -199,6 +199,21 @@
       "Length": 3053,
       "Hash": "4E30350D42AEA9BA0609CD370BDC5F91",
       "FilePath": "input\\vocabulary\\valueset-episode-of-care-type.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "ValueSet.expansion[0]",
+          "Severity": 0,
+          "System": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+          "Code": "1028",
+          "Message": "Instance count for \u0027ValueSet.expansion.timestamp\u0027 is 0, which is not within the specified cardinality of 1..1"
+        }
+      ],
+      "Tag": null,
+      "Length": 6141,
+      "Hash": "18AF6D535651428161F6336DDCA04053",
+      "FilePath": "input\\vocabulary\\valueset-organization-type.json"
     },
     {
       "Issues": [
@@ -761,7 +776,7 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/resources/StructureDefinition-extension-SignalQualification.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-extension-SignalQualification.json must have an id"
         }
       ],
       "Tag": null,
@@ -776,12 +791,12 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-location.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-location.json must have an id"
         }
       ],
       "Tag": null,
-      "Length": 1225,
-      "Hash": "8169C8CA1D2E9AEDC081128CA67A2BD0",
+      "Length": 685,
+      "Hash": "4646BC1BCF7F87AAF6874020C1B8191F",
       "FilePath": "input\\resources\\StructureDefinition-profile-location.json"
     },
     {
@@ -791,7 +806,7 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-PractitionerRole.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-PractitionerRole.json must have an id"
         }
       ],
       "Tag": null,
@@ -806,12 +821,12 @@
           "Severity": 0,
           "System": "https://simplifier.net/qc/errors/evaluation",
           "Code": "FHIRPATH",
-          "Message": "Resource C:/Users/ArunsundarMuthumanic/Documents/GitHub/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-SignalUSCoreOrganizationProfile.json must have an id"
+          "Message": "Resource C:/Users/MattZajack/OneDrive - Wavicle Data Solutions/Documents/code/signal-mso-fhir-profiles/input/resources/StructureDefinition-profile-SignalUSCoreOrganizationProfile.json must have an id"
         }
       ],
       "Tag": null,
-      "Length": 3828,
-      "Hash": "CD0744FFF68B69B8E1A2857848A69EC5",
+      "Length": 3831,
+      "Hash": "77801B2A703CB4BA273B31ECE2BC7BD7",
       "FilePath": "input\\resources\\StructureDefinition-profile-SignalUSCoreOrganizationProfile.json"
     }
   ]

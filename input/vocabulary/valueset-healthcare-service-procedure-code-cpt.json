@@ -15,7 +15,7 @@
             "valueInteger": 1
         }
     ],
-    "url": "http://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt",
+    "url": "https://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt",
     "name": "HealthCareServiceProcedureCodeCPT",
     "title": "HealthCare Service Procedure Code CPT",
     "status": "draft",

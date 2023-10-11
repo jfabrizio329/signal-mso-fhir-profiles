@@ -1,0 +1,57 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-filerepo-classification",
+    "url": "https://signalbhn.org/fhir/us/core/CodeSystem/signal-filerepo-classification",
+    "version": "6.0.0",
+    "name": "SignalFileRepoClassification",
+    "title": "Signal FileRepo Classification",
+    "status": "draft",
+    "experimental": false,
+    "date": "2019-11-01T09:29:23+11:00",
+    "description": "This code provides the information on classification of file repository",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/us/core/ValueSet/signal-filerepo-classification",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "referral",
+            "display": "Referral"
+        },
+        {
+            "code": "assessment-request",
+            "display": "Assessment Request"
+        },
+        {
+            "code": "treatment-record",
+            "display": "Treatment Record"
+        },
+        {
+            "code": "service-authorizations",
+            "display": "Service Authorizations"
+        },
+        {
+            "code": "quality-monitoring",
+            "display": "Quality Monitoring"
+        },
+        {
+            "code": "data-submission",
+            "display": "Data Submission"
+        },
+        {
+            "code": "invoice",
+            "display": "Invoice"
+        },
+        {
+            "code": "audit-requested-records",
+            "display": "Audit Requested Records"
+        },
+        {
+            "code": "credential-requested-records",
+            "display": "Credential Requested Records"
+        },
+        {
+            "code": "service-organization-feedback",
+            "display": "Service Organization Feedback"
+        }
+    ]
+}

@@ -15,7 +15,7 @@
             "valueInteger": 1
         }
     ],
-    "url": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type",
+    "url": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type",
     "name": "SignalHealthcareServiceType",
     "title": "Signal Healthcare Service Type",
     "status": "draft",
@@ -24,7 +24,7 @@
     "compose": {
         "include": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type"
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type"
             }
         ]
     },
@@ -32,200 +32,200 @@
         "timestamp": "2023-07-31T18:35:33.1743667+00:00",
         "contains": [
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                 "code": "sud",
                 "display": "Substance Use Disorder (SUD)",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-0.5",
                         "display": "ASAM Level 0.5 - Early Intervention"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-1",
                         "display": "ASAM Level 1.0 - Outpatient Services"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-2.1",
                         "display": "ASAM Level 2.1 - Intensive Outpatient Services (IOP)"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-2.5",
                         "display": "ASAM Level 2.5 - Partial Hospitalization Services for adolescents and adults"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.1",
                         "display": "ASAM Level 3.1 - Clinically Managed Low-Intensity Residential Services"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.3",
                         "display": "ASAM Level 3.3 - Clinically Managed Population-Specific High-Intensity Residential Services"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.5",
                         "display": "ASAM Level 3.5 - Clinically Managed High-Intensity Residential Services for adults"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.7",
                         "display": "ASAM Level 3.7 - Medically Monitored High-Intensity Inpatient Services for adolescents"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-4",
                         "display": "ASAM Level 4 - Medically Managed Intensive Inpatient"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-1-wm",
                         "display": "ASAM Level 1-WM - Ambulatory Withdrawal Management Without Extended On-Site Monitoring"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-2-wm",
                         "display": "ASAM Level 2-WM - Ambulatory Withdrawal Management with Extended On-site Monitoring"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.2-wm",
                         "display": "ASAM Level 3.2-WM - Clinically Managed Residential Withdrawal Management"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.7-wm",
                         "display": "ASAM Level 3.7-WM - Medically Monitored Intensive Inpatient Services Withdrawal Management for adults"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-otp",
                         "display": "ASAM - Opioid Treatment Program (OTP)"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-obot",
                         "display": "ASAM - Office-Based Opioid Treatment (OBOT)"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "da",
                         "display": "Differential Assessment"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "ips",
                         "display": "Individual Placement Services"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "dui-1",
                         "display": "DUI Level I Education"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "dui-2-e",
                         "display": "DUI Level II Education-only"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "dui-2-te",
                         "display": "DUI Level II Therapy and Education"
                     }
                 ]
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                 "code": "crisis",
                 "display": "Crisis",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "crisis-mobile",
                         "display": "Mobile"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "crisis-atu-csu",
                         "display": "ATU/CSU"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "crisis-youth-csu",
                         "display": "Youth CSU"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "crisis-walk-in",
                         "display": "Walk-in"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "crisis-respite",
                         "display": "Respite"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "crisis-transportation",
                         "display": "Transportation"
                     }
                 ]
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                 "code": "cymhta",
                 "display": "CYMHTA",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "cymhta-treatment",
                         "display": "Treatment"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "cymhta-youth-residential",
                         "display": "Youth residential"
                     }
                 ]
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                 "code": "assessment",
                 "display": "Assessment",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "assessment-Medicaid",
                         "display": "Medicaid"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "assessment-ffpsa",
                         "display": "FFPSA"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "assessment-cymhta",
                         "display": "CYMHTA"
                     }
                 ]
             },
             {
-                "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                 "code": "recovery",
                 "display": "Recovery",
                 "contains": [
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "recovery-rss",
                         "display": "Recovery Support Services (RSS)"
                     },
                     {
-                        "system": "http://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "recovery-rlc",
                         "display": "Recovery Living Community (RLC)"
                     }

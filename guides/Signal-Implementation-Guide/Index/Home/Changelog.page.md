@@ -18,6 +18,9 @@ Detailed changes can be found on the [GitHub 'main' commits](https://github.com/
 
 | Date | Description | New Package Version |
 | --- | --- | --- |
+| 2023-10-04 | - Updated {{pagelink:clinical-categorization-module}} diagram for Procedure-->Reference(Encounter) <br /> - Created {{pagelink:encounter-profile}} usage notes. | 0.1.9 |
+| 2023-09-29 | - Updated {{pagelink:task-profile}} notes | 0.1.8 |
+| 2023-09-28 | - Added profile notes to {{pagelink:communication-profile}} <br /> - Added Practitioner resources to {{pagelink:organization-services-module}} <br /> - Updated {{pagelink:clinical-categorization-module}} concpetual model for Practitioner <br /> -Added notes to {{pagelink:practitioner-profile}} and {{pagelink:practitionerrole-profile}} | 0.1.7 |
 | 2023-09-26 | - Combined Communications Module with File Exchange, creating the {{pagelink:file-repository-module}} <br /> - Created {{pagelink:communication-profile}}, {{pagelink:communicationrequest-profile}}, {{pagelink:flag-profile}} pages | 0.1.6 |
 | 2023-09-25 | - Created {{pagelink:task-profile}} <br /> - Added Task to {{pagelink:file-repository-module}} <br /> - Renamed File Repository Module to File Exchange Module to align with business definitions (links should automatically update) <br /> - Updated communications-module with additional information | 0.1.5 |
 | 2023-09-22 | - Updated images on {{pagelink:organization-services-module}} <br /> - Added note for future region add on {{pagelink:location-profile}} | 0.1.4 |

@@ -42,5 +42,27 @@ The asdf.
 **.type**
 - *FUTURE* - asdf
 
+**.type**
+- *FUTURE* - asdf
+
+**.type**
+- *FUTURE* - asdf
+
+**.type**
+- *FUTURE* - asdf
+
+**.type**
+- *FUTURE* - asdf
+
+**.type**
+- *FUTURE* - asdf
+
+**.type**
+- *FUTURE* - asdf
+
+**.performed[x].performedDateTime**
+- SHOULD be used to represent when procedure took place
+- SHALL NOT be used for billing purposes.  See {{pagelink:finance-module}} for more information.
+
 ## Examples
 
