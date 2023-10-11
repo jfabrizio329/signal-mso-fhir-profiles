@@ -1,0 +1,61 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-region",
+    "url": "https://signalbhn.org/fhir/CodeSystem/signal-region",
+    "name": "SignalRegion",
+    "title": "Signal Region",
+    "status": "active",
+    "experimental": false,
+    "date": "2023-09-27T09:29:23+11:00",
+    "description": "Signal region mapped to service organization",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-region",
+    "hierarchyMeaning": "is-a",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "signal-region",
+            "display": "Signal Region",
+            "concept": [
+                {
+                    "code": "signal-north",
+                    "display": "Signal North"
+                },
+                {
+                    "code": "signal-south",
+                    "display": "Signal South"
+                },
+                {
+                    "code": "signal-east",
+                    "display": "Signal East"
+                },
+                {
+                    "code": "signal-west",
+                    "display": "Signal West"
+                }
+            ]
+        },
+        {
+            "code": "rmh-region",
+            "display": "Rocky Mountain Health Region",
+            "concept": [
+                {
+                    "code": "rmh-north",
+                    "display": "Rocky Mountain Health North"
+                },
+                {
+                    "code": "rmh-south",
+                    "display": "Rocky Mountain Health South"
+                },
+                {
+                    "code": "rmh-east",
+                    "display": "Rocky Mountain Health East"
+                },
+                {
+                    "code": "rmh-west",
+                    "display": "Rocky Mountain Health West"
+                }
+            ]
+        }
+    ]
+}

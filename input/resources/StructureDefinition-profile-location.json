@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id" : "signal-location-profile",
   "url": "https://signalbhn.org/fhir/StructureDefinition/Location",
   "name": "LocationProfile",
   "status": "draft",
@@ -11,6 +12,24 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Location.address.extension:signalRegion",
+        "path": "Location.address.extension",
+        "sliceName": "signalRegion",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://signalbhn.org/fhir/StructureDefinition/region"
+            ]
+          }
+        ],
+        "isModifier": false,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-region"
+        }
+      },
       {
         "id": "Location.address.district",
         "path": "Location.address.district",
