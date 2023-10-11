@@ -1,14 +1,7 @@
 {
     "resourceType": "CodeSystem",
     "id": "signal-filerepo-classification",
-    "meta": {
-        "versionId": "1",
-        "lastUpdated": "2023-08-11T13:43:14.523+00:00"
-    },
-    "text": {
-        "status": "extensions"
-    },
-    "url": "https://signalbhn.org/fhir/us/core/ValueSet/signal-filerepo-classification",
+    "url": "https://signalbhn.org/fhir/us/core/CodeSystem/signal-filerepo-classification",
     "version": "6.0.0",
     "name": "SignalFileRepoClassification",
     "title": "Signal FileRepo Classification",
