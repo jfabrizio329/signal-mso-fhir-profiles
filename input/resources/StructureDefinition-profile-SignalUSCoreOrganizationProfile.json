@@ -56,7 +56,7 @@
       {
         "id": "Organization.identifier:EIN",
         "path": "Organization.identifier",
-        "sliceName": "EIN"
+        "sliceName": "EIN",
         "short": "Employer Identification Number (EIN)",
         "definition": "An Employer Identification Number (EIN) is also known as a Federal Tax Identification Number, and is used to identify a business entity. Generally, businesses need an EIN. Provided by the US Internal Revenue Service (IRS)",
         "comment": "An Employer Identification Number (EIN), also known as a Federal Tax Identification Number, is used to identify a business entity."
@@ -64,18 +64,10 @@
       {
         "id": "Organization.identifier:MMIS",
         "path": "Organization.identifier",
-        "sliceName": "MMIS"
+        "sliceName": "MMIS",
         "short": "Medicaid Management Information System (MMIS)",
         "definition": "Medicaid Management Information System (MMIS) is the official title of Colorado's patient and provider processing network.",
         "comment": "The Colorado MMIS, interChange, is currently operated by Gainwell Technologies. Learn more at https://hcpf.colorado.gov/mmis-procurement"
-      },
-      {
-        "id": "Organization.identifier:MMIS.system",
-        "path": "Organization.identifier.system",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-region"
-        }
       },
       {
         "id": "Organization.type",
