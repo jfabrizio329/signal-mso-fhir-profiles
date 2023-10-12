@@ -57,6 +57,9 @@
         "id": "Organization.identifier:EIN",
         "path": "Organization.identifier",
         "sliceName": "EIN"
+        "short": "Employer Identification Number (EIN)",
+        "definition": "An Employer Identification Number (EIN) is also known as a Federal Tax Identification Number, and is used to identify a business entity. Generally, businesses need an EIN. Provided by the US Internal Revenue Service (IRS)",
+        "comment": "An Employer Identification Number (EIN), also known as a Federal Tax Identification Number, is used to identify a business entity."
       },
       {
         "id": "Organization.identifier:MMIS",
