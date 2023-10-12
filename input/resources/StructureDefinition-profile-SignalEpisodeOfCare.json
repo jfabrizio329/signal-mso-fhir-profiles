@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "signal-epdisodeofcare-profile",
   "url": "https://signalbhn.org/fhir/StructureDefinition/episodeofcare",
-  "name": "signal-episodeofcare-profile",
+  "name": "SignalEpisodeOfCare",
   "title": "EpisodeOfCare Profile",
   "status": "active",
   "fhirVersion": "4.0.1",

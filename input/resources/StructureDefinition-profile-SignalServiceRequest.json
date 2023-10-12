@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "signal-servicerequest",
   "url": " https://signalbhn.org/fhir/StructureDefinition/servicerequest",
-  "name": "signal-servicerequest-profile",
+  "name": "SignalServiceRequest",
   "title": "ServiceRequest Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",

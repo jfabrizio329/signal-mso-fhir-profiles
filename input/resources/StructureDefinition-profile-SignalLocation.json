@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id":"signal-location",
   "url": "https://signalbhn.org/fhir/StructureDefinition/location",
-  "name": "signal-location-profile",
+  "name": "SignalLocation",
   "title": "Location Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",

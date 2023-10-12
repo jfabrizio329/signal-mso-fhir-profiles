@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "signal-encounter",
   "url": "https://signalbhn.org/fhir/StructureDefinition/encounter",
-  "name": "signal-encounter-profile",
+  "name": "SignalEncounter",
   "title": "Encounter Profile",
   "status": "active",
   "fhirVersion": "4.0.1",

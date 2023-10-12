@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "signal-patient",
   "url": "http://signalbhn.org/fhir/StructureDefinition/patient",
-  "name": "signal-patient-profile",
+  "name": "SignalPatient",
   "title": "Patient Profile",
   "status": "draft",
   "date": "2023-06-15T17:41:33.182674+00:00",
