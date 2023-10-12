@@ -65,6 +65,9 @@
         "id": "Organization.identifier:MMIS",
         "path": "Organization.identifier",
         "sliceName": "MMIS"
+        "short": "Medicaid Management Information System (MMIS)",
+        "definition": "Medicaid Management Information System (MMIS) is the official title of Colorado's patient and provider processing network.",
+        "comment": "The Colorado MMIS, interChange, is currently operated by Gainwell Technologies. Learn more at https://hcpf.colorado.gov/mmis-procurement"
       },
       {
         "id": "Organization.identifier:MMIS.system",
