@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-route-of-administration",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+    "name": "QuestionnaireAdmissionRouteOfAdministration",
+    "title": "Questionnaire Admission Route Of Administration",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Usual route of administration during most recent use period on admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-route-of-administration",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Oral - drinking or eating"
+        },
+        {
+            "code": "2",
+            "display": "Smoking (pipe/cigarette) - may use a pipe, cigarette, or other apparatus"
+        },
+        {
+            "code": "3",
+            "display": "Inhalation (nose/mouth) - Insufflations via the nose or mouth; does not include smoking"
+        },
+        {
+            "code": "4",
+            "display": "Injection (IV/IM) - Intravenous, intramuscularly, subcutaneous, or any other administration involving the use of needles"
+        },
+        {
+            "code": "5",
+            "display": "Other - Any method of drug administration not described by any of the above codes"
+        }
+    ]
+}

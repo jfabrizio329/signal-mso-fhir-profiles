@@ -1,0 +1,72 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-transfer-referral-source",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-transfer-referral-source",
+    "name": "QuestionnaireAdmissionTransferReferralSource",
+    "title": "Questionnaire Admission Transfer Referral Source",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Describes the person or agency referring the client to the alcohol or substance use treatment program.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-transfer-referral-source",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Individual (self, family, friend)"
+        },
+        {
+            "code": "2",
+            "display": "Alcohol/drug use care provider"
+        },
+        {
+            "code": "3",
+            "display": "Other health care provider (e.g., medical, mental)"
+        },
+        {
+            "code": "4",
+            "display": "School (educational)"
+        },
+        {
+            "code": "5",
+            "display": "Employer"
+        },
+        {
+            "code": "6",
+            "display": "Social/Human services"
+        },
+        {
+            "code": "7",
+            "display": "Non DUI Criminal Justice (Probation, Parole/TASC, SB-94, Community Corrections)"
+        },
+        {
+            "code": "8",
+            "display": "DUI/DWI Criminal Justice"
+        },
+        {
+            "code": "9",
+            "display": "Involuntary commitment"
+        },
+        {
+            "code": "10",
+            "display": "Other Community referral"
+        },
+        {
+            "code": "11",
+            "display": "Drug Court"
+        },
+        {
+            "code": "12",
+            "display": "STIRRT"
+        },
+        {
+            "code": "13",
+            "display": "Crisis System"
+        },
+        {
+            "code": "14",
+            "display": "I MATTER (Rapid Mental Health Response for CO Youth)"
+        }
+    ]
+}

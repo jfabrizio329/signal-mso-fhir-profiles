@@ -1,0 +1,84 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-modality",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-modality",
+    "name": "QuestionnaireAdmissionModality",
+    "title": "Questionnaire Admission Modality",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "The modality or type of service into which the client is being admitted.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-modality",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "Differential Assessment"
+        },
+        {
+            "code": "1",
+            "display": "Ambulatory medical detox"
+        },
+        {
+            "code": "2",
+            "display": "Residential (non-hospital) detox (RDX)"
+        },
+        {
+            "code": "3",
+            "display": "Therapeutic community (TC)"
+        },
+        {
+            "code": "4",
+            "display": "Intensive residential (IRT)"
+        },
+        {
+            "code": "5",
+            "display": "Transitional residential (TRT)"
+        },
+        {
+            "code": "6",
+            "display": "Opioid replacement therapy (ORT)"
+        },
+        {
+            "code": "7",
+            "display": "Traditional Outpatient (OP)"
+        },
+        {
+            "code": "8",
+            "display": "STIRRT"
+        },
+        {
+            "code": "9",
+            "display": "Intensive Outpatient (IOP)"
+        },
+        {
+            "code": "10",
+            "display": "Day treatment (DAY)"
+        },
+        {
+            "code": "11",
+            "display": "Medically managed inpatient other than detox"
+        },
+        {
+            "code": "12",
+            "display": "Medically managed inpatient detox"
+        },
+        {
+            "code": "13",
+            "display": "DUI Level I education"
+        },
+        {
+            "code": "14",
+            "display": "DUI Level II education only"
+        },
+        {
+            "code": "15",
+            "display": "DUI Level II therapy and education"
+        },
+        {
+            "code": "16",
+            "display": "Minors in Possession (MIP) Treatment"
+        }
+    ]
+}

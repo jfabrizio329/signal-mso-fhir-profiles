@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-admission-route-of-administration",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-route-of-administration",
+    "version": "6.0.0",
+    "name": "QuestionnaireAdmissionRouteOfAdministration",
+    "title": "Questionnaire Admission Route Of Administration",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Usual route of administration during most recent use period on admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Oral - drinking or eating"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Smoking (pipe/cigarette) - may use a pipe, cigarette, or other apparatus"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Inhalation (nose/mouth) - Insufflations via the nose or mouth; does not include smoking"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Injection (IV/IM) - Intravenous, intramuscularly, subcutaneous, or any other administration involving the use of needles"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Other - Any method of drug administration not described by any of the above codes"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+                "code": "1",
+                "display": "Oral - drinking or eating"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+                "code": "2",
+                "display": "Smoking (pipe/cigarette) - may use a pipe, cigarette, or other apparatus"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+                "code": "3",
+                "display": "Inhalation (nose/mouth) - Insufflations via the nose or mouth; does not include smoking"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+                "code": "4",
+                "display": "Injection (IV/IM) - Intravenous, intramuscularly, subcutaneous, or any other administration involving the use of needles"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-route-of-administration",
+                "code": "5",
+                "display": "Other - Any method of drug administration not described by any of the above codes"
+            }
+        ]
+    }
+}

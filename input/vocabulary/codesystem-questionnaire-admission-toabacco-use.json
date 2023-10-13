@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-toabacco-use",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-toabacco-use",
+    "name": "QuestionnaireAdmissionToabaccoUse",
+    "title": "Questionnaire Admission Toabacco Use",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "identify the persons current tobacco use at the time report is administered.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-toabacco-use",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "current smoker/tobacco user - every day (also vaping nicotine)"
+        },
+        {
+            "code": "2",
+            "display": "current smoker/tobacco user - periodically (also vaping nicotine)"
+        },
+        {
+            "code": "3",
+            "display": "former smoker/tobacco user (also vaping nicotine)"
+        },
+        {
+            "code": "4",
+            "display": "never smoker/tobacco user (also vaping nicotine)"
+        },
+        {
+            "code": "5",
+            "display": "smoker/tobacco user - current status unknown (also vaping nicotine)"
+        },
+        {
+            "code": "6",
+            "display": "unknown if ever smoked/used"
+        }
+    ]
+}

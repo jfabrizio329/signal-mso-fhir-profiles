@@ -1,0 +1,199 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-admission-disability-status",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-disability-status",
+    "version": "6.0.0",
+    "name": "QuestionnaireAdmissionDisabilityStatus",
+    "title": "Questionnaire Admission Disability Status",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies if the client is disabled and specifies the disability.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "None"
+                    },
+                    {
+                        "code": "1",
+                        "display": "Developmental Disabilities"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Cerebral Palsy"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Seizure disorder/Epilepsy"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Autism"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Other neurological"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Developmental delay"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Deaf/Hearing Loss"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Significant speech impairment/Non-verbal"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Blind/Vision Loss"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Non-ambulatory"
+                    },
+                    {
+                        "code": "11",
+                        "display": "Brain injury"
+                    },
+                    {
+                        "code": "12",
+                        "display": "Psychiatric"
+                    },
+                    {
+                        "code": "13",
+                        "display": "Down Syndrome"
+                    },
+                    {
+                        "code": "14",
+                        "display": "Attention Deficit Disorder"
+                    },
+                    {
+                        "code": "15",
+                        "display": "Other"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "0",
+                "display": "None"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "1",
+                "display": "Developmental Disabilities"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "2",
+                "display": "Cerebral Palsy"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "3",
+                "display": "Seizure disorder/Epilepsy"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "4",
+                "display": "Autism"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "5",
+                "display": "Other neurological"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "6",
+                "display": "Developmental delay"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "7",
+                "display": "Deaf/Hearing Loss"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "8",
+                "display": "Significant speech impairment/Non-verbal"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "9",
+                "display": "Blind/Vision Loss"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "10",
+                "display": "Non-ambulatory"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "11",
+                "display": "Brain injury"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "12",
+                "display": "Psychiatric"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "13",
+                "display": "Down Syndrome"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "14",
+                "display": "Attention Deficit Disorder"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+                "code": "15",
+                "display": "Other"
+            }
+        ]
+    }
+}

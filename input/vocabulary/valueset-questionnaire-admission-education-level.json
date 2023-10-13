@@ -1,0 +1,172 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-admission-education-level",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-education-level",
+    "version": "6.0.0",
+    "name": "QuestionnaireAdmissionEducationLevel",
+    "title": "Questionnaire Admission Education Level",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies the highest grade of formal academic education the client has completed at the time of admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "No formal education"
+                    },
+                    {
+                        "code": "1",
+                        "display": "Completion of the grade specified by year"
+                    },
+                    {
+                        "code": "2",
+                        "display": "2nd grade"
+                    },
+                    {
+                        "code": "3",
+                        "display": "3rd grade"
+                    },
+                    {
+                        "code": "4",
+                        "display": "4th grade"
+                    },
+                    {
+                        "code": "5",
+                        "display": "5th grade"
+                    },
+                    {
+                        "code": "6",
+                        "display": "6th grade"
+                    },
+                    {
+                        "code": "7",
+                        "display": "7th grade"
+                    },
+                    {
+                        "code": "8",
+                        "display": "8th grade"
+                    },
+                    {
+                        "code": "12",
+                        "display": "Completion of High School or GED"
+                    },
+                    {
+                        "code": "13",
+                        "display": "Vocational or Specialized Education"
+                    },
+                    {
+                        "code": "16",
+                        "display": "Completion of Bachelors"
+                    },
+                    {
+                        "code": "18",
+                        "display": "Completion of Masters"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "0",
+                "display": "No formal education"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "1",
+                "display": "Completion of the grade specified by year"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "2",
+                "display": "2nd grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "3",
+                "display": "3rd grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "4",
+                "display": "4th grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "5",
+                "display": "5th grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "6",
+                "display": "6th grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "7",
+                "display": "7th grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "8",
+                "display": "8th grade"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "12",
+                "display": "Completion of High School or GED"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "13",
+                "display": "Vocational or Specialized Education"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "16",
+                "display": "Completion of Bachelors"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-education-level",
+                "code": "18",
+                "display": "Completion of Masters"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-sspa-number",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-sspa-number",
+    "name": "QuestionnaireAdmissionSSPANumber",
+    "title": "Questionnaire Admission SSPA Number",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Sub-State Planning Area (SSPA) region of clinic in which service originates.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-sspa-number",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Northeast Colorado (Signal Behavioral Health Network)"
+        },
+        {
+            "code": "2",
+            "display": "Denver area (Signal Behavioral Health Network)"
+        },
+        {
+            "code": "3",
+            "display": "Colorado Springs area (Diversus Health)"
+        },
+        {
+            "code": "4",
+            "display": "Southeast Colorado (Signal Behavioral Health Network)"
+        },
+        {
+            "code": "5",
+            "display": "Western Slope - South (Rocky Mountain Health Plans)"
+        },
+        {
+            "code": "6",
+            "display": "Western Slope - North (Rocky Mountain Health Plans)"
+        },
+        {
+            "code": "7",
+            "display": "Boulder area (Signal Behavioral Health Network"
+        }
+    ]
+}

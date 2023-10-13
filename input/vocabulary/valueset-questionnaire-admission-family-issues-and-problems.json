@@ -1,0 +1,93 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-admission-family-issues-and-problems",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-10-11T06:57:09.324+00:00",
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-family-issues-and-problems",
+    "version": "6.0.0",
+    "name": "QuestionnaireAdmissionFamilyIssuesAndProblems",
+    "title": "Questionnaire Admission Family Issues And Problems",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "Signal",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies the clinicians assessment of the clients skills and functioning level in the family setting at the time of admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-family-issues-and-problems",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "None (issues are temporary and relationships generally positive)"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Slight (some issues present; occasional friction or discord)"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Moderate (frequent disruptions or turbulence in family functioning)"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Severe (extensive disruption of family functioning)"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-family-issues-and-problems",
+                "code": "1",
+                "display": "None (issues are temporary and relationships generally positive)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-family-issues-and-problems",
+                "code": "2",
+                "display": "Slight (some issues present; occasional friction or discord)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-family-issues-and-problems",
+                "code": "3",
+                "display": "Moderate (frequent disruptions or turbulence in family functioning)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-family-issues-and-problems",
+                "code": "4",
+                "display": "Severe (extensive disruption of family functioning)"
+            }
+        ]
+    }
+}

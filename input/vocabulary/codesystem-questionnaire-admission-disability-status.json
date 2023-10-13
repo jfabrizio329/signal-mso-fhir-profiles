@@ -1,0 +1,80 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-disability-status",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-disability-status",
+    "name": "QuestionnaireAdmissionDisabilityStatus",
+    "title": "Questionnaire Admission Disability Status",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies if the client is disabled and specifies the disability.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-disability-status",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "None"
+        },
+        {
+            "code": "1",
+            "display": "Developmental Disabilities"
+        },
+        {
+            "code": "2",
+            "display": "Cerebral Palsy"
+        },
+        {
+            "code": "3",
+            "display": "Seizure disorder/Epilepsy"
+        },
+        {
+            "code": "4",
+            "display": "Autism"
+        },
+        {
+            "code": "5",
+            "display": "Other neurological"
+        },
+        {
+            "code": "6",
+            "display": "Developmental delay"
+        },
+        {
+            "code": "7",
+            "display": "Deaf/Hearing Loss"
+        },
+        {
+            "code": "8",
+            "display": "Significant speech impairment/Non-verbal"
+        },
+        {
+            "code": "9",
+            "display": "Blind/Vision Loss"
+        },
+        {
+            "code": "10",
+            "display": "Non-ambulatory"
+        },
+        {
+            "code": "11",
+            "display": "Brain injury"
+        },
+        {
+            "code": "12",
+            "display": "Psychiatric"
+        },
+        {
+            "code": "13",
+            "display": "Down Syndrome"
+        },
+        {
+            "code": "14",
+            "display": "Attention Deficit Disorder"
+        },
+        {
+            "code": "15",
+            "display": "Other"
+        }
+    ]
+}

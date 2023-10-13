@@ -1,0 +1,109 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-admission-source-of-income",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-source-of-income",
+    "version": "6.0.0",
+    "name": "QuestionnaireAdmissionSourceOfIncome",
+    "title": "Questionnaire Admission Source Of Income",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies the client's principal source of legal financial support at the time of admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Wages"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Public assistance - includes any state or federal financial support such as welfare, TANF, Food Stamps, Aid to the Needy Disabled, Old Age Pension, etc."
+                    },
+                    {
+                        "code": "3",
+                        "display": "Retirement/Pension"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Disability"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Other - Includes alimony, child support, social security payments, Worker’s Compensation, unemployment benefits, etc"
+                    },
+                    {
+                        "code": "6",
+                        "display": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "code": "1",
+                "display": "Wages"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "code": "2",
+                "display": "Public assistance - includes any state or federal financial support such as welfare, TANF, Food Stamps, Aid to the Needy Disabled, Old Age Pension, etc."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "code": "3",
+                "display": "Retirement/Pension"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "code": "4",
+                "display": "Disability"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "code": "5",
+                "display": "Other - Includes alimony, child support, social security payments, Worker’s Compensation, unemployment benefits, etc"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+                "code": "6",
+                "display": "None"
+            }
+        ]
+    }
+}

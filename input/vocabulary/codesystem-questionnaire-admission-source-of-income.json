@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-source-of-income",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-income",
+    "name": "QuestionnaireAdmissionSourceOfIncome",
+    "title": "Questionnaire Admission Source Of Income",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies the client's principal source of legal financial support at the time of admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-source-of-income",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Wages"
+        },
+        {
+            "code": "2",
+            "display": "Public assistance - includes any state or federal financial support such as welfare, TANF, Food Stamps, Aid to the Needy Disabled, Old Age Pension, etc."
+        },
+        {
+            "code": "3",
+            "display": "Retirement/Pension"
+        },
+        {
+            "code": "4",
+            "display": "Disability"
+        },
+        {
+            "code": "5",
+            "display": "Other - Includes alimony, child support, social security payments, Worker’s Compensation, unemployment benefits, etc"
+        },
+        {
+            "code": "6",
+            "display": "None"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-drug-type",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-drug-type",
+    "name": "QuestionnaireAdmissionDrugType",
+    "title": "Questionnaire Admission Drug Type",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Substance considered to be the cause of the client's dysfunction at the time of admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-drug-type",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Primary"
+        },
+        {
+            "code": "2",
+            "display": "Secondary"
+        },
+        {
+            "code": "3",
+            "display": "Tertiary"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-admission-source-of-illicit-drugs",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-admission-source-of-illicit-drugs",
+    "name": "QuestionnaireAdmissionSourceOfIllicitDrugs",
+    "title": "Questionnaire Admission Source Of Illicit Drugs",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Clients primary source from whom or from which they obtain(ed) their drugs.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-admission-source-of-illicit-drugs",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Family"
+        },
+        {
+            "code": "2",
+            "display": "School"
+        },
+        {
+            "code": "3",
+            "display": "Friends"
+        },
+        {
+            "code": "4",
+            "display": "Jail/prison"
+        },
+        {
+            "code": "5",
+            "display": "Internet"
+        },
+        {
+            "code": "6",
+            "display": "Entertainment events (bars, clubs, parties, raves, concerts, etc.)"
+        },
+        {
+            "code": "7",
+            "display": "Stranger/street vendor"
+        },
+        {
+            "code": "8",
+            "display": "Refused"
+        },
+        {
+            "code": "9",
+            "display": "Unknown"
+        },
+        {
+            "code": "10",
+            "display": "Prescription"
+        }
+    ]
+}
