@@ -1,0 +1,124 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-reason-for-discharge",
+    "url": "https://signalbhn.org/fhir/us/core/ValueSet/signal-reason-for-discharge",
+    "name": "SiganlReasonForDischarge",
+    "title": "Siganl Reason For Discharge",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-09-26",
+    "description": "Reason for Discharge as per the DACODS user manual for Signal.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Attendance"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Client Decision"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Client stopped coming and contact efforts failed"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Financial/Payments"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Lack of Progress"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Medical Reasons"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Military Deployment"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Moved"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Incarcerated"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Died"
+                    },
+                    {
+                        "code": "11",
+                        "display": "Agency closed/No longer in business"
+                    }
+                ]  
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-10-11T15:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "1",
+                "display": "Attendance"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "2",
+                "display": "Client Decision"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "3",
+                "display": "Client stopped coming and contact efforts failed"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "4",
+                "display": "Financial/Payments"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "5",
+                "display": "Lack of Progress"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "6",
+                "display": "Medical Reasons"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "7",
+                "display": "Military Deployment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "8",
+                "display": "Moved"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "9",
+                "display": "Incarcerated"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "10",
+                "display": "Died"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-reason-for-discharge",
+                "code": "11",
+                "display": "Agency closed/No longer in business"
+            }
+        ]
+    }
+}
