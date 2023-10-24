@@ -13,6 +13,21 @@
   "differential": {
     "element": [
       {
+        "id": "Organization.extension:photo",
+        "path": "Organization.extension",
+        "sliceName": "photo",
+        "short": "Image or logo for the organization",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://signalbhn.org/fhir/StructureDefinition/SignalOrgPhotoAttachment"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
         "id": "Organization.extension:qualification",
         "path": "Organization.extension",
         "sliceName": "qualification",
@@ -38,21 +53,6 @@
           "strength": "required",
           "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-organization-license"
         }
-      },
-      {
-        "id": "Organization.extension:photo",
-        "path": "Organization.extension",
-        "sliceName": "photo",
-        "short": "Image or logo for the organization",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://signalbhn.org/fhir/StructureDefinition/SignalOrgPhotoAttachment"
-            ]
-          }
-        ],
-        "isModifier": false
       },
       {
         "id": "Organization.type",
