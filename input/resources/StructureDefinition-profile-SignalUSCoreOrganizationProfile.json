@@ -31,12 +31,22 @@
         "sliceName": "code"
       },
       {
+        "id": "Organization.extension:qualification.extension:code.url",
+        "path": "Organization.extension.extension.url",
+        "fixedUri": "code"
+      },
+      {
         "id": "Organization.extension:qualification.extension:code.value[x]",
         "path": "Organization.extension.extension.value[x]",
         "binding": {
           "strength": "required",
           "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-organization-license"
         }
+      },
+      {
+        "id": "Organization.extension:qualification.url",
+        "path": "Organization.extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/qualification"
       },
       {
         "id": "Organization.extension:photo",
@@ -59,7 +69,10 @@
         "sliceName": "EIN",
         "short": "Employer Identification Number (EIN)",
         "definition": "An Employer Identification Number (EIN) is also known as a Federal Tax Identification Number, and is used to identify a business entity. Generally, businesses need an EIN. Provided by the US Internal Revenue Service (IRS)",
-        "comment": "An Employer Identification Number (EIN), also known as a Federal Tax Identification Number, is used to identify a business entity."
+        "comment": "An Employer Identification Number (EIN), also known as a Federal Tax Identification Number, is used to identify a business entity.",
+        "patternIdentifier": {
+          "system": "urn:oid:2.16.840.1.113883.4.4"
+        }
       },
       {
         "id": "Organization.identifier:MMIS",
