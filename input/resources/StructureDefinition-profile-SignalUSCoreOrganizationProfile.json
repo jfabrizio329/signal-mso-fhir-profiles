@@ -12,43 +12,6 @@
   "differential": {
     "element": [
       {
-        "id": "Organization.extension:qualification",
-        "path": "Organization.extension",
-        "sliceName": "qualification",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://signalbhn.org/fhir/StructureDefinition/qualification"
-            ]
-          }
-        ],
-        "isModifier": false
-      },
-      {
-        "id": "Organization.extension:qualification.extension:code",
-        "path": "Organization.extension.extension",
-        "sliceName": "code"
-      },
-      {
-        "id": "Organization.extension:qualification.extension:code.url",
-        "path": "Organization.extension.extension.url",
-        "fixedUri": "code"
-      },
-      {
-        "id": "Organization.extension:qualification.extension:code.value[x]",
-        "path": "Organization.extension.extension.value[x]",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-organization-license"
-        }
-      },
-      {
-        "id": "Organization.extension:qualification.url",
-        "path": "Organization.extension.url",
-        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/qualification"
-      },
-      {
         "id": "Organization.extension:photo",
         "path": "Organization.extension",
         "sliceName": "photo",
@@ -82,7 +45,7 @@
         "definition": "Medicaid Management Information System (MMIS) is the official title of Colorado's patient and provider processing network.",
         "comment": "The Colorado MMIS, interChange, is currently operated by Gainwell Technologies. Learn more at https://hcpf.colorado.gov/mmis-procurement",
         "patternIdentifier": {
-          "system": "https://signalbhn.org//identifiers/organization/"
+          "system": "https://signalbhn.org//identifiers/organization-mmis/"
         }
       },
       {
