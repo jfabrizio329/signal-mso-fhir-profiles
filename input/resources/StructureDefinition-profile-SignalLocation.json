@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id":"signal-location",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/location",
+  "name": "SignalLocation",
+  "title": "Location Profile",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Location",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Location.address.extension:signalRegion",
+        "path": "Location.address.extension",
+        "sliceName": "signalRegion",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://signalbhn.org/fhir/StructureDefinition/region"
+            ]
+          }
+        ],
+        "isModifier": false,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-region"
+        }
+      },
+      {
+        "id": "Location.address.district",
+        "path": "Location.address.district",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/fips-county-co"
+        }
+      }
+    ]
+  }
+}
