@@ -6,9 +6,9 @@ topic: organizationaffiliation-profile
 
 ---
 
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation
+Canonical URL: http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation
 
-Simplifier project page: [Signal OrganizationAffiliation](https://simplifier.net/signal-mso-fhir-profiles/organizationaffiliation)
+Simplifier project page: Not Applicable
 
 Derived from: [OrganizationAffiliation (R4)](http://hl7.org/fhir/R4/organizationaffiliation.html)
 
@@ -19,13 +19,13 @@ Module:  {{pagelink:Organization-Services-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation, snapshot}}
+		{{tree:http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation, buttons}}
+		{{tree:http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/OrganizationAffiliation,}}
+		{{json:http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation,}}
 	</tab>
 </tabs>
 

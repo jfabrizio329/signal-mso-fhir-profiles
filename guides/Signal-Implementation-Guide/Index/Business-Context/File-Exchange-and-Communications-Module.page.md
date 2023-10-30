@@ -21,12 +21,18 @@ This module is also used  and specify resources used by the application back-end
 | {{pagelink:communication-profile}} | Reminder, Alert, Note | An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency that was notified about a reportable condition. <br /> *This should not contain novel findings about a patient, those should be contained on the associated encounter.* |
 | {{pagelink:communicationrequest-profile}} | --- | A request to convey information; e.g. the CDS system proposes that an alert be sent to a responsible provider, the CDS system proposes that the public health agency be notified about a reportable condition. |
 | {{pagelink:flag-profile}} | Notification, Warning, Alert | Prospective warnings of potential issues when providing care to the patient. |
-
+| {{pagelink:organization-profile}} | Provider (organization) | See {{pagelink:organization-services-module}}. |
+| {{pagelink:practitioner-profile}} | Provider (individual), user | See {{pagelink:organization-services-module}}. |
+| {{pagelink:patient-profile}} | Client | See {{pagelink:patient-administration-module}}. |
 ## Conceptual Model
 
 {{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-file-module-2023-09-29.png}}
 
 ## Notes
+
+### Users in Practitioner resources
+
+Users (system users and providers) *SHOULD* contain a {{pagelink:practitioner-profile}} record to be used as the reference target of `.sender` and `.recipient` elements.  The practitioner resource may contain additional information such as user type and roles.
 
 ### Flags and Communication
 

@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "profile-patient",
+  "id": "signal-patient",
   "url": "http://signalbhn.org/fhir/StructureDefinition/patient",
-  "name": "PatientProfile",
+  "name": "SignalPatient",
   "title": "Patient Profile",
   "status": "draft",
   "date": "2023-06-15T17:41:33.182674+00:00",
@@ -16,29 +16,24 @@
   "differential": {
     "element": [
       {
-        "id": "Patient.extension:ethnicity",
+        "id": "Patient.extension",
         "path": "Patient.extension",
-        "sliceName": "ethnicity"
-      },
-      {
-        "id": "Patient.extension:ethnicity.extension",
-        "path": "Patient.extension.extension",
-        "min": 1
-      },
-      {
-        "id": "Patient.extension:tribalAffiliation",
-        "path": "Patient.extension",
-        "sliceName": "tribalAffiliation"
-      },
-      {
-        "id": "Patient.extension:tribalAffiliation.extension",
-        "path": "Patient.extension.extension",
-        "min": 1
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
       },
       {
         "id": "Patient.extension:adoptionInfo",
         "path": "Patient.extension",
         "sliceName": "adoptionInfo",
+        "min": 0,
         "type": [
           {
             "code": "Extension",
@@ -213,9 +208,24 @@
         "fixedUri": "https://signalbhn.org/fhir/sid/beacon-legacy"
       },
       {
+        "id": "Patient.address.extension",
+        "path": "Patient.address.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
         "id": "Patient.address.extension:noFixedAddress",
         "path": "Patient.address.extension",
         "sliceName": "noFixedAddress",
+        "min": 0,
         "type": [
           {
             "code": "Extension",

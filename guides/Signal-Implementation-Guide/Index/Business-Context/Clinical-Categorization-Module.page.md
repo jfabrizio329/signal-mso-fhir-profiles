@@ -13,21 +13,21 @@ This is the administration module for clinical categorization.  It captures conc
 
 | Name                      | Aliases                                   | Description |
 | --- | --- | --- |
-| {{pagelink:episodeofcare-profile}}         | Admission, Case, Program, Problem, Episode | An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time. |
+| {{pagelink:episodeofcare-profile}}         | Admission, case, program, problem, episode | An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time. |
 | {{pagelink:encounter-profile}} | Visit | An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient. |
-| {{pagelink:servicerequest-profile}}        | Referral | --- |
-| {{pagelink:procedure-profile}}             | Service, Codes | --- |
-| {{pagelink:simple-observation-profile}} | Clinical Notes, Notes | A practitioner’s clinical observation or assertion about a patient’s health status, which is not a response to a screening or assessment question. |
-| {{pagelink:condition-problems-profile}} | Condition, Problem, Diagnosis | For practitioner notes on encounter related to condition. Capture clinical concept that is documented and categorized as a problem or health concern including information about a Social Determinants of Health-related condition. |
-| {{pagelink:condition-encounter-profile}} | Condition, Problem, Diagnosis | For encoutner diagnosis resulting from a healthcare interaction |
-| {{pagelink:organization-profile}} | Provider, Provider Agency, Provider Location | Organization providing services |
-| {{pagelink:patient-profile}} | Client | --- |
-| {{pagelink:practitioner-profile}} | Clinician, physician, doctor, nurse, user | See {{pagelink:organization-services-module}} |
+| {{pagelink:servicerequest-profile}}        | Referral | A record of a request for service such as diagnostic investigations, treatments, or operations to be performed. |
+| {{pagelink:procedure-profile}}             | Service, codes | An action that is or was performed on or for a patient, practitioner, device, organization, or location. |
+| {{pagelink:simple-observation-profile}} | Clinical notes, notes | Measurements and simple assertions made about a patient, device or other subject. |
+| {{pagelink:condition-problems-profile}} | Condition, problem, diagnosis | A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.  Used to query for a Patient’s current or historical problems and health concerns. |
+| {{pagelink:condition-encounter-profile}} | Condition, problem, piagnosis | A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern. Used for {{pagelink:encounter-profile}} diagnosis. |
+| {{pagelink:organization-profile}} | Provider, Provider Agency, Provider Location | Organization providing services. <br /> See {{pagelink:organization-services-module}} |
+| {{pagelink:patient-profile}} | Client | See {{pagelink:patient-administration-module}} |
+| {{pagelink:practitioner-profile}} | Clinician, provider (individual) physician, doctor, nurse, user | See {{pagelink:organization-services-module}} |
 | {{pagelink:practitionerrole-profile}} | --- | See {{pagelink:organization-services-module}} |
-| {{pagelink:chargeitem-profile}} | --- | Not currently used |
+| {{pagelink:chargeitem-profile}} | --- | See {{pagelink:finance-module}} |
 | {{pagelink:observation-screening-assessment-profile}} | Survey | Contains details on type of screening or assessment and results |
-| {{pagelink:questionnaire-profile}} | Survey (DACODS, CCAR) | Contains questions asked on screening or assessment |
-| {{pagelink:questionnaireresponse-profile}} | Survey Response, Answers | Contains answers for questions asked on screening or assessment |
+| {{pagelink:questionnaire-profile}} | Survey (e.g. DACODS, CCAR, etc.) | Contains questions asked on screening or assessment |
+| {{pagelink:questionnaireresponse-profile}} | Survey response, answers | Contains answers for questions asked on screening or assessment |
 
 
 ## Conceptual Model
@@ -37,9 +37,9 @@ This is the administration module for clinical categorization.  It captures conc
 ### Structured Screening and Assessments - Survey, Questionnaire, and Questionnaire Response
 
 Following [HL7.FHIR.US.CORE\Screening and Assessments - FHIR v4.0.01](http://hl7.org/fhir/us/core/screening-and-assessments.html) guidance.  Using the following resources:
-- {{pagelink:observation-screening-assessment-profile}}
 - {{pagelink:questionnaire-profile}}
 - {{pagelink:questionnaireresponse-profile}}
+- {{pagelink:observation-screening-assessment-profile}}
 
  In addition, we are utilizing the US Core Screening and Assessments guidance.
 

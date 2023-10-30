@@ -6,25 +6,30 @@ topic: terminology
 
 ---
 
-# Background
+## Background
 The following coded values are used to describe administrative and clinical concepts within the FHIR elements to meet structural requirements of both the data model profiles and user interfaces.
 
 Whenever possible, value sets and code systems were taken from the [US Core Terminology](https://hl7.org/fhir/us/core/terminology.html) and/or [FHIR Core Terminology](http://hl7.org/fhir/terminologies-valuesets.html) that were associated with the resources for interoperability.
 
-## Notes
-- ValueSet resources in Signal's IG have been ["expanded"](https://www.hl7.org/fhir/valueset.html#expansion) utilizing the `ValueSet.expansion` element backbone. This is because Azure FHIR Service lacks a terminology server, so any value set that is not [extensional](https://www.hl7.org/fhir/valueset.html#int-ext), and UI developers require an enumerated lists of all values for display.
+### Notes
+- ValueSet resources in Signal's IG have been "[expanded](https://www.hl7.org/fhir/valueset.html#expansion)" utilizing the `ValueSet.expansion` element backbone. This is because Azure FHIR Service lacks a terminology server, so any value set that is not [extensional](https://www.hl7.org/fhir/valueset.html#int-ext), and UI developers require an enumerated lists of all values for display.
    - Expanded value sets retain their original Canonical URL if they are otherwise unmodified
    - Any changes to the original value set including adding or removing a code system, defining additional values, or removing values from the `.compose` element is considered a custom value set and will be noted below
 - **\* (Asterisk) Denotes that these code systems an/or value sets have been modified or created for Signal.** 
    - An attempt was made to use a standards-based, [external code systems](https://www.hl7.org/fhir/terminologies-systems.html#external) whenever possible; e.g. ICD-10, LOINC, SNOMED, CPT, etc. to retain interoperability
    - Any custom values will be defined in a CodeSystem resource in addition to the ValueSet
 
-
-# Value sets defined by this implementation guide
+## Signal custom value sets defined by this implementation guide
 
 |Value Set|Description|Profile(s)|Binding Strength|
 |---|---|---|---|
-| [AddressType](https://www.hl7.org/fhir/valueset-address-type.html) | The type of an address (physical / postal). | [**Organization** - Organization.address.type](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br /> [**Organization** - Organization.contact.address.type](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br /> [**Patient** - Patient.address.type](../FHIR-Artifacts/Structure-Definition--Patient-Profile) <br /> [**Practitioner** - Practitioner.address.type](../FHIR-Artifacts/Structure-Definition--Practitioner-Profile) <br /> [**Location** - Location.address.type](../FHIR-Artifacts/Structure-Definition--Location-Profile)| [Required](https://www.hl7.org/fhir/terminologies.html#required) |
+|---|---|---|---|
+
+## HL7 value sets defined by this implementation guide
+
+|Value Set|Description|Profile(s)|Binding Strength|
+|---|---|---|---|
+| [AddressType](https://www.hl7.org/fhir/valueset-address-type.html) | The type of an address (physical / postal). | - Organization.address.type <br /> - Organization.contact.address.type <br /> - Patient.address.type <br /> - Practitioner.address.type <br /> - Location.address.type| [Required](https://www.hl7.org/fhir/terminologies.html#required) |
 | [AddressUse](http://hl7.org/fhir/ValueSet/address-use) | The use of an address | [**Organization** - Organization.address.use](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br /> [**Organization** - Organization.contact.address.use](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br /> [**Patient** - Patient.address.use](../FHIR-Artifacts/Structure-Definition--Patient-Profile) <br /> [**Practitioner** - Practitioner.address.use](../FHIR-Artifacts/Structure-Definition--Practitioner-Profile) <br /> [**Location** - Location.address.use](../FHIR-Artifacts/Structure-Definition--Location-Profile) | [Required](https://www.hl7.org/fhir/terminologies.html#required) |
 | [ContactPointSystem](https://hl7.org/fhir/valueset-contact-point-use.html) | Telecommunications form for contact point | [**Organization** - Organization.telecom.system](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br/> [**Organization** - Organization.contact.telecom.system](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br/> [**Practitioner** - Practitioner.telecom.system](../FHIR-Artifacts/Structure-Definition--Practitioner-Profile) <br/> [**PractitionerRole** - PractitionerRole.telecom.system](../FHIR-Artifacts/Structure-Definition--PractitionerRole-Profile) <br/> [**HealthcareService** - HealthcareService.telecom.system](../FHIR-Artifacts/Structure-Definition--HealthcareService-Profile) <br/> [**Location** - Location.telecom.system](../FHIR-Artifacts/Structure-Definition--Location-Profile) <br/> [**OrganizationAffiliation** - OrganizationAffiliation.telecom.system](../FHIR-Artifacts/Structure-Definition--OrganizationAffiliation-Profile)| [Required](https://www.hl7.org/fhir/terminologies.html#required) |
 | [ContactPointUse](http://hl7.org/fhir/ValueSet/contact-point-use.html) | Use of contact point | [**Organization** - Organization.telecom.use](../FHIR-Artifacts/Structure-Definition--Organization-Profile) <br/> [**Organization** - Organization.contact.telecom.use](../FHIR-Artifacts/Structure-Definition--Organization-Profile)<br/> [**Practitioner** - Practitioner.telecom.use](../FHIR-Artifacts/Structure-Definition--Practitioner-Profile) <br/> [**PractitionerRole** - PractitionerRole.telecom.use](../FHIR-Artifacts/Structure-Definition--PractitionerRole-Profile) <br/> [**HealthcareService** - HealthcareService.telecom.use](../FHIR-Artifacts/Structure-Definition--HealthcareService-Profile) <br/> [**Location** - Location.telecom.use](../FHIR-Artifacts/Structure-Definition--Location-Profile) <br/> [**OrganizationAffiliation** - OrganizationAffiliation.telecom.use](../FHIR-Artifacts/Structure-Definition--OrganizationAffiliation-Profile)| [Required](https://www.hl7.org/fhir/terminologies.html#required)|
@@ -115,10 +120,3 @@ Whenever possible, value sets and code systems were taken from the [US Core Term
 | [AccountTypes](http://hl7.org/fhir/ValueSet/account-type) | The type of an account | [**Account** - Account.type](../FHIR-Artifacts/Structure-Definition--Account-Profile) | [Example](https://www.hl7.org/fhir/terminologies.html#example) | 
 | [InvoiceStatus](http://hl7.org/fhir/ValueSet/invoice-status) | Codes identifying the lifecycle stage of an Invoice | [**Invoice** - Invoice.status](../FHIR-Artifacts/Structure-Definition--Invoice-Profile) | [Required](https://www.hl7.org/fhir/terminlogies.html#required) | 
 | [PriceComponentType](http://hl7.org/fhir/ValueSet/price-component-type) | Codes indicating the kind of the price component | [**Invoice** - Invoice.lineItem.priceComponent.type](../FHIR-Artifacts/Structure-Definition--Invoice-Profile) | [Required](https://www.hl7.org/fhir/terminlogies.html#required) | 
-
-
-
-
-
-# Other value set notes
-[Procedure ValueSet](https://hl7.org/fhir/us/core/ValueSet-us-core-procedure-code.html) will include code systems from ICD, HCPCS, CPT, LOINC, Snomed.
