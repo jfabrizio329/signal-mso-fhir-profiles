@@ -14,6 +14,33 @@
   "differential": {
     "element": [
       {
+        "id": "Organization.extension:qualification",
+        "path": "Organization.extension",
+        "sliceName": "qualification",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://signalbhn.org/fhir/StructureDefinition/qualification"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Organization.extension:qualification.extension:code",
+        "path": "Organization.extension.extension",
+        "sliceName": "code"
+      },
+      {
+        "id": "Organization.extension:qualification.extension:code.value[x]",
+        "path": "Organization.extension.extension.value[x]",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-organization-license"
+        }
+      },
+      {
         "id": "Organization.extension:photo",
         "path": "Organization.extension",
         "sliceName": "photo",
