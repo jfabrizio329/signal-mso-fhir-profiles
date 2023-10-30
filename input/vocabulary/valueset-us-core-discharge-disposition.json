@@ -1,11 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "us-core-discharge-disposition",
-    "text": {
-        "status": "generated"
-    },
     "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-discharge-disposition",
-    "version": "6.0.0",
     "name": "USCoreDischargeDisposition",
     "title": "US Core Discharge Disposition",
     "status": "active",
