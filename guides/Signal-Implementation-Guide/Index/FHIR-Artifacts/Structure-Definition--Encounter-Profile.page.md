@@ -4,9 +4,9 @@ topic: encounter-profile
 
 # {{page-title}}
 
-Canonical URL: http://signalbhn.org/fhir/StructureDefinition/encounter
+Canonical URL: http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
 
-Simplifier project page: [ServiceRequest](https://simplifier.net/signal-mso-fhir-profiles/signal-encounter-profile) 
+Simplifier project page: Not Applicable 
 
 Derived from: [US Core Encounter STU6 (R4)](https://hl7.org/fhir/us/core/StructureDefinition-us-core-encounter.html)
 
@@ -17,13 +17,13 @@ Module:  {{pagelink:Clinical-Categorization-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:http://signalbhn.org/fhir/StructureDefinition/encounter, snapshot}}
+		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:http://signalbhn.org/fhir/StructureDefinition/encounter, buttons}}
+		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:http://signalbhn.org/fhir/StructureDefinition/encounter,}}
+		{{json:http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter,}}
 	</tab>
 </tabs>
 
@@ -88,6 +88,10 @@ The definition of admission in a Signal context does not fit for this use. We ar
 
 **.account**
 - MAY be used to specify payer and/or funding that is different from one specified on EpisodeOfCare
+
+**.location.location**
+- SHOULD be used to specify the [Place of Service](https://www.cms.gov/medicare/coding-billing/place-of-service-codes/code-sets) (POS) Codes maintained by CMS.  
+- See {{pagelink:location-profile}} for more information on POS.
 
 **.serviceProvider**
 - SHALL reference the Organization resource for the Provider (provider-location).  See {{pagelink:organization-services-module}}
