@@ -12,7 +12,7 @@ topic: procedure-profile
 
 Canonical URL: http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure
 
-Simplifier project page: [Procedure](https://simplifier.net/signal-mso-fhir-profiles/)
+Simplifier project page: Not Applicable
 
 Derived from: [US Core Procedure STU6 (R4)](https://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html)
 
