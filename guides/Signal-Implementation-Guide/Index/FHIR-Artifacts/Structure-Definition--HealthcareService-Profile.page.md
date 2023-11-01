@@ -6,7 +6,7 @@ topic: healthcareservice-profile
 
 ---
 
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/healthcareservice
 
 Simplifier project page: https://simplifier.net/signal-mso-fhir-profiles/signalhealthcareservice
 
@@ -19,13 +19,13 @@ Module:  {{pagelink:Organization-Services-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/healthcareservice, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/healthcareservice, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/SignalHealthcareService,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/healthcareservice,}}
 	</tab>
 </tabs>
 

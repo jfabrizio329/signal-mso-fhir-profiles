@@ -6,10 +6,6 @@ topic: episodeofcare-profile
 
 ---
 
-**Status**:  WIP, Signal custom profile is being modified for new elements
-
----
-
 Canonical URL: https://signalbhn.org/fhir/StructureDefinition/episodeofcare
 
 Simplifier project page: [EpisodeOfCare](https://signalbhn.org/fhir/StructureDefinition/episodeofcare)
@@ -62,8 +58,12 @@ Any referrals from the Jolata system (called referrals) will reference a {{pagel
 - This will primarily be used to provide default HealthcareService offerings on the UI
 - The higher-level Provider Agency (accessed via the highest level of Organization.partOf) should be considered for all HealthcareService offerings available to the UI
 
+**.referralRequest**
+- SHOULD point to the ServiceRequest resource that represents the referral from the Jolata system
+- This will only represent required information contained in the Jolata referral system. Edits to referral information should come from Jolata.
+
 **.careManager**
-- Not presently used
+- SHALL point to the practitioner that is designated as the care manager when `.referralRequest` is populated
 
 **.team**
 - Not presently used

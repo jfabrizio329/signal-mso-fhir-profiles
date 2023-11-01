@@ -6,13 +6,9 @@ topic: servicerequest-profile
 
 ---
 
-**Status**:  WIP, expect Signal custom profile
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/servicerequest
 
----
-
-Canonical URL: ~~https://signalbhn.org/fhir/StructureDefinition/ServiceRequest~~ http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest
-
-Simplifier project page: [ServiceRequest](https://simplifier.net/signal-mso-fhir-profiles/)
+Simplifier project page: [ServiceRequest](https://simplifier.net/signal-mso-fhir-profiles/signalservicerequest)
 
 Derived from: [US Core ServiceRequest STU6 (R4)](https://hl7.org/fhir/us/core/StructureDefinition-us-core-servicerequest.html)
 
@@ -23,24 +19,26 @@ Module:  {{pagelink:Clinical-Categorization-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/servicerequest, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/servicerequest, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/servicerequest,}}
 	</tab>
 </tabs>
 
 ## Profile usage
 
-The asdf.
+Record of request (referral) for a procedure or service to be planned, proposed, or performed on a patient. This will come directly from the referral system of record, Jolata, and will include only necessary details for handling the service in FHIR.
+
+Jolata will be used as the system of record (source) that will maintain referral details. Any updates on the system of record will cascade down to the associated FHIR resources. No new information specific to the referral should be stored in FHIR.
 
 ### Profile element notes
 
-**.type**
-- *FUTURE* - asdf
+**.category:serviceCategory**
+- Signal custom service category classification (type of service to be performed).
 
 ## Examples
 

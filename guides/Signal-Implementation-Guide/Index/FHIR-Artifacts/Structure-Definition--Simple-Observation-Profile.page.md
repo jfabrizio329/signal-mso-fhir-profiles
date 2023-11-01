@@ -8,7 +8,7 @@ topic: simple-observation-profile
 
 Canonical URL: http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
 
-Simplifier project page: Not Applicable {{link}}
+Simplifier project page: Not Applicable
 
 Derived from: [US Core Simple Observation STU6 (R4)](https://hl7.org/fhir/us/core/StructureDefinition-us-core-simple-observation.html)
 
