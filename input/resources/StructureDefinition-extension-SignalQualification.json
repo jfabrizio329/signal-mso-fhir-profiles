@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "qualification",
+  "id": "signal-qualification",
   "url": "https://signalbhn.org/fhir/StructureDefinition/qualification",
   "name": "SignalQualification",
   "title": "Qualification",
@@ -63,12 +63,13 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 1
+        "min": 2
       },
       {
         "id": "Extension.extension:identifier",
         "path": "Extension.extension",
-        "sliceName": "identifier"
+        "sliceName": "identifier",
+        "mustSupport": true
       },
       {
         "id": "Extension.extension:identifier.url",
@@ -115,7 +116,8 @@
         "id": "Extension.extension:issuer",
         "path": "Extension.extension",
         "sliceName": "issuer",
-        "max": "1"
+        "max": "1",
+        "mustSupport": true
       },
       {
         "id": "Extension.extension:issuer.url",
@@ -139,7 +141,8 @@
         "id": "Extension.extension:period",
         "path": "Extension.extension",
         "sliceName": "period",
-        "max": "1"
+        "max": "1",
+        "mustSupport": true
       },
       {
         "id": "Extension.extension:period.url",
@@ -155,6 +158,37 @@
             "code": "Period"
           }
         ]
+      },
+      {
+        "id": "Extension.extension:whereValid",
+        "path": "Extension.extension",
+        "sliceName": "whereValid",
+        "mustSupport": true
+      },
+      {
+        "id": "Extension.extension:whereValid.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "whereValid"
+      },
+      {
+        "id": "Extension.extension:whereValid.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location"
+            ]
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state"
+        }
       },
       {
         "id": "Extension.url",

@@ -1,11 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "us-core-servicerequest-category",
-    "text": {
-        "status": "generated"
-    },
     "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-servicerequest-category",
-    "version": "6.0.0",
     "name": "USCoreServiceRequestCategoryCodes",
     "title": "US Core ServiceRequest Category Codes",
     "status": "active",
