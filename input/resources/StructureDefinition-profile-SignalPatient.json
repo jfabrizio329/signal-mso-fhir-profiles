@@ -16,24 +16,39 @@
   "differential": {
     "element": [
       {
-        "id": "Patient.extension",
+        "id": "Patient.extension:race",
         "path": "Patient.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
+        "sliceName": "race"
+      },
+      {
+        "id": "Patient.extension:race.extension",
+        "path": "Patient.extension.extension",
+        "min": 1
+      },
+      {
+        "id": "Patient.extension:ethnicity",
+        "path": "Patient.extension",
+        "sliceName": "ethnicity"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension",
+        "path": "Patient.extension.extension",
+        "min": 1
+      },
+      {
+        "id": "Patient.extension:tribalAffiliation",
+        "path": "Patient.extension",
+        "sliceName": "tribalAffiliation"
+      },
+      {
+        "id": "Patient.extension:tribalAffiliation.extension",
+        "path": "Patient.extension.extension",
+        "min": 1
       },
       {
         "id": "Patient.extension:adoptionInfo",
         "path": "Patient.extension",
         "sliceName": "adoptionInfo",
-        "min": 0,
         "type": [
           {
             "code": "Extension",
@@ -208,24 +223,9 @@
         "fixedUri": "https://signalbhn.org/fhir/sid/beacon-legacy"
       },
       {
-        "id": "Patient.address.extension",
-        "path": "Patient.address.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
         "id": "Patient.address.extension:noFixedAddress",
         "path": "Patient.address.extension",
         "sliceName": "noFixedAddress",
-        "min": 0,
         "type": [
           {
             "code": "Extension",
