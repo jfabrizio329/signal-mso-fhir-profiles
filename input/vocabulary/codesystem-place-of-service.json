@@ -1,0 +1,148 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "place-of-service",
+    "url": "https://signalbhn.org/fhir/CodeSystem/place-of-service",
+    "name": "PlaceOfService",
+    "title": "Place Of Service",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "CMS maintains a list of Place of Service (POS) codes that indicate where a service can be provided.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/place-of-service",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"2",
+            "display":"Telehealth Provided Other than in Member's Home"
+        },
+        {
+            "code":"10",
+            "display":"Telehealth Provided in Member's Home"
+        },
+        {
+            "code":"16",
+            "display":"Temporary Lodging"
+        },
+        {
+            "code":"17",
+            "display":"Walk-in Retail Health Clinic"
+        },
+        {
+            "code":"18",
+            "display":"Place of Employment-Worksite"
+        },
+        {
+            "code":"22",
+            "display":"Outpatient Hospital"
+        },
+        {
+            "code":"23",
+            "display":"Emergency Room -Hospital"
+        },
+        {
+            "code":"24",
+            "display":"Ambulatory Surgical Center"
+        },
+        {
+            "code":"25",
+            "display":"Birthing Center"
+        },
+        {
+            "code":"26",
+            "display":"Military Treatment Facility (MTF)"
+        },
+        {
+            "code":"31",
+            "display":"Skilled Nursing Facility (SNF)"
+        },
+        {
+            "code":"32",
+            "display":"Nursing Facility"
+        },
+        {
+            "code":"33",
+            "display":"Custodial Care Facility"
+        },
+        {
+            "code":"34",
+            "display":"Hospice {xxvi}"
+        },
+        {
+            "code":"42",
+            "display":"Ambulance - Air or Water"
+        },
+        {
+            "code":"49",
+            "display":"Independent Clinic"
+        },
+        {
+            "code":"50",
+            "display":"Federally Qualified Health Center (FQHC)"
+        },
+        {
+            "code":"51",
+            "display":"Inpatient Psychiatric Facility"
+        },
+        {
+            "code":"52",
+            "display":"Psychiatric Facility - Partial Hospitalization"
+        },
+        {
+            "code":"53",
+            "display":"Community Mental Health Center/ Clinic (CMHC)^{xxvii}"
+        },
+        {
+            "code":"54",
+            "display":"Intermediate Care Facility - Mentally Retarded (ICF-MR)^{xxviii}"
+        },
+        {
+            "code":"55",
+            "display":"Residential Substance Abuse Treatment Facility"
+        },
+        {
+            "code":"56",
+            "display":"Psychiatric Residential Treatment Center"
+        },
+        {
+            "code":"57",
+            "display":"Non-Residential Substance Abuse Treatment Center"
+        },
+        {
+            "code":"60",
+            "display":"Mass Immunization Center"
+        },
+        {
+            "code":"61",
+            "display":"Comprehensive Inpatient Rehabilitation Facility"
+        },
+        {
+            "code":"62",
+            "display":"Comprehensive Outpatient Rehabilitation Facility"
+        },
+        {
+            "code":"65",
+            "display":"End-Stage Renal Disease Treatment Facility"
+        },
+        {
+            "code":"71",
+            "display":"Public Health Clinic"
+        },
+        {
+            "code":"72",
+            "display":"Rural Health Clinic"
+        },
+        {
+            "code":"81",
+            "display":"Independent Laboratory"
+        },
+        {
+            "code":"99",
+            "display":"Other Place of Service"
+        },
+        {
+            "code":"UA",
+            "display":"Unassigned"
+        }
+    ]
+}
