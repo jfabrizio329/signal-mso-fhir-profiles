@@ -2,7 +2,7 @@
     "resourceType": "StructureDefinition",
     "id": "signal-documentreference",
     "url": "https://signalbhn.org/fhir/StructureDefinition/documentreference",
-    "name": "signal-documentreference-profile",
+    "name": "SignalDocumentReference",
     "title": "DocumentReference Profile",
     "status": "draft",
     "fhirVersion": "4.0.1",

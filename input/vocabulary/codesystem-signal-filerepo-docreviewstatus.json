@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "codesystem-signal-filerepo-docreviewstatus",
+    "url": "http://signalbhn.org/fhir/us/core/CodeSystem/signal-filerepo-docreviewstatus",
+    "name": "SignalFileRepoDocReviewStatus",
+    "title": "Signal FileRepo Doc Review DocStatus",
+    "status": "draft",
+    "experimental": false,
+    "date": "2019-11-01T09:29:23+11:00",
+    "description": "This code provides the information about Document Review Status of the File Repository",
+    "caseSensitive": true,
+    "valueSet": "http://signalbhn.org/fhir/us/core/ValueSet/signal-filerepo-docreviewstatus",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "blank",
+            "display": "Blank/Not Set"
+        },
+        {
+            "code": "waiting-for-review",
+            "display": "Waiting for Review"
+        },
+        {
+            "code": "in-review",
+            "display": "In Review"
+        },
+        {
+            "code": "waiting-for-agency",
+            "display": "Waiting for Agency"
+        },
+        {
+            "code": "accepted",
+            "display": "Accepted"
+        },
+        {
+            "code": "rejected",
+            "display": "Rejected"
+        }
+    ]
+}

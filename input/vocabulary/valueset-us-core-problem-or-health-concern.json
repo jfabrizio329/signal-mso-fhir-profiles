@@ -1,11 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "us-core-problem-or-health-concern",
-    "text": {
-        "status": "extensions"
-    },
     "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-problem-or-health-concern",
-    "version": "6.0.0",
     "name": "USCoreProblemOrHealthConcern",
     "title": "US Core Problem or Health Concern",
     "status": "active",

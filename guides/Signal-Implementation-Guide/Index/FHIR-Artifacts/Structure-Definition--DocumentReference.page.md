@@ -6,13 +6,9 @@ topic: documentreference-profile
 
 ---
 
-**Status**:  WIP, expanded valueset in [issue #38](https://github.com/enjoysparkling/signal-mso-fhir-profiles/issues/38)
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/documentreference
 
----
-
-Canonical URL: http://hl7.org/fhir/StructureDefinition/DocumentReference
-
-Simplifier project page: Not Applicable
+Simplifier project page: [Signal DocumentReference Profile](https://simplifier.net/signal-mso-fhir-profiles/signal-documentreference-profile)
 
 Derived from: [DocumentReference (R4)](http://hl7.org/fhir/R4/documentreference.html)
 
@@ -23,13 +19,13 @@ Module:  {{pagelink:File-Repository-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:http://hl7.org/fhir/StructureDefinition/DocumentReference, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/documentreference, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:http://hl7.org/fhir/StructureDefinition/DocumentReference, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/documentreference, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:http://hl7.org/fhir/StructureDefinition/DocumentReference,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/documentreference,}}
 	</tab>
 </tabs>
 
@@ -62,9 +58,10 @@ ALTERNATIVELY, additional notes on a DocumentReference file may be added as a ne
 - Kind of document, specified by LOINC, which defines the FHIR document code
 - Especially important to lend context to clinical notes
 
-**.category** - *FUTURE* - will need to add Signal's "classifications" to this, should be LOINC
+**.category**
 - Categorization of document, "classification" in Signal's glossary
-- Will be used for business purposes to group documents
+- Will be used for business purposes to group and label documents
+- *FUTURE* - SHOULD contain LOINC codes to matching concepts
 
 **.content.attachment.url**
 - SHALL use the `.attachment.url` field to reference files; do not directly attach data to avoid very large file returns from FHIR 

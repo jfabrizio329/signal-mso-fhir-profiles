@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "signal-filerepo-docreviewstatus",
+  "url": "http://signalbhn.org/fhir/us/core/ValueSet/signal-filerepo-docreviewstatus",
+  "name": "SignalFileRepoDocStatus",
+  "title": "Signal FileRepo DocStatus",
+  "status": "draft",
+  "experimental": false,
+  "date": "2023-09-26",
+  "description": "Document Review Status of the File Repository",
+  "compose": {
+      "include": [
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "concept": [
+                {
+                    "code": "blank",
+                    "display": "Blank/Not Set"
+                },
+                {
+                    "code": "waiting-for-review",
+                    "display": "Waiting for Review"
+                },
+                {
+                    "code": "in-review",
+                    "display": "In Review"
+                },
+                {
+                    "code": "waiting-for-agency",
+                    "display": "Waiting for Agency"
+                },
+                {
+                    "code": "accepted",
+                    "display": "Accepted"
+                },
+                {
+                    "code": "rejected",
+                    "display": "Rejected"
+                }
+              ]
+          }
+                ]
+  },
+  "expansion": {
+      "timestamp": "2022-06-10T10:28:30-04:00",
+      "total": 6,
+      "contains": [
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "code": "blank",
+              "display": "Blank/Not Set"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "code": "waiting-for-review",
+              "display": "Waiting for Review"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "code": "in-review",
+              "display": "In Review"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "code": "waiting-for-agency",
+              "display": "Waiting for Agency"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "code": "accepted",
+              "display": "Accepted"
+          },
+          {
+              "system": "http://signalbhn.org/fhir/CodeSystem/signal-filerepo-docreviewstatus",
+              "code": "rejected",
+              "display": "Rejected"
+          }
+      ]
+  }
+}
