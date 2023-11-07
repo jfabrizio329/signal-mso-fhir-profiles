@@ -1,6 +1,10 @@
 {
     "resourceType": "CodeSystem",
     "id": "signal-region",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-11-02T09:10:19.664+00:00"
+    },
     "url": "https://signalbhn.org/fhir/CodeSystem/signal-region",
     "name": "SignalRegion",
     "title": "Signal Region",
@@ -14,48 +18,48 @@
     "content": "complete",
     "concept": [
         {
-            "code": "signal-region",
-            "display": "Signal Region",
-            "concept": [
-                {
-                    "code": "signal-north",
-                    "display": "Signal North"
-                },
-                {
-                    "code": "signal-south",
-                    "display": "Signal South"
-                },
-                {
-                    "code": "signal-east",
-                    "display": "Signal East"
-                },
-                {
-                    "code": "signal-west",
-                    "display": "Signal West"
-                }
-            ]
+            "code": "SSPA1",
+            "display": "SSPA 1 : Northeast Colorado (Signal)"
         },
         {
-            "code": "rmh-region",
-            "display": "Rocky Mountain Health Region",
-            "concept": [
-                {
-                    "code": "rmh-north",
-                    "display": "Rocky Mountain Health North"
-                },
-                {
-                    "code": "rmh-south",
-                    "display": "Rocky Mountain Health South"
-                },
-                {
-                    "code": "rmh-east",
-                    "display": "Rocky Mountain Health East"
-                },
-                {
-                    "code": "rmh-west",
-                    "display": "Rocky Mountain Health West"
-                }
-            ]
+            "code": "SSPA2",
+            "display": "SSPA 2 : Metro Denver (Signal)"
+        },
+        {
+            "code": "SSPA3",
+            "display": "SSPA 3 : Colorado Springs Area"
+        },
+        {
+            "code": "SSPA4",
+            "display": "SSPA 4 : Southeastern Colorado including San Luis Valley (Signal)"
+        },
+        {
+            "code": "SSPA5",
+            "display": "SSPA 5 : Northern Western Slope"
+        },
+        {
+            "code": "SSPA6",
+            "display": "SSPA 6 : Southern Western Slope"
+        },
+        {
+            "code": "SSPA7",
+            "display": "SSPA 7 : Boulder"
+        },
+        {
+            "code": "ASO1",
+            "display": "ASO1"
+        },
+        {
+            "code": "ASO3",
+            "display": "ASO3"
+        },
+        {
+            "code": "ASO5",
+            "display": "ASO5"
+        },
+        {
+            "code": "ASO6",
+            "display": "ASO6"
         }
     ]
 }
