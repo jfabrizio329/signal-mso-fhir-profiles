@@ -16,6 +16,16 @@
   "differential": {
     "element": [
       {
+        "id": "Patient.extension:race",
+        "path": "Patient.extension",
+        "sliceName": "race"
+      },
+      {
+        "id": "Patient.extension:race.extension",
+        "path": "Patient.extension.extension",
+        "min": 1
+      },
+      {
         "id": "Patient.extension:ethnicity",
         "path": "Patient.extension",
         "sliceName": "ethnicity"
@@ -211,6 +221,33 @@
         "id": "Patient.identifier:ClientId.system",
         "path": "Patient.identifier.system",
         "fixedUri": "https://signalbhn.org/fhir/sid/beacon-legacy"
+      },
+      {
+        "id": "Patient.identifier:ReferralID",
+        "path": "Patient.identifier",
+        "sliceName": "ReferralID",
+        "short": "Referral identifier for this patient",
+        "definition": "Identifier generated for patients that are exclusive from Jolata."
+      },
+      {
+        "id": "Patient.identifier:ReferralID.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "https://www.hl7.org/fhir/valueset-identifier-type.html"
+      },
+      {
+        "id": "Patient.identifier:ReferralID.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "PLAC"
+      },
+      {
+        "id": "Patient.identifier:ReferralID.type.coding.display",
+        "path": "Patient.identifier.type.coding.display",
+        "fixedString": "Jolata System Referral Identifier"
+      },
+      {
+        "id": "Patient.identifier:ReferralID.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "https://signalbhn.org/fhir/sid/julota-referralid"
       },
       {
         "id": "Patient.address.extension:noFixedAddress",
