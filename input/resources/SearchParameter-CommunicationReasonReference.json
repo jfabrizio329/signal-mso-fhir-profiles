@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "communicationreasonreference",
-  "url": "http://hl7.org/fhir/SearchParameter/Communication-reason-reference",
+  "url": "https://signalbhn.org/fhir/SearchParameter/Communication-reason-reference",
   "name": "CommunicationReasonReference",
   "status": "draft",
   "description": "Custom Search parameter for Reason Reference in Communication",
