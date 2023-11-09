@@ -14,22 +14,6 @@
   "differential": {
     "element": [
       {
-        "id": "ServiceRequest.status",
-        "path": "ServiceRequest.status",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/request-status"
-        }
-      },
-      {
-        "id": "ServiceRequest.intent",
-        "path": "ServiceRequest.intent",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/request-intent"
-        }
-      },
-      {
         "id": "ServiceRequest.category:serviceCategory",
         "path": "ServiceRequest.category",
         "sliceName": "serviceCategory",
