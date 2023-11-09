@@ -7,18 +7,70 @@
     "status": "draft",
     "experimental": false,
     "date": "2023-08-16T16:08:23+05:30",
-    "description": "CMS maintains a list of Place of Service (POS) codes that indicate where a service can be provided.",
+    "description": "CMS maintains a list of Place of Service (POS) codes that indicate where a service can be provided. https://www.cms.gov/medicare/coding-billing/place-of-service-codes/code-sets",
     "caseSensitive": true,
     "valueSet": "https://signalbhn.org/fhir/ValueSet/place-of-service",
     "content": "complete",
     "concept": [
         {
-            "code":"2",
-            "display":"Telehealth Provided Other than in Member's Home"
+            "code":"01",
+            "display":"Pharmacy"
+        },
+        {
+            "code":"02",
+            "display":"Telehealth Provided Other than in Patient's Home"
+        },
+        {
+            "code":"03",
+            "display":"School"
+        },
+        {
+            "code":"04",
+            "display":"Homeless Shelter"
+        },
+        {
+            "code":"05",
+            "display":"Indian Health ServiceFree-standing Facility"
+        },
+        {
+            "code":"06",
+            "display":"Indian Health ServiceProvider-based Facility"
+        },
+        {
+            "code":"07",
+            "display":"Tribal 638 Free-standing Facility"
+        },
+        {
+            "code":"08",
+            "display":"Tribal 638 Provider-based Facility"
+        },
+        {
+            "code":"09",
+            "display":"Prison/Correctional Facility"
         },
         {
             "code":"10",
-            "display":"Telehealth Provided in Member's Home"
+            "display":"Telehealth Provided in Patient's Home"
+        },
+        {
+            "code":"11",
+            "display":"Office"
+        },
+        {
+            "code":"12",
+            "display":"Home"
+        },
+        {
+            "code":"13",
+            "display":"Assisted Living Facility"
+        },
+        {
+            "code":"14",
+            "display":"Group Home"
+        },
+        {
+            "code":"15",
+            "display":"Mobile Unit"
         },
         {
             "code":"16",
@@ -33,12 +85,24 @@
             "display":"Place of Employment-Worksite"
         },
         {
+            "code":"19",
+            "display":"Off Campus-Outpatient Hospital"
+        },
+        {
+            "code":"20",
+            "display":"Urgent Care Facility"
+        },
+        {
+            "code":"21",
+            "display":"Inpatient Hospital"
+        },
+        {
             "code":"22",
-            "display":"Outpatient Hospital"
+            "display":"On Campus-Outpatient Hospital"
         },
         {
             "code":"23",
-            "display":"Emergency Room -Hospital"
+            "display":"Emergency Room - Hospital"
         },
         {
             "code":"24",
@@ -50,11 +114,19 @@
         },
         {
             "code":"26",
-            "display":"Military Treatment Facility (MTF)"
+            "display":"Military Treatment Facility"
+        },
+        {
+            "code":"27",
+            "display":"Outreach Site/ Street"
+        },
+        {
+            "code":"28-30",
+            "display":"Unassigned"
         },
         {
             "code":"31",
-            "display":"Skilled Nursing Facility (SNF)"
+            "display":"Skilled Nursing Facility"
         },
         {
             "code":"32",
@@ -66,11 +138,23 @@
         },
         {
             "code":"34",
-            "display":"Hospice {xxvi}"
+            "display":"Hospice"
+        },
+        {
+            "code":"35-40",
+            "display":"Unassigned"
+        },
+        {
+            "code":"41",
+            "display":"Ambulance - Land"
         },
         {
             "code":"42",
             "display":"Ambulance - Air or Water"
+        },
+        {
+            "code":"43-48",
+            "display":"Unassigned"
         },
         {
             "code":"49",
@@ -78,7 +162,7 @@
         },
         {
             "code":"50",
-            "display":"Federally Qualified Health Center (FQHC)"
+            "display":"Federally Qualified Health Center"
         },
         {
             "code":"51",
@@ -86,15 +170,15 @@
         },
         {
             "code":"52",
-            "display":"Psychiatric Facility - Partial Hospitalization"
+            "display":"Psychiatric Facility-Partial Hospitalization"
         },
         {
             "code":"53",
-            "display":"Community Mental Health Center/ Clinic (CMHC)^{xxvii}"
+            "display":"Community Mental Health Center"
         },
         {
             "code":"54",
-            "display":"Intermediate Care Facility - Mentally Retarded (ICF-MR)^{xxviii}"
+            "display":"Intermediate Care Facility/ Individuals with Intellectual Disabilities"
         },
         {
             "code":"55",
@@ -106,7 +190,15 @@
         },
         {
             "code":"57",
-            "display":"Non-Residential Substance Abuse Treatment Center"
+            "display":"Non-residential Substance Abuse Treatment Facility"
+        },
+        {
+            "code":"58",
+            "display":"Non-residential Opioid Treatment Facility"
+        },
+        {
+            "code":"59",
+            "display":"Unassigned"
         },
         {
             "code":"60",
@@ -121,8 +213,16 @@
             "display":"Comprehensive Outpatient Rehabilitation Facility"
         },
         {
+            "code":"63-64",
+            "display":"Unassigned"
+        },
+        {
             "code":"65",
             "display":"End-Stage Renal Disease Treatment Facility"
+        },
+        {
+            "code":"66-70",
+            "display":"Unassigned"
         },
         {
             "code":"71",
@@ -133,16 +233,20 @@
             "display":"Rural Health Clinic"
         },
         {
+            "code":"73-80",
+            "display":"Unassigned"
+        },
+        {
             "code":"81",
             "display":"Independent Laboratory"
         },
         {
-            "code":"99",
-            "display":"Other Place of Service"
+            "code":"82-98",
+            "display":"Unassigned"
         },
         {
-            "code":"UA",
-            "display":"Unassigned"
+            "code":"99",
+            "display":"Other Place of Service"
         }
     ]
 }
