@@ -27,9 +27,9 @@
         }
       },
       {
-        "id": "ServiceRequest.identifier:ReferralID",
+        "id": "ServiceRequest.identifier:JulotaReferralID",
         "path": "ServiceRequest.identifier",
-        "sliceName": "ReferralID",
+        "sliceName": "JulotaReferralID",
         "short": "Referral Identifier from Jolata system",
         "patternIdentifier": {
           "system": "https://signalbhn.org/fhir/sid/julota-referralid"
