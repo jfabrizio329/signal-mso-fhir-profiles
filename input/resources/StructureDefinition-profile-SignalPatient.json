@@ -16,26 +16,6 @@
   "differential": {
     "element": [
       {
-        "id": "Patient.extension:ethnicity",
-        "path": "Patient.extension",
-        "sliceName": "ethnicity"
-      },
-      {
-        "id": "Patient.extension:ethnicity.extension",
-        "path": "Patient.extension.extension",
-        "min": 1
-      },
-      {
-        "id": "Patient.extension:tribalAffiliation",
-        "path": "Patient.extension",
-        "sliceName": "tribalAffiliation"
-      },
-      {
-        "id": "Patient.extension:tribalAffiliation.extension",
-        "path": "Patient.extension.extension",
-        "min": 1
-      },
-      {
         "id": "Patient.extension:adoptionInfo",
         "path": "Patient.extension",
         "sliceName": "adoptionInfo",
