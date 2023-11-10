@@ -18,6 +18,8 @@ Detailed changes can be found on the [GitHub 'main' commits](https://github.com/
 
 | Date | Description | New Package Version |
 | --- | --- | --- |
+| 2023-11-10 | - Added finance Structure Definition pages <br /> - Updated {{pagelink:finance-module}} with new potential resources, definitions, and updated conceptual diagram | --- |
+| 2023-11-02 | - Removed Observation Screening Assessment, no planned use | --- |
 | 2023-10-31 | - Fixed resource trees throughout <br /> - Added description to {{pagelink:servicerequest-profile}}. <br /> - Updated conceptual diagram for {{pagelink:clinical-categorization-module}} | 0.1.10 |
 | 2023-10-30 | - IG updates, Org, practitioner, documentreference, and more | --- |
 | 2023-10-04 | - Updated {{pagelink:clinical-categorization-module}} diagram for Procedure-->Reference(Encounter) <br /> - Created {{pagelink:encounter-profile}} usage notes. | 0.1.9 |
