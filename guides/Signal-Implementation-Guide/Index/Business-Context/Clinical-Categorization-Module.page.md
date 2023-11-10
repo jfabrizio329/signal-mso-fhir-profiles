@@ -25,7 +25,6 @@ This is the administration module for clinical categorization.  It captures conc
 | {{pagelink:practitioner-profile}} | Clinician, provider (individual) physician, doctor, nurse, user | See {{pagelink:organization-services-module}} |
 | {{pagelink:practitionerrole-profile}} | --- | See {{pagelink:organization-services-module}} |
 | {{pagelink:chargeitem-profile}} | --- | See {{pagelink:finance-module}} |
-| {{pagelink:observation-screening-assessment-profile}} | Survey | Contains details on type of screening or assessment and results |
 | {{pagelink:questionnaire-profile}} | Survey (e.g. DACODS, CCAR, etc.) | Contains questions asked on screening or assessment |
 | {{pagelink:questionnaireresponse-profile}} | Survey response, answers | Contains answers for questions asked on screening or assessment |
 
@@ -39,7 +38,6 @@ This is the administration module for clinical categorization.  It captures conc
 Following [HL7.FHIR.US.CORE\Screening and Assessments - FHIR v4.0.01](http://hl7.org/fhir/us/core/screening-and-assessments.html) guidance.  Using the following resources:
 - {{pagelink:questionnaire-profile}}
 - {{pagelink:questionnaireresponse-profile}}
-- {{pagelink:observation-screening-assessment-profile}}
 
  In addition, we are utilizing the US Core Screening and Assessments guidance.
 
@@ -65,7 +63,6 @@ A patient is referred into or presents relevant healthcare issue(s), e.g., signs
 
 Day 1: The patient arrives at the provider location for assessment which requires a screening and urinary analysis.
 - An Encounter is created for the overall assessment and a reasonReference is assocaited with the {{pagelink:procedure-profile, text:Procedure}}
-- A reasonReference is assigned to the {{pagelink:observation-screening-assessment-profile, text:observation screening assessment}}
 - `Encounter.length` is assigned a value based on the associated Procedure
 - EITHER 
    - (Preferred) A new encounter is created for the urinary Procedure, assgined via reasonReference, with a reference in partOf pointing to the parent encounter

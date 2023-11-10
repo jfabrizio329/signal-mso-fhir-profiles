@@ -12,7 +12,7 @@ Simplifier project page: Not Applicable
 
 Derived from: [FHIR R4 ChargeItem](http://hl7.org/fhir/R4/chargeitem.html)
 
-Module:  {{pagelink:Clinical-Categorization-Module}}
+Module:  {{pagelink:finance-Module}}
 
 ---
 
