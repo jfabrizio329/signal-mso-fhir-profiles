@@ -14,6 +14,28 @@
   "differential": {
     "element": [
       {
+        "id": "ServiceRequest.identifier",
+        "path": "ServiceRequest.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ServiceRequest.identifier:JulotaReferralID",
+        "path": "ServiceRequest.identifier",
+        "sliceName": "JulotaReferralID",
+        "short": "Referral Identifier from Jolata system",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/julota-referralid"
+        }
+      },
+      {
         "id": "ServiceRequest.status",
         "path": "ServiceRequest.status",
         "binding": {
