@@ -20,6 +20,7 @@ See [FHIR Financial module glossary](https://www.hl7.org/fhir/R5/financial-modul
 | {{pagelink:coverage-profile}} | --- | Financial instrument which may be used to reimburse or pay for health care products and services. Includes both insurance and self-payment.  <br /> Administrative category. |
 | {{pagelink:invoice-profile}} | Payment reconciliation, bill | Invoice containing collected ChargeItems from an Account with calculated individual and total price for Billing purpose. |
 | {{pagelink:chargeitem-profile}} | Line item | The resource ChargeItem describes the provision of healthcare provider products for a certain patient, therefore referring not only to the product, but containing in addition details of the provision, like date, time, amounts and participating organizations and persons. Main Usage of the ChargeItem is to enable the billing process and internal cost allocation. |
+| [ChargeItemDefinition](http://hl7.org/fhir/R4/chargeitemdefinition.html) | Line item pricing rules | The ChargeItemDefinition resource provides the properties that apply to the (billing) codes necessary to calculate costs and prices. The properties may differ largely depending on type and realm, therefore this resource gives only a rough structure and requires profiling for each type of billing code system. |
 | {{pagelink:organization-profile}} | Payer, payor, guarantor, cost center, insurer, policy owner, policy holder | Organization involved in and/or responsible financial interactions between service providers and patients. <br /> See {{pagelink:organization-services-module}} for other uses. |
 | {{pagelink:patient-profile}} | Client, subject, beneficiary | See {{pagelink:patient-administration-module}}. |
 | TBD | TBD        | TBD |
@@ -33,7 +34,7 @@ See [FHIR Financial module glossary](https://www.hl7.org/fhir/R5/financial-modul
 
 ## Conceptual Model
 
-{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-finance-module-2023-11-10.png}}
+{{render:guides/Signal-Implementation-Guide/Index/assets/images/signal-finance-module-2023-11-13.png}}
 
 
 ## Notes

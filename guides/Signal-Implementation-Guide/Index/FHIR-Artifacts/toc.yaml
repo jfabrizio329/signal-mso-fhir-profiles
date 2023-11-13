@@ -52,3 +52,5 @@
   filename: Structure-Definition--Invoice-Profile.page.md
 - name: 'Structure Definition: ChargeItem Profile'
   filename: Structure-Definition--ChargeItem-Profile.page.md
+- name: 'Structure Definition: ChargeItemDefinition Profile'
+  filename: Structure-Definition--ChargeItemDefinition-Profile.page.md

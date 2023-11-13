@@ -18,6 +18,7 @@ Detailed changes can be found on the [GitHub 'main' commits](https://github.com/
 
 | Date | Description | New Package Version |
 | --- | --- | --- |
+| 2023-11-13 | - Updated {{pagelink:encounter-profile}} with substantial updates to `.type` and procedure code usage <br /> - Updated {{pagelink:procedure-profile}} usage to indicate a preference for `Encounter.type` <br /> - {{pagelink:communication-profile}} updated `.reasonReference` with a note about the custom search parameter created for it. <br /> - Reorganized {{pagelink:terminology}} to break out signal custom and survey pages from the index. <br /> - Added ChargeItemDefinition to {{pagelink:finance-module}}, updated diagram, created {{pagelink:chargeitemdefinition-profile}}. | 0.2.0 |
 | 2023-11-10 | - Added finance Structure Definition pages <br /> - Updated {{pagelink:finance-module}} with new potential resources, definitions, and updated conceptual diagram | --- |
 | 2023-11-02 | - Removed Observation Screening Assessment, no planned use | --- |
 | 2023-10-31 | - Fixed resource trees throughout <br /> - Added description to {{pagelink:servicerequest-profile}}. <br /> - Updated conceptual diagram for {{pagelink:clinical-categorization-module}} | 0.1.10 |

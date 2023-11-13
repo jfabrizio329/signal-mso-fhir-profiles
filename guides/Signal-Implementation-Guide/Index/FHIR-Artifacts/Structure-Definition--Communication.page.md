@@ -62,6 +62,7 @@ A Communication is not intended to provide additional or novel findings for a Pa
 
 **.reasonReference**
 - *SHALL* reference the DocumentReference about which the communication was made
+- Note: a custom search parameter was created to facilitate lookup references on this field
 
 **.basedOn**
 - When used, this SHOULD reference a Task resource assigned to the DocumentReference; i.e. this communication is regarding and/or has additional information for fullfilling the Task.

@@ -1,2 +1,6 @@
 - name: Index
   filename: Index.page.md
+- name: Questionnaire Terminology
+  filename: Questionnaire-Terminology.page.md
+- name: Custom Terminology
+  filename: Custom-Terminology.page.md
