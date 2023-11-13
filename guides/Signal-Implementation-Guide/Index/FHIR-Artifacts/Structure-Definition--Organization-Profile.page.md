@@ -6,11 +6,7 @@ topic: organization-profile
 
 ---
 
-**Status**:  Pending change to `.category` element see [issue #79](https://github.com/enjoysparkling/signal-mso-fhir-profiles/issues/79)
-
----
-
-Canonical URL: https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/organization
 
 Simplifier project page: [Signal Organization](https://simplifier.net/signal-mso-fhir-profiles/signaluscoreorganizationprofile)
 
@@ -23,13 +19,13 @@ Module:  {{pagelink:Organization-Services-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/organization, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/organization, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:https://signalbhn.org/fhir/StructureDefinition/SignalUSCoreOrganizationProfile,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/organization,}}
 	</tab>
 </tabs>
 
