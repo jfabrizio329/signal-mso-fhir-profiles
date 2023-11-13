@@ -12,18 +12,9 @@ The following coded values are used to describe administrative and clinical conc
 Whenever possible, value sets and code systems were taken from the [US Core Terminology](https://hl7.org/fhir/us/core/terminology.html) and/or [FHIR Core Terminology](http://hl7.org/fhir/terminologies-valuesets.html) that were associated with the resources for interoperability.
 
 ### Notes
-- ValueSet resources in Signal's IG have been "[expanded](https://www.hl7.org/fhir/valueset.html#expansion)" utilizing the `ValueSet.expansion` element backbone. This is because Azure FHIR Service lacks a terminology server, so any value set that is not [extensional](https://www.hl7.org/fhir/valueset.html#int-ext), and UI developers require an enumerated lists of all values for display.
-   - Expanded value sets retain their original Canonical URL if they are otherwise unmodified
-   - Any changes to the original value set including adding or removing a code system, defining additional values, or removing values from the `.compose` element is considered a custom value set and will be noted below
-- **\* (Asterisk) Denotes that these code systems an/or value sets have been modified or created for Signal.** 
-   - An attempt was made to use a standards-based, [external code systems](https://www.hl7.org/fhir/terminologies-systems.html#external) whenever possible; e.g. ICD-10, LOINC, SNOMED, CPT, etc. to retain interoperability
-   - Any custom values will be defined in a CodeSystem resource in addition to the ValueSet
-
-## Signal custom value sets defined by this implementation guide
-
-|Value Set|Description|Profile(s)|Binding Strength|
-|---|---|---|---|
-|---|---|---|---|
+ValueSet resources have been "[expanded](https://www.hl7.org/fhir/valueset.html#expansion)" utilizing the `ValueSet.expansion` element backbone. This is because Azure FHIR Service lacks a terminology server, so any value set that is not [extensional](https://www.hl7.org/fhir/valueset.html#int-ext) required an enumerated lists of all values for display.
+- Expanded value sets retain their original Canonical URL if they are otherwise unmodified
+- Any changes to the original value set including adding or removing a code system, defining additional values, or removing values from the `ValueSet.compose` element is considered a custom value set and will be recorded on {{pagelink:custom-terminology}}.
 
 ## HL7 value sets defined by this implementation guide
 
