@@ -1,0 +1,298 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-drug-type-code",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-drug-type-code",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSDrugTypeCode",
+    "title": "Questionnaire DACODS Drug Type Code",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies the client's primary/secondary drug, or that substance considered to be the primary cause of the client's dysfunction at the time of admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "None"
+                    },
+                    {
+                        "code": "1",
+                        "display": "Alcohol"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Barbiturate"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Benzodiazepine tranquilizer (Valium, Librium, Xanax, etc.)"
+                    },
+                    {
+                        "code":"4",
+                        "display":"Clonazepam (Klonopin, Rivotril)"
+                    },
+                    {
+                        "code":"5",
+                        "display":"Other sedative/hypnotic (Chloral Hydrate, Dalmane, etc.)"
+                    },
+                    {
+                        "code":"6",
+                        "display":"Other tranquilizer"
+                    },
+                    {
+                        "code":"7",
+                        "display":"Cocaine Hydrochloride/crack"
+                    },
+                    {
+                        "code":"8",
+                        "display":"Methamphetamine (crank, crystal, methedrine, etc.)"
+                    },
+                    {
+                        "code":"9",
+                        "display":"Other amphetamine (Benzedrine, Dexadrine, Desoxyn, etc.)"
+                    },
+                    {
+                        "code":"10",
+                        "display":"Other Stimulant (Ritalin, Sanorex, Adderall, etc.)"
+                    },
+                    {
+                        "code":"11",
+                        "display":"Heroin"
+                    },
+                    {
+                        "code":"12",
+                        "display":"Non Rx Methadone"
+                    },
+                    {
+                        "code":"13",
+                        "display":"Other Opiate/synthetic opiate (Morphine, Codeine, etc. / Demerol, Percodan, etc.)"
+                    },
+                    {
+                        "code":"14",
+                        "display":"Marijuana/hashish"
+                    },
+                    {
+                        "code":"15",
+                        "display":"LSD"
+                    },
+                    {
+                        "code":"16",
+                        "display":"PCP"
+                    },
+                    {
+                        "code":"17",
+                        "display":"Other hallucinogens"
+                    },
+                    {
+                        "code":"18",
+                        "display":"Inhalant"
+                    },
+                    {
+                        "code":"19",
+                        "display":"Over the counter drug"
+                    },
+                    {
+                        "code":"20",
+                        "display":"Flunitrazepam (Rohypnol)"
+                    },
+                    {
+                        "code":"21",
+                        "display":"Gamma-hydroxybutyrate, gamma butyrolactone (GHB/GBL)"
+                    },
+                    {
+                        "code":"22",
+                        "display":"Ketamine (Special K)"
+                    },
+                    {
+                        "code":"23",
+                        "display":"Methylenedioxymethamphetamine (MDMA, ecstasy)"
+                    },
+                    {
+                        "code":"24",
+                        "display":"Anabolic Steroid"
+                    },
+                    {
+                        "code":"25",
+                        "display":"Other"
+                    },
+                    {
+                        "code":"26",
+                        "display":"Buprenorphine"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code": "0",
+                "display": "None"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code": "1",
+                "display": "Alcohol"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code": "2",
+                "display": "Barbiturate"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code": "3",
+                "display": "Benzodiazepine tranquilizer (Valium, Librium, Xanax, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"4",
+                "display":"Clonazepam (Klonopin, Rivotril)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"5",
+                "display":"Other sedative/hypnotic (Chloral Hydrate, Dalmane, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"6",
+                "display":"Other tranquilizer"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"7",
+                "display":"Cocaine Hydrochloride/crack"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"8",
+                "display":"Methamphetamine (crank, crystal, methedrine, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"9",
+                "display":"Other amphetamine (Benzedrine, Dexadrine, Desoxyn, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"10",
+                "display":"Other Stimulant (Ritalin, Sanorex, Adderall, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"11",
+                "display":"Heroin"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"12",
+                "display":"Non Rx Methadone"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"13",
+                "display":"Other Opiate/synthetic opiate (Morphine, Codeine, etc. / Demerol, Percodan, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"14",
+                "display":"Marijuana/hashish"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"15",
+                "display":"LSD"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"16",
+                "display":"PCP"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"17",
+                "display":"Other hallucinogens"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"18",
+                "display":"Inhalant"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"19",
+                "display":"Over the counter drug"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"20",
+                "display":"Flunitrazepam (Rohypnol)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"21",
+                "display":"Gamma-hydroxybutyrate, gamma butyrolactone (GHB/GBL)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"22",
+                "display":"Ketamine (Special K)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"23",
+                "display":"Methylenedioxymethamphetamine (MDMA, ecstasy)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"24",
+                "display":"Anabolic Steroid"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"25",
+                "display":"Other"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-drug-type-code",
+                "code":"26",
+                "display":"Buprenorphine"
+            }
+        ]
+    }
+}

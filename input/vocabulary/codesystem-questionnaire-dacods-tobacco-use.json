@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-tobacco-use",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-tobacco-use",
+    "name": "QuestionnaireDACODSTobaccoUse",
+    "title": "Questionnaire DACODS Tobacco Use",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identify the persons current tobacco use at the time report is administered.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-tobacco-use",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "current smoker/tobacco user - every day"
+        },
+        {
+            "code": "2",
+            "display": "current smoker/tobacco user - periodically"
+        },
+        {
+            "code": "3",
+            "display": "former smoker/tobacco user"
+        },
+        {
+            "code": "4",
+            "display": "never smoker/tobacco user"
+        },
+        {
+            "code": "5",
+            "display": "smoker/tobacco user - current status unknown"
+        },
+        {
+            "code": "6",
+            "display": "Unknown if ever smoked/used"
+        }
+    ]
+}

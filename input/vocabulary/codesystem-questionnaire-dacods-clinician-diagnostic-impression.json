@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-clinician-diagnostic-impression",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-clinician-diagnostic-impression",
+    "name": "QuestionnaireDACODSClinicianDiagnosticImpression",
+    "title": "Questionnaire DACODS Clinician Diagnostic Impression",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies the clinicians assessment of the clients substance problem.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-clinician-diagnostic-impression",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Use"
+        },
+        {
+            "code": "2",
+            "display": "Abuse"
+        },
+        {
+            "code": "3",
+            "display": "Dependence"
+        },
+        {
+            "code": "0",
+            "display": "Unknown (acceptable for Detox)"
+        },
+        {
+            "code": "9",
+            "display": "N/A, Blank, None of the above"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-admission-route-of-administration",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-admission-route-of-administration",
+    "name": "QuestionnaireDACODSAdmissionRouteOfAdministration",
+    "title": "Questionnaire DACODS Admission Route Of Administration",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Usual Route of administration during most recent abuse period.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-admission-route-of-administration",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "None (client abstained from use)"
+        },
+        {
+            "code": "1",
+            "display": "Oral"
+        },
+        {
+            "code": "2",
+            "display": "Smoking (pipe/cigarette)"
+        },
+        {
+            "code": "3",
+            "display": "Inhalation (nose/mouth)"
+        },
+        {
+            "code":"4",
+            "display":"Injection (IV/IM)"
+        },
+        {
+            "code":"5",
+            "display":"Other"
+        },
+        {
+            "code":"9",
+            "display":"N/A, Blank, None of the above"
+        }
+    ]
+}
