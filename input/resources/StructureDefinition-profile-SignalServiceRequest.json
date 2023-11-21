@@ -13,13 +13,35 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+        {
+            "id": "ServiceRequest.category:serviceCategory",
+            "path": "ServiceRequest.category",
+            "sliceName": "serviceCategory",
+            "binding": {
+              "strength": "required",
+              "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+            }
+          },
       {
-        "id": "ServiceRequest.category:serviceCategory",
-        "path": "ServiceRequest.category",
-        "sliceName": "serviceCategory",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+        "id": "ServiceRequest.identifier",
+        "path": "ServiceRequest.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ServiceRequest.identifier:JulotaReferralID",
+        "path": "ServiceRequest.identifier",
+        "sliceName": "JulotaReferralID",
+        "short": "Referral Identifier from Jolata system",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/julota-referralid"
         }
       },
       {
