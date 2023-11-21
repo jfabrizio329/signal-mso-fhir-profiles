@@ -1,0 +1,73 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-yes-no",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-yes-no",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSYesNo",
+    "title": "Questionnaire DACODS Yes No",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "To identify answer YES/NO to the survey questions.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "No"
+                    },
+                    {
+                        "code": "1",
+                        "display": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no",
+                "code": "0",
+                "display": "No"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no",
+                "code": "1",
+                "display": "Yes"
+            }
+        ]
+    }
+}

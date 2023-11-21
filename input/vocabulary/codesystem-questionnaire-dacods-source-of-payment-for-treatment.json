@@ -1,0 +1,64 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-source-of-payment-for-treatment",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-payment-for-treatment",
+    "name": "QuestionnaireDACODSSourceOfPaymentForTreatment",
+    "title": "Questionnaire DACODS Source Of Payment For Treatment",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies the primary source of payment for THIS treatment episode at the time of admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-source-of-payment-for-treatment",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Self pay"
+        },
+        {
+            "code": "2",
+            "display": "MSO funds"
+        },
+        {
+            "code": "3",
+            "display": "Blue Cross/Blue Shield"
+        },
+        {
+            "code": "4",
+            "display": "Medicare"
+        },
+        {
+            "code": "5",
+            "display": "Medicaid"
+        },
+        {
+            "code": "6",
+            "display": "Active duty military/dependent government health plan"
+        },
+        {
+            "code": "7",
+            "display": "Other government payments (includes TANF and/or core services)"
+        },
+        {
+            "code": "8",
+            "display": "Worker's Compensation"
+        },
+        {
+            "code": "9",
+            "display": "Other health insurance companies"
+        },
+        {
+            "code": "10",
+            "display": "No charge (free, charity, special research, teaching)"
+        },
+        {
+            "code": "11",
+            "display": "Other"
+        },
+        {
+            "code": "12",
+            "display": "Colorado ATR (Not available for Modalities 7, 14, 15, 16, 17)"
+        }
+    ]
+}

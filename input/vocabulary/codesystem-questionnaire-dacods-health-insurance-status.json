@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-health-insurance-status",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-health-insurance-status",
+    "name": "QuestionnaireDACODSHealthInsuranceStatus",
+    "title": "Questionnaire DACODS Health Insurance Status",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies the client's employment status at the time of admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-health-insurance-status",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Client is insured"
+        },
+        {
+            "code": "2",
+            "display": "Client is not insured"
+        },
+        {
+            "code": "0",
+            "display": "N/A or None of the above"
+        }
+    ]
+}

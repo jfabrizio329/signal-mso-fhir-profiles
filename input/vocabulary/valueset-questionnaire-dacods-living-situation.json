@@ -1,0 +1,199 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-living-situation",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-living-situation",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSLivingSituation",
+    "title": "Questionnaire DACODS Living Situation",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "The living situation that best describes the clients status over the past 30 days.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Correctional facility/Jail"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Inpatient"
+                    },
+                    {
+                        "code": "3",
+                        "display": "ATU, Adults Only"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Residential Treatment/Group (Youth)"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Foster Home (Youth)"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Boarding home (Adult)"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Group Home (Adult)"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Nursing Home"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Residential Facility (MH Adult)"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Residential Facility (Other)"
+                    },
+                    {
+                        "code": "11",
+                        "display": "Sober Living"
+                    },
+                    {
+                        "code": "12",
+                        "display": "Homeless (no fixed address; includes shelters)"
+                    },
+                    {
+                        "code": "13",
+                        "display": "Supported housing"
+                    },
+                    {
+                        "code": "14",
+                        "display": "Assisted Living"
+                    },
+                    {
+                        "code": "15",
+                        "display": "Independent Living"
+                    },
+                    {
+                        "code": "16",
+                        "display": "Halfway House"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "1",
+                "display": "Correctional facility/Jail"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "2",
+                "display": "Inpatient"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "3",
+                "display": "ATU, Adults Only"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "4",
+                "display": "Residential Treatment/Group (Youth)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "5",
+                "display": "Foster Home (Youth)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "6",
+                "display": "Boarding home (Adult)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "7",
+                "display": "Group Home (Adult)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "8",
+                "display": "Nursing Home"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "9",
+                "display": "Residential Facility (MH Adult)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "10",
+                "display": "Residential Facility (Other)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "11",
+                "display": "Sober Living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "12",
+                "display": "Homeless (no fixed address; includes shelters)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "13",
+                "display": "Supported housing"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "14",
+                "display": "Assisted Living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "15",
+                "display": "Independent Living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-living-situation",
+                "code": "16",
+                "display": "Halfway House"
+            }
+        ]
+    }
+}
