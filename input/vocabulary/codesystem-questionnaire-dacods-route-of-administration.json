@@ -1,15 +1,15 @@
 {
     "resourceType": "CodeSystem",
-    "id": "questionnaire-dacods-discharge-route-of-administration",
-    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
-    "name": "QuestionnaireDACODSDischargeRouteOfAdministration",
-    "title": "Questionnaire DACODS Discharge Route Of Administration",
+    "id": "questionnaire-dacods-route-of-administration",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
+    "name": "QuestionnaireDACODSRouteOfAdministration",
+    "title": "Questionnaire DACODS Route Of Administration",
     "status": "draft",
     "experimental": false,
     "date": "2023-08-16T16:08:23+05:30",
-    "description": "Usual Route of administration during most recent abuse period .",
+    "description": "Usual Route of administration during most recent abuse period.",
     "caseSensitive": true,
-    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-discharge-route-of-administration",
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-route-of-administration",
     "content": "complete",
     "concept": [
         {

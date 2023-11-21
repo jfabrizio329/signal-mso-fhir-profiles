@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "id": "questionnaire-dacods-discharge-route-of-administration",
+    "id": "questionnaire-dacods-route-of-administration",
     "meta": {
         "profile": [
             "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -20,10 +20,10 @@
             "valueInteger": 1
         }
     ],
-    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-discharge-route-of-administration",
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-route-of-administration",
     "version": "6.0.0",
-    "name": "QuestionnaireDACODSDischargeRouteOfAdministration",
-    "title": "Questionnaire DACODS Discharge Route Of Administration",
+    "name": "QuestionnaireDACODSRouteOfAdministration",
+    "title": "Questionnaire DACODS Route Of Administration",
     "publisher": "Signal",
     "status": "draft",
     "experimental": true,
@@ -41,7 +41,7 @@
     "compose": {
         "include": [
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "concept": [
                     {
                         "code": "0",
@@ -79,37 +79,37 @@
         "timestamp": "2023-07-31T18:35:33.1743667+00:00",
         "contains": [
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code": "0",
                 "display": "None (client abstained from use)"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code": "1",
                 "display": "Oral"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code": "2",
                 "display": "Smoking (pipe/cigarette)"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code": "3",
                 "display": "Inhalation (nose/mouth)"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code":"4",
                 "display":"Injection (IV/IM)"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code":"5",
                 "display":"Other"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-route-of-administration",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-route-of-administration",
                 "code":"9",
                 "display":"N/A, Blank, None of the above"
             }
