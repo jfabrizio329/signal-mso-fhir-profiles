@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-medical-physical-problems",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-medical-physical-problems",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSMedicalPhysicalProblems",
+    "title": "Questionnaire DACODS Medical Physical Problems",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies the clinicians assessment of the clients medical or physical level of functioning at the time of admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-medical-physical-problems",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "None (no physical problems or well-controlled chronic conditions)"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Slight (occasional or mild problems that interfere with daily living)"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Moderate (frequent or chronic health problems)"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Severe (incapacitated due to medical/physical problems)"
+                    },
+                    {
+                        "code": "0",
+                        "display": "N/A, Blank, None of the above"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-medical-physical-problems",
+                "code": "1",
+                "display": "None (no physical problems or well-controlled chronic conditions)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-medical-physical-problems",
+                "code": "2",
+                "display": "Slight (occasional or mild problems that interfere with daily living)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-medical-physical-problems",
+                "code": "3",
+                "display": "Moderate (frequent or chronic health problems)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-medical-physical-problems",
+                "code": "4",
+                "display": "Severe (incapacitated due to medical/physical problems)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-medical-physical-problems",
+                "code": "0",
+                "display": "N/A, Blank, None of the above"
+            }
+        ]
+    }
+}

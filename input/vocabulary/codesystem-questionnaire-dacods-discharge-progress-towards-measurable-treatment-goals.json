@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-discharge-progress-towards-measurable-treatment-goals",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-progress-towards-measurable-treatment-goals",
+    "name": "QuestionnaireDACODSDischargeProgressTowardsMeasurableTreatmentGoals",
+    "title": "Questionnaire DACODS Discharge Progress Towards Measurable Treatment Goals",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Progress at time of discharge toward written, measurable treatment goals.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-discharge-progress-towards-measurable-treatment-goals",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Client completed Differential Assessment only (Client intake completed and treatment service recommendations made, but no other services received)"
+        },
+        {
+            "code": "2",
+            "display": "High achievement of treatment goals"
+        },
+        {
+            "code": "3",
+            "display": "Moderate achievement of treatment goals"
+        },
+        {
+            "code": "4",
+            "display": "Minimal achievement of treatment goals"
+        }
+    ]
+}

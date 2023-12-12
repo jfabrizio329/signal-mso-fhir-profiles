@@ -1,0 +1,154 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-source-of-illicit-drugs",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-source-of-illicit-drugs",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSSourceOfIllicitDrugs",
+    "title": "Questionnaire DACODS Source Of Illicit Drugs",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Clients primary source from whom or from which they obtain(ed) their drugs.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Family"
+                    },
+                    {
+                        "code": "2",
+                        "display": "School"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Friends"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Jail/prison"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Internet"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Entertainment events (bars, clubs, parties, raves, concerts, etc.)"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Stranger/street vendor"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Refused"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Unknown"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Prescription"
+                    },
+                    {
+                        "code": "0",
+                        "display": "N/A, Blank, None of the above"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code": "1",
+                "display": "Family"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"2",
+                "display": "School"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"3",
+                "display": "Friends"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"4",
+                "display": "Jail/prison"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"5",
+                "display": "Internet"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"6",
+                "display": "Entertainment events (bars, clubs, parties, raves, concerts, etc.)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"7",
+                "display": "Stranger/street vendor"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"8",
+                "display": "Refused"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"9",
+                "display": "Unknown"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code":"10",
+                "display": "Prescription"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-illicit-drugs",
+                "code": "0",
+                "display": "N/A, Blank, None of the above"
+            }
+        ]
+    }
+}

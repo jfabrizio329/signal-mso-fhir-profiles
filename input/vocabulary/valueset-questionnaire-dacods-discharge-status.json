@@ -1,0 +1,82 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-discharge-status",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-discharge-status",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSDischargeStatus",
+    "title": "Questionnaire DACODS Discharge Status",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Indicates the outcome of the treatment or service, or the reason for transfer or discontinuance of treatment or service.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-status",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Treatment completed at this facility"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Transferred or referred to another substance use treatment program"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Treatment not completed at this facility"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-status",
+                "code": "1",
+                "display": "Treatment completed at this facility"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-status",
+                "code": "2",
+                "display": "Transferred or referred to another substance use treatment program"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-status",
+                "code": "3",
+                "display": "Treatment not completed at this facility"
+            }
+        ]
+    }
+}

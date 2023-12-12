@@ -28,10 +28,6 @@
   filename: Structure-Definition--Practitioner-Profile.page.md
 - name: 'Structure Definition: PractitionerRole Profile'
   filename: Structure-Definition--PractitionerRole-Profile.page.md
-- name: 'Structure Definition: ChargeItem Profile'
-  filename: Structure-Definition--ChargeItem-Profile.page.md
-- name: 'Structure Definition: Observation Screening Assessment Profile'
-  filename: Structure-Definition--Observation-Screening-Assessment-Profile.page.md
 - name: 'Structure Definition: Questionnaire Profile'
   filename: Structure-Definition--Questionnaire-Profile.page.md
 - name: 'Structure Definition: QuestionnaireResponse Profile'
@@ -46,3 +42,15 @@
   filename: Structure-Definition--CommunicationRequest.page.md
 - name: 'Structure Definition: Flag'
   filename: Structure-Definition--Flag.page.md
+- name: 'Structure Definition: Account Profile'
+  filename: Structure-Definition--Account-Profile.page.md
+- name: 'Structure Definition: Contract Profile'
+  filename: Structure-Definition--Contract-Profile.page.md
+- name: 'Structure Definition: Coverage Profile'
+  filename: Structure-Definition--Coverage-Profile.page.md
+- name: 'Structure Definition: Invoice Profile'
+  filename: Structure-Definition--Invoice-Profile.page.md
+- name: 'Structure Definition: ChargeItem Profile'
+  filename: Structure-Definition--ChargeItem-Profile.page.md
+- name: 'Structure Definition: ChargeItemDefinition Profile'
+  filename: Structure-Definition--ChargeItemDefinition-Profile.page.md

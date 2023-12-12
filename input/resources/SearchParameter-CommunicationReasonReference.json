@@ -1,0 +1,14 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "communicationreasonreference",
+  "url": "https://signalbhn.org/fhir/SearchParameter/Communication-reason-reference",
+  "name": "CommunicationReasonReference",
+  "status": "draft",
+  "description": "Custom Search parameter for Reason Reference in Communication",
+  "code": "reasonReference",
+  "base": [
+    "Communication"
+  ],
+  "type": "reference",
+  "expression": "Communication.reasonReference"
+}

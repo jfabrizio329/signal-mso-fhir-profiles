@@ -1,0 +1,118 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-dacods-source-of-income",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-source-of-income",
+    "version": "6.0.0",
+    "name": "QuestionnaireDACODSSourceOfIncome",
+    "title": "Questionnaire DACODS Source Of Income",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies the client's principal source of legal financial support at the time of admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Wages"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Public assistance"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Retirement/Pension"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Disability"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Other"
+                    },
+                    {
+                        "code": "6",
+                        "display": "None"
+                    },
+                    {
+                        "code": "0",
+                        "display": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "1",
+                "display": "Wages"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "2",
+                "display": "Public assistance"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "3",
+                "display": "Retirement/Pension"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "4",
+                "display": "Disability"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "5",
+                "display": "Other"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "6",
+                "display": "None"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-income",
+                "code": "0",
+                "display": "Unknown"
+            }
+        ]
+    }
+}

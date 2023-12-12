@@ -14,6 +14,14 @@
   "differential": {
     "element": [
       {
+        "id": "Location.type",
+        "path": "Location.type",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/place-of-service"
+        }
+      },
+      {
         "id": "Location.address.extension:signalRegion",
         "path": "Location.address.extension",
         "sliceName": "signalRegion",

@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-discharge-status",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-discharge-status",
+    "name": "QuestionnaireDACODSDischargeStatus",
+    "title": "Questionnaire DACODS Discharge Status",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Indicates the outcome of the treatment or service, or the reason for transfer or discontinuance of treatment or service.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-discharge-status",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Treatment completed at this facility"
+        },
+        {
+            "code": "2",
+            "display": "Transferred or referred to another substance use treatment program"
+        },
+        {
+            "code": "3",
+            "display": "Treatment not completed at this facility"
+        }
+    ]
+}

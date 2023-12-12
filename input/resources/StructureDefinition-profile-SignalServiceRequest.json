@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "signal-servicerequest",
-  "url": " https://signalbhn.org/fhir/StructureDefinition/servicerequest",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/servicerequest",
   "name": "SignalServiceRequest",
   "title": "ServiceRequest Profile",
   "status": "draft",
@@ -13,6 +13,15 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+        {
+            "id": "ServiceRequest.category:serviceCategory",
+            "path": "ServiceRequest.category",
+            "sliceName": "serviceCategory",
+            "binding": {
+              "strength": "required",
+              "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-category"
+            }
+          },
       {
         "id": "ServiceRequest.identifier",
         "path": "ServiceRequest.identifier",
@@ -36,28 +45,12 @@
         }
       },
       {
-        "id": "ServiceRequest.status",
-        "path": "ServiceRequest.status",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/request-status"
-        }
-      },
-      {
-        "id": "ServiceRequest.intent",
-        "path": "ServiceRequest.intent",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/request-intent"
-        }
-      },
-      {
-        "id": "ServiceRequest.category:serviceCategory",
+        "id": "ServiceRequest.category:serviceType",
         "path": "ServiceRequest.category",
-        "sliceName": "serviceCategory",
+        "sliceName": "serviceType",
         "binding": {
           "strength": "required",
-          "valueSet": "http://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
       }
     ]
