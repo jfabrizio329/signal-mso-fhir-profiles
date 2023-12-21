@@ -2,7 +2,6 @@
     "resourceType": "ValueSet",
     "id": "reason-for-discharge",
     "url": "https://signalbhn.org/fhir/ValueSet/reason-for-discharge",
-    "version": "6.0.0",
     "name": "ReasonForDischarge",
     "title": "Reason For Discharge",
     "status": "active",
@@ -59,6 +58,7 @@
         ]
     },
     "expansion": {
+        "timestamp": "2023-10-11T15:35:33.1743667+00:00",
         "contains": [
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/reason-for-discharge",
