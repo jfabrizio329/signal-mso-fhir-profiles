@@ -1,0 +1,44 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "reason-for-discharge",
+    "url": "https://signalbhn.org/fhir/CodeSystem/reason-for-discharge",
+    "name": "ReasonForDischarge",
+    "title": "Reason For Discharge",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Reason For Discharge with its Description.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/reason-for-discharge",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Client Decision Against Professional Recommendation"
+        },
+        {
+            "code": "2",
+            "display": "Client AWOL-Contact Efforts Failed"
+        },
+        {
+            "code": "3",
+            "display": "Client Death"
+        },
+        {
+            "code": "4",
+            "display": "Client Incarcerated"
+        },
+        {
+            "code": "5",
+            "display": "Transitioned to Another Level of Care"
+        },
+        {
+            "code": "6",
+            "display": "Successful Closure"
+        },
+        {
+            "code": "7",
+            "display": "Unsuccessful Closure"
+        }
+    ]
+}

@@ -13,240 +13,400 @@
     "content": "complete",
     "concept": [
         {
-            "code":"01",
-            "display":"Pharmacy"
+            "code": "1",
+            "display": "Pharmacy"
         },
         {
-            "code":"02",
-            "display":"Telehealth Provided Other than in Patient's Home"
+            "code": "2",
+            "display": "Telehealth Provided Other than in Members Home"
         },
         {
-            "code":"03",
-            "display":"School"
+            "code": "3",
+            "display": "School"
         },
         {
-            "code":"04",
-            "display":"Homeless Shelter"
+            "code": "4",
+            "display": "Homeless Shelter"
         },
         {
-            "code":"05",
-            "display":"Indian Health ServiceFree-standing Facility"
+            "code": "5",
+            "display": "Indian Health Service Free-Standing Facility"
         },
         {
-            "code":"06",
-            "display":"Indian Health ServiceProvider-based Facility"
+            "code": "6",
+            "display": "Indian Health Service Provider-Based Facility"
         },
         {
-            "code":"07",
-            "display":"Tribal 638 Free-standing Facility"
+            "code": "7",
+            "display": "Tribal 638 Free-Standing Facility"
         },
         {
-            "code":"08",
-            "display":"Tribal 638 Provider-based Facility"
+            "code": "8",
+            "display": "Tribal 638 Provider-Based Facility"
         },
         {
-            "code":"09",
-            "display":"Prison/Correctional Facility"
+            "code": "9",
+            "display": "Prison/Correctional Facility"
         },
         {
-            "code":"10",
-            "display":"Telehealth Provided in Patient's Home"
+            "code": "10",
+            "display": "Telehealth Provided in Members Home"
         },
         {
-            "code":"11",
-            "display":"Office"
+            "code": "11",
+            "display": "Office"
         },
         {
-            "code":"12",
-            "display":"Home"
+            "code": "12",
+            "display": "Home"
         },
         {
-            "code":"13",
-            "display":"Assisted Living Facility"
+            "code": "13",
+            "display": "Assisted Living Facility"
         },
         {
-            "code":"14",
-            "display":"Group Home"
+            "code": "14",
+            "display": "Group Home"
         },
         {
-            "code":"15",
-            "display":"Mobile Unit"
+            "code": "15",
+            "display": "Mobile Unit"
         },
         {
-            "code":"16",
-            "display":"Temporary Lodging"
+            "code": "16",
+            "display": "Temporary Lodging"
         },
         {
-            "code":"17",
-            "display":"Walk-in Retail Health Clinic"
+            "code": "17",
+            "display": "Walk-in Retail Health Clinic"
         },
         {
-            "code":"18",
-            "display":"Place of Employment-Worksite"
+            "code": "18",
+            "display": "Place of Employment-Worksite"
         },
         {
-            "code":"19",
-            "display":"Off Campus-Outpatient Hospital"
+            "code": "19",
+            "display": "Off Campus-Outpatient Hospital"
         },
         {
-            "code":"20",
-            "display":"Urgent Care Facility"
+            "code": "20",
+            "display": "Urgent Care Facility"
         },
         {
-            "code":"21",
-            "display":"Inpatient Hospital"
+            "code": "21",
+            "display": "Inpatient Hospital"
         },
         {
-            "code":"22",
-            "display":"On Campus-Outpatient Hospital"
+            "code": "22",
+            "display": "On Campus-Outpatient Hospital"
         },
         {
-            "code":"23",
-            "display":"Emergency Room - Hospital"
+            "code": "23",
+            "display": "Emergency Room -Hospital"
         },
         {
-            "code":"24",
-            "display":"Ambulatory Surgical Center"
+            "code": "24",
+            "display": "Ambulatory Surgical Center"
         },
         {
-            "code":"25",
-            "display":"Birthing Center"
+            "code": "25",
+            "display": "Birthing Center"
         },
         {
-            "code":"26",
-            "display":"Military Treatment Facility"
+            "code": "26",
+            "display": "Military Treatment Facility (MTF)"
         },
         {
-            "code":"27",
-            "display":"Outreach Site/ Street"
+            "code": "27",
+            "display": "Unassigned"
         },
         {
-            "code":"28-30",
-            "display":"Unassigned"
+            "code": "28",
+            "display": "Unassigned"
         },
         {
-            "code":"31",
-            "display":"Skilled Nursing Facility"
+            "code": "29",
+            "display": "Unassigned"
         },
         {
-            "code":"32",
-            "display":"Nursing Facility"
+            "code": "30",
+            "display": "Unassigned"
         },
         {
-            "code":"33",
-            "display":"Custodial Care Facility"
+            "code": "31",
+            "display": "Skilled Nursing Facility (SNF)"
         },
         {
-            "code":"34",
-            "display":"Hospice"
+            "code": "32",
+            "display": "Nursing Facility"
         },
         {
-            "code":"35-40",
-            "display":"Unassigned"
+            "code": "33",
+            "display": "Custodial Care Facility"
         },
         {
-            "code":"41",
-            "display":"Ambulance - Land"
+            "code": "34",
+            "display": "Hospice"
         },
         {
-            "code":"42",
-            "display":"Ambulance - Air or Water"
+            "code": "35",
+            "display": "Unassigned"
         },
         {
-            "code":"43-48",
-            "display":"Unassigned"
+            "code": "36",
+            "display": "Unassigned"
         },
         {
-            "code":"49",
-            "display":"Independent Clinic"
+            "code": "37",
+            "display": "Unassigned"
         },
         {
-            "code":"50",
-            "display":"Federally Qualified Health Center"
+            "code": "38",
+            "display": "Unassigned"
         },
         {
-            "code":"51",
-            "display":"Inpatient Psychiatric Facility"
+            "code": "39",
+            "display": "Unassigned"
         },
         {
-            "code":"52",
-            "display":"Psychiatric Facility-Partial Hospitalization"
+            "code": "40",
+            "display": "Unassigned"
         },
         {
-            "code":"53",
-            "display":"Community Mental Health Center"
+            "code": "41",
+            "display": "Ambulance - Land"
         },
         {
-            "code":"54",
-            "display":"Intermediate Care Facility/ Individuals with Intellectual Disabilities"
+            "code": "42",
+            "display": "Ambulance - Air or Water"
         },
         {
-            "code":"55",
-            "display":"Residential Substance Abuse Treatment Facility"
+            "code": "43",
+            "display": "Unassigned"
         },
         {
-            "code":"56",
-            "display":"Psychiatric Residential Treatment Center"
+            "code": "44",
+            "display": "Unassigned"
         },
         {
-            "code":"57",
-            "display":"Non-residential Substance Abuse Treatment Facility"
+            "code": "45",
+            "display": "Unassigned"
         },
         {
-            "code":"58",
-            "display":"Non-residential Opioid Treatment Facility"
+            "code": "46",
+            "display": "Unassigned"
         },
         {
-            "code":"59",
-            "display":"Unassigned"
+            "code": "47",
+            "display": "Unassigned"
         },
         {
-            "code":"60",
-            "display":"Mass Immunization Center"
+            "code": "48",
+            "display": "Unassigned"
         },
         {
-            "code":"61",
-            "display":"Comprehensive Inpatient Rehabilitation Facility"
+            "code": "49",
+            "display": "Independent Clinic"
         },
         {
-            "code":"62",
-            "display":"Comprehensive Outpatient Rehabilitation Facility"
+            "code": "50",
+            "display": "Federally Qualified Health Center (FQHC)"
         },
         {
-            "code":"63-64",
-            "display":"Unassigned"
+            "code": "51",
+            "display": "Inpatient Psychiatric Facility"
         },
         {
-            "code":"65",
-            "display":"End-Stage Renal Disease Treatment Facility"
+            "code": "52",
+            "display": "Psychiatric Facility - Partial Hospitalization"
         },
         {
-            "code":"66-70",
-            "display":"Unassigned"
+            "code": "53",
+            "display": "Community Mental Health Center/ Clinic (CMHC)"
         },
         {
-            "code":"71",
-            "display":"Public Health Clinic"
+            "code": "54",
+            "display": "Intermediate Care Facility - Mentally Retarded (ICF-MR)"
         },
         {
-            "code":"72",
-            "display":"Rural Health Clinic"
+            "code": "55",
+            "display": "Residential Substance Abuse Treatment Facility"
         },
         {
-            "code":"73-80",
-            "display":"Unassigned"
+            "code": "56",
+            "display": "Psychiatric Residential Treatment Center"
         },
         {
-            "code":"81",
-            "display":"Independent Laboratory"
+            "code": "57",
+            "display": "Non-Residential Substance Abuse Treatment Center"
         },
         {
-            "code":"82-98",
-            "display":"Unassigned"
+            "code": "58",
+            "display": "Unassigned"
         },
         {
-            "code":"99",
-            "display":"Other Place of Service"
+            "code": "59",
+            "display": "Unassigned"
+        },
+        {
+            "code": "60",
+            "display": "Mass Immunization Center"
+        },
+        {
+            "code": "61",
+            "display": "Comprehensive Inpatient Rehabilitation Facility"
+        },
+        {
+            "code": "62",
+            "display": "Comprehensive Outpatient Rehabilitation Facility"
+        },
+        {
+            "code": "63",
+            "display": "Unassigned"
+        },
+        {
+            "code": "64",
+            "display": "Unassigned"
+        },
+        {
+            "code": "65",
+            "display": "End-Stage Renal Disease Treatment Facility"
+        },
+        {
+            "code": "66",
+            "display": "Unassigned"
+        },
+        {
+            "code": "67",
+            "display": "Unassigned"
+        },
+        {
+            "code": "68",
+            "display": "Unassigned"
+        },
+        {
+            "code": "69",
+            "display": "Unassigned"
+        },
+        {
+            "code": "70",
+            "display": "Unassigned"
+        },
+        {
+            "code": "71",
+            "display": "Public Health Clinic"
+        },
+        {
+            "code": "72",
+            "display": "Rural Health Clinic"
+        },
+        {
+            "code": "73",
+            "display": "Unassigned"
+        },
+        {
+            "code": "74",
+            "display": "Unassigned"
+        },
+        {
+            "code": "75",
+            "display": "Unassigned"
+        },
+        {
+            "code": "76",
+            "display": "Unassigned"
+        },
+        {
+            "code": "77",
+            "display": "Unassigned"
+        },
+        {
+            "code": "78",
+            "display": "Unassigned"
+        },
+        {
+            "code": "79",
+            "display": "Unassigned"
+        },
+        {
+            "code": "80",
+            "display": "Unassigned"
+        },
+        {
+            "code": "81",
+            "display": "Independent Laboratory"
+        },
+        {
+            "code": "82",
+            "display": "Unassigned"
+        },
+        {
+            "code": "83",
+            "display": "Unassigned"
+        },
+        {
+            "code": "84",
+            "display": "Unassigned"
+        },
+        {
+            "code": "85",
+            "display": "Unassigned"
+        },
+        {
+            "code": "86",
+            "display": "Unassigned"
+        },
+        {
+            "code": "87",
+            "display": "Unassigned"
+        },
+        {
+            "code": "88",
+            "display": "Unassigned"
+        },
+        {
+            "code": "89",
+            "display": "Unassigned"
+        },
+        {
+            "code": "90",
+            "display": "Unassigned"
+        },
+        {
+            "code": "91",
+            "display": "Unassigned"
+        },
+        {
+            "code": "92",
+            "display": "Unassigned"
+        },
+        {
+            "code": "93",
+            "display": "Unassigned"
+        },
+        {
+            "code": "94",
+            "display": "Unassigned"
+        },
+        {
+            "code": "95",
+            "display": "Unassigned"
+        },
+        {
+            "code": "96",
+            "display": "Unassigned"
+        },
+        {
+            "code": "97",
+            "display": "Unassigned"
+        },
+        {
+            "code": "98",
+            "display": "Unassigned"
+        },
+        {
+            "code": "99",
+            "display": "Other Place of Service"
         }
     ]
 }
