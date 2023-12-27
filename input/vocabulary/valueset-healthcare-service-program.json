@@ -34,27 +34,27 @@
         "contains": [
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
-                "code": "sud",
-                "display": "Substance Use Disorder (SUD)"
+                "code": "1",
+                "display": "SUD"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
-                "code": "crisis",
-                "display": "Colorado Crisis Services (CCS)"
+                "code": "2",
+                "display": "CCS"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
-                "code": "cymhta",
-                "display": "Children and Youth Mental Health Treatment Act (CYMHTA)"
+                "code": "3",
+                "display": "CYMHTA"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
-                "code": "assessment",
+                "code": "4",
                 "display": "Assessment"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-program",
-                "code": "recovery",
+                "code": "5",
                 "display": "Recovery"
             }
         ]
