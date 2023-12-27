@@ -1,0 +1,15 @@
+{
+        "resourceType": "SearchParameter",      
+        "id": "patientproviderclientid",
+        "url": "https://signalbhn.org/fhir/SearchParameter/Patient-providerclientid",
+        "version": "1.0",
+        "name": "PatientProviderClientID",
+        "status": "draft",
+        "description": "Custom Search parameter for ProviderClientId identifier",
+        "code": "providerClientId",
+        "base": [
+          "Patient"
+        ],
+        "type": "string",
+        "expression": "Patient.identifier.where(system = 'http://www.acme.com/identifiers/patient').value"
+      }

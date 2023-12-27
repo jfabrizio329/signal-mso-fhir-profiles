@@ -1,0 +1,14 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "region",
+    "url": "https://signalbhn.org/fhir/SearchParameter/Location-organization-region",
+    "name": "LocationOrganizationRegion",
+    "status": "draft",
+    "description": "Return the organization region",
+    "code": "region",
+    "base": [
+        "Location"
+    ],
+    "type": "string",
+    "expression": "Location.extension.where(url ='http://hl7.org/fhir/org/location').value"
+}
