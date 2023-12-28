@@ -13,23 +13,23 @@
     "content": "complete",
     "concept": [
         {
-            "code": "sud",
-            "display": "Substance Use Disorder (SUD)"
+            "code": "1",
+            "display": "SUD"
         },
         {
-            "code": "crisis",
-            "display": "Colorado Crisis Services (CCS)"
+            "code": "2",
+            "display": "CCS"
         },
         {
-            "code": "cymhta",
-            "display": "Children and Youth Mental Health Treatment Act (CYMHTA)"
+            "code": "3",
+            "display": "CYMHTA"
         },
         {
-            "code": "assessment",
+            "code": "4",
             "display": "Assessment"
         },
         {
-            "code": "recovery",
+            "code": "5",
             "display": "Recovery"
         }
     ]
