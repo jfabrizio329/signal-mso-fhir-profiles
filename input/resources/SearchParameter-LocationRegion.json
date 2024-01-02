@@ -1,8 +1,8 @@
 {
     "resourceType": "SearchParameter",
     "id": "region",
-    "url": "https://signalbhn.org/fhir/SearchParameter/Location-organization-region",
-    "name": "LocationOrganizationRegion",
+    "url": "https://signalbhn.org/fhir/SearchParameter/Location-region",
+    "name": "LocationRegion",
     "status": "draft",
     "description": "Return the organization region",
     "code": "region",
@@ -10,5 +10,5 @@
         "Location"
     ],
     "type": "string",
-    "expression": "Location.extension.where(url ='http://hl7.org/fhir/org/location').value"
+    "expression": "Location.address.extension.where(url ='http://hl7.org/fhir/org/location').value"
 }
