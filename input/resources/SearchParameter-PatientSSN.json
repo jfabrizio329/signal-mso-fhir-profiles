@@ -1,0 +1,16 @@
+{
+        "resourceType": "SearchParameter",   
+        "id": "patientssn",     
+        "url": "https://signalbhn.org/fhir/SearchParameter/Patient-SSN",
+        "version": "1.0",
+        "name": "PatientSSN",
+        "status": "draft",
+        "description": "Custom Search parameter for Patient's SSN",
+        "code": "ssn",
+        "base": [
+          "Patient"
+        ],
+        "type": "string",
+        "expression": "Patient.identifier.where(system = 'http://hl7.org/fhir/sid/us-ssn').value"
+      }  
+	  

@@ -1,0 +1,15 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "patientcity",
+  "url": "https://signalbhn.org/fhir/SearchParameter/Patient-City",
+  "version": "1.0",
+  "name": "PatientCity",
+  "status": "draft",
+  "description": "Custom Search parameter for City field sorting on client list",
+  "code": "city",
+  "base": [
+      "Patient"
+  ],
+  "type": "string",
+  "expression": "Patient.address[0].city"
+}
