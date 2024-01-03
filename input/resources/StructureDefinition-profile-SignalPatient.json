@@ -193,6 +193,18 @@
         "fixedUri": "https://signalbhn.org/fhir/sid/beacon-legacy"
       },
       {
+        "id": "Patient.identifier:InsuranceCarrier",
+        "path": "Patient.identifier",
+        "sliceName": "InsuranceCarrier",
+        "short": "Insurance Carrier identifier for this patient",
+        "definition": "Insurance Carrier identifier for the client."
+      },
+      {
+        "id": "Patient.identifier:InsuranceCarrier.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "http://hl7.org/fhir/sid/us-insuranceid"
+      },
+      {
         "id": "Patient.address.extension:noFixedAddress",
         "path": "Patient.address.extension",
         "sliceName": "noFixedAddress",
