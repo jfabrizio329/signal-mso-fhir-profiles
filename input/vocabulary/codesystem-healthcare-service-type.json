@@ -104,27 +104,27 @@
             "display": "Crisis",
             "concept": [
                 {
-                    "code": "crisis-mobile",
+                    "code": "mobile",
                     "display": "Mobile"
                 },
                 {
-                    "code": "crisis-atu-csu",
+                    "code": "atu-csu",
                     "display": "ATU/CSU"
                 },
                 {
-                    "code": "crisis-youth-csu",
+                    "code": "youth-csu",
                     "display": "Youth CSU"
                 },
                 {
-                    "code": "crisis-walk-in",
+                    "code": "walk-in",
                     "display": "Walk-in"
                 },
                 {
-                    "code": "crisis-respite",
+                    "code": "respite",
                     "display": "Respite"
                 },
                 {
-                    "code": "crisis-transportation",
+                    "code": "transportation",
                     "display": "Transportation"
                 }
             ]
@@ -134,11 +134,11 @@
             "display": "CYMHTA",
             "concept": [
                 {
-                    "code": "cymhta-treatment",
+                    "code": "treatment",
                     "display": "Treatment"
                 },
                 {
-                    "code": "cymhta-youth-residential",
+                    "code": "youth-residential",
                     "display": "Youth residential"
                 }
             ]
@@ -148,15 +148,15 @@
             "display": "Assessment",
             "concept": [
                 {
-                    "code": "assessment-Medicaid",
+                    "code": "medicaid",
                     "display": "Medicaid"
                 },
                 {
-                    "code": "assessment-ffpsa",
+                    "code": "ffpsa",
                     "display": "FFPSA"
                 },
                 {
-                    "code": "assessment-cymhta",
+                    "code": "cymhta",
                     "display": "CYMHTA"
                 }
             ]
@@ -166,11 +166,11 @@
             "display": "Recovery",
             "concept": [
                 {
-                    "code": "recovery-rss",
+                    "code": "rss",
                     "display": "Recovery Support Services (RSS)"
                 },
                 {
-                    "code": "recovery-rlc",
+                    "code": "rlc",
                     "display": "Recovery Living Community (RLC)"
                 }
             ]
