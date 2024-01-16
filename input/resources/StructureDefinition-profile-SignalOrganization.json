@@ -78,6 +78,16 @@
         }
       },
       {
+        "id": "Organization.identifier:StateAgencyID",
+        "path": "Organization.identifier",
+        "sliceName": "StateAgencyID",
+        "short": "State Agency ID coming from Julota Referral system",
+        "definition": "State Agency ID is an identifier thats a free form text field in Gigafish coming from Julota referral system used to identify a State Agency.",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/julota-state-agency-id"
+        }
+      },
+      {
         "id": "Organization.type",
         "path": "Organization.type",
         "slicing": {
