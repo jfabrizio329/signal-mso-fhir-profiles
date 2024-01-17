@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "signal-patient",
-  "url": "http://signalbhn.org/fhir/StructureDefinition/patient",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/patient",
   "name": "SignalPatient",
   "title": "Patient Profile",
   "status": "draft",
