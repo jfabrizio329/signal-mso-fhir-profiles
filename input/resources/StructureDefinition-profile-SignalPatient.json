@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "signal-patient",
-  "url": "http://signalbhn.org/fhir/StructureDefinition/patient",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/patient",
   "name": "SignalPatient",
   "title": "Patient Profile",
   "status": "draft",
@@ -203,6 +203,32 @@
         "id": "Patient.identifier:InsuranceCarrier.system",
         "path": "Patient.identifier.system",
         "fixedUri": "http://hl7.org/fhir/sid/us-insuranceid"
+      },
+      {
+        "id": "Patient.identifier:TrailsID",
+        "path": "Patient.identifier",
+        "sliceName": "TrailsID",
+        "short": "Trails identifier for this patient",
+        "definition": "Trails identifier for the client."
+
+      },
+      {
+        "id": "Patient.identifier:TrailsID.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "https://signalbhn.org/fhir/sid/us-trailsid"
+      },
+      {
+        "id": "Patient.identifier:HouseholdID",
+        "path": "Patient.identifier",
+        "sliceName": "HouseholdID",
+        "short": "Household identifier for this patient",
+        "definition": "Household identifier for the client."
+
+      },
+      {
+        "id": "Patient.identifier:HouseholdID.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "https://signalbhn.org/fhir/sid/us-householdid"
       },
       {
         "id": "Patient.address.extension:noFixedAddress",
