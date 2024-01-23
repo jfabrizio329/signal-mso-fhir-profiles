@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "progress-made-towards-goals",
+    "url": "https://signalbhn.org/fhir/CodeSystem/progress-made-towards-goals",
+    "name": "ProgressMadeTowardsGoals",
+    "title": "Progress Made Towards Goals",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Progress made towards written, measurable treatment goals.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/progress-made-towards-goals",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No Progress"
+        },
+        {
+            "code": "2",
+            "display": "Minimal Progress"
+        },
+        {
+            "code": "3",
+            "display": "Moderate Progress"
+        },
+        {
+            "code": "4",
+            "display": "Goal Met"
+        }
+    ]
+}
