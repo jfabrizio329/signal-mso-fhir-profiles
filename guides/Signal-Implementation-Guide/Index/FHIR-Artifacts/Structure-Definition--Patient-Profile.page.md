@@ -19,13 +19,13 @@ Module:  {{pagelink:Patient-Administration-Module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:http://signalbhn.org/fhir/StructureDefinition/patient, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/patient, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:http://signalbhn.org/fhir/StructureDefinition/patient, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/patient, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:http://signalbhn.org/fhir/StructureDefinition/patient,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/patient,}}
 	</tab>
 </tabs>
 
