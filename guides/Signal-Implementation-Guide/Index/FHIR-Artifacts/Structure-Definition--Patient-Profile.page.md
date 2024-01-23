@@ -64,6 +64,18 @@ The patient profile is designed to be specific to each provider organization uti
 **.identifier:ClientID**
 - Contains the carryover identifiers for the patient from Signal's Beacon system
 
+**.identifier:InsuranceCarrier**
+- Contains the Insurance carrier identifiers for the patient
+
+**.identifier:TrailsID**
+- Contains the Trails identifiers for the patient related to a case in DHS system.
+- Extracted from Julota Referral system
+
+**.identifier:HouseholdID**
+- Contains the Household identifiers for the patient
+- Affiliated with a client’s household
+- Extracted from Julota Referral system
+
 **.adoptionInfo** (extension) - `Patient.extension:adoptionInfo`
 - Utilized for specific programs
 - If present, a fixed value representing the SNOWMED code for "Adopted" is supplied in the `Extension.value[x]:valueCodeableConcept`
