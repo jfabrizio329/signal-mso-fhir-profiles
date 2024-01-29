@@ -89,7 +89,7 @@
                     },
                     {
                         "code": "12",
-                        "display": "Colorado ATR (Not available for Modalities 7, 14, 15, 16, 17)"
+                        "display": "Colorado ATR"
                     }
                 ]
             }
@@ -156,7 +156,7 @@
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-payment-for-treatment",
                 "code": "12",
-                "display": "Colorado ATR (Not available for Modalities 7, 14, 15, 16, 17)"
+                "display": "Colorado ATR"
             }
         ]
     }

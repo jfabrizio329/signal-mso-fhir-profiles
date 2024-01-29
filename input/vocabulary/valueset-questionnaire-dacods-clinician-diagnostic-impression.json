@@ -57,7 +57,7 @@
                     },
                     {
                         "code": "0",
-                        "display": "Unknown (acceptable for Detox)"
+                        "display": "Unknown"
                     },
                     {
                         "code": "9",
@@ -88,7 +88,7 @@
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-clinician-diagnostic-impression",
                 "code": "0",
-                "display": "Unknown (acceptable for Detox)"
+                "display": "Unknown"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-clinician-diagnostic-impression",

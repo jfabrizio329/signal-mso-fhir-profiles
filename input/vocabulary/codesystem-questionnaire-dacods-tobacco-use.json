@@ -14,23 +14,23 @@
     "concept": [
         {
             "code": "1",
-            "display": "current smoker/tobacco user - every day"
+            "display": "Current smoker/tobacco user - every day"
         },
         {
             "code": "2",
-            "display": "current smoker/tobacco user - periodically"
+            "display": "Current smoker/tobacco user - periodically"
         },
         {
             "code": "3",
-            "display": "former smoker/tobacco user"
+            "display": "Former smoker/tobacco user"
         },
         {
             "code": "4",
-            "display": "never smoker/tobacco user"
+            "display": "Never smoker/tobacco user"
         },
         {
             "code": "5",
-            "display": "smoker/tobacco user - current status unknown"
+            "display": "Smoker/tobacco user - current status unknown"
         },
         {
             "code": "6",

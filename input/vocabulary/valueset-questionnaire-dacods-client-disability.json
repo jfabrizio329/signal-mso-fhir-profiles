@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "id": "questionnaire-dacods-yes-no-na",
+    "id": "questionnaire-dacods-client-disability",
     "meta": {
         "profile": [
             "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -20,13 +20,13 @@
             "valueInteger": 1
         }
     ],
-    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-yes-no-na",
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-client-disability",
     "version": "6.0.0",
-    "name": "QuestionnaireDACODSYesNoNA",
-    "title": "Questionnaire DACODS Yes No NA",
-    "publisher": "Signal",
+    "name": "QuestionnaireDACODSClientDisability",
+    "title": "Questionnaire DACODS Client Disability",
     "status": "draft",
     "experimental": true,
+    "publisher": "Signal",
     "contact": [
         {
             "telecom": [
@@ -37,23 +37,19 @@
             ]
         }
     ],
-    "description": "To identify answer YES/NO/NA to the survey questions.",
+    "description": "To identify whether the client is disabled or not.",
     "compose": {
         "include": [
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no-na",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-client-disability",
                 "concept": [
                     {
                         "code": "0",
-                        "display": "No"
+                        "display": "Client is disabled"
                     },
                     {
                         "code": "1",
-                        "display": "Yes"
-                    },
-                    {
-                        "code": "9",
-                        "display": "N/A, Blank, None of the above"
+                        "display": "Client is not disabled"
                     }
                 ]
             }
@@ -63,19 +59,14 @@
         "timestamp": "2023-07-31T18:35:33.1743667+00:00",
         "contains": [
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no-na",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-client-disability",
                 "code": "0",
-                "display": "No"
+                "display": "Client is disabled"
             },
             {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no-na",
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-client-disability",
                 "code": "1",
-                "display": "Yes"
-            },
-            {
-                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-yes-no-na",
-                "code": "9",
-                "display": "N/A, Blank, None of the above"
+                "display": "Client is not disabled"
             }
         ]
     }

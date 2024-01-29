@@ -53,7 +53,7 @@
                     },
                     {
                         "code": "0",
-                        "display": "N/A or None of the above"
+                        "display": "N/A, Blank, None of the above"
                     }
                 ]
             }
@@ -75,7 +75,7 @@
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-health-insurance-status",
                 "code": "0",
-                "display": "N/A or None of the above"
+                "display": "N/A, Blank, None of the above"
             }
         ]
     }

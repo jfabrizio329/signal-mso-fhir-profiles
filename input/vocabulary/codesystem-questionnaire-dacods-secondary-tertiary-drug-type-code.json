@@ -1,0 +1,128 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-dacods-secondary-tertiary-drug-type-code",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-secondary-tertiary-drug-type-code",
+    "name": "QuestionnaireDACODSSecondaryTertiaryDrugTypeCode",
+    "title": "Questionnaire DACODS Secondary Tertiary Drug Type Code",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies the client's secondary/tertiary drug, or that substance considered to be the primary cause of the client's dysfunction at the time of admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-secondary-tertiary-drug-type-code",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "None"
+        },
+        {
+            "code": "1",
+            "display": "Alcohol"
+        },
+        {
+            "code": "2",
+            "display": "Barbiturate"
+        },
+        {
+            "code": "3",
+            "display": "Benzodiazepine tranquilizer (Valium, Librium, Xanax, etc.)"
+        },
+        {
+            "code":"4",
+            "display":"Clonazepam (Klonopin, Rivotril)"
+        },
+        {
+            "code":"5",
+            "display":"Other sedative/hypnotic (Chloral Hydrate, Dalmane, etc.)"
+        },
+        {
+            "code":"6",
+            "display":"Other tranquilizer"
+        },
+        {
+            "code":"7",
+            "display":"Cocaine Hydrochloride/crack"
+        },
+        {
+            "code":"8",
+            "display":"Methamphetamine (crank, crystal, methedrine, etc.)"
+        },
+        {
+            "code":"9",
+            "display":"Other amphetamine (Benzedrine, Dexadrine, Desoxyn, etc.)"
+        },
+        {
+            "code":"10",
+            "display":"Other Stimulant (Ritalin, Sanorex, Adderall, etc.)"
+        },
+        {
+            "code":"11",
+            "display":"Heroin"
+        },
+        {
+            "code":"12",
+            "display":"Non Rx Methadone"
+        },
+        {
+            "code":"13",
+            "display":"Other Opiate/synthetic opiate (Morphine, Codeine, etc. / Demerol, Percodan, etc.)"
+        },
+        {
+            "code":"14",
+            "display":"Marijuana/hashish"
+        },
+        {
+            "code":"15",
+            "display":"LSD"
+        },
+        {
+            "code":"16",
+            "display":"PCP"
+        },
+        {
+            "code":"17",
+            "display":"Other hallucinogens"
+        },
+        {
+            "code":"18",
+            "display":"Inhalant"
+        },
+        {
+            "code":"19",
+            "display":"Over the counter drug"
+        },
+        {
+            "code":"20",
+            "display":"Flunitrazepam (Rohypnol)"
+        },
+        {
+            "code":"21",
+            "display":"Gamma-hydroxybutyrate, gamma butyrolactone (GHB/GBL)"
+        },
+        {
+            "code":"22",
+            "display":"Ketamine (Special K)"
+        },
+        {
+            "code":"23",
+            "display":"Methylenedioxymethamphetamine (MDMA, ecstasy)"
+        },
+        {
+            "code":"24",
+            "display":"Anabolic Steroid"
+        },
+        {
+            "code":"25",
+            "display":"Other"
+        },
+        {
+            "code":"26",
+            "display":"Buprenorphine"
+        },
+        {
+            "code":"27",
+            "display":"Nicotine"
+        }
+    ]
+}
