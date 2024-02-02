@@ -54,7 +54,7 @@
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-2.5",
-                        "display": "ASAM Level 2.5 - Partial Hospitalization Services for adolescents and adults"
+                        "display": "ASAM Level 2.5 - Partial Hospitalization Services for Adolescents & Adults (PHP)"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
@@ -64,17 +64,22 @@
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.3",
-                        "display": "ASAM Level 3.3 - Clinically Managed Population-Specific High-Intensity Residential Services"
+                        "display": "ASAM Level 3.3 - Clinically Managed Population (Specific High-Intensity Residential Services)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "asam-3.5-stirt",
+                        "display": "ASAM Level 3.5/STIRT - Clinically Managed High-Intensity Residential Services for Adults"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.5",
-                        "display": "ASAM Level 3.5 - Clinically Managed High-Intensity Residential Services for adults"
+                        "display": "ASAM Level 3.5 - Clinically Managed High-Intensity Residential Services"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.7",
-                        "display": "ASAM Level 3.7 - Medically Monitored High-Intensity Inpatient Services for adolescents"
+                        "display": "ASAM Level 3.7 - Medically Managed High-Intensity Residential Services"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
@@ -84,27 +89,27 @@
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-1-wm",
-                        "display": "ASAM Level 1-WM - Ambulatory Withdrawal Management Without Extended On-Site Monitoring"
+                        "display": "ASAM Level 1.0 WM - Ambulatory Withdrawal Management without extended on site monitoring"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-2-wm",
-                        "display": "ASAM Level 2-WM - Ambulatory Withdrawal Management with Extended On-site Monitoring"
+                        "display": "ASAM Level 2.0 WM - Ambulatory Withdrawal Management without extended on site monitoring"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.2-wm",
-                        "display": "ASAM Level 3.2-WM - Clinically Managed Residential Withdrawal Management"
+                        "display": "ASAM Level 3.2 WM - Clinically Managed Residential Withdrawal Management"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-3.7-wm",
-                        "display": "ASAM Level 3.7-WM - Medically Monitored Intensive Inpatient Services Withdrawal Management for adults"
+                        "display": "ASAM Level 3.7 WM - Medically Monitored Intensive Inpatient Services Withdrawal Management"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "asam-otp",
-                        "display": "ASAM - Opioid Treatment Program (OTP)"
+                        "code": "asam-ots",
+                        "display": "ASAM - Opioid Treatment Services"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
@@ -119,7 +124,7 @@
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "ips",
-                        "display": "Individual Placement Services"
+                        "display": "IPS - Individual Placement Services"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
@@ -129,12 +134,17 @@
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "dui-2-e",
-                        "display": "DUI Level II Education-only"
+                        "display": "DUI Level II Education only"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "dui-2-te",
-                        "display": "DUI Level II Therapy and Education"
+                        "display": "DUI Level II Therapy & Education"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "minors",
+                        "display": "Minors in Possession (MIP) treatment"
                     }
                 ]
             },
