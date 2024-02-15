@@ -88,6 +88,36 @@
         }
       },
       {
+        "id": "Organization.identifier:ProviderID",
+        "path": "Organization.identifier",
+        "sliceName": "ProviderID",
+        "short": "Provider identifier",
+        "definition": "Provider Identifier is created to store the identifier information from EDI extraction.",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/edi/provider-id"
+        }
+      },
+      {
+        "id": "Organization.identifier:PayerID",
+        "path": "Organization.identifier",
+        "sliceName": "PayerID",
+        "short": "Payer Identifier",
+        "definition": "Payer Identifier is created to store the identifier information from EDI extraction.",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/edi/payer-id"
+        }
+      },
+      {
+        "id": "Organization.identifier:PrimaryLocationID",
+        "path": "Organization.identifier",
+        "sliceName": "PrimaryLocationID",
+        "short": "Primary Location Identifier",
+        "definition": "Primary Location Identifier is created to store the identifier information from EDI extraction.",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/edi/primary-location-id"
+        }
+      },
+      {
         "id": "Organization.type",
         "path": "Organization.type",
         "slicing": {
