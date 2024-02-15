@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-account",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/account",
+  "name": "SignalAccount",
+  "title": "Account Profile",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Account",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Account",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Account.identifier",
+        "path": "Account.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Account.identifier:AccountID",
+        "path": "Account.identifier",
+        "sliceName": "AccountID",
+        "short": "Account Identifier",
+        "definition": "Account identifier is created as slice to store the identifier information from EDI extracts",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/edi/account-id"
+        }
+      }
+    ]
+  }
+}
