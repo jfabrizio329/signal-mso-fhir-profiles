@@ -14,6 +14,29 @@
   "differential": {
     "element": [
       {
+        "id": "Encounter.identifier",
+        "path": "Encounter.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Encounter.identifier:ProviderServiceID",
+        "path": "Encounter.identifier",
+        "sliceName": "ProviderServiceID",
+        "short": "Provider Service Identifier",
+        "definition": "Provider Service Identifier is created to store the identifier information from EDI extraction by which this encounter is known.",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/edi/provider-service-id"
+        }
+      },
+      {
         "id": "Encounter.serviceType",
         "path": "Encounter.serviceType",
         "binding": {
