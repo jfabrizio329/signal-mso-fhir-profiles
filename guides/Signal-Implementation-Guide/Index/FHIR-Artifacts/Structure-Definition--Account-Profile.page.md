@@ -8,7 +8,7 @@ topic: account-profile
 
 Status: WIP, will receive additional profile notes in the near future
 
-Canonical URL: http://hl7.org/fhir/StructureDefinition/account
+Canonical URL: https://signalbhn.org/fhir/StructureDefinition/account
 
 Simplifier project page: Not Applicable
 
@@ -21,13 +21,13 @@ Module:  {{pagelink:finance-module}}
 ## Formal profile content
 <tabs>
 	<tab title="Tree snapshot">
-		{{tree:http://hl7.org/fhir/StructureDefinition/account, snapshot}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/account, snapshot}}
 	</tab>
 	<tab title="Tree, diff/hybrid/snapshot">
-		{{tree:http://hl7.org/fhir/StructureDefinition/account, buttons}}
+		{{tree:https://signalbhn.org/fhir/StructureDefinition/account, buttons}}
 	</tab>
 	<tab title="JSON">
-		{{json:http://hl7.org/fhir/StructureDefinition/account,}}
+		{{json:https://signalbhn.org/fhir/StructureDefinition/account,}}
 	</tab>
 </tabs>
 
