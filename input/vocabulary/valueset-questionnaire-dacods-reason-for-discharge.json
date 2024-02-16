@@ -1,7 +1,7 @@
 {
     "resourceType": "ValueSet",
     "id": "questionnaire-dacods-reason-for-discharge",
-    "url": "https://signalbhn.org/fhir/us/core/ValueSet/questionnaire-dacods-reason-for-discharge",
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-dacods-reason-for-discharge",
     "name": "QuestionnaireDacodsReasonForDischarge",
     "title": "Questionnaire Dacods Reason For Discharge",
     "status": "draft",
