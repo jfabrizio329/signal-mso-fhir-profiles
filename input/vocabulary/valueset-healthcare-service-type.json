@@ -219,7 +219,7 @@
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "cymhta",
+                        "code": "assessment-cymhta",
                         "display": "CYMHTA"
                     }
                 ]
