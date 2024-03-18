@@ -1,0 +1,15 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "invoicebillid",
+    "url": "https://signalbhn.org/fhir/SearchParameter/Invoice-billId",
+    "version": "1.0",
+    "name": "BillIdSearchParameter",
+    "status": "active",
+    "description": "Search parameter for billId identifier",
+    "code": "billId",
+    "base": [
+        "Invoice"
+    ],
+    "type": "string",
+    "expression": "Invoice.identifier.where(system = 'http://hl7.org/fhir/inv/id').value"
+}
