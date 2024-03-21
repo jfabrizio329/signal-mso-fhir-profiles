@@ -1,0 +1,15 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "questionnaireresponse-questionnaire",
+    "url": "https://signalbhn.org/fhir/SearchParameter/QuestionnaireResponse-questionnaire",
+    "version": "1.0",
+    "name": "QuestionnaireResponse-Questionnaire",
+    "status": "draft",
+    "description": "Search parameter for Questionnaire URL in QuestionnaireResponse",
+    "code": "questionnaire-url",
+    "base": [
+        "QuestionnaireResponse"
+    ],
+    "type": "uri",
+    "expression": "QuestionnaireResponse.questionnaire"
+}
