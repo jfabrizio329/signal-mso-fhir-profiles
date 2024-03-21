@@ -1,11 +1,11 @@
 {
     "resourceType": "SearchParameter",
     "id": "invoicebillid",
-    "url": "https://signalbhn.org/fhir/SearchParameter/Invoice-billId",
+    "url": "https://signalbhn.org/fhir/SearchParameter/Invoice-bill-id",
     "version": "1.0",
-    "name": "BillIdSearchParameter",
+    "name": "InvoiceBillId",
     "status": "active",
-    "description": "Search parameter for billId identifier",
+    "description": "Search parameter for Invoice billId identifier",
     "code": "billId",
     "base": [
         "Invoice"
