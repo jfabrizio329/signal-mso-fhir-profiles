@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-depressive-issues-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-depressive-issues-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSDepressiveIssuesRating",
+    "title": "Questionnaire CCARS Depressive Issues Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person experiences depressive symptoms such as, but not limited to, sadness, worrying, irritability and agitation.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-depressive-issues-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No disruption of daily activities. Issues are temporary, appropriate and do not impact functioning"
+                    },
+                    {
+                        "code": "3",
+                        "display": "May persist beyond situational events, but is not debilitating"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Persistent, low-level or occasionally moderate, impacts daily functioning"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Persistent and incapacitating, affecting most aspects of daily functioning"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Person is completely incapacitated by and is seemingly incapable of responding appropriately. Impaired functioning and requires immediate treatment"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-depressive-issues-rating",
+                "code": "1",
+                "display": "No disruption of daily activities. Issues are temporary, appropriate and do not impact functioning"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-depressive-issues-rating",
+                "code": "3",
+                "display": "May persist beyond situational events, but is not debilitating"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-depressive-issues-rating",
+                "code": "5",
+                "display": "Persistent, low-level or occasionally moderate, impacts daily functioning"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-depressive-issues-rating",
+                "code": "7",
+                "display": "Persistent and incapacitating, affecting most aspects of daily functioning"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-depressive-issues-rating",
+                "code": "9",
+                "display": "Person is completely incapacitated by and is seemingly incapable of responding appropriately. Impaired functioning and requires immediate treatment"
+            }
+        ]
+    }
+}

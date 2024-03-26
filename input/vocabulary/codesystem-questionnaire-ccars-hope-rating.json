@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-hope-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+    "name": "QuestionnaireCCARSHopeRating",
+    "title": "Questionnaire CCARS Hope Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person is optimistic about future outcomes.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-hope-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Openly expresses hope for the future and is making efforts to achieve better outcomes"
+        },
+        {
+            "code": "3",
+            "display": "Openly expresses hope for the future, but is not currently making efforts that would lead to better outcomes"
+        },
+        {
+            "code": "5",
+            "display": "Expresses both positive and negative attitudes in regard to future outcomes"
+        },
+        {
+            "code": "7",
+            "display": "Does not express hope for the future, but may be convinced that there is opportunity for better outcomes"
+        },
+        {
+            "code": "9",
+            "display": "Actively expresses hopelessness about future change"
+        }
+    ]
+}

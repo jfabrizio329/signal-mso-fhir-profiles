@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-social-support-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-social-support-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSSocialSupportRating",
+    "title": "Questionnaire CCARS Social Support Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person has relationships with supportive people who contribute to recovery.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Supportive relationships outside of service providers and actively participates in maintaining them"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Supportive relationships outside of service providers"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Only meaningful relationships with service providers and other receiving services"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Only meaningful relationships are with service providers"
+                    },
+                    {
+                        "code": "9",
+                        "display": "No meaningful relationships (or relationships that are not constructive) and person wants or could clearly benefit from them"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+                "code": "1",
+                "display": "Supportive relationships outside of service providers and actively participates in maintaining them"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+                "code": "3",
+                "display": "Supportive relationships outside of service providers"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+                "code": "5",
+                "display": "Only meaningful relationships with service providers and other receiving services"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+                "code": "7",
+                "display": "Only meaningful relationships are with service providers"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+                "code": "9",
+                "display": "No meaningful relationships (or relationships that are not constructive) and person wants or could clearly benefit from them"
+            }
+        ]
+    }
+}

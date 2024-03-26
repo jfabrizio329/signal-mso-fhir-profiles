@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-social-support-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-social-support-rating",
+    "name": "QuestionnaireCCARSSocialSupportRating",
+    "title": "Questionnaire CCARS Social Support Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person has relationships with supportive people who contribute to recovery.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-social-support-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Supportive relationships outside of service providers and actively participates in maintaining them"
+        },
+        {
+            "code": "3",
+            "display": "Supportive relationships outside of service providers"
+        },
+        {
+            "code": "5",
+            "display": "Only meaningful relationships with service providers and other receiving services"
+        },
+        {
+            "code": "7",
+            "display": "Only meaningful relationships are with service providers"
+        },
+        {
+            "code": "9",
+            "display": "No meaningful relationships (or relationships that are not constructive) and person wants or could clearly benefit from them"
+        }
+    ]
+}

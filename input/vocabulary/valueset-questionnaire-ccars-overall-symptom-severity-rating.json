@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-overall-symptom-severity-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-overall-symptom-severity-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSOverallSymptomSeverityRating",
+    "title": "Questionnaire CCARS Overall Symptom Severity Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Rate the severity of the person's mental health symptoms.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-symptom-severity-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No symptoms are present for this person"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Symptoms may be intermittent or may persist at a low level"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Symptoms are present which require formal professional mental health intervention"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Significant symptoms affecting multiple domains exist, often requiring external intervention"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Symptoms are profound and potentially life-threatening"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-symptom-severity-rating",
+                "code": "1",
+                "display": "No symptoms are present for this person"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-symptom-severity-rating",
+                "code": "3",
+                "display": "Symptoms may be intermittent or may persist at a low level"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-symptom-severity-rating",
+                "code": "5",
+                "display": "Symptoms are present which require formal professional mental health intervention"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-symptom-severity-rating",
+                "code": "7",
+                "display": "Significant symptoms affecting multiple domains exist, often requiring external intervention"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-symptom-severity-rating",
+                "code": "9",
+                "display": "Symptoms are profound and potentially life-threatening"
+            }
+        ]
+    }
+}

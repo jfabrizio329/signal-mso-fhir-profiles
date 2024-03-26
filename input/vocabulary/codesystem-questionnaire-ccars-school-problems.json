@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-school-problems",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-school-problems",
+    "name": "QuestionnaireCCARSSchoolProblems",
+    "title": "Questionnaire CCARS School Problems",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "A Person, may be a student's status on his/her's school education.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-school-problems",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Expelled from School"
+        },
+        {
+            "code": "2",
+            "display": "Suspended from School"
+        },
+        {
+            "code": "3",
+            "display": "Unexcused Absences from School"
+        },
+        {
+            "code": "4",
+            "display": "Currently Passing all Classes"
+        }
+    ]
+}

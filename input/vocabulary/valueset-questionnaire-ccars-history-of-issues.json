@@ -1,0 +1,181 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-history-of-issues",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-history-of-issues",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSHistoryOfIssues",
+    "title": "Questionnaire CCARS History Of Issues",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "History Of Issues of a person.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Suicide Attempt"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Trauma"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Legal/Incarcerations"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Sexual Misconduct"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Destroyed Property"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Set Fires"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Legal/Convictions"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Animal Cruelty"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Prenatal/Perinatal Drug/Alcohol Exposure"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Danger to Self"
+                    },
+                    {
+                        "code": "11",
+                        "display": "Family Mental Illness"
+                    },
+                    {
+                        "code": "12",
+                        "display": "Family Substance Abuse"
+                    },
+                    {
+                        "code": "13",
+                        "display": "Violent Environment"
+                    },
+                    {
+                        "code": "14",
+                        "display": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "1",
+                "display": "Suicide Attempt"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "2",
+                "display": "Trauma"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "3",
+                "display": "Legal/Incarcerations"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "4",
+                "display": "Sexual Misconduct"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "5",
+                "display": "Destroyed Property"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "6",
+                "display": "Set Fires"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "7",
+                "display": "Legal/Convictions"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "8",
+                "display": "Animal Cruelty"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "9",
+                "display": "Prenatal/Perinatal Drug/Alcohol Exposure"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "10",
+                "display": "Danger to Self"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "11",
+                "display": "Family Mental Illness"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "12",
+                "display": "Family Substance Abuse"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "13",
+                "display": "Violent Environment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-issues",
+                "code": "14",
+                "display": "None"
+            }
+        ]
+    }
+}

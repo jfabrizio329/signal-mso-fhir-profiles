@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-interpersonal-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-interpersonal-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSInterpersonalRating",
+    "title": "Questionnaire CCARS Interpersonal Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person establishes and maintains relationships with others.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-interpersonal-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Demonstrates healthy relationships with others"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Some difficulty developing or maintaining healthy interpersonal relationships"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Inadequate relational skills resulting in tenuous and strained relationships"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Markedly impaired relational skills resulting in poor relationship formation and maintenance"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Interpersonal relationships are virtually nonexistent"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-interpersonal-rating",
+                "code": "1",
+                "display": "Demonstrates healthy relationships with others"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-interpersonal-rating",
+                "code": "3",
+                "display": "Some difficulty developing or maintaining healthy interpersonal relationships"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-interpersonal-rating",
+                "code": "5",
+                "display": "Inadequate relational skills resulting in tenuous and strained relationships"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-interpersonal-rating",
+                "code": "7",
+                "display": "Markedly impaired relational skills resulting in poor relationship formation and maintenance"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-interpersonal-rating",
+                "code": "9",
+                "display": "Interpersonal relationships are virtually nonexistent"
+            }
+        ]
+    }
+}

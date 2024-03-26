@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-alcohol-use-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-alcohol-use-rating",
+    "name": "QuestionnaireCCARSAlcoholUseRating",
+    "title": "Questionnaire CCARS Alcohol Use Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person's use of alcohol impairs daily functioning.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-alcohol-use-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No impairment of general functioning due to alcohol use"
+        },
+        {
+            "code": "3",
+            "display": "Occasional difficulties in functioning due to alcohol use"
+        },
+        {
+            "code": "5",
+            "display": "Frequent difficulties in functioning due to alcohol use"
+        },
+        {
+            "code": "7",
+            "display": "Significantly impaired functioning due to alcohol use. Alcohol use dominates life to the exclusion of other activities"
+        },
+        {
+            "code": "9",
+            "display": "Constantly debilitated due to alcohol use, with no regard for basic needs or safety of self and others"
+        }
+    ]
+}

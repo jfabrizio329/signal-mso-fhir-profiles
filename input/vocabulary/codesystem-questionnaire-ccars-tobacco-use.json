@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-tobacco-use",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-tobacco-use",
+    "name": "QuestionnaireCCARSTobaccoUse",
+    "title": "Questionnaire CCARS Tobacco Use",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "The client's history of using tobacco products or vaping nicotine.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-tobacco-use",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Current smoker/tobacco or vape/nicotine user - every day"
+        },
+        {
+            "code": "2",
+            "display": "Current smoker/tobacco or vape/nicotine user - periodically"
+        },
+        {
+            "code": "3",
+            "display": "Former smoker/tobacco or vape/nicotine user"
+        },
+        {
+            "code": "4",
+            "display": "Never smoker/tobacco user or vape/nicotine"
+        },
+        {
+            "code": "5",
+            "display": "Smoker/tobacco user or vape/nicotine - current status unknown"
+        },
+        {
+            "code": "6",
+            "display": "Unknown if ever smoked or vaped/nicotine"
+        }
+    ]
+}

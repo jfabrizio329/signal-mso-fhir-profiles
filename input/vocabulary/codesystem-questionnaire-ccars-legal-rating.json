@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-legal-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-rating",
+    "name": "QuestionnaireCCARSLegalRating",
+    "title": "Questionnaire CCARS Legal Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person is involved in the criminal justice system.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-legal-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No legal difficulties"
+        },
+        {
+            "code": "3",
+            "display": "Occasional legal difficulties"
+        },
+        {
+            "code": "5",
+            "display": "Frequent legal difficulties"
+        },
+        {
+            "code": "7",
+            "display": "May be in confinement or at risk of confinement due to illegal activity"
+        },
+        {
+            "code": "9",
+            "display": "Continuously at risk for illegal behavior. Likely to be in confinement or with current serious charges pending"
+        }
+    ]
+}

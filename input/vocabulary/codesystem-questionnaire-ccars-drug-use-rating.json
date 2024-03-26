@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-drug-use-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+    "name": "QuestionnaireCCARSDrugUseRating",
+    "title": "Questionnaire CCARS Drug Use Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person's use of legal or illegal drugs impairs daily functioning.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-drug-use-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No impairment of general functioning due to drug use"
+        },
+        {
+            "code": "3",
+            "display": "Occasional difficulties in functioning due to drug use"
+        },
+        {
+            "code": "5",
+            "display": "Frequent difficulties in functioning due to drug use"
+        },
+        {
+            "code": "7",
+            "display": "Significantly impaired functioning due to drug use. Drug use dominates life to the exclusion of other activities"
+        },
+        {
+            "code": "9",
+            "display": "Constantly debilitated due to drug use, with no regard for basic needs or safety of self and others"
+        }
+    ]
+}

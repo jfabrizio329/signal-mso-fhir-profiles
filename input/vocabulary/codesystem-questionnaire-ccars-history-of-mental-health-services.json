@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-history-of-mental-health-services",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-of-mental-health-services",
+    "name": "QuestionnaireCCARSHistoryOfMentalHealthServices",
+    "title": "Questionnaire CCARS History Of Mental Health Services",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Mental health service history of person.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-history-of-mental-health-services",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Inpatient"
+        },
+        {
+            "code": "2",
+            "display": "Other 24-hour"
+        },
+        {
+            "code": "3",
+            "display": "Partial care"
+        },
+        {
+            "code": "4",
+            "display": "Outpatient"
+        },
+        {
+            "code": "5",
+            "display": "None"
+        }
+    ]
+}

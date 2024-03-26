@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-drug-use-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-drug-use-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSDrugUseRating",
+    "title": "Questionnaire CCARS Drug Use Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person's use of legal or illegal drugs impairs daily functioning.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No impairment of general functioning due to drug use"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Occasional difficulties in functioning due to drug use"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Frequent difficulties in functioning due to drug use"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Significantly impaired functioning due to drug use. Drug use dominates life to the exclusion of other activities"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Constantly debilitated due to drug use, with no regard for basic needs or safety of self and others"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+                "code": "1",
+                "display": "No impairment of general functioning due to drug use"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+                "code": "3",
+                "display": "Occasional difficulties in functioning due to drug use"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+                "code": "5",
+                "display": "Frequent difficulties in functioning due to drug use"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+                "code": "7",
+                "display": "Significantly impaired functioning due to drug use. Drug use dominates life to the exclusion of other activities"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-drug-use-rating",
+                "code": "9",
+                "display": "Constantly debilitated due to drug use, with no regard for basic needs or safety of self and others"
+            }
+        ]
+    }
+}

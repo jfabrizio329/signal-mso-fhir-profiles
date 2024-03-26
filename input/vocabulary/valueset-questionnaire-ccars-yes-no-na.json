@@ -1,0 +1,77 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-yes-no-na",
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-yes-no-na",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSYesNoNA",
+    "title": "Questionnaire CCARS Yes No NA",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "Signal",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "To identify answer YES/NO/NA to the survey questions.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-yes-no-na",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "No"
+                    },
+                    {
+                        "code": "1",
+                        "display": "Yes"
+                    },
+                    {
+                        "code": "9",
+                        "display": "N/A, Blank, None of the above"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-yes-no-na",
+                "code": "0",
+                "display": "No"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-yes-no-na",
+                "code": "1",
+                "display": "Yes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-yes-no-na",
+                "code": "9",
+                "display": "N/A, Blank, None of the above"
+            }
+        ]
+    }
+}

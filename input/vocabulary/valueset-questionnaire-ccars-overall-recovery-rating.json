@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-overall-recovery-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-overall-recovery-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSOverallRecoveryRating",
+    "title": "Questionnaire CCARS Overall Recovery Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person is involved in the process of getting better and developing/restoring/maintaining a positive and meaningful sense of self.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-recovery-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Views self positively with the knowledge that setbacks may occur and is able to actively pursue and access resources to support recovery with a sense of empowerment and hopefulness about future outcomes"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Hopeful about future outcomes and is actively participating and using resources to promote recovery"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Expresses hopefulness about future outcomes and is willing to begin to engage in using available resources to promote recovery"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Expresses a mixture of hopefulness and hopelessness about future outcomes and is interested in discussing available options and resources to aid in recovery"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Entrenched in symptoms, expresses hopelessness about future outcomes AND does not actively engage in using available resources that might promote recovery"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-recovery-rating",
+                "code": "1",
+                "display": "Views self positively with the knowledge that setbacks may occur and is able to actively pursue and access resources to support recovery with a sense of empowerment and hopefulness about future outcomes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-recovery-rating",
+                "code": "3",
+                "display": "Hopeful about future outcomes and is actively participating and using resources to promote recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-recovery-rating",
+                "code": "5",
+                "display": "Expresses hopefulness about future outcomes and is willing to begin to engage in using available resources to promote recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-recovery-rating",
+                "code": "7",
+                "display": "Expresses a mixture of hopefulness and hopelessness about future outcomes and is interested in discussing available options and resources to aid in recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-recovery-rating",
+                "code": "9",
+                "display": "Entrenched in symptoms, expresses hopelessness about future outcomes AND does not actively engage in using available resources that might promote recovery"
+            }
+        ]
+    }
+}

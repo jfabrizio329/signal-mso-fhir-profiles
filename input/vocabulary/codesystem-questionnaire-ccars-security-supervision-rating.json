@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-security-supervision-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+    "name": "QuestionnaireCCARSSecuritySupervisionRating",
+    "title": "Questionnaire CCARS Security Supervision Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which the person is in need of increased supervision.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-security-supervision-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No special security or supervision precautions needed"
+        },
+        {
+            "code": "3",
+            "display": "Occasional behavior problems are present and require low levels of security and supervision."
+        },
+        {
+            "code": "5",
+            "display": "Requires moderate levels of security and supervision due to intermittent high-risk and/or dangerous behaviors."
+        },
+        {
+            "code": "7",
+            "display": "Close supervision, seclusion, suicide watch, or controlled medication administration may be necessary due to severe behavioral problems. Walkaway/escape potential may be high."
+        },
+        {
+            "code": "9",
+            "display": "Requires constant supervision or a secure environment due to behaviors that are likely to result in injury to self or others"
+        }
+    ]
+}

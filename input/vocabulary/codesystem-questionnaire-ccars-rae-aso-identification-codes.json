@@ -1,0 +1,72 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-rae-aso-identification-codes",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+    "name": "QuestionnaireCCARSRAEASOIdentificationCodes",
+    "title": "Questionnaire CCARS RAE ASO Identification Codes",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Medicaid/RAE clients will select the RAE Identification Codes and Crisis system clients will select ASO codes.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-rae-aso-identification-codes",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "RM",
+            "display": "RAE Rocky Mountain Health Plans (Region 1)"
+        },
+        {
+            "code": "NP",
+            "display": "RAE Northeast Health Partners (Region 2)"
+        },
+        {
+            "code": "CA",
+            "display": "RAE Colorado Access (Region 3)"
+        },
+        {
+            "code": "HC",
+            "display": "RAE Health Colorado, Inc. (Region 4)"
+        },
+        {
+            "code": "CB",
+            "display": "RAE Colorado Access (Region 5)"
+        },
+        {
+            "code": "CU",
+            "display": "RAE Colorado Community Health Alliance (Region 6)"
+        },
+        {
+            "code": "CX",
+            "display": "RAE Colorado Community Health Alliance (Region 7)"
+        },
+        {
+            "code": "A1",
+            "display": "ASO Rocky Mountain Health Plans"
+        },
+        {
+            "code": "A2",
+            "display": "ASO Carelon Behavioral Health"
+        },
+        {
+            "code": "A3",
+            "display": "ASO Signal Behavioral Health Network"
+        },
+        {
+            "code": "A4",
+            "display": "ASO Health Colorado"
+        },
+        {
+            "code": "A5",
+            "display": "ASO Signal Behavioral Health Network"
+        },
+        {
+            "code": "A6",
+            "display": "ASO Signal Behavioral Health Network"
+        },
+        {
+            "code": "A7",
+            "display": "ASO Colorado Community Health Alliance CCHA"
+        }
+    ]
+}

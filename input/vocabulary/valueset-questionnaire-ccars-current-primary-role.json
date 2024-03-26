@@ -1,0 +1,154 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-current-primary-role",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-current-primary-role",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSCurrentPrimaryRole",
+    "title": "Questionnaire CCARS Current Primary Role",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Current Primary Role/Employment/School Status.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Employed full time (35+ hours/week)"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Employed part time (<35 hours/week)"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Unemployed"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Supported Employment"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Homemaker"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Student"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Retired"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Disabled"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Inmate"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Military"
+                    },
+                    {
+                        "code": "11",
+                        "display": "Volunteer"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "1",
+                "display": "Employed full time (35+ hours/week)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "2",
+                "display": "Employed part time (<35 hours/week)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "3",
+                "display": "Unemployed"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "4",
+                "display": "Supported Employment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "5",
+                "display": "Homemaker"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "6",
+                "display": "Student"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "7",
+                "display": "Retired"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "8",
+                "display": "Disabled"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "9",
+                "display": "Inmate"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "10",
+                "display": "Military"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-primary-role",
+                "code": "11",
+                "display": "Volunteer"
+            }
+        ]
+    }
+}

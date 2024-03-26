@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-multiple-issues-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+    "name": "QuestionnaireCCARSMultipleIssuesRating",
+    "title": "Questionnaire CCARS Multiple Issues Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person experiences Anxiety symptoms, manic symptoms and attention issues such as nervousness, tension, elevated mood, distractibility, inability to concentrate.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-multiple-issues-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No disruption of daily activities. Issues are temporary, appropriate and do not impact functioning."
+        },
+        {
+            "code": "3",
+            "display": "May persist beyond situational event, but not debilitating."
+        },
+        {
+            "code": "5",
+            "display": "Persistent, low-level or occasionally moderate, impacts daily functioning."
+        },
+        {
+            "code": "7",
+            "display": "Persistent and incapacitating, affecting most aspects of daily functioning."
+        },
+        {
+            "code": "9",
+            "display": "Person is completely incapacitated by and is seemingly incapable of responding appropriately."
+        }
+    ]
+}

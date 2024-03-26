@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-physical-health-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+    "name": "QuestionnaireCCARSPhysicalHealthRating",
+    "title": "Questionnaire CCARS Physical Health Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person's physical health or condition is a source of concern.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-physical-health-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No physical problems that interfere with daily living"
+        },
+        {
+            "code": "3",
+            "display": "Presence of occasional or mild physical problems that may interfere with daily living"
+        },
+        {
+            "code": "5",
+            "display": "Frequent or chronic physical health problems"
+        },
+        {
+            "code": "7",
+            "display": "Incapacitated due to medical/physical health, and likely to require inpatient or residential health care"
+        },
+        {
+            "code": "9",
+            "display": "Presence of critical medical condition(s) requiring immediate inpatient or residential health care treatment"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-ethnicity",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-ethnicity",
+    "name": "QuestionnaireCCARSEthnicity",
+    "title": "Questionnaire CCARS Ethnicity",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "To identify a person's Ethnicity.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-ethnicity",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "No, the client is not Hispanic"
+        },
+        {
+            "code": "1",
+            "display": "Yes, the client is Hispanic (Mexican)"
+        },
+        {
+            "code": "2",
+            "display": "Yes, the client is Hispanic (Puerto Rican)"
+        },
+        {
+            "code": "3",
+            "display": "Yes, the client is Hispanic (Cuban)"
+        },
+        {
+            "code": "4",
+            "display": "Yes, the client is Hispanic (Other Hispanic)"
+        },
+        {
+            "code": "5",
+            "display": "The client declined to answer"
+        }
+    ]
+}

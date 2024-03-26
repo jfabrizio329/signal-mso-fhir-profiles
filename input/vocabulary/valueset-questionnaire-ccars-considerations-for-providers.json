@@ -1,0 +1,109 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-considerations-for-providers",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-considerations-for-providers",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSConsiderationsForProviders",
+    "title": "Questionnaire CCARS Considerations For Providers",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Considerations for providers.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Self-care Problems"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Food Attainment"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Housing Access"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Cultural"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Language"
+                    },
+                    {
+                        "code": "6",
+                        "display": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "code": "1",
+                "display": "Self-care Problems"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "code": "2",
+                "display": "Food Attainment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "code": "3",
+                "display": "Housing Access"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "code": "4",
+                "display": "Cultural"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "code": "5",
+                "display": "Language"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-considerations-for-providers",
+                "code": "6",
+                "display": "None"
+            }
+        ]
+    }
+}

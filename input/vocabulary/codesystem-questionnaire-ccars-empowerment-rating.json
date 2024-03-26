@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-empowerment-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+    "name": "QuestionnaireCCARSEmpowermentRating",
+    "title": "Questionnaire CCARS Empowerment Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person uses available resources that contribute to personal health, welfare, and recovery. This includes knowledge and understanding of symptoms, treatment options and resource alternatives.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-empowerment-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Actively engages in planning and activities to assure optimal personal health, welfare and recovery"
+        },
+        {
+            "code": "3",
+            "display": "Is aware of some available resources and generally acts to access them to assure personal health, welfare and recovery"
+        },
+        {
+            "code": "5",
+            "display": "Does not respond to signs and symptoms that may reduce personal health, welfare and recovery"
+        },
+        {
+            "code": "7",
+            "display": "Ignores or rejects offers or resources or assistance to assure personal health, welfare and recovery"
+        },
+        {
+            "code": "9",
+            "display": "Requires intervention to assure recovery"
+        }
+    ]
+}

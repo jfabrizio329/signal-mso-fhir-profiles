@@ -1,0 +1,73 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-medication-psychiatric-service",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-medication-psychiatric-service",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSMedicationPsychiatricService",
+    "title": "Questionnaire CCARS Medication Psychiatric Service",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Identifies medication/psychiatry service only clients as defined in 2 CCR 502-1, Section 21.190.7 MEDICATION/PSYCHIATRIC SERVICES ONLY AT MENTAL HEALTH CENTERS AND CLINICS [Eff. 11/1/13].",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-medication-psychiatric-service",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "The client is not a psychiatry/medication service only client"
+                    },
+                    {
+                        "code": "1",
+                        "display": "The client is a psychiatry/medication service only client"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-medication-psychiatric-service",
+                "code": "0",
+                "display": "The client is not a psychiatry/medication service only client"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-medication-psychiatric-service",
+                "code": "1",
+                "display": "The client is a psychiatry/medication service only client"
+            }
+        ]
+    }
+}

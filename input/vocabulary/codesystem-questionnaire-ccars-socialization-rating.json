@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-socialization-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-socialization-rating",
+    "name": "QuestionnaireCCARSSocializationRating",
+    "title": "Questionnaire CCARS Socialization Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person's conduct deviates cultural and social norms.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-socialization-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Generally conforms to social norms and rules"
+        },
+        {
+            "code": "3",
+            "display": "Occasionally violates rights of others, social norms and or rules"
+        },
+        {
+            "code": "5",
+            "display": "Frequently violates rights of others, social norms and or rules"
+        },
+        {
+            "code": "7",
+            "display": "No regard for rules, rights of others and seriously disruptive to others"
+        },
+        {
+            "code": "9",
+            "display": "Complete disregard for rights of others, social norms, and/or rules resulting in social destructiveness and dangerousness to others"
+        }
+    ]
+}

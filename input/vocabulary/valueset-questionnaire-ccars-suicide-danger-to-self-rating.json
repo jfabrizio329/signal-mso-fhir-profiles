@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-suicide-danger-to-self-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-suicide-danger-to-self-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSSuicideDangerToOthersRating",
+    "title": "Questionnaire CCARS Suicide Danger To Others Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person experiences self-harming thoughts and/or behaviors.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-suicide-danger-to-self-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No indication of self-destructiveness or self-endangerment"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Self-harmful tendencies are evident from speech and/or previous behavior, and person may experience harmful thoughts with minimal danger to self"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Self-harmful thoughts and/or actions are present and are of serious concern"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Self-harmful thoughts and/ or actions are persistent, affecting most aspects of daily functioning"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Requires immediate intervention to prevent suicide or physical self-injury"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-suicide-danger-to-self-rating",
+                "code": "1",
+                "display": "No indication of self-destructiveness or self-endangerment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-suicide-danger-to-self-rating",
+                "code": "3",
+                "display": "Self-harmful tendencies are evident from speech and/or previous behavior, and person may experience harmful thoughts with minimal danger to self"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-suicide-danger-to-self-rating",
+                "code": "5",
+                "display": "Self-harmful thoughts and/or actions are present and are of serious concern"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-suicide-danger-to-self-rating",
+                "code": "7",
+                "display": "Self-harmful thoughts and/ or actions are persistent, affecting most aspects of daily functioning"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-suicide-danger-to-self-rating",
+                "code": "9",
+                "display": "Requires immediate intervention to prevent suicide or physical self-injury"
+            }
+        ]
+    }
+}

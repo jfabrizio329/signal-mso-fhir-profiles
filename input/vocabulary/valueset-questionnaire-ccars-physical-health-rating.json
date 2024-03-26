@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-physical-health-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-physical-health-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSPhysicalHealthRating",
+    "title": "Questionnaire CCARS Physical Health Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person's physical health or condition is a source of concern.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No physical problems that interfere with daily living"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Presence of occasional or mild physical problems that may interfere with daily living"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Frequent or chronic physical health problems"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Incapacitated due to medical/physical health, and likely to require inpatient or residential health care"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Presence of critical medical condition(s) requiring immediate inpatient or residential health care treatment"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+                "code": "1",
+                "display": "No physical problems that interfere with daily living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+                "code": "3",
+                "display": "Presence of occasional or mild physical problems that may interfere with daily living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+                "code": "5",
+                "display": "Frequent or chronic physical health problems"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+                "code": "7",
+                "display": "Incapacitated due to medical/physical health, and likely to require inpatient or residential health care"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-physical-health-rating",
+                "code": "9",
+                "display": "Presence of critical medical condition(s) requiring immediate inpatient or residential health care treatment"
+            }
+        ]
+    }
+}

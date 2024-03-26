@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-yes-no-na",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-yes-no-na",
+    "name": "QuestionnaireCCARSYesNoNA",
+    "title": "Questionnaire CCARS Yes No NA",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "To identify answer YES/NO/NA to the survey questions.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-yes-no-na",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "No"
+        },
+        {
+            "code": "1",
+            "display": "Yes"
+        },
+        {
+            "code": "9",
+            "display": "N/A, Blank, None of the above"
+        }
+    ]
+}

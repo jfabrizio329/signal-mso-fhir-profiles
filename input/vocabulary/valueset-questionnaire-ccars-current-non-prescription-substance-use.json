@@ -1,0 +1,154 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-current-non-prescription-substance-use",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-current-non-prescription-substance-use",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSCurrentNonPrescriptionSubstanceUse",
+    "title": "Questionnaire CCARS Current Non-Prescription Substance Use",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Current Non-Prescription Substance Use by a person.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Tobacco/Vaping Nicotine"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Alcohol"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Marijuana"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Cocaine/Crack"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Heroin"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Other Opiates/Narcotics"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Barbiturates/Sedatives/Tranquilizers"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Amphetamines/Stimulants"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Hallucinogens"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Inhalants"
+                    },
+                    {
+                        "code": "11",
+                        "display": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "1",
+                "display": "Tobacco/Vaping Nicotine"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "2",
+                "display": "Alcohol"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "3",
+                "display": "Marijuana"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "4",
+                "display": "Cocaine/Crack"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "5",
+                "display": "Heroin"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "6",
+                "display": "Other Opiates/Narcotics"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "7",
+                "display": "Barbiturates/Sedatives/Tranquilizers"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "8",
+                "display": "Amphetamines/Stimulants"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "9",
+                "display": "Hallucinogens"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "10",
+                "display": "Inhalants"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-non-prescription-substance-use",
+                "code": "11",
+                "display": "None"
+            }
+        ]
+    }
+}

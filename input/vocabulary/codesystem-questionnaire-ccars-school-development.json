@@ -1,0 +1,44 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-school-development",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-school-development",
+    "name": "QuestionnaireCCARSSchoolDevelopment",
+    "title": "Questionnaire CCARS School Development",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "A Person's development at school.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-school-development",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "Talking/Communication"
+        },
+        {
+            "code": "1",
+            "display": "Physical/Motor Movements"
+        },
+        {
+            "code": "2",
+            "display": "Hearing/Seeing"
+        },
+        {
+            "code": "3",
+            "display": "Learning/Cognition"
+        },
+        {
+            "code": "4",
+            "display": "Playing & Interacting"
+        },
+        {
+            "code": "5",
+            "display": "Self-Help Skills"
+        },
+        {
+            "code": "6",
+            "display": "Child Readiness Developmentally Appropriate"
+        }
+    ]
+}
