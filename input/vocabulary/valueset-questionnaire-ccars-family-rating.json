@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-family-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-family-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSFamilyRating",
+    "title": "Questionnaire CCARS Family Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which issues within the individual's identified family and family relationships are problematic.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Family relationships are not of current concern"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Occasional friction or discord in family relationships"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Frequent disagreements or turbulence with family members"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Extensive disruption in family functioning which has resulted in out of home placement or estrangement"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Family members are at a considerable personal risk and require formal external supportive services"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+                "code": "1",
+                "display": "Family relationships are not of current concern"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+                "code": "3",
+                "display": "Occasional friction or discord in family relationships"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+                "code": "5",
+                "display": "Frequent disagreements or turbulence with family members"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+                "code": "7",
+                "display": "Extensive disruption in family functioning which has resulted in out of home placement or estrangement"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+                "code": "9",
+                "display": "Family members are at a considerable personal risk and require formal external supportive services"
+            }
+        ]
+    }
+}

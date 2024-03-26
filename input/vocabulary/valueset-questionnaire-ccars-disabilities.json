@@ -1,0 +1,109 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-disabilities",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-disabilities",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSDisabilities",
+    "title": "Questionnaire CCARS Disabilities",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Disabilities of person, if any.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Developmental Disability"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Deaf/Hearing Loss"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Blind/Vision Loss"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Learning Disability"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Traumatic Brain Injury"
+                    },
+                    {
+                        "code": "6",
+                        "display": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "code": "1",
+                "display": "Developmental Disability"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "code": "2",
+                "display": "Deaf/Hearing Loss"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "code": "3",
+                "display": "Blind/Vision Loss"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "code": "4",
+                "display": "Learning Disability"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "code": "5",
+                "display": "Traumatic Brain Injury"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+                "code": "6",
+                "display": "None"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-marital-status",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-marital-status",
+    "name": "QuestionnaireCCARSMaritalStatus",
+    "title": "Questionnaire CCARS Marital Status",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Marital status of the person.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-marital-status",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Never married"
+        },
+        {
+            "code": "2",
+            "display": "Married"
+        },
+        {
+            "code": "3",
+            "display": "Married, separated"
+        },
+        {
+            "code": "4",
+            "display": "Widowed"
+        },
+        {
+            "code": "5",
+            "display": "Divorced"
+        }
+    ]
+}

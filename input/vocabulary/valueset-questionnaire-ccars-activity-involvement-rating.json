@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-activity-involvement-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-activity-involvement-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSActivityInvolvementRating",
+    "title": "Questionnaire CCARS Overall Activity Involvement Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person participates in positive activities.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "High involvement in a variety of positive activities that are self, other and community focused"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Involvement in a variety of positive activities that includes others"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Involvement in a variety of positive activities but rarely includes others"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Engages in few, if any, positive activities, but rarely includes others"
+                    },
+                    {
+                        "code": "9",
+                        "display": "No identified positive activities"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+                "code": "1",
+                "display": "High involvement in a variety of positive activities that are self, other and community focused"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+                "code": "3",
+                "display": "Involvement in a variety of positive activities that includes others"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+                "code": "5",
+                "display": "Involvement in a variety of positive activities but rarely includes others"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+                "code": "7",
+                "display": "Engages in few, if any, positive activities, but rarely includes others"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+                "code": "9",
+                "display": "No identified positive activities"
+            }
+        ]
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-legal-status",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-legal-status",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSLegalStatus",
+    "title": "Questionnaire CCARS Legal Status",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Legal status at the time of this admission.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Voluntary"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Court-directed voluntary"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Forensic"
+                    },
+                    {
+                        "code": "4",
+                        "display": "72-hour evaluation and treatment"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Short term certification"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Long term certification"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Children's code C.R.S. 19-1-101"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Emergency/Involuntary alcohol/Drug commitment"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Conditional Release"
+                    },
+                    {
+                        "code": "11",
+                        "display": "DYC Commitment"
+                    },
+                    {
+                        "code": "12",
+                        "display": "DYC Detention"
+                    },
+                    {
+                        "code": "13",
+                        "display": "DOC/Community Parole"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "1",
+                "display": "Voluntary"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "2",
+                "display": "Court-directed voluntary"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "3",
+                "display": "Forensic"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "4",
+                "display": "72-hour evaluation and treatment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "5",
+                "display": "Short term certification"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "6",
+                "display": "Long term certification"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "8",
+                "display": "Children's code C.R.S. 19-1-101"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "9",
+                "display": "Emergency/Involuntary alcohol/Drug commitment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "10",
+                "display": "Conditional Release"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "11",
+                "display": "DYC Commitment"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "12",
+                "display": "DYC Detention"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-legal-status",
+                "code": "13",
+                "display": "DOC/Community Parole"
+            }
+        ]
+    }
+}

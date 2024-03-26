@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-history-current-victimization",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-history-current-victimization",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSHistoryCurrentVictimization",
+    "title": "Questionnaire CCARS History Current Victimization",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Whether a person been a victim at current or at past.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Sexual Abuse"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Neglect"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Physical Abuse"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Verbal Abuse"
+                    },
+                    {
+                        "code": "5",
+                        "display": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+                "code": "1",
+                "display": "Sexual Abuse"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+                "code": "2",
+                "display": "Neglect"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+                "code": "3",
+                "display": "Physical Abuse"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+                "code": "4",
+                "display": "Verbal Abuse"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+                "code": "5",
+                "display": "None"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-overall-recovery-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-recovery-rating",
+    "name": "QuestionnaireCCARSOverallRecoveryRating",
+    "title": "Questionnaire CCARS Overall Recovery Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person is involved in the process of getting better and developing/restoring/maintaining a positive and meaningful sense of self.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-overall-recovery-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Views self positively with the knowledge that setbacks may occur and is able to actively pursue and access resources to support recovery with a sense of empowerment and hopefulness about future outcomes"
+        },
+        {
+            "code": "3",
+            "display": "Hopeful about future outcomes and is actively participating and using resources to promote recovery"
+        },
+        {
+            "code": "5",
+            "display": "Expresses hopefulness about future outcomes and is willing to begin to engage in using available resources to promote recovery"
+        },
+        {
+            "code": "7",
+            "display": "Expresses a mixture of hopefulness and hopelessness about future outcomes and is interested in discussing available options and resources to aid in recovery"
+        },
+        {
+            "code": "9",
+            "display": "Entrenched in symptoms, expresses hopelessness about future outcomes AND does not actively engage in using available resources that might promote recovery"
+        }
+    ]
+}

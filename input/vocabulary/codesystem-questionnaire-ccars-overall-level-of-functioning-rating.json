@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-overall-level-of-functioning-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-overall-level-of-functioning-rating",
+    "name": "QuestionnaireCCARSOverallLevelOfFunctioningRating",
+    "title": "Questionnaire CCARS Overall Level Of Functioning Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person is able to carry out activities of daily living despite the presence of mental health symptoms.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-overall-level-of-functioning-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Functioning well in most activities of daily living"
+        },
+        {
+            "code": "3",
+            "display": "Adequate functioning in activities of daily living"
+        },
+        {
+            "code": "5",
+            "display": "Limited functioning in activities of daily living"
+        },
+        {
+            "code": "7",
+            "display": "Impaired functioning that interferes with most activities of daily living"
+        },
+        {
+            "code": "9",
+            "display": "Significantly impaired functioning, may be life threatening"
+        }
+    ]
+}

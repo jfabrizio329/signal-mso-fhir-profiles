@@ -1,0 +1,82 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-type-of-discharge",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-type-of-discharge",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSTypeOfDischarge",
+    "title": "Questionnaire CCARS Type Of Discharge",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Type of discharge that person goes for.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-type-of-discharge",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Treatment completed"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Transferred/Referred"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Treatment not completed"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-type-of-discharge",
+                "code": "1",
+                "display": "Treatment completed"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-type-of-discharge",
+                "code": "2",
+                "display": "Transferred/Referred"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-type-of-discharge",
+                "code": "3",
+                "display": "Treatment not completed"
+            }
+        ]
+    }
+}

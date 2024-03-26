@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-overall-level-of-functioning-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-overall-level-of-functioning-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSOverallLevelOfFunctioningRating",
+    "title": "Questionnaire CCARS Overall Level Of Functioning Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person is able to carry out activities of daily living despite the presence of mental health symptoms.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-level-of-functioning-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Functioning well in most activities of daily living"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Adequate functioning in activities of daily living"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Limited functioning in activities of daily living"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Impaired functioning that interferes with most activities of daily living"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Significantly impaired functioning, may be life threatening"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-level-of-functioning-rating",
+                "code": "1",
+                "display": "Functioning well in most activities of daily living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-level-of-functioning-rating",
+                "code": "3",
+                "display": "Adequate functioning in activities of daily living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-level-of-functioning-rating",
+                "code": "5",
+                "display": "Limited functioning in activities of daily living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-level-of-functioning-rating",
+                "code": "7",
+                "display": "Impaired functioning that interferes with most activities of daily living"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-overall-level-of-functioning-rating",
+                "code": "9",
+                "display": "Significantly impaired functioning, may be life threatening"
+            }
+        ]
+    }
+}

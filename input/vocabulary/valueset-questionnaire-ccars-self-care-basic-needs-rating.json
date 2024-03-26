@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-self-care-basic-needs-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-self-care-basic-needs-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSSelfCareBasicNeedsRating",
+    "title": "Questionnaire CCARS Self Care Basic Needs Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which mental health symptoms impact a person's ability to care for self and provide for needs.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Able to care for self and provide for own needs"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Occasional assistance required in caring for self and obtaining basic needs"
+                    },
+                    {
+                        "code": "5",
+                        "display": "High levels of assistance needed in caring for self and obtaining basic needs"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Unable to care for self and obtain basic needs in safe and sanitary manner"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Gravely disabled and in extreme need of complete supportive care"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+                "code": "1",
+                "display": "Able to care for self and provide for own needs"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+                "code": "3",
+                "display": "Occasional assistance required in caring for self and obtaining basic needs"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+                "code": "5",
+                "display": "High levels of assistance needed in caring for self and obtaining basic needs"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+                "code": "7",
+                "display": "Unable to care for self and obtain basic needs in safe and sanitary manner"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+                "code": "9",
+                "display": "Gravely disabled and in extreme need of complete supportive care"
+            }
+        ]
+    }
+}

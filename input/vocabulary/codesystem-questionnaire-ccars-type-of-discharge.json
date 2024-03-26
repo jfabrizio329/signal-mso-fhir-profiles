@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-type-of-discharge",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-type-of-discharge",
+    "name": "QuestionnaireCCARSTypeOfDischarge",
+    "title": "Questionnaire CCARS Type Of Discharge",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Type of discharge that person goes for.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-type-of-discharge",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Treatment completed"
+        },
+        {
+            "code": "2",
+            "display": "Transferred/Referred"
+        },
+        {
+            "code": "3",
+            "display": "Treatment not completed"
+        }
+    ]
+}

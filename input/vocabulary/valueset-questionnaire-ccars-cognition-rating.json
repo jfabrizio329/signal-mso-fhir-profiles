@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-cognition-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-cognition-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSCognitionRating",
+    "title": "Questionnaire CCARS Cognition Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person performs cognitive tasks and experiences symptoms such as, but not limited to, confusion, poor problem solving and impaired judgment.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No evidence of impaired cognitive capacity"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Occasional incidences of poor judgment or memory loss may occur"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Cognitive processes are persistently impaired and may exhibit impaired functioning"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Person may be unable to function independently due to significantly impaired cognitive processes"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Impaired cognitive processes result in inability to Care for self"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+                "code": "1",
+                "display": "No evidence of impaired cognitive capacity"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+                "code": "3",
+                "display": "Occasional incidences of poor judgment or memory loss may occur"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+                "code": "5",
+                "display": "Cognitive processes are persistently impaired and may exhibit impaired functioning"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+                "code": "7",
+                "display": "Person may be unable to function independently due to significantly impaired cognitive processes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+                "code": "9",
+                "display": "Impaired cognitive processes result in inability to Care for self"
+            }
+        ]
+    }
+}

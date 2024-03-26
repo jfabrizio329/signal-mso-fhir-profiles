@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-security-supervision-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-security-supervision-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSSecuritySupervisionRating",
+    "title": "Questionnaire CCARS Security Supervision Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which the person is in need of increased supervision.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No special security or supervision precautions needed"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Occasional behavior problems are present and require low levels of security and supervision."
+                    },
+                    {
+                        "code": "5",
+                        "display": "Requires moderate levels of security and supervision due to intermittent high-risk and/or dangerous behaviors."
+                    },
+                    {
+                        "code": "7",
+                        "display": "Close supervision, seclusion, suicide watch, or controlled medication administration may be necessary due to severe behavioral problems. Walkaway/escape potential may be high."
+                    },
+                    {
+                        "code": "9",
+                        "display": "Requires constant supervision or a secure environment due to behaviors that are likely to result in injury to self or others"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+                "code": "1",
+                "display": "No special security or supervision precautions needed"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+                "code": "3",
+                "display": "Occasional behavior problems are present and require low levels of security and supervision."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+                "code": "5",
+                "display": "Requires moderate levels of security and supervision due to intermittent high-risk and/or dangerous behaviors."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+                "code": "7",
+                "display": "Close supervision, seclusion, suicide watch, or controlled medication administration may be necessary due to severe behavioral problems. Walkaway/escape potential may be high."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-security-supervision-rating",
+                "code": "9",
+                "display": "Requires constant supervision or a secure environment due to behaviors that are likely to result in injury to self or others"
+            }
+        ]
+    }
+}

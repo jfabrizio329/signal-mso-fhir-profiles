@@ -1,0 +1,52 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-current-issues",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-issues",
+    "name": "QuestionnaireCCARSCurrentIssues",
+    "title": "Questionnaire CCARS Current Issues",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Current issue that a person undergoes.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-current-issues",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Sexual Misconduct"
+        },
+        {
+            "code": "2",
+            "display": "Danger to Self"
+        },
+        {
+            "code": "3",
+            "display": "Injures Others"
+        },
+        {
+            "code": "4",
+            "display": "Injury by Abuse/Assault"
+        },
+        {
+            "code": "5",
+            "display": "Reckless Self-Endangerment"
+        },
+        {
+            "code": "6",
+            "display": "Suicide Ideation"
+        },
+        {
+            "code": "7",
+            "display": "Suicide Plan"
+        },
+        {
+            "code": "8",
+            "display": "Suicide Attempt"
+        },
+        {
+            "code": "9",
+            "display": "None"
+        }
+    ]
+}

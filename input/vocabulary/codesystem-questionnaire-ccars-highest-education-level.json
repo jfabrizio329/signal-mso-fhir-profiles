@@ -1,0 +1,48 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-highest-education-level",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+    "name": "QuestionnaireCCARSHighestEducationLevel",
+    "title": "Questionnaire CCARS Highest Education Level",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Highest Education Level in Years.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-highest-education-level",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "PK",
+            "display": "The client has less than a Kindergarten education"
+        },
+        {
+            "code": "0",
+            "display": "Kindergarten"
+        },
+        {
+            "code": "1",
+            "display": "Grade 1"
+        },
+        {
+            "code": "12",
+            "display": "Grade 12 or GED"
+        },
+        {
+            "code": "14",
+            "display": "Some College"
+        },
+        {
+            "code": "16",
+            "display": "College Degree"
+        },
+        {
+            "code": "18",
+            "display": "Master's Degree"
+        },
+        {
+            "code": "20",
+            "display": "Doctoral Degree"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-current-living-arrangement",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+    "name": "QuestionnaireCCARSCurrentLivingArrangement",
+    "title": "Questionnaire CCARS Current Living Arrangement",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Information about the Person with whom he/she live with.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-current-living-arrangement",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Alone"
+        },
+        {
+            "code": "2",
+            "display": "Mother"
+        },
+        {
+            "code": "3",
+            "display": "Father"
+        },
+        {
+            "code": "4",
+            "display": "Sibling(s)"
+        },
+        {
+            "code": "5",
+            "display": "Relative(s), kin"
+        },
+        {
+            "code": "6",
+            "display": "Foster Parent(s)"
+        },
+        {
+            "code": "7",
+            "display": "Guardian"
+        },
+        {
+            "code": "8",
+            "display": "Spouse"
+        },
+        {
+            "code": "9",
+            "display": "Partner/Significant Other"
+        },
+        {
+            "code": "10",
+            "display": "Child(ren)"
+        },
+        {
+            "code": "11",
+            "display": "Unrelated Person"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-multiple-issues-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-multiple-issues-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSMultipleIssuesRating",
+    "title": "Questionnaire CCARS Multiple Issues Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person experiences Anxiety symptoms, manic symptoms and attention issues such as nervousness, tension, elevated mood, distractibility, inability to concentrate.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "No disruption of daily activities. Issues are temporary, appropriate and do not impact functioning."
+                    },
+                    {
+                        "code": "3",
+                        "display": "May persist beyond situational event, but not debilitating."
+                    },
+                    {
+                        "code": "5",
+                        "display": "Persistent, low-level or occasionally moderate, impacts daily functioning."
+                    },
+                    {
+                        "code": "7",
+                        "display": "Persistent and incapacitating, affecting most aspects of daily functioning."
+                    },
+                    {
+                        "code": "9",
+                        "display": "Person is completely incapacitated by and is seemingly incapable of responding appropriately."
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+                "code": "1",
+                "display": "No disruption of daily activities. Issues are temporary, appropriate and do not impact functioning."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+                "code": "3",
+                "display": "May persist beyond situational event, but not debilitating."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+                "code": "5",
+                "display": "Persistent, low-level or occasionally moderate, impacts daily functioning."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+                "code": "7",
+                "display": "Persistent and incapacitating, affecting most aspects of daily functioning."
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-multiple-issues-rating",
+                "code": "9",
+                "display": "Person is completely incapacitated by and is seemingly incapable of responding appropriately."
+            }
+        ]
+    }
+}

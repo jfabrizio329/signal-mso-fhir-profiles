@@ -1,0 +1,80 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-place-of-residence",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-place-of-residence",
+    "name": "QuestionnaireCCARSPlaceOfResidence",
+    "title": "Questionnaire CCARS Place Of Residence",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Place Of Residence.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-place-of-residence",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Correctional facility/Jail"
+        },
+        {
+            "code": "2",
+            "display": "Inpatient"
+        },
+        {
+            "code": "3",
+            "display": "ATU, Adults Only"
+        },
+        {
+            "code": "4",
+            "display": "Residential Treatment/Group"
+        },
+        {
+            "code": "5",
+            "display": "Foster Home (Youth)"
+        },
+        {
+            "code": "6",
+            "display": "Boarding home (Adult)"
+        },
+        {
+            "code": "7",
+            "display": "Group Home (Adult)"
+        },
+        {
+            "code": "8",
+            "display": "Nursing Home"
+        },
+        {
+            "code": "9",
+            "display": "Residential Facility (MH Adult)"
+        },
+        {
+            "code": "10",
+            "display": "Residential Facility (Other)"
+        },
+        {
+            "code": "11",
+            "display": "Sober Living"
+        },
+        {
+            "code": "12",
+            "display": "Homeless"
+        },
+        {
+            "code": "13",
+            "display": "Supported housing"
+        },
+        {
+            "code": "14",
+            "display": "Assisted Living"
+        },
+        {
+            "code": "15",
+            "display": "Independent Living"
+        },
+        {
+            "code": "16",
+            "display": "Halfway House"
+        }
+    ]
+}

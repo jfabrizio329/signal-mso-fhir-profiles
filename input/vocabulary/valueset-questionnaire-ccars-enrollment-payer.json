@@ -1,0 +1,127 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-enrollment-payer",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-enrollment-payer",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSEnrollmentPayer",
+    "title": "Questionnaire CCARS Enrollment Payer",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Enrollment Payer for the person.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Medicaid Fee for Service"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Medicaid - Capitated"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Medicare"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Self-Pay"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Insurance & Third Party"
+                    },
+                    {
+                        "code": "6",
+                        "display": "State/Other Federal"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Local"
+                    },
+                    {
+                        "code": "8",
+                        "display": "CHP+"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "1",
+                "display": "Medicaid Fee for Service"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "2",
+                "display": "Medicaid - Capitated"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "3",
+                "display": "Medicare"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "4",
+                "display": "Self-Pay"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "5",
+                "display": "Insurance & Third Party"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "6",
+                "display": "State/Other Federal"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "7",
+                "display": "Local"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
+                "code": "8",
+                "display": "CHP+"
+            }
+        ]
+    }
+}

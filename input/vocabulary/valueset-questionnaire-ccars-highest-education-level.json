@@ -1,0 +1,127 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-highest-education-level",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-highest-education-level",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSHighestEducationLevel",
+    "title": "Questionnaire CCARS Highest Education Level",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Highest Education Level in Years.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "concept": [
+                    {
+                        "code": "PK",
+                        "display": "The client has less than a Kindergarten education"
+                    },
+                    {
+                        "code": "0",
+                        "display": "Kindergarten"
+                    },
+                    {
+                        "code": "1",
+                        "display": "Grade 1"
+                    },
+                    {
+                        "code": "12",
+                        "display": "Grade 12 or GED"
+                    },
+                    {
+                        "code": "14",
+                        "display": "Some College"
+                    },
+                    {
+                        "code": "16",
+                        "display": "College Degree"
+                    },
+                    {
+                        "code": "18",
+                        "display": "Master's Degree"
+                    },
+                    {
+                        "code": "20",
+                        "display": "Doctoral Degree"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "PK",
+                "display": "The client has less than a Kindergarten education"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "0",
+                "display": "Kindergarten"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "1",
+                "display": "Grade 1"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "12",
+                "display": "Grade 12 or GED"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "14",
+                "display": "Some College"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "16",
+                "display": "College Degree"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "18",
+                "display": "Master's Degree"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-highest-education-level",
+                "code": "20",
+                "display": "Doctoral Degree"
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-disabilities",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-disabilities",
+    "name": "QuestionnaireCCARSDisabilities",
+    "title": "Questionnaire CCARS Disabilities",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Disabilities of person, if any.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-disabilities",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Developmental Disability"
+        },
+        {
+            "code": "2",
+            "display": "Deaf/Hearing Loss"
+        },
+        {
+            "code": "3",
+            "display": "Blind/Vision Loss"
+        },
+        {
+            "code": "4",
+            "display": "Learning Disability"
+        },
+        {
+            "code": "5",
+            "display": "Traumatic Brain Injury"
+        },
+        {
+            "code": "6",
+            "display": "None"
+        }
+    ]
+}

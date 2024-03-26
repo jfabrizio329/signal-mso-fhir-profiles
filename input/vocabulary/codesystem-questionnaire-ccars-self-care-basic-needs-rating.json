@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-self-care-basic-needs-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-self-care-basic-needs-rating",
+    "name": "QuestionnaireCCARSSelfCareBasicNeedsRating",
+    "title": "Questionnaire CCARS Self Care Basic Needs Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which mental health symptoms impact a person's ability to care for self and provide for needs.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-self-care-basic-needs-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Able to care for self and provide for own needs"
+        },
+        {
+            "code": "3",
+            "display": "Occasional assistance required in caring for self and obtaining basic needs"
+        },
+        {
+            "code": "5",
+            "display": "High levels of assistance needed in caring for self and obtaining basic needs"
+        },
+        {
+            "code": "7",
+            "display": "Unable to care for self and obtain basic needs in safe and sanitary manner"
+        },
+        {
+            "code": "9",
+            "display": "Gravely disabled and in extreme need of complete supportive care"
+        }
+    ]
+}

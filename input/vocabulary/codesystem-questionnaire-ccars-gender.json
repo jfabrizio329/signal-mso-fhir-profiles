@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-gender",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-gender",
+    "name": "QuestionnaireCCARSGender",
+    "title": "Questionnaire CCARS Gender",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "To identify a person's Gender.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-gender",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "M",
+            "display": "Male"
+        },
+        {
+            "code": "F",
+            "display": "Female"
+        }
+    ]
+}

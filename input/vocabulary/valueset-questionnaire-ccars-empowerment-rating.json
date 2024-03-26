@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-empowerment-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-empowerment-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSEmpowermentRating",
+    "title": "Questionnaire CCARS Empowerment Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person uses available resources that contribute to personal health, welfare, and recovery. This includes knowledge and understanding of symptoms, treatment options and resource alternatives.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Actively engages in planning and activities to assure optimal personal health, welfare and recovery"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Is aware of some available resources and generally acts to access them to assure personal health, welfare and recovery"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Does not respond to signs and symptoms that may reduce personal health, welfare and recovery"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Ignores or rejects offers or resources or assistance to assure personal health, welfare and recovery"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Requires intervention to assure recovery"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+                "code": "1",
+                "display": "Actively engages in planning and activities to assure optimal personal health, welfare and recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+                "code": "3",
+                "display": "Is aware of some available resources and generally acts to access them to assure personal health, welfare and recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+                "code": "5",
+                "display": "Does not respond to signs and symptoms that may reduce personal health, welfare and recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+                "code": "7",
+                "display": "Ignores or rejects offers or resources or assistance to assure personal health, welfare and recovery"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-empowerment-rating",
+                "code": "9",
+                "display": "Requires intervention to assure recovery"
+            }
+        ]
+    }
+}

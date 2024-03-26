@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-medication-psychiatric-service",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-medication-psychiatric-service",
+    "name": "QuestionnaireCCARSMedicationPsychiatricService",
+    "title": "Questionnaire CCARS Medication Psychiatric Service",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Identifies medication/psychiatry service only clients as defined in 2 CCR 502-1, Section 21.190.7 MEDICATION/PSYCHIATRIC SERVICES ONLY AT MENTAL HEALTH CENTERS AND CLINICS [Eff. 11/1/13].",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-medication-psychiatric-service",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "0",
+            "display": "The client is not a psychiatry/medication service only client"
+        },
+        {
+            "code": "1",
+            "display": "The client is a psychiatry/medication service only client"
+        }
+    ]
+}

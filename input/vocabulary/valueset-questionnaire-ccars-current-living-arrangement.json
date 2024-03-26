@@ -1,0 +1,154 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-current-living-arrangement",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-current-living-arrangement",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSCurrentLivingArrangement",
+    "title": "Questionnaire CCARS Current Living Arrangement",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Information about the Person with whom he/she live with.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Alone"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Mother"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Father"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Sibling(s)"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Relative(s), kin"
+                    },
+                    {
+                        "code": "6",
+                        "display": "Foster Parent(s)"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Guardian"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Spouse"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Partner/Significant Other"
+                    },
+                    {
+                        "code": "10",
+                        "display": "Child(ren)"
+                    },
+                    {
+                        "code": "11",
+                        "display": "Unrelated Person"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "1",
+                "display": "Alone"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "2",
+                "display": "Mother"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "3",
+                "display": "Father"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "4",
+                "display": "Sibling(s)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "5",
+                "display": "Relative(s), kin"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "6",
+                "display": "Foster Parent(s)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "7",
+                "display": "Guardian"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "8",
+                "display": "Spouse"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "9",
+                "display": "Partner/Significant Other"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "10",
+                "display": "Child(ren)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-current-living-arrangement",
+                "code": "11",
+                "display": "Unrelated Person"
+            }
+        ]
+    }
+}

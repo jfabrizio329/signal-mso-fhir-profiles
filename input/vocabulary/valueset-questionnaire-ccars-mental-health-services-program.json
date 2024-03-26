@@ -1,0 +1,91 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-mental-health-services-program",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-mental-health-services-program",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSMentalHealthServicesProgram",
+    "title": "Questionnaire CCARS Mental Health Services Program",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "The 27-65 Program is a mental health services program outlined in Colorado law (C.R.S. 27-65 et seq.) which regulates the involuntary care and treatment of individuals with mental health disorders.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-mental-health-services-program",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Danger to Self"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Danger to Others"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Gravely Disabled"
+                    },
+                    {
+                        "code": "4",
+                        "display": "Does not apply"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-mental-health-services-program",
+                "code": "1",
+                "display": "Danger to Self"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-mental-health-services-program",
+                "code": "2",
+                "display": "Danger to Others"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-mental-health-services-program",
+                "code": "3",
+                "display": "Gravely Disabled"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-mental-health-services-program",
+                "code": "4",
+                "display": "Does not apply"
+            }
+        ]
+    }
+}

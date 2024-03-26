@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-cognition-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-cognition-rating",
+    "name": "QuestionnaireCCARSCognitionRating",
+    "title": "Questionnaire CCARS Cognition Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person performs cognitive tasks and experiences symptoms such as, but not limited to, confusion, poor problem solving and impaired judgment.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-cognition-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "No evidence of impaired cognitive capacity"
+        },
+        {
+            "code": "3",
+            "display": "Occasional incidences of poor judgment or memory loss may occur"
+        },
+        {
+            "code": "5",
+            "display": "Cognitive processes are persistently impaired and may exhibit impaired functioning"
+        },
+        {
+            "code": "7",
+            "display": "Person may be unable to function independently due to significantly impaired cognitive processes"
+        },
+        {
+            "code": "9",
+            "display": "Impaired cognitive processes result in inability to Care for self"
+        }
+    ]
+}

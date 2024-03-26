@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-existence-presenting-problem",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-existence-presenting-problem",
+    "name": "QuestionnaireCCARSExistencePresentingProblem",
+    "title": "Questionnaire CCARS Existence Presenting Problem",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "How long the client's mental health problem existed prior to the current admission.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-existence-presenting-problem",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "The problem has existed longer than one year"
+        },
+        {
+            "code": "2",
+            "display": "The problem has existed one year or less"
+        }
+    ]
+}

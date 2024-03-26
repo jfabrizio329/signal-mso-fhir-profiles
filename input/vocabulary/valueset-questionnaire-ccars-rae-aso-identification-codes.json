@@ -1,0 +1,181 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-rae-aso-identification-codes",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-rae-aso-identification-codes",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSRAEASOIdentificationCodes",
+    "title": "Questionnaire CCARS RAE ASO Identification Codes",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Medicaid/RAE clients will select the RAE Identification Codes and Crisis system clients will select ASO codes.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "concept": [
+                    {
+                        "code": "RM",
+                        "display": "RAE Rocky Mountain Health Plans (Region 1)"
+                    },
+                    {
+                        "code": "NP",
+                        "display": "RAE Northeast Health Partners (Region 2)"
+                    },
+                    {
+                        "code": "CA",
+                        "display": "RAE Colorado Access (Region 3)"
+                    },
+                    {
+                        "code": "HC",
+                        "display": "RAE Health Colorado, Inc. (Region 4)"
+                    },
+                    {
+                        "code": "CB",
+                        "display": "RAE Colorado Access (Region 5)"
+                    },
+                    {
+                        "code": "CU",
+                        "display": "RAE Colorado Community Health Alliance (Region 6)"
+                    },
+                    {
+                        "code": "CX",
+                        "display": "RAE Colorado Community Health Alliance (Region 7)"
+                    },
+                    {
+                        "code": "A1",
+                        "display": "ASO Rocky Mountain Health Plans"
+                    },
+                    {
+                        "code": "A2",
+                        "display": "ASO Carelon Behavioral Health"
+                    },
+                    {
+                        "code": "A3",
+                        "display": "ASO Signal Behavioral Health Network"
+                    },
+                    {
+                        "code": "A4",
+                        "display": "ASO Health Colorado"
+                    },
+                    {
+                        "code": "A5",
+                        "display": "ASO Signal Behavioral Health Network"
+                    },
+                    {
+                        "code": "A6",
+                        "display": "ASO Signal Behavioral Health Network"
+                    },
+                    {
+                        "code": "A7",
+                        "display": "ASO Colorado Community Health Alliance CCHA"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "RM",
+                "display": "RAE Rocky Mountain Health Plans (Region 1)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "NP",
+                "display": "RAE Northeast Health Partners (Region 2)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "CA",
+                "display": "RAE Colorado Access (Region 3)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "HC",
+                "display": "RAE Health Colorado, Inc. (Region 4)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "CB",
+                "display": "RAE Colorado Access (Region 5)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "CU",
+                "display": "RAE Colorado Community Health Alliance (Region 6)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "CX",
+                "display": "RAE Colorado Community Health Alliance (Region 7)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A1",
+                "display": "ASO Rocky Mountain Health Plans"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A2",
+                "display": "ASO Carelon Behavioral Health"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A3",
+                "display": "ASO Signal Behavioral Health Network"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A4",
+                "display": "ASO Health Colorado"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A5",
+                "display": "ASO Signal Behavioral Health Network"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A6",
+                "display": "ASO Signal Behavioral Health Network"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-rae-aso-identification-codes",
+                "code": "A7",
+                "display": "ASO Colorado Community Health Alliance CCHA"
+            }
+        ]
+    }
+}

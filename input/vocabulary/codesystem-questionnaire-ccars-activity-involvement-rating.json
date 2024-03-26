@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-activity-involvement-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-activity-involvement-rating",
+    "name": "QuestionnaireCCARSActivityInvolvementRating",
+    "title": "Questionnaire CCARS Overall Activity Involvement Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which a person participates in positive activities.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-activity-involvement-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "High involvement in a variety of positive activities that are self, other and community focused"
+        },
+        {
+            "code": "3",
+            "display": "Involvement in a variety of positive activities that includes others"
+        },
+        {
+            "code": "5",
+            "display": "Involvement in a variety of positive activities but rarely includes others"
+        },
+        {
+            "code": "7",
+            "display": "Engages in few, if any, positive activities, but rarely includes others"
+        },
+        {
+            "code": "9",
+            "display": "No identified positive activities"
+        }
+    ]
+}

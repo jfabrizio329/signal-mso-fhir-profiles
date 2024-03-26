@@ -1,0 +1,100 @@
+{
+    "resourceType": "ValueSet",
+    "id": "questionnaire-ccars-hope-rating",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+            "valueCode": "pa"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+            "valueInteger": 1
+        }
+    ],
+    "url": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-hope-rating",
+    "version": "6.0.0",
+    "name": "QuestionnaireCCARSHopeRating",
+    "title": "Questionnaire CCARS Hope Rating",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                }
+            ]
+        }
+    ],
+    "description": "Extent to which a person is optimistic about future outcomes.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Openly expresses hope for the future and is making efforts to achieve better outcomes"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Openly expresses hope for the future, but is not currently making efforts that would lead to better outcomes"
+                    },
+                    {
+                        "code": "5",
+                        "display": "Expresses both positive and negative attitudes in regard to future outcomes"
+                    },
+                    {
+                        "code": "7",
+                        "display": "Does not express hope for the future, but may be convinced that there is opportunity for better outcomes"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Actively expresses hopelessness about future change"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+                "code": "1",
+                "display": "Openly expresses hope for the future and is making efforts to achieve better outcomes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+                "code": "3",
+                "display": "Openly expresses hope for the future, but is not currently making efforts that would lead to better outcomes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+                "code": "5",
+                "display": "Expresses both positive and negative attitudes in regard to future outcomes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+                "code": "7",
+                "display": "Does not express hope for the future, but may be convinced that there is opportunity for better outcomes"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-hope-rating",
+                "code": "9",
+                "display": "Actively expresses hopelessness about future change"
+            }
+        ]
+    }
+}

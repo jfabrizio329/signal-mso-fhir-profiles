@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-history-current-victimization",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-history-current-victimization",
+    "name": "QuestionnaireCCARSHistoryCurrentVictimization",
+    "title": "Questionnaire CCARS History Current Victimization",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Whether a person been a victim at current or at past.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-history-current-victimization",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Sexual Abuse"
+        },
+        {
+            "code": "2",
+            "display": "Neglect"
+        },
+        {
+            "code": "3",
+            "display": "Physical Abuse"
+        },
+        {
+            "code": "4",
+            "display": "Verbal Abuse"
+        },
+        {
+            "code": "5",
+            "display": "None"
+        }
+    ]
+}

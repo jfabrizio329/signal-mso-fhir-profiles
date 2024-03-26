@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "questionnaire-ccars-family-rating",
+    "url": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-family-rating",
+    "name": "QuestionnaireCCARSFamilyRating",
+    "title": "Questionnaire CCARS Family Rating",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Extent to which issues within the individual's identified family and family relationships are problematic.",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/questionnaire-ccars-family-rating",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Family relationships are not of current concern"
+        },
+        {
+            "code": "3",
+            "display": "Occasional friction or discord in family relationships"
+        },
+        {
+            "code": "5",
+            "display": "Frequent disagreements or turbulence with family members"
+        },
+        {
+            "code": "7",
+            "display": "Extensive disruption in family functioning which has resulted in out of home placement or estrangement"
+        },
+        {
+            "code": "9",
+            "display": "Family members are at a considerable personal risk and require formal external supportive services"
+        }
+    ]
+}
