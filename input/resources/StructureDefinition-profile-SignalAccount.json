@@ -43,7 +43,7 @@
         "short": "Payer Account Identifier",
         "definition": "Payer Account identifier is created as slice to store the Payer identifier information",
         "patternIdentifier": {
-          "system": "https://signalbhn.org/fhir/payer-account-id"
+          "system": "https://signalbhn.org/fhir/sid/payer-account-id"
         }
       },
       {
@@ -53,7 +53,7 @@
         "short": "Account Identifier",
         "definition": "User identifier is created as slice to store User ID informtion who generate the Pre-bill",
         "patternIdentifier": {
-          "system": "https://signalbhn.org/fhir/user-id"
+          "system": "https://signalbhn.org/fhir/sid/user-id"
         }
       },
       {
@@ -63,7 +63,7 @@
         "short": "Account Identifier",
         "definition": "Service Org identifier is created as slice to store User affiliated service org",
         "patternIdentifier": {
-          "system": "https://signalbhn.org/fhir/serviceorg-id"
+          "system": "https://signalbhn.org/fhir/sid/serviceorg-id"
         }
       }
     ]
