@@ -35,6 +35,36 @@
         "patternIdentifier": {
           "system": "https://signalbhn.org/fhir/sid/edi/account-id"
         }
+      },
+      {
+        "id": "Account.identifier:PayerAccountID",
+        "path": "Account.identifier",
+        "sliceName": "PayerAccountID",
+        "short": "Payer Account Identifier",
+        "definition": "Payer Account identifier is created as slice to store the Payer identifier information",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/payer-account-id"
+        }
+      },
+      {
+        "id": "Account.identifier:UserId",
+        "path": "Account.identifier",
+        "sliceName": "UserId",
+        "short": "Account Identifier",
+        "definition": "User identifier is created as slice to store User ID informtion who generate the Pre-bill",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/account-user-id"
+        }
+      },
+      {
+        "id": "Account.identifier:ServiceOrgId",
+        "path": "Account.identifier",
+        "sliceName": "ServiceOrgId",
+        "short": "Account Identifier",
+        "definition": "Service Org identifier is created as slice to store User affiliated service org",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/account-serviceorg-id"
+        }
       }
     ]
   }
