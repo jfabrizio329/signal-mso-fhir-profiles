@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-invoice",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/invoice",
+  "name": "Invoice",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Invoice",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Invoice",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Invoice.identifier",
+        "path": "Invoice.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Invoice identifier",
+        "definition": "Invoice identifier"
+      },
+      {
+        "id": "Invoice.identifier:UserId",
+        "path": "Invoice.identifier",
+        "sliceName": "UserId",
+        "short": "Invoice User Identifier",
+        "definition": "User who generate the pre-bill",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/invoice-user-id"
+        }
+      },
+      {
+        "id": "Invoice.identifier:ServiceOrgId",
+        "path": "Invoice.identifier",
+        "sliceName": "ServiceOrgId",
+        "short": "Invoice ServiceOrg Identifier",
+        "definition": "Service Org identifier is created as slice to store User affiliated service org",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/invoice-serviceorg-id"
+        }
+      },
+      {
+        "id": "Invoice.type",
+        "path": "Invoice.type",
+        "binding": {
+          "strength": "extensible",
+          "description": "Invoice"
+        }
+      }
+    ]
+  }
+}

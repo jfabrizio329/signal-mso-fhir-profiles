@@ -47,25 +47,15 @@
         }
       },
       {
-        "id": "Account.identifier:UserId",
+        "id": "Account.identifier:FundId",
         "path": "Account.identifier",
-        "sliceName": "UserId",
+        "sliceName": "FundId",
         "short": "Account Identifier",
-        "definition": "User identifier is created as slice to store User ID informtion who generate the Pre-bill",
+        "definition": "Fund identifier is created as slice to store the Payers fund id information",
         "patternIdentifier": {
-          "system": "https://signalbhn.org/fhir/sid/account-user-id"
+            "system": "https://signalbhn.org/fhir/sid/payer-account-fund-id"
         }
-      },
-      {
-        "id": "Account.identifier:ServiceOrgId",
-        "path": "Account.identifier",
-        "sliceName": "ServiceOrgId",
-        "short": "Account Identifier",
-        "definition": "Service Org identifier is created as slice to store User affiliated service org",
-        "patternIdentifier": {
-          "system": "https://signalbhn.org/fhir/sid/account-serviceorg-id"
-        }
-      }
+    }
     ]
   }
 }

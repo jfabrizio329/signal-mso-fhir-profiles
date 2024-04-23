@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-admin-multiplier-rate",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalAdminMultiplierRate",
+  "name": "SignalAdminMultiplierRate",
+  "status": "draft",
+  "description": "Admin multiplier rate with respect to effective date to the Payer account",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Account"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Admin Multiplier Rate",
+        "definition": "Admin Multiplier Rate with respective to the Effective date to the Payer account"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalAdminMultiplierRate"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      }
+    ]
+  }
+}
