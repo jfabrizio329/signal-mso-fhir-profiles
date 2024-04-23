@@ -83,8 +83,8 @@
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "asam-4",
-                        "display": "ASAM Level 4 - Medically Managed Intensive Inpatient"
+                        "code": "asam-3.7-inpatient",
+                        "display": "ASAM Level 3.7 - Medically Monitored High-Intensity Inpatient Services for Adolescents"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
@@ -110,11 +110,6 @@
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
                         "code": "asam-ots",
                         "display": "ASAM - Opioid Treatment Services"
-                    },
-                    {
-                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "asam-obot",
-                        "display": "ASAM - Office-Based Opioid Treatment (OBOT)"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",

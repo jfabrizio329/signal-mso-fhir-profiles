@@ -54,8 +54,8 @@
                     "display": "ASAM Level 3.7 - Medically Managed High-Intensity Residential Services"
                 },
                 {
-                    "code": "asam-4",
-                    "display": "ASAM Level 4 - Medically Managed Intensive Inpatient"
+                    "code": "asam-3.7-inpatient",
+                    "display": "ASAM Level 3.7 - Medically Monitored High-Intensity Inpatient Services for Adolescents"
                 },
                 {
                     "code": "asam-1-wm",
@@ -76,10 +76,6 @@
                 {
                     "code": "asam-ots",
                     "display": "ASAM - Opioid Treatment Services"
-                },
-                {
-                    "code": "asam-obot",
-                    "display": "ASAM - Office-Based Opioid Treatment (OBOT)"
                 },
                 {
                     "code": "da",
