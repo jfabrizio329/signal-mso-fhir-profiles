@@ -43,6 +43,15 @@
           "strength": "required",
           "valueSet": "https://signalbhn.org/fhir/ValueSet/signal-healthcare-service-type"
         }
+      },
+      {
+        "id": "Encounter.reasonCode.coding.display",
+        "path": "Encounter.reasonCode.coding.display",
+        "binding": {
+          "strength": "required",
+          "description": "Reason for Discharge",
+          "valueSet": "https://signalbhn.org/fhir/ValueSet/reason-for-discharge"
+        }
       }
     ]
   }
