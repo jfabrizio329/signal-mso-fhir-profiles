@@ -1,0 +1,46 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "survey-state-activity-status",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/StateActivityStatus",
+  "name": "SurveyStateActivityStatus",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "QuestionnaireResponse"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/StateActivityStatus"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ]
+      },
+      {
+        "id": "Extension.value[x].code",
+        "path": "Extension.value[x].code",
+        "binding": {
+          "strength": "required",
+          "description": "Valueset for State activity status",
+          "valueSet": "https://signalbhn.org/fhir/us/core/ValueSet/signal-state-activity-status"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-questionnaire-response",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalQuestionnaireResponse",
+  "name": "SignalQuestionnaireResponse",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "QuestionnaireResponse",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "QuestionnaireResponse.identifier",
+        "path": "QuestionnaireResponse.identifier",
+        "short": "Identifier for Questionnaire Response",
+        "definition": "Identifier for Questionnaire Response"
+      },
+      {
+        "id": "QuestionnaireResponse.identifier.type",
+        "path": "QuestionnaireResponse.identifier.type",
+        "short": "Types of the Identifier",
+        "definition": "Types of the Identifier"
+      }
+    ]
+  }
+}
