@@ -61,7 +61,7 @@
                     },
                     {
                         "code": "5",
-                        "display": "Medicaid"
+                        "display": "State ID"
                     },
                     {
                         "code": "6",
@@ -121,7 +121,7 @@
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-payment-for-treatment",
                 "code": "5",
-                "display": "Medicaid"
+                "display": "State ID"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-dacods-source-of-payment-for-treatment",

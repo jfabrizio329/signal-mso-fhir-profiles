@@ -14,11 +14,11 @@
     "concept": [
         {
             "code": "1",
-            "display": "Medicaid Fee for Service"
+            "display": "State ID Fee for Service"
         },
         {
             "code": "2",
-            "display": "Medicaid - Capitated"
+            "display": "State ID - Capitated"
         },
         {
             "code": "3",

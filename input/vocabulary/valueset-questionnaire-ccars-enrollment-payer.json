@@ -45,11 +45,11 @@
                 "concept": [
                     {
                         "code": "1",
-                        "display": "Medicaid Fee for Service"
+                        "display": "State ID Fee for Service"
                     },
                     {
                         "code": "2",
-                        "display": "Medicaid - Capitated"
+                        "display": "State ID - Capitated"
                     },
                     {
                         "code": "3",
@@ -85,12 +85,12 @@
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
                 "code": "1",
-                "display": "Medicaid Fee for Service"
+                "display": "State ID Fee for Service"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
                 "code": "2",
-                "display": "Medicaid - Capitated"
+                "display": "State ID - Capitated"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/questionnaire-ccars-enrollment-payer",
