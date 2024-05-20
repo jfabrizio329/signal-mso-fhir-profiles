@@ -1,0 +1,52 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-state-activity-status",
+    "url": "https://signalbhn.org/fhir/us/core/ValueSet/signal-state-activity-status",
+    "name": "SignalStateActivityStatus",
+    "title": "Signal State Activity Status",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-09-26",
+    "description": "To define the status of the State's activity.",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-state-activity-status",
+                "concept": [
+                    {
+                        "code": "sent",
+                        "display": "Sent"
+                    },
+                    {
+                        "code": "accepted",
+                        "display": "Accepted"
+                    },
+                    {
+                        "code": "rejected",
+                        "display": "Rejected"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-state-activity-status",
+                "code": "sent",
+                "display": "Sent"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-state-activity-status",
+                "code": "accepted",
+                "display": "Accepted"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-state-activity-status",
+                "code": "rejected",
+                "display": "Rejected"
+            }
+        ]
+    }
+}
