@@ -52,6 +52,10 @@
                     {
                         "code": "7",
                         "display": "Unsuccessful Closure"
+                    },
+                    {
+                        "code": "8",
+                        "display": "N/A"
                     }
                 ]
             }
@@ -94,6 +98,11 @@
                 "system": "https://signalbhn.org/fhir/CodeSystem/reason-for-discharge",
                 "code": "7",
                 "display": "Unsuccessful Closure"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/reason-for-discharge",
+                "code": "8",
+                "display": "N/A"
             }
         ]
     }

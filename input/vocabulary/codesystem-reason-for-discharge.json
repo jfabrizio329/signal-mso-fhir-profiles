@@ -39,6 +39,10 @@
         {
             "code": "7",
             "display": "Unsuccessful Closure"
+        },
+        {
+            "code": "8",
+            "display": "N/A"
         }
     ]
 }
