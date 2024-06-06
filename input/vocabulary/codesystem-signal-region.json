@@ -19,11 +19,11 @@
     "concept": [
         {
             "code": "SSPA1",
-            "display": "SSPA 1 : Northeast Colorado (Signal)"
+            "display": "SSPA 1 : Northeast Colorado"
         },
         {
             "code": "SSPA2",
-            "display": "SSPA 2 : Metro Denver (Signal)"
+            "display": "SSPA 2 : Metro Denver"
         },
         {
             "code": "SSPA3",
@@ -31,7 +31,7 @@
         },
         {
             "code": "SSPA4",
-            "display": "SSPA 4 : Southeastern Colorado including San Luis Valley (Signal)"
+            "display": "SSPA 4 : Southeastern Colorado including San Luis Valley"
         },
         {
             "code": "SSPA5",
