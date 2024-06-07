@@ -42,14 +42,6 @@
             "display": "Invoice"
         },
         {
-            "code": "audit-requested-records",
-            "display": "Audit Requested Records"
-        },
-        {
-            "code": "credential-requested-records",
-            "display": "Credential Requested Records"
-        },
-        {
             "code": "service-organization-feedback",
             "display": "Service Organization Feedback"
         }
