@@ -114,7 +114,7 @@
         "short": "Primary Location Identifier",
         "definition": "Primary Location Identifier is created to store the identifier information from EDI extraction.",
         "patternIdentifier": {
-          "system": "https://signalbhn.org/fhir/sid/edi/primary-location-id"
+          "system": "https://signalbhn.org/fhir/sid/edi/provider-location-id"
         }
       },
       {
