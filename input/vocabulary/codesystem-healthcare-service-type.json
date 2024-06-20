@@ -112,8 +112,12 @@
                     "display": "Mobile"
                 },
                 {
-                    "code": "atu-csu",
-                    "display": "ATU/CSU"
+                    "code": "atu",
+                    "display": "ATU"
+                },
+                {
+                    "code": "csu",
+                    "display": "CSU"
                 },
                 {
                     "code": "youth-csu",
@@ -130,6 +134,10 @@
                 {
                     "code": "transportation",
                     "display": "Transportation"
+                },
+                {
+                    "code": "crt",
+                    "display": "CRT"
                 }
             ]
         },

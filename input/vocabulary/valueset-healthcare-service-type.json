@@ -155,8 +155,13 @@
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "atu-csu",
-                        "display": "ATU/CSU"
+                        "code": "atu",
+                        "display": "ATU"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
+                        "code": "csu",
+                        "display": "CSU"
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
@@ -175,8 +180,8 @@
                     },
                     {
                         "system": "https://signalbhn.org/fhir/CodeSystem/signal-healthcare-service-type",
-                        "code": "transportation",
-                        "display": "Transportation"
+                        "code": "crt",
+                        "display": "CRT"
                     }
                 ]
             },
