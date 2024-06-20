@@ -14,24 +14,12 @@
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
                 "concept": [
                     {
-                        "code": "referral",
-                        "display": "Referral"
-                    },
-                    {
                         "code": "assessment-request",
                         "display": "Assessment Request"
                     },
                     {
-                        "code": "treatment-record",
-                        "display": "Treatment Record"
-                    },
-                    {
                         "code": "service-authorizations",
                         "display": "Service Authorizations"
-                    },
-                    {
-                        "code": "quality-monitoring",
-                        "display": "Quality Monitoring"
                     },
                     {
                         "code": "data-submission",
@@ -40,20 +28,12 @@
                     {
                         "code": "invoice",
                         "display": "Invoice"
-                    },
-                    {
-                        "code": "service-organization-feedback",
-                        "display": "Service Organization Feedback"
                     }
                 ]
             },
             {
                 "system": "http://loinc.org",
                 "concept": [
-                    {
-                        "code": "11488-4",
-                        "display": "Consult Note"
-                    },
                     {
                         "code": "11506-3",
                         "display": "Provider-unspecified progress note"
@@ -75,20 +55,12 @@
                         "display": "Summarization of episode note"
                     },
                     {
-                        "code": "34140-4",
-                        "display": "Transfer of care referral note"
-                    },
-                    {
-                        "code": "47042-7",
-                        "display": "Counseling note"
-                    },
-                    {
-                        "code": "57017-6",
-                        "display": "Privacy Policy Organization Document"
-                    },
-                    {
                         "code": "57016-8",
                         "display": "Privacy Policy Acknowledgment Document"
+                    },
+                    {
+                        "code": "56445-0",
+                        "display": "Medication Summary Document"
                     },
                     {
                         "code": "56447-6",
@@ -107,28 +79,13 @@
         "contains": [
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
-                "code": "referral",
-                "display": "Referral"
-            },
-            {
-                "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
                 "code": "assessment-request",
                 "display": "Assessment Request"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
-                "code": "treatment-record",
-                "display": "Treatment Record"
-            },
-            {
-                "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
                 "code": "service-authorizations",
                 "display": "Service Authorizations"
-            },
-            {
-                "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
-                "code": "quality-monitoring",
-                "display": "Quality Monitoring"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
@@ -139,16 +96,6 @@
                 "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
                 "code": "invoice",
                 "display": "Invoice"
-            },
-            {
-                "system": "https://signalbhn.org/fhir/CodeSystem/signal-filerepo-classification",
-                "code": "service-organization-feedback",
-                "display": "Service Organization Feedback"
-            },
-            {
-                "system": "http://loinc.org",
-                "code": "11488-4",
-                "display": "Consult Note"
             },
             {
                 "system": "http://loinc.org",
@@ -177,23 +124,13 @@
             },
             {
                 "system": "http://loinc.org",
-                "code": "34140-4",
-                "display": "Transfer of care referral note"
-            },
-            {
-                "system": "http://loinc.org",
-                "code": "47042-7",
-                "display": "Counseling note"
-            },
-            {
-                "system": "http://loinc.org",
-                "code": "57017-6",
-                "display": "Privacy Policy Organization Document"
-            },
-            {
-                "system": "http://loinc.org",
                 "code": "57016-8",
                 "display": "Privacy Policy Acknowledgment Document"
+            },
+            {
+                "system": "http://loinc.org",
+                "code": "56445-0",
+                "display": "Medication Summary Document"
             },
             {
                 "system": "http://loinc.org",

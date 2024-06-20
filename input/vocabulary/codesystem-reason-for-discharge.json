@@ -14,34 +14,62 @@
     "concept": [
         {
             "code": "1",
-            "display": "Client Decision Against Professional Recommendation"
+            "display": "Attendance"
         },
         {
             "code": "2",
-            "display": "Client AWOL-Contact Efforts Failed"
+            "display": "Client Decision"
         },
         {
             "code": "3",
-            "display": "Client Death"
+            "display": "Client stopped coming and contact efforts failed"
         },
         {
             "code": "4",
-            "display": "Client Incarcerated"
+            "display": "Financial/Payments"
         },
         {
             "code": "5",
-            "display": "Transitioned to Another Level of Care"
+            "display": "Lack of Progress"
         },
         {
             "code": "6",
-            "display": "Successful Closure"
+            "display": "Medical Reasons"
         },
         {
             "code": "7",
-            "display": "Unsuccessful Closure"
+            "display": "Military Deployment"
         },
         {
             "code": "8",
+            "display": "Moved"
+        },
+        {
+            "code": "9",
+            "display": "Incarcerated"
+        },
+        {
+            "code": "10",
+            "display": "Died"
+        },
+        {
+            "code": "11",
+            "display": "Agency closed/no longer in business"
+        },
+        {
+            "code": "12",
+            "display": "Care successfully completed"
+        },
+        {
+            "code": "13",
+            "display": "Transferred to another level of care"
+        },
+        {
+            "code": "14",
+            "display": "Transferred to another provider same level of care"
+        },
+        {
+            "code": "15",
             "display": "N/A"
         }
     ]

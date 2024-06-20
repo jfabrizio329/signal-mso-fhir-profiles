@@ -14,24 +14,12 @@
     "content": "complete",
     "concept": [
         {
-            "code": "referral",
-            "display": "Referral"
-        },
-        {
             "code": "assessment-request",
             "display": "Assessment Request"
         },
         {
-            "code": "treatment-record",
-            "display": "Treatment Record"
-        },
-        {
             "code": "service-authorizations",
             "display": "Service Authorizations"
-        },
-        {
-            "code": "quality-monitoring",
-            "display": "Quality Monitoring"
         },
         {
             "code": "data-submission",
@@ -40,10 +28,6 @@
         {
             "code": "invoice",
             "display": "Invoice"
-        },
-        {
-            "code": "service-organization-feedback",
-            "display": "Service Organization Feedback"
         }
     ]
 }
