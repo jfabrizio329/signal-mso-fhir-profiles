@@ -1,0 +1,39 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-parent-fee",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestParentFee",
+  "name": "SignalServiceRequestParentFee",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestParentFee"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Parent Fee",
+        "definition": "(% that is calculated by taking rate x units x %) and then deducting this from the amount due to the provider",
+        "type": [
+          {
+            "code": "decimal"
+          }
+        ]
+      }
+    ]
+  }
+}

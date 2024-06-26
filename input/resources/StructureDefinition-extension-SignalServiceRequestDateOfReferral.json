@@ -1,0 +1,39 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-date-of-referral",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestDateOfReferral",
+  "name": "SignalServiceRequestDateOfReferral",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestDateOfReferral"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Date Of referral",
+        "definition": "Date of referral for the referral screen (Service Request)",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-patient",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestPatient",
+  "name": "SignalServiceRequestPatient",
+  "status": "draft",
+  "description": "To store the details of Patient name, Contact & Date of Birth",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Patient Information in Referral",
+        "definition": "To store the details of Patient name, Contact & Date of Birth for the referral."
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestPatient"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "date"
+          },
+          {
+            "code": "HumanName"
+          },
+          {
+            "code": "ContactDetail"
+          }
+        ]
+      }
+    ]
+  }
+}

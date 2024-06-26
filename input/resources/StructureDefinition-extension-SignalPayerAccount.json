@@ -1,0 +1,38 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-payer-account",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalPayerAccount",
+  "name": "SignalPayerAccount",
+  "status": "draft",
+  "description": "Payer accounts approved for each procedure code",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Account"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalPayerAccount"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-procedure-code-approved",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalProcedureCodeApproved",
+  "name": "SignalProcedureCodeApproved",
+  "status": "draft",
+  "description": "Procedure codes approved",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalProcedureCodeApproved"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Procedure codes approved",
+        "definition": "List of Procedure codes approved",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

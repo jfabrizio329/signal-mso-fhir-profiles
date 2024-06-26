@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-referred",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceReferred",
+  "name": "SignalServiceReferred",
+  "status": "draft",
+  "description": "List of Service referred",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceReferred"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Signal Service referred",
+        "definition": "List of Service referred",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
