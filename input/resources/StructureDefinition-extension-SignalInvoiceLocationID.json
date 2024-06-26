@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-invoice-location-id",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalInvoiceLocationID",
+  "name": "SignalInvoiceLocationID",
+  "status": "draft",
+  "description": "Need extension for LocationId field in invoice resource to store string values.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Invoice"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalInvoiceLocationID"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "LocationId field in invoice",
+        "definition": "Need extension for LocationId field in invoice resource to store string values.",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      }
+    ]
+  }
+}

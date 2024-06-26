@@ -1,0 +1,43 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-provider",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestProvider",
+  "name": "SignalServiceRequestProvider",
+  "status": "draft",
+  "description": "This extension is to store the details of Provider name and ID",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestProvider"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Extension for Provider ID and Name",
+        "definition": "This extension is to store the details of Provider name and ID",
+        "type": [
+          {
+            "code": "HumanName"
+          },
+          {
+            "code": "Identifier"
+          }
+        ]
+      }
+    ]
+  }
+}

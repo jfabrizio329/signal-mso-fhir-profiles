@@ -1,0 +1,43 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-payer-account-effective-date",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalPayerAccountEffectiveDate",
+  "name": "SignalPayerAccountEffectiveDate",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Account"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Effective Date for Payer Account",
+        "definition": "Effective Date for Payer Account"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalPayerAccountEffectiveDate"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
+      }
+    ]
+  }
+}

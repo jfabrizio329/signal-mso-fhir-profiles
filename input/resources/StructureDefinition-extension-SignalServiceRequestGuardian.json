@@ -1,0 +1,42 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-guardian",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestGuardian",
+  "name": "SignalServiceRequestGuardian",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestGuardian"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Extension used for Guardian in Referral",
+        "definition": "Extension used to store Guardian information in Referral (Service Request)",
+        "type": [
+          {
+            "code": "HumanName"
+          },
+          {
+            "code": "ContactDetail"
+          }
+        ]
+      }
+    ]
+  }
+}

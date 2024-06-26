@@ -1,0 +1,39 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-authorized-amount",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestAuthorizedAmount",
+  "name": "SignalServiceRequestAuthorizedAmount",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestAuthorizedAmount"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Maximum authorized amount",
+        "definition": "To be stored and appear on the billling detail and the referral document.",
+        "type": [
+          {
+            "code": "decimal"
+          }
+        ]
+      }
+    ]
+  }
+}

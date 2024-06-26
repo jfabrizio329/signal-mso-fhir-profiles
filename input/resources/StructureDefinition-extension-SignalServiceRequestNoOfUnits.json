@@ -1,0 +1,39 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-no-of-units",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestNoOfUnits",
+  "name": "SignalServiceRequestNoOfUnits",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestNoOfUnits"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Limit on number of units per procedure code",
+        "definition": "Limit on number of units per procedure code, if appropirate",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      }
+    ]
+  }
+}

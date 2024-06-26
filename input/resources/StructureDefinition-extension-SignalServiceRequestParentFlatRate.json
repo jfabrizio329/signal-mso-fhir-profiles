@@ -1,0 +1,39 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "signal-service-request-parent-flat-rate",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestParentFlatRate",
+  "name": "SignalServiceRequestParentFlatRate",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ServiceRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/SignalServiceRequestParentFlatRate"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Parent Flat Rate",
+        "definition": "Instead of the parent fee this is a dollar amount that will need to be deducted from the total amount due to the provider for that month of service on this referral",
+        "type": [
+          {
+            "code": "decimal"
+          }
+        ]
+      }
+    ]
+  }
+}
