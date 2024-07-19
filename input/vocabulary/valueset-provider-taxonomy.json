@@ -55,6 +55,9 @@
         "include": [
             {
                 "system": "http://nucc.org/provider-taxonomy"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/provider-taxonomy-na"
             }
         ]
     },
@@ -595,6 +598,11 @@
                 "system": "http://nucc.org/provider-taxonomy",
                 "code": "104100000X",
                 "display": "Social Worker"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/provider-taxonomy-na",
+                "code": "9",
+                "display": "N/A"
             }
         ]
     }
