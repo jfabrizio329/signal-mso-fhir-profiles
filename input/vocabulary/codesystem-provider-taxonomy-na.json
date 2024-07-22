@@ -1,0 +1,20 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "provider-taxonomy-na",
+    "url": "https://signalbhn.org/fhir/CodeSystem/provider-taxonomy-na",
+    "name": "ProviderTaxonomyNA",
+    "title": "Provider Taxonomy NA",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "To choose the drop down NA in Provider Taxonomy",
+    "caseSensitive": true,
+    "valueSet": "http://hl7.org/fhir/ValueSet/provider-taxonomy",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "9",
+            "display": "N/A"
+        }
+    ]
+}
