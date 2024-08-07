@@ -1,0 +1,14 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "encounter-start-date",
+    "url": "https://signalbhn.org/fhir/SearchParameter/EncounterStartDate",
+    "name": "EncounterStartDate",
+    "status": "active",
+    "description": "Custom Search parameter for encounter start date",
+    "code": "encounterstartdate",
+    "base": [
+        "Encounter"
+    ],
+    "type": "date",
+    "expression": "Encounter.period.start"
+}

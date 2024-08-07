@@ -1,0 +1,15 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "referralclientlastname",
+    "url": "https://signalbhn.org/fhir/SearchParameter/ReferralClientLastName",
+    "version": "1.0",
+    "name": "referralclientlastname",
+    "status": "active",
+    "description": "Search parameter for referral service",
+    "code": "referralclientlastname",
+    "base": [
+        "ServiceRequest"
+    ],
+    "type": "string",
+    "expression": "ServiceRequest.extension.where(url = 'https://signalbhn.org/fhir/us/core/signal-service-request-patient-name').value.family"
+}

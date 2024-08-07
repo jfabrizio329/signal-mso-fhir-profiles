@@ -1,0 +1,15 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "encounter-end-date",
+    "url": "https://signalbhn.org/fhir/SearchParameter/encounter-end-date",
+    "version": "1.0",
+    "name": "EncounterEndDate",
+    "status": "draft",
+    "description": "Custom Search parameter for encounter end date",
+    "code": "encounterenddate",
+    "base": [
+        "Encounter"
+    ],
+    "type": "date",
+    "expression": "Encounter.period.end"
+}
