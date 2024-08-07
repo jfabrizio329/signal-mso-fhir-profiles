@@ -1,0 +1,15 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "referralcontactname",
+    "url": "https://signalbhn.org/fhir/SearchParameter/ReferralContactName",
+    "version": "1.0",
+    "name": "referralcontactname",
+    "status": "active",
+    "description": "Search parameter for referrral service",
+    "code": "referralcontactname",
+    "base": [
+        "ServiceRequest"
+    ],
+    "type": "string",
+    "expression": "ServiceRequest.extension.where(url = 'https://signalbhn.org/fhir/us/core/signal-service-request-referral-name').value"
+}
