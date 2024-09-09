@@ -63,7 +63,7 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 2
+        "min": 1
       },
       {
         "id": "Extension.extension:identifier",
@@ -189,6 +189,177 @@
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/us/core/ValueSet/us-core-usps-state"
         }
+      },
+      {
+        "id": "Extension.extension:LicenseType",
+        "path": "Extension.extension",
+        "sliceName": "LicenseType"
+      },
+      {
+        "id": "Extension.extension:LicenseType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "LicenseType"
+      },
+      {
+        "id": "Extension.extension:LicenseType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:TreatementType",
+        "path": "Extension.extension",
+        "sliceName": "TreatementType"
+      },
+      {
+        "id": "Extension.extension:TreatementType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "TreatementType"
+      },
+      {
+        "id": "Extension.extension:TreatementType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:FacilityType",
+        "path": "Extension.extension",
+        "sliceName": "FacilityType"
+      },
+      {
+        "id": "Extension.extension:FacilityType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "FacilityType"
+      },
+      {
+        "id": "Extension.extension:FacilityType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:PopulationServed",
+        "path": "Extension.extension",
+        "sliceName": "PopulationServed"
+      },
+      {
+        "id": "Extension.extension:PopulationServed.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "PopulationServed"
+      },
+      {
+        "id": "Extension.extension:PopulationServed.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:EndorsementCategory",
+        "path": "Extension.extension",
+        "sliceName": "EndorsementCategory"
+      },
+      {
+        "id": "Extension.extension:EndorsementCategory.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "EndorsementCategory"
+      },
+      {
+        "id": "Extension.extension:EndorsementCategory.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:Endorsement",
+        "path": "Extension.extension",
+        "sliceName": "Endorsement"
+      },
+      {
+        "id": "Extension.extension:Endorsement.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Endorsement"
+      },
+      {
+        "id": "Extension.extension:Endorsement.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:DrugSchedule",
+        "path": "Extension.extension",
+        "sliceName": "DrugSchedule"
+      },
+      {
+        "id": "Extension.extension:DrugSchedule.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "DrugSchedule"
+      },
+      {
+        "id": "Extension.extension:DrugSchedule.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:Level",
+        "path": "Extension.extension",
+        "sliceName": "Level"
+      },
+      {
+        "id": "Extension.extension:Level.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Level"
+      },
+      {
+        "id": "Extension.extension:Level.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:Designation",
+        "path": "Extension.extension",
+        "sliceName": "Designation"
+      },
+      {
+        "id": "Extension.extension:Designation.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Designation"
+      },
+      {
+        "id": "Extension.extension:Designation.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
       },
       {
         "id": "Extension.url",
