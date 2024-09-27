@@ -1,0 +1,312 @@
+{
+    "resourceType": "ValueSet",
+    "id": "bhe-endorsement-category",
+    "url": "https://signalbhn.org/fhir/ValueSet/bhe-endorsement-category",
+    "name": "BHEEndorsementCategory",
+    "title": "BHE Endorsement Category",
+    "status": "draft",
+    "experimental": false,
+    "description": "Types of Endorsement Category for the BHE License Type",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                "code": "1",
+                "display": "Outpatient Endorsements",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "mh",
+                        "display": "Early Intervention Mental Health (MH)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "ei-sud",
+                        "display": "ASAM Level 0.5 - Early Intervention Substance Use Disorder (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "outpatient-mh",
+                        "display": "Outpatient Mental Health (MH)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "outpatient-sud",
+                        "display": "ASAM Level 1.0 - Outpatient Substance Use Disorder (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "1-wm-sud",
+                        "display": "ASAM Level 1-WM - Ambulatory Withdrawal Management Without Extended On-Site Monitoring (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "mip-sud",
+                        "display": "Minor in Possession (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "iop-mh",
+                        "display": "Intensive Outpatient Program Mental Health (IOP MH)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "iop-sud",
+                        "display": "ASAM Level 2.1 - Intensive Outpatient Program Substance Use (IOP SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "php-mh",
+                        "display": "Partial Hospitalization Program Mental Health (PHP MH)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "php-sud",
+                        "display": "ASAM Level 2.5 - Partial Hospitalization Program Substance Use (PHP SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "2-wm-sud",
+                        "display": "ASAM Level 2-WM - Ambulatory Withdrawal Management With Extended On-Site Monitoring (SUD)"
+                    }
+                ]
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                "code": "2",
+                "display": "Emergency/Crisis Endorsements",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "mobile",
+                        "display": "Mobile"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "cb-respite",
+                        "display": "Community-Based Respite"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "wic",
+                        "display": "Walk-in-Crisis (WIC)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "csu",
+                        "display": "Crisis Stabilization Unit (CSU)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "res-respite",
+                        "display": "Residential Respite"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "atu",
+                        "display": "Acute Treatment Unit (ATU)"
+                    }
+                ]
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                "code": "3",
+                "display": "Residential/Overnight Endorsements",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-1-mht",
+                        "display": "Level One Mental Health Transitional Living Homes"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-3-cmrs",
+                        "display": "Clinically Managed Residential Services (MH, Level 3.1-type)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-3-cmrs-sud",
+                        "display": "ASAM Level 3.1 - Clinically Managed Residential Services (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-3-wm-cmrs",
+                        "display": "ASAM Level 3.2-WM - Clinically Managed Residential Withdrawal Management (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "asam-level-3-cmrs-sud",
+                        "display": "ASAM Level 3.3 - Clinically Managed Residential Services (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-2-mhtlh",
+                        "display": "Level Two Mental Health Transitional Living Homes"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-3-mh-cmrs",
+                        "display": "Clinically Managed Residential Services (MH, Level 3.5-type)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "asam-level-3-cmrs1-sud",
+                        "display": "ASAM Level 3.5 - Clinically Managed Residential Services (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "level-mmrs-mh",
+                        "display": "Medically Monitored Residential Services (MH, Level 3.7-type)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "asam-level-3-mmrs-sud",
+                        "display": "ASAM Level 3.7 - Medically Monitored Residential Services (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "asam-level-3-wm-mmrs-sud",
+                        "display": "ASAM Level 3.7-WM - Medically Monitored Inpatient Withdrawal Management (SUD)"
+                    }
+                ]
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                "code": "4",
+                "display": "Recovery Supports Endorsement"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                "code": "5",
+                "display": "Population-Specific Endorsements",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "eics-sud",
+                        "display": "Emergency and Involuntary Commitment Services (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "wmbht-sud",
+                        "display": "Women's and Maternal Behavioral Health Treatment (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "scf-mh",
+                        "display": "Services for Children and Families (MH)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "scf-sud",
+                        "display": "Services for Children and Families (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                        "code": "cjs-sud",
+                        "display": "Services for Criminal Justice-Involved Individuals (CJS)",
+                        "contains": [
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-0.5-asam-1.0",
+                                "display": "ASAM Level 0.5 and ASAM Level 1.0 - CJS SUD Education and Treatment"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-sud-eop",
+                                "display": "CJS SUD Enhanced Outpatient Program (EOP)"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-2.1",
+                                "display": "ASAM Level 2.1 - CJS SUD Intensive Outpatient Program (IOP)"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-2.5",
+                                "display": "ASAM Level 2.5 - CJS SUD Partial Hospitalization Program (PHP)"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.1",
+                                "display": "ASAM Level 3.1 - CJS SUD Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.3",
+                                "display": "ASAM Level 3.3 - CJS SUD Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.5",
+                                "display": "ASAM Level 3.5 - CJS SUD Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.7",
+                                "display": "ASAM Level 3.7 - CJS SUD Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-0.5-dui-dwai-1",
+                                "display": "ASAM Level 0.5 - DUI/DWAI Level I Education and Level II Therapeutic Education"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-0.1-dui-dwai-2",
+                                "display": "ASAM Level 1.0 - DUI/DWAI Level II Outpatient Treatment, Tracks A through D"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "dui-dwai-eop",
+                                "display": "DUI/DWAI Enhanced Outpatient Program (EOP)"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-1.0-dui-dwai-2",
+                                "display": "DUI/DWAI Level II Four Plus, Track F"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-2.1-dui-dwai-2",
+                                "display": "ASAM Level 2.1 - DUI/DWAI Level II Intensive Outpatient Program (IOP)"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-2.5-dui-dwai-2",
+                                "display": "ASAM Level 2.5 - DUI/DWAI Level II Partial Hospitalization Program (PHP)"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.1-dui-dwai-2",
+                                "display": "ASAM Level 3.1 - DUI/DWAI Level II Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.3-dui-dwai-2",
+                                "display": "ASAM Level 3.3 - DUI/DWAI Level II Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.5-dui-dwai-2",
+                                "display": "ASAM Level 3.5 - DUI/DWAI Level II Residential"
+                            },
+                            {
+                                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-endorsement-category",
+                                "code": "asam-3.7-dui-dwai",
+                                "display": "ASAM Level 3.7 - DUI/DWAI Residential"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

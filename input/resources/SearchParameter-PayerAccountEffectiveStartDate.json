@@ -1,0 +1,14 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "payer-account-start-date",
+    "url": "https://signalbhn.org/fhir/SearchParameter/payer-account-effective-start-date",
+    "name": "PayerAccountEffectiveStartDate",
+    "status": "active",
+    "description": "Search parameter for payer account effective start date extension",
+    "code": "PayerAccountEffectiveStartDate",
+    "base": [
+        "Account"
+    ],
+    "type": "date",
+    "expression": "Account.extension.where(url = 'https://signalbhn.org/fhir/StructureDefinition/SignalPayerAccountEffectiveDate').value.start"
+}

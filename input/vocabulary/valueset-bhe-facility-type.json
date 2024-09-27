@@ -1,0 +1,59 @@
+{
+    "resourceType": "ValueSet",
+    "id": "bhe-facility-type",
+    "url": "https://signalbhn.org/fhir/ValueSet/bhe-facility-type",
+    "version": "6.0.0",
+    "name": "BHEFacilityType",
+    "title": "BHE Facility Type",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "description": "Faciltiy type for the BHE license",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"1",
+                "display":"Behavioral Health Entity (BHE)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"2",
+                "display":"Hospital (general)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"3",
+                "display":"Hospital (emergency department)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"4",
+                "display":"Hospital (psychiatric)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"5",
+                "display":"Hospital (state-operated mental health services)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"6",
+                "display":"Outpatient facility (not a BHE)"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+                "code":"7",
+                "display":"Residential Child Care Facility (RCCF)"
+            }
+        ]
+    }
+}

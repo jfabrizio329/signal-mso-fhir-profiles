@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "csl-drug-schedule",
+    "url": "https://signalbhn.org/fhir/CodeSystem/csl-drug-schedule",
+    "name": "CSLDrugSchedule",
+    "title": "CSL Drug Schedule",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Drug schedule for the CSL license",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/csl-drug-schedule",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"1",
+            "display":"Schedule II (i.e., Methadone)"
+        },
+        {
+            "code":"2",
+            "display":"Schedule III (i.e., Buprenorphine)"
+        },
+        {
+            "code":"3",
+            "display":"Schedule IV (i.e., Librium, Valium, Ativan)"
+        }
+    ]
+}

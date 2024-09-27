@@ -1,0 +1,25 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "provider-agency-bhe-designation",
+    "url": "https://signalbhn.org/fhir/CodeSystem/provider-agency-bhe-designation",
+    "name": "ProviderAgencyBHEDesignation",
+    "title": "Provider Agency BHE Designation",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Provider Agency BHE designation",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/provider-agency-bhe-designation",
+    "hierarchyMeaning": "is-a",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"1",
+            "display":"27-65"
+        },
+        {
+            "code":"0",
+            "display":"None"
+        }
+    ]
+}

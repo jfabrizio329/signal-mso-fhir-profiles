@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "carr-level",
+    "url": "https://signalbhn.org/fhir/CodeSystem/carr-level",
+    "name": "CARRLevel",
+    "title": "CARR Level",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Levels for the CARR license",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/carr-level",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"1",
+            "display":"Level I"
+        },
+        {
+            "code":"2",
+            "display":"Level II"
+        },
+        {
+            "code":"3",
+            "display":"Level III"
+        },
+        {
+            "code":"4",
+            "display":"Level IV"
+        }
+    ]
+}
