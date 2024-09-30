@@ -118,6 +118,16 @@
         }
       },
       {
+        "id": "Organization.identifier:ProviderAgencyApproval",
+        "path": "Organization.identifier",
+        "sliceName": "ProviderAgencyApproval",
+        "short": "Describes the types of approval in Provider agency Screen",
+        "definition": "Describes the types of approval in Provider agency Screen",
+        "patternIdentifier": {
+          "system": "https://signalbhn.org/fhir/sid/provider-agency-approval"
+        }
+      },
+      {
         "id": "Organization.type",
         "path": "Organization.type",
         "slicing": {

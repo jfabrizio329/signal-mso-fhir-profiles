@@ -66,53 +66,8 @@
         "contains": [
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "101YA0400X",
-                "display": "Addiction (Substance Use Disorder) Counselor"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TA0400X",
-                "display": "Addiction (Substance Use Disorder) Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WA0400X",
-                "display": "Addiction (Substance Use Disorder) Registered Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "207LA0401X",
-                "display": "Addiction Medicine (Anesthesiology) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "207QA0401X",
-                "display": "Addiction Medicine (Family Medicine) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "207RA0401X",
-                "display": "Addiction Medicine (Internal Medicine) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "2083A0300X",
-                "display": "Addiction Medicine (Preventive Medicine) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "2084A0401X",
-                "display": "Addiction Medicine (Psychiatry & Neurology) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "2084P0802X",
-                "display": "Addiction Psychiatry Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WA2000X",
-                "display": "Administrator Registered Nurse"
+                "code": "261Q00000X",
+                "display": "Clinic/Center"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
@@ -121,53 +76,8 @@
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "207QA0000X",
-                "display": "Adolescent Medicine (Family Medicine) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "207RA0000X",
-                "display": "Adolescent Medicine (Internal Medicine) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "311ZA0620X",
-                "display": "Adult Care Home Facility"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "372600000X",
-                "display": "Adult Companion"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "207RA0002X",
-                "display": "Adult Congenital Heart Disease Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
                 "code": "261QA0600X",
                 "display": "Adult Day Care Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TA0700X",
-                "display": "Adult Development & Aging Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SA2200X",
-                "display": "Adult Health Clinical Nurse Specialist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "363LA2200X",
-                "display": "Adult Health Nurse Practitioner"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "207QA0505X",
-                "display": "Adult Medicine Physician"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
@@ -176,23 +86,458 @@
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SP0809X",
-                "display": "Adult Psychiatric/Mental Health Clinical Nurse Specialist"
+                "code": "261QA0005X",
+                "display": "Ambulatory Family Planning Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WP0809X",
-                "display": "Adult Psychiatric/Mental Health Registered Nurse"
+                "code": "261QA0006X",
+                "display": "Ambulatory Fertility Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "221700000X",
-                "display": "Art Therapist"
+                "code": "261QA1903X",
+                "display": "Ambulatory Surgical Clinic/Center"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "106E00000X",
-                "display": "Assistant Behavior Analyst"
+                "code": "261QA0900X",
+                "display": "Amputee Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QA3000X",
+                "display": "Augmentative Communication Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QB0400X",
+                "display": "Birthing Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QC1500X",
+                "display": "Community Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QC1800X",
+                "display": "Corporate Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QC0050X",
+                "display": "Critical Access Hospital Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QD0000X",
+                "display": "Dental Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QD1600X",
+                "display": "Developmental Disabilities Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QE0002X",
+                "display": "Emergency Care Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QE0800X",
+                "display": "Endoscopy Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QE0700X",
+                "display": "End-Stage Renal Disease (ESRD) Treatment Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QF0050X",
+                "display": "Non-Surgical Family Planning Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QF0400X",
+                "display": "Federally Qualified Health Center (FQHC)"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QG0250X",
+                "display": "Genetics Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QH0100X",
+                "display": "Health Service Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QH0700X",
+                "display": "Hearing and Speech Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QI0500X",
+                "display": "Infusion Therapy Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QL0400X",
+                "display": "Lithotripsy Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1200X",
+                "display": "Magnetic Resonance Imaging (MRI) Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM2500X",
+                "display": "Medical Specialty Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM3000X",
+                "display": "Medically Fragile Infants and Children Day Care"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM0801X",
+                "display": "Mental Health Clinic/Center (Including Community Mental Health Center)"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM2800X",
+                "display": "Methadone Clinic"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1000X",
+                "display": "Migrant Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1103X",
+                "display": "Military Ambulatory Procedure Visits Operational (Transportable) Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1101X",
+                "display": "Military and U.S. Coast Guard Ambulatory Procedure Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1102X",
+                "display": "Military Outpatient Operational (Transportable) Component Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1100X",
+                "display": "Military/U.S. Coast Guard Outpatient Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QM1300X",
+                "display": "Multi-Specialty Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QX0100X",
+                "display": "Occupational Medicine Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QX0200X",
+                "display": "Oncology Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QX0203X",
+                "display": "Radiation Oncology Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QS0132X",
+                "display": "Ophthalmologic Surgery Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QS0112X",
+                "display": "Oral and Maxillofacial Surgery Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP3300X",
+                "display": "Pain Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP2000X",
+                "display": "Physical Therapy Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP1100X",
+                "display": "Podiatric Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP2300X",
+                "display": "Primary Care Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP2400X",
+                "display": "Prison Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP0904X",
+                "display": "Federal Public Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP0905X",
+                "display": "State or Local Public Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0200X",
+                "display": "Radiology Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0206X",
+                "display": "Mammography Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0208X",
+                "display": "Mobile Radiology Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0207X",
+                "display": "Mobile Mammography Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0800X",
+                "display": "Recovery Care Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0400X",
+                "display": "Rehabilitation Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0404X",
+                "display": "Cardiac Rehabilitation Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0401X",
+                "display": "Comprehensive Outpatient Rehabilitation Facility (CORF)"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR0405X",
+                "display": "Substance Use Disorder Rehabilitation Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR1100X",
+                "display": "Research Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QR1300X",
+                "display": "Rural Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QS1200X",
+                "display": "Sleep Disorder Diagnostic Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QS1000X",
+                "display": "Student Health Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QU0200X",
+                "display": "Urgent Care Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QV0200X",
+                "display": "VA Clinic/Center"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "273100000X",
+                "display": "Epilepsy Hospital Unit"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "275N00000X",
+                "display": "Medicare Defined Swing Bed Hospital Unit"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "273R00000X",
+                "display": "Psychiatric Hospital Unit"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "273Y00000X",
+                "display": "Rehabilitation Hospital Unit"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "276400000X",
+                "display": "Substance Use Disorder Rehabilitation Hospital Unit"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "287300000X",
+                "display": "Deactivated - Christian Science Sanitorium"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "281P00000X",
+                "display": "Chronic Disease Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "281PC2000X",
+                "display": "Children' s Chronic Disease Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282N00000X",
+                "display": "General Acute Care Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282NC2000X",
+                "display": "Children's Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282NC0060X",
+                "display": "Critical Access Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282NR1301X",
+                "display": "Rural Acute Care Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282NW0100X",
+                "display": "Women's Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282E00000X",
+                "display": "Long Term Care Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "286500000X",
+                "display": "Military Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "2865C1500X",
+                "display": "Deactivated - Military Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "2865M2000X",
+                "display": "Military General Acute Care Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "2865X1600X",
+                "display": "Operational (Transportable) Military General Acute Care Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "283Q00000X",
+                "display": "Psychiatric Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "283X00000X",
+                "display": "Rehabilitation Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "283XC2000X",
+                "display": "Children's Rehabilitation Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "282J00000X",
+                "display": "Religious Nonmedical Health Care Institution"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "284300000X",
+                "display": "Special Hospital"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "291U00000X",
+                "display": "Clinical Medical Laboratory"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "292200000X",
+                "display": "Dental Laboratory"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "291900000X",
+                "display": "Military Clinical Medical Laboratory"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "293D00000X",
+                "display": "Physiological Laboratory"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "302F00000X",
+                "display": "Exclusive Provider Organization"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "302R00000X",
+                "display": "Health Maintenance Organization"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "305S00000X",
+                "display": "Point of Service"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "305R00000X",
+                "display": "Preferred Provider Organization"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "311500000X",
+                "display": "Alzheimer Center (Dementia Center)"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
@@ -211,53 +556,133 @@
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "106S00000X",
-                "display": "Behavior Technician"
+                "code": "317400000X",
+                "display": "Deactivated - Christian Science Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "103K00000X",
-                "display": "Behavioral Analyst"
+                "code": "311Z00000X",
+                "display": "Custodial Care Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "251B00000X",
-                "display": "Case Management Agency"
+                "code": "311ZA0620X",
+                "display": "Adult Care Home Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WC0400X",
-                "display": "Case Management Registered Nurse"
+                "code": "315D00000X",
+                "display": "Inpatient Hospice"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "171M00000X",
-                "display": "Case Manager/Care Coordinator"
+                "code": "315P00000X",
+                "display": "Intellectual Disabilities Intermediate Care Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SP0807X",
-                "display": "Child & Adolescent Psychiatric/Mental Health Clinical Nurse Specialist"
+                "code": "310500000X",
+                "display": "Mental Illness Intermediate Care Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WP0807X",
-                "display": "Child & Adolescent Psychiatric/Mental Health Registered Nurse"
+                "code": "313M00000X",
+                "display": "Nursing Facility/Intermediate Care Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "2084P0804X",
-                "display": "Child & Adolescent Psychiatry Physician"
+                "code": "314000000X",
+                "display": "Skilled Nursing Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SP0810X",
-                "display": "Child & Family Psychiatric/Mental Health Clinical Nurse Specialist"
+                "code": "3140N1450X",
+                "display": "Pediatric Skilled Nursing Facility"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "2080C0008X",
-                "display": "Child Abuse Pediatrics Physician"
+                "code": "177F00000X",
+                "display": "Lodging Provider"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "174200000X",
+                "display": "Meals Provider"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "1835C0206X",
+                "display": "Cardiology Pharmacist"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "1835C0207X",
+                "display": "Compounded Sterile Preparations Pharmacist"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "1835E0208X",
+                "display": "Emergency Medicine Pharmacist"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "1835I0206X",
+                "display": "Infectious Diseases Pharmacist"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "1835S0206X",
+                "display": "Solid Organ Transplant Pharmacist"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "320900000X",
+                "display": "Intellectual and/or Developmental Disabilities Community Based Residential Treatment Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "320800000X",
+                "display": "Mental Illness Community Based Residential Treatment Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "323P00000X",
+                "display": "Psychiatric Residential Treatment Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "322D00000X",
+                "display": "Emotionally Disturbed Childrens' Residential Treatment Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "320600000X",
+                "display": "Intellectual and/or Developmental Disabilities Residential Treatment Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "320700000X",
+                "display": "Physical Disabilities Residential Treatment Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "324500000X",
+                "display": "Substance Abuse Rehabilitation Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "3245S0500X",
+                "display": "Children's Substance Abuse Rehabilitation Facility"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "385H00000X",
+                "display": "Respite Care"
+            },
+            {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "385HR2050X",
+                "display": "Respite Care Camp"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
@@ -276,328 +701,33 @@
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "281PC2000X",
-                "display": "Children' s Chronic Disease Hospital"
+                "code": "331L00000X",
+                "display": "Blood Bank"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "282NC2000X",
-                "display": "Children's Hospital"
+                "code": "332100000X",
+                "display": "Department of Veterans Affairs (VA) Pharmacy"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "283XC2000X",
-                "display": "Children's Rehabilitation Hospital"
+                "code": "332B00000X",
+                "display": "Durable Medical Equipment & Medical Supplies"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "3245S0500X",
-                "display": "Children's Substance Abuse Rehabilitation Facility"
+                "code": "332BC3200X",
+                "display": "Customized Equipment (DME)"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SP0811X",
-                "display": "Chronically Ill Psychiatric/Mental Health Clinical Nurse Specialist"
+                "code": "332BD1200X",
+                "display": "Dialysis Equipment & Supplies (DME)"
             },
             {
                 "system": "http://nucc.org/provider-taxonomy",
-                "code": "3336C0002X",
-                "display": "Clinic Pharmacy"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261Q00000X",
-                "display": "Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TC0700X",
-                "display": "Clinical Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "1041C0700X",
-                "display": "Clinical Social Worker"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TB0200X",
-                "display": "Cognitive & Behavioral Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "251G00000X",
-                "display": "Community Based Hospice Care Agency"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QC1500X",
-                "display": "Community Health Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "363LC1500X",
-                "display": "Community Health Nurse Practitioner"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WC1500X",
-                "display": "Community Health Registered Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "172V00000X",
-                "display": "Community Health Worker"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SC1501X",
-                "display": "Community Health/Public Health Clinical Nurse Specialist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SP0812X",
-                "display": "Community Psychiatric/Mental Health Clinical Nurse Specialist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "251S00000X",
-                "display": "Community/Behavioral Health Agency"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QC1800X",
-                "display": "Corporate Health Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TC1900X",
-                "display": "Counseling Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "101Y00000X",
-                "display": "Counselor"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "282NC0060X",
-                "display": "Critical Access Hospital"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QC0050X",
-                "display": "Critical Access Hospital Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TF0000X",
-                "display": "Family Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QP0904X",
-                "display": "Federal Public Health Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QF0400X",
-                "display": "Federally Qualified Health Center (FQHC)"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "282N00000X",
-                "display": "General Acute Care Hospital"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "208D00000X",
-                "display": "General Practice Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WG0000X",
-                "display": "General Practice Registered Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "209800000X",
-                "display": "Legal Medicine (M.D./D.O.) Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "164W00000X",
-                "display": "Licensed Practical Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "167G00000X",
-                "display": "Licensed Psychiatric Technician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "164X00000X",
-                "display": "Licensed Vocational Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "106H00000X",
-                "display": "Marriage & Family Therapist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QM0801X",
-                "display": "Mental Health Clinic/Center (Including Community Mental Health Center)"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "101YM0800X",
-                "display": "Mental Health Counselor"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "225XM0800X",
-                "display": "Mental Health Occupational Therapist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "320800000X",
-                "display": "Mental Illness Community Based Residential Treatment Facility"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "310500000X",
-                "display": "Mental Illness Intermediate Care Facility"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "175T00000X",
-                "display": "Peer Specialist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QP2300X",
-                "display": "Primary Care Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "363LP2300X",
-                "display": "Primary Care Nurse Practitioner"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QP2400X",
-                "display": "Prison Health Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "283Q00000X",
-                "display": "Psychiatric Hospital"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "273R00000X",
-                "display": "Psychiatric Hospital Unit"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "1835P1300X",
-                "display": "Psychiatric Pharmacist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "323P00000X",
-                "display": "Psychiatric Residential Treatment Facility"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SP0808X",
-                "display": "Psychiatric/Mental Health Clinical Nurse Specialist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "363LP0808X",
-                "display": "Psychiatric/Mental Health Nurse Practitioner"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WP0808X",
-                "display": "Psychiatric/Mental Health Registered Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "2084P0800X",
-                "display": "Psychiatry Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TP0814X",
-                "display": "Psychoanalysis Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "102L00000X",
-                "display": "Psychoanalyst"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103T00000X",
-                "display": "Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "2084P0015X",
-                "display": "Psychosomatic Medicine Physician"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163W00000X",
-                "display": "Registered Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "282NR1301X",
-                "display": "Rural Acute Care Hospital"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "261QR1300X",
-                "display": "Rural Health Clinic/Center"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "364SS0200X",
-                "display": "School Clinical Nurse Specialist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "101YS0200X",
-                "display": "School Counselor"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "363LS0200X",
-                "display": "School Nurse Practitioner"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "103TS0200X",
-                "display": "School Psychologist"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "163WS0200X",
-                "display": "School Registered Nurse"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "1041S0200X",
-                "display": "School Social Worker"
-            },
-            {
-                "system": "http://nucc.org/provider-taxonomy",
-                "code": "104100000X",
-                "display": "Social Worker"
+                "code": "332BN1400X",
+                "display": "Nursing Facility Supplies (DME)"
             },
             {
                 "system": "https://signalbhn.org/fhir/CodeSystem/provider-taxonomy-na",

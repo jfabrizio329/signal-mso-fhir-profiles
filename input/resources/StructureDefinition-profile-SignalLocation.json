@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id":"signal-location",
+  "id": "signal-location",
   "url": "https://signalbhn.org/fhir/StructureDefinition/location",
   "name": "SignalLocation",
   "title": "Location Profile",
@@ -25,6 +25,7 @@
         "id": "Location.address.extension:signalRegion",
         "path": "Location.address.extension",
         "sliceName": "signalRegion",
+        "max": "1",
         "type": [
           {
             "code": "Extension",
