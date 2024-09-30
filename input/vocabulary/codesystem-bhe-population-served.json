@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "bhe-population-served",
+    "url": "https://signalbhn.org/fhir/CodeSystem/bhe-population-served",
+    "name": "BHEPopulationServed",
+    "title": "BHE Population Served",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Population Served for the BHE license",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/bhe-population-served",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"1",
+            "display":"Children/Minors (under 18 years of age)"
+        },
+        {
+            "code":"2",
+            "display":"Adults (18 years of age and over)"
+        }
+    ]
+}

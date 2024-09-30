@@ -1,0 +1,33 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "provider-agency-approval",
+    "url": "https://signalbhn.org/fhir/CodeSystem/provider-agency-approval",
+    "name": "ProviderAgencyApproval",
+    "title": "Provider Agency Approval",
+    "status": "active",
+    "experimental": false,
+    "date": "2023-09-27T09:29:23+11:00",
+    "description": "For the provider agency, we add the list of Approval",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/provider-agency-approval",
+    "hierarchyMeaning": "is-a",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Recovery Support Services Organization (RSSO) approval"
+        },
+        {
+            "code": "2",
+            "display": "Essential safety net approval"
+        },
+        {
+            "code": "3",
+            "display": "Comprehensive safety net approval"
+        },
+        {
+            "code": "4",
+            "display": "None"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+                "resourceType": "SearchParameter",
+                "id": "communication-notes",
+                "url": "https://signalbhn.org/fhir/SearchParameter/communication-notes",
+                "name": "CommunicationNotes",
+                "status": "active",
+                "description": "Search parameter for communication notes",
+                "code": "notes",
+                "base": [
+                    "Communication"
+                ],
+                "type": "string",
+                "expression": "Communication.note[0].text"
+            }

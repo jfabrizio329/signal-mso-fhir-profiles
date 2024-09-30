@@ -1,0 +1,66 @@
+{
+    "resourceType": "ValueSet",
+    "id": "signal-license-type",
+    "url": "https://signalbhn.org/fhir/ValueSet/signal-license-type",
+    "name": "SignalLicenseType",
+    "title": "Signal License Type",
+    "status": "draft",
+    "experimental": false,
+    "description": "Signal License types being performed or delivered",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                "code": "bhe",
+                "display": "BHE",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                        "code": "mh",
+                        "display": "Mental health treatment services (MH)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                        "code": "sud",
+                        "display": "Substance use disorder treatment services (SUD)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                        "code": "mh-sud",
+                        "display": "Behavioral health: both mental health (MH) and substance use disorder (SUD) treatment services"
+                    }
+                ]
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                "code": "csl",
+                "display": "CSL",
+                "contains": [
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                        "code": "otp",
+                        "display": "Opioid Treatment Program (OTP)"
+                    },
+                    {
+                        "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                        "code": "wm",
+                        "display": "Withdrawal Management (WM)"
+                    }
+                ]
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/signal-license-type",
+                "code": "carr",
+                "display": "CARR"
+            }
+        ]
+    }
+}

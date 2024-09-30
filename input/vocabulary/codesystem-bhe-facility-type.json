@@ -1,0 +1,44 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "bhe-facility-type",
+    "url": "https://signalbhn.org/fhir/CodeSystem/bhe-facility-type",
+    "name": "BHEFacilityType",
+    "title": "BHE Facility Type",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Faciltiy type for the BHE license",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/bhe-facility-type",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"1",
+            "display":"Behavioral Health Entity (BHE)"
+        },
+        {
+            "code":"2",
+            "display":"Hospital (general)"
+        },
+        {
+            "code":"3",
+            "display":"Hospital (emergency department)"
+        },
+        {
+            "code":"4",
+            "display":"Hospital (psychiatric)"
+        },
+        {
+            "code":"5",
+            "display":"Hospital (state-operated mental health services)"
+        },
+        {
+            "code":"6",
+            "display":"Outpatient facility (not a BHE)"
+        },
+        {
+            "code":"7",
+            "display":"Residential Child Care Facility (RCCF)"
+        }
+    ]
+}

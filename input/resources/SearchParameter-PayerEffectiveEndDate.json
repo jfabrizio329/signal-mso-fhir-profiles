@@ -1,0 +1,14 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "payer-effective-end-date",
+    "url": "https://signalbhn.org/fhir/SearchParameter/payer-effective-end-date",
+    "name": "PayerEffectiveEndDate",
+    "status": "active",
+    "description": "Search parameter for payer effective end date extension",
+    "code": "payereffectiveenddate",
+    "base": [
+        "Organization"
+    ],
+    "type": "date",
+    "expression": "Organization.extension.where(url = 'https://signalbhn.org/fhir/us/core/payer-effective-time-period').value.end"
+}
