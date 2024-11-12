@@ -1,0 +1,49 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "encounter-last-updated",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/encounter-last-updated",
+  "name": "EncounterLastUpdated",
+  "status": "draft",
+  "description": "To handle outbound tasks, encounter's last updated field is requried",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/encounter-last-updated"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Encounter Last Updated",
+        "definition": "Encounter Last Updated field to handle outbound tasks",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

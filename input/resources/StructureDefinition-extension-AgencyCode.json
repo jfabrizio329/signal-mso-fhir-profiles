@@ -1,0 +1,38 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "agency-code",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/agency-code",
+  "name": "AgencyCode",
+  "status": "draft",
+  "description": "To create an Extension in Organization for the Agency Code Field",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Organization"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/agency-code"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

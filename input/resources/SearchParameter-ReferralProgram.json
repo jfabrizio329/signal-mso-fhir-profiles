@@ -1,0 +1,14 @@
+{
+                "resourceType": "SearchParameter",
+                "id": "referral-program",
+                "url": "https://signalbhn.org/fhir/SearchParameter/ReferralProgram",
+                "name": "referralprogram",
+                "status": "active",
+                "description": "Search parameter for referral referralprogram",
+                "code": "referralprogram",
+                "base": [
+                    "ServiceRequest"
+                ],
+                "type": "string",
+                "expression": "ServiceRequest.extension.where(url = 'https://signalbhn.org/fhir/us/core/signal-program-referred').value"
+            }

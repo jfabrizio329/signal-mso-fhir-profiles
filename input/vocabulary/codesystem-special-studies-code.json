@@ -1,0 +1,88 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "special-studies-code",
+    "url": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+    "name": "SpecialStudiesCode",
+    "title": "Special Studies Code",
+    "status": "draft",
+    "experimental": false,
+    "date": "2023-08-16T16:08:23+05:30",
+    "description": "Special Studies Code if needed for 837 extract",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/special-studies-code",
+    "content": "complete",
+    "concept": [
+        {
+            "code":"AFS",
+            "display":"AFS"
+        },
+        {
+            "code":"CORE",
+            "display":"CORE"
+        },
+        {
+            "code":"CIRCLE",
+            "display":"CIRCLE"
+        },
+        {
+            "code":"INDORT",
+            "display":"INDORT"
+        },
+        {
+            "code":"INDRES",
+            "display":"INDRES"
+        },
+        {
+            "code":"INDRESA",
+            "display":"INDRESA"
+        },
+        {
+            "code":"INDSUD",
+            "display":"INDSUD"
+        },
+        {
+            "code":"IPS",
+            "display":"IPS"
+        },
+        {
+            "code":"SB202",
+            "display":"SB202"
+        },
+        {
+            "code":"SCONNECT",
+            "display":"SCONNECT"
+        },
+        {
+            "code":"DETOX",
+            "display":"DETOX"
+        },
+        {
+            "code":"CYMHTA",
+            "display":"CYMHTA"
+        },
+        {
+            "code":"CHP+",
+            "display":"CHP+"
+        },
+        {
+            "code":"STIRT",
+            "display":"STIRT"
+        },
+        {
+            "code":"STIRTCC",
+            "display":"STIRTCC"
+        },
+        {
+            "code":"STR",
+            "display":"STR"
+        },
+        {
+            "code":"PAROLE",
+            "display":"PAROLE"
+        },
+        {
+            "code":"PROB",
+            "display":"PROB"
+        }
+    ]
+}

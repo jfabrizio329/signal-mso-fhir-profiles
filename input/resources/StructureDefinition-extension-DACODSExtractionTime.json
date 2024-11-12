@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "dacods-extraction-time",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/dacods-extraction-time",
+  "name": "DACODSExtractionTime",
+  "status": "draft",
+  "description": "To handle outbound tasks, dacod's extraction time is requried",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "QuestionnaireResponse"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/dacods-extraction-time"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Extraction Status",
+        "definition": "Extraction Status to handle outbound tasks",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

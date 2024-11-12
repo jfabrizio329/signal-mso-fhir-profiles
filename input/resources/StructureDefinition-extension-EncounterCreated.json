@@ -1,0 +1,49 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "encounter-created",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/encounter-created",
+  "name": "EncounterCreated",
+  "status": "draft",
+  "description": "To handle outbound tasks, encounter's created date field is requried",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/encounter-created"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Encounter Created Date",
+        "definition": "Encounter's Last Created Date to handle outbound tasks",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "admission-unique-id",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/admission-unique-id",
+  "name": "AdmissionUniqueID",
+  "status": "draft",
+  "description": "To create an Extension in Episodes of Care for the Admission Unique ID field for State.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "EpisodeOfCare"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/admission-unique-id"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

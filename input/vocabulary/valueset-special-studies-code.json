@@ -1,0 +1,114 @@
+{
+    "resourceType": "ValueSet",
+    "id": "special-studies-code",
+    "url": "https://signalbhn.org/fhir/ValueSet/special-studies-code",
+    "version": "6.0.0",
+    "name": "SpecialStudiesCode",
+    "title": "Special Studies Code",
+    "publisher": "Signal",
+    "status": "draft",
+    "experimental": true,
+    "description": "Special Studies Code if needed for 837 extract",
+    "compose": {
+        "include": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code"
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp": "2023-07-31T18:35:33.1743667+00:00",
+        "contains": [
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"AFS",
+                "display":"AFS"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"CORE",
+                "display":"CORE"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"CIRCLE",
+                "display":"CIRCLE"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"INDORT",
+                "display":"INDORT"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"INDRES",
+                "display":"INDRES"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"INDRESA",
+                "display":"INDRESA"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"INDSUD",
+                "display":"INDSUD"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"IPS",
+                "display":"IPS"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"SB202",
+                "display":"SB202"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"SCONNECT",
+                "display":"SCONNECT"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"DETOX",
+                "display":"DETOX"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"CYMHTA",
+                "display":"CYMHTA"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"CHP+",
+                "display":"CHP+"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"STIRT",
+                "display":"STIRT"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"STIRTCC",
+                "display":"STIRTCC"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"STR",
+                "display":"STR"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"PAROLE",
+                "display":"PAROLE"
+            },
+            {
+                "system": "https://signalbhn.org/fhir/CodeSystem/special-studies-code",
+                "code":"PROB",
+                "display":"PROB"
+            }
+        ]
+    }
+}
