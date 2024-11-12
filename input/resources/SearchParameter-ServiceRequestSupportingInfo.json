@@ -1,0 +1,15 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "service-request-supporting-info",
+    "url": "https://signalbhn.org/fhir/SearchParameter/ServiceRequest-SupportingInfo",
+    "version": "1.0",
+    "name": "SupportingInfoSearchParameter",
+    "status": "active",
+    "description": "Search parameter for Supporting Info in ServiceRequest",
+    "code": "supportinginfo",
+    "base": [
+        "ServiceRequest"
+    ],
+    "type": "reference",
+    "expression": "ServiceRequest. supportingInfo"
+}

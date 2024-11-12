@@ -1,0 +1,14 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "referral-provider-agency-id",
+    "url": "https://signalbhn.org/fhir/SearchParameter/ReferralPoviderAgency",
+    "name": "referralprovideragencyid",
+    "status": "active",
+    "description": "Search parameter for referral provideragencyid",
+    "code": "referralprovideragencyid",
+    "base": [
+        "ServiceRequest"
+    ],
+    "type": "string",
+    "expression": "ServiceRequest.extension.where(url = 'https://signalbhn.org/fhir/us/core/signal-service-request-provider-id').value"
+}

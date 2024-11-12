@@ -1,0 +1,41 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "signal-procedure-code",
+    "url": "https://signalbhn.org/fhir/CodeSystem/signal-procedure-code",
+    "name": "SignalProcedureCode",
+    "title": "Signal Procedure Code",
+    "status": "active",
+    "experimental": false,
+    "date": "2023-09-27T09:29:23+11:00",
+    "description": "Signal procedure code to service organization",
+    "caseSensitive": true,
+    "valueSet": "https://signalbhn.org/fhir/ValueSet/healthcare-service-procedure-code-cpt",
+    "hierarchyMeaning": "is-a",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "RLC",
+            "display": "Recovery Living Scholarship Support"
+        },
+        {
+            "code": "RLC:02",
+            "display": "Recovery Living Community One Tme Costs"
+        },
+        {
+            "code": "CYMHTAX",
+            "display": "CYMHTA Assessment"
+        },
+        {
+            "code": "MedicaidX",
+            "display": "Medicaid Assessment"
+        },
+        {
+            "code": "FFPSAX",
+            "display": "FFPSA Assessment"
+        },
+        {
+            "code": "MCFFX",
+            "display": "Medicaid to FFPSA transfer Assessment"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "encounter-report-generation-status",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/encounter-report-generation-status",
+  "name": "EncounterReportGenerationStatus",
+  "status": "draft",
+  "description": "To know the details about report generation on the Encounter",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/encounter-report-generation-status"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Report Status",
+        "definition": "Field to store details about report generation on the Encounter",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

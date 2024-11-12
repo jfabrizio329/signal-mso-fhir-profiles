@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "encounter-extraction-time",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/encounter-extraction-time",
+  "name": "EncounterExtractionTime",
+  "status": "draft",
+  "description": "To handle outbound tasks, encounter's extraction time is requried",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/encounter-extraction-time"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Extraction Status",
+        "definition": "Extraction Status to handle outbound tasks",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

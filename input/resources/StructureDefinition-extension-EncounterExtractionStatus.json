@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "encounter-extraction-status",
+  "url": "https://signalbhn.org/fhir/StructureDefinition/encounter-extraction-status",
+  "name": "EncounterExtractionStatus",
+  "status": "draft",
+  "description": "To handle outbound tasks, encounter's extraction status is requried",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://signalbhn.org/fhir/StructureDefinition/encounter-extraction-status"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Extraction Status",
+        "definition": "Extraction Status to handle outbound tasks",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
