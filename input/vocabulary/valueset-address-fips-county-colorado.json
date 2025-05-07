@@ -297,6 +297,10 @@
                   "display": "Out of State"
                 },
                 {
+                  "code": "NI",
+                  "display": "Homeless"
+              },
+                {
                   "code": "UNK",
                   "display": "Unknown"
                 }
@@ -704,6 +708,12 @@
               "code": "OTH",
               "display": "Out of State"
           },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "version": "2.1.0",
+            "code": "NI",
+            "display": "Homeless"
+        },
           {
               "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
               "version": "2.1.0",
